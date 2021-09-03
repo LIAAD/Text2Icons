@@ -1,0 +1,217 @@
+T1	ACTOR 3 21	zona de Kivu Norte
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Loc
+A4	Involvement T1 1
+T2	ACTOR 34 53	mais de 700 pessoas
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 >1
+T3	TIME_X3 54 70	nos últimos anos
+T4	ACTOR 101 119	Vinte e dois civis
+A9	Lexical_Head T4 Noun
+A10	Individuation T4 Individual
+A11	Actor_Type T4 Per
+A12	Involvement T4 >1
+T5	TIME_X3 138 144	sábado
+T6	TIME_X3 147 151	hoje
+T7	ACTOR 156 175	assaltantes armados
+A13	Lexical_Head T7 Noun
+A14	Individuation T7 Individual
+A15	Actor_Type T7 Per
+A16	Involvement T7 >1
+T8	ACTOR 179 189	Kivu Norte
+A17	Lexical_Head T8 Noun
+A18	Individuation T8 Individual
+A19	Actor_Type T8 Loc
+A20	Involvement T8 1
+T9	ACTOR 194 233	leste da República Democrática do Congo
+A21	Lexical_Head T9 Noun
+A22	Individuation T9 Individual
+A23	Actor_Type T9 Loc
+A24	Involvement T9 1
+T11	ACTOR 335 359	zona norte de Kivu Norte
+A29	Lexical_Head T11 Noun
+A30	Individuation T11 Individual
+A31	Actor_Type T11 Loc
+A32	Involvement T11 1
+T12	ACTOR 284 291	Erigeti
+A33	Lexical_Head T12 Noun
+A34	Individuation T12 Individual
+A35	Actor_Type T12 Loc
+A36	Involvement T12 1
+T13	ACTOR 298 307	arredores
+A37	Lexical_Head T13 Noun
+A38	Individuation T13 Individual
+A39	Actor_Type T13 Loc
+A40	Involvement T13 >1
+T14	ACTOR 312 330	território de Beni
+A41	Lexical_Head T14 Noun
+A42	Individuation T14 Individual
+A43	Actor_Type T14 Loc
+A44	Involvement T14 1
+T15	TIME_X3 370 390	há mais de dois anos
+T16	ACTOR 361 364	que
+A45	Lexical_Head T16 Pronoun
+A46	Individuation T16 Individual
+A47	Actor_Type T16 Loc
+A48	Involvement T16 1
+R1	REF_REL_pronominal Arg1:T16 Arg2:T11	
+R2	OBJ_REL_objIdentity Arg1:T16 Arg2:T11	
+T17	ACTOR 463 478	Amisi Kalondano
+A49	Lexical_Head T17 Noun
+A50	Individuation T17 Individual
+A51	Actor_Type T17 Per
+A52	Involvement T17 1
+T18	ACTOR 480 505	administrador territorial
+A53	Lexical_Head T18 Noun
+A54	Individuation T18 Individual
+A55	Actor_Type T18 Per
+A56	Involvement T18 1
+T19	ACTOR 507 510	que
+A57	Lexical_Head T19 Pronoun
+A58	Individuation T19 Individual
+A59	Actor_Type T19 Per
+A60	Involvement T19 1
+R3	OBJ_REL_objIdentity Arg1:T18 Arg2:T17	
+R4	REF_REL_pronominal Arg1:T19 Arg2:T17	
+R5	OBJ_REL_objIdentity Arg1:T19 Arg2:T17	
+T20	ACTOR 559 577	rebeldes ugandeses
+A61	Lexical_Head T20 Noun
+A62	Individuation T20 Individual
+A63	Actor_Type T20 Per
+A64	Involvement T20 >1
+R6	OBJ_REL_objIdentity Arg1:T8 Arg2:T1	
+R7	OBJ_REL_partOf Arg1:T8 Arg2:T9	
+R8	OBJ_REL_partOf Arg1:T13 Arg2:T14	
+R9	OBJ_REL_partOf Arg1:T12 Arg2:T14	
+R10	OBJ_REL_partOf Arg1:T14 Arg2:T11	
+R11	OBJ_REL_objIdentity Arg1:T11 Arg2:T1	
+T22	EVENT 25 33	morreram
+E1	EVENT:T22 
+A69	Class E1 Occurrence
+A70	Tense E1 Past1
+A71	Polarity E1 Pos
+A72	Time E1 Past
+A73	Factuality E1 Factual
+T23	EVENT 120 137	foram massacrados
+E2	EVENT:T23 
+A74	Class E2 Occurrence
+A75	Tense E2 Past1
+A76	Polarity E2 Pos
+A77	Time E2 Past
+A78	Factuality E2 Factual
+T26	EVENT 274 280	deu-se
+E4	EVENT:T26 
+A84	Class E4 Occurrence
+A85	Tense E4 Past1
+A86	Polarity E4 Pos
+A87	Time E4 Past
+A88	Factuality E4 Factual
+T27	EVENT 365 369	vive
+E5	EVENT:T27 
+A89	Class E5 State
+A90	Tense E5 Present
+A91	Polarity E5 Pos
+A92	Time E5 In_or_After_Past
+A93	Factuality E5 Factual
+T28	EVENT 428 431	fez
+E6	EVENT:T28 
+A94	Class E6 Occurrence
+A95	Tense E6 Past1
+A96	Polarity E6 Pos
+A97	Time E6 Past
+A98	Factuality E6 Factual
+T29	EVENT 511 537	imputou a responsabilidade
+E7	EVENT:T29 
+A99	Class E7 Occurrence
+A100	Tense E7 Past1
+A101	Polarity E7 Pos
+A102	Time E7 Past
+A103	Factuality E7 Factual
+T30	ACTOR 80 89	massacres
+A104	Lexical_Head T30 Noun
+A105	Individuation T30 Individual
+A106	Actor_Type T30 Sit
+A107	Involvement T30 >1
+A111	Time_Type T6 Date
+A112	FunctionInDocument T6 Publication_Time
+A113	Value T6 Date
+#2	AnnotatorNotes T6	value="2016-12-25"
+A114	Time_Type T5 Date
+A115	FunctionInDocument T5 None
+A116	Value T5 Date
+#3	AnnotatorNotes T5	"2016-12-24"
+A117	Time_Type T3 Duration
+A118	FunctionInDocument T3 None
+A119	Value T3 Duration
+A120	Time_Type T15 Duration
+A121	FunctionInDocument T15 None
+A122	Value T15 Duration
+A123	Mod T15 Equal_or_More
+#4	AnnotatorNotes T15	value="P2Y" beginPoint="2014"
+T31	ACTOR 266 273	O drama
+A124	Lexical_Head T31 Noun
+A125	Individuation T31 Individual
+A126	Actor_Type T31 Sit
+A127	Involvement T31 1
+T32	ACTOR 392 410	uma vaga sangrenta
+A128	Lexical_Head T32 Noun
+A129	Individuation T32 Individual
+A130	Actor_Type T32 Sit
+A131	Involvement T32 1
+T33	ACTOR 414 423	massacres
+A132	Lexical_Head T33 Noun
+A133	Individuation T33 Individual
+A134	Actor_Type T33 Sit
+A135	Involvement T33 >1
+R13	REF_REL_sameHead Arg1:T33 Arg2:T30	
+R14	OBJ_REL_objIdentity Arg1:T33 Arg2:T30	
+T34	ACTOR 424 427	que
+A136	Lexical_Head T34 Pronoun
+A137	Individuation T34 Individual
+A138	Actor_Type T34 Sit
+A139	Involvement T34 1
+R15	REF_REL_pronominal Arg1:T34 Arg2:T32	
+R16	OBJ_REL_objIdentity Arg1:T34 Arg2:T32	
+T35	ACTOR 435 453	mais de 700 mortes
+A140	Lexical_Head T35 Noun
+A141	Individuation T35 Individual
+A142	Actor_Type T35 Sit
+A143	Involvement T35 >1
+R17	OBJ_REL_objIdentity Arg1:T35 Arg2:T2	
+T36	ACTOR 545 554	massacres
+A144	Lexical_Head T36 Noun
+A145	Individuation T36 Individual
+A146	Actor_Type T36 Sit
+A147	Involvement T36 >1
+R18	REF_REL_sameHead Arg1:T36 Arg2:T33	
+R19	OBJ_REL_objIdentity Arg1:T36 Arg2:T33	
+R21	TLINK_identity Arg1:E4 Arg2:E2	
+R22	TLINK_includes Arg1:E5 Arg2:E4	
+R23	TLINK_during Arg1:E6 Arg2:E5	
+R26	TLINK_includes Arg1:E2 Arg2:E1	
+R27	OBJ_REL_objIdentity Arg1:T31 Arg2:E2	
+R24	TLINK_after Arg1:E7 Arg2:E6	
+R28	SEMROLE_location Arg1:T1 Arg2:E1	
+R29	SEMROLE_experiencer Arg1:T2 Arg2:E1	
+R30	SEMROLE_experiencer Arg1:T4 Arg2:E2	
+R31	SEMROLE_agent Arg1:T7 Arg2:E2	
+R32	SEMROLE_location Arg1:T8 Arg2:E2	
+R34	SEMROLE_time Arg1:T5 Arg2:E2	
+R35	SEMROLE_time Arg1:T6 Arg2:E2	
+R37	SEMROLE_theme Arg1:T31 Arg2:E4	
+R38	SEMROLE_location Arg1:T12 Arg2:E4	
+R39	SEMROLE_location Arg1:T14 Arg2:E4	
+R40	SEMROLE_location Arg1:T11 Arg2:E4	
+R41	SEMROLE_experiencer Arg1:T11 Arg2:E5	
+R42	SEMROLE_time Arg1:T15 Arg2:E5	
+R43	SEMROLE_theme Arg1:T32 Arg2:E5	
+R44	SEMROLE_source Arg1:T32 Arg2:E6	
+R45	SEMROLE_theme Arg1:T35 Arg2:E6	
+R46	SEMROLE_agent Arg1:T17 Arg2:E7	
+R47	SEMROLE_theme Arg1:T36 Arg2:E7	
+R48	SEMROLE_goal Arg1:T20 Arg2:E7	
+R50	SEMROLE_time Arg1:T3 Arg2:T2	
+R51	SEMROLE_source Arg1:T30 Arg2:E1	

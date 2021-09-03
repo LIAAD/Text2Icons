@@ -1,0 +1,266 @@
+T1	ACTOR 0 6	A ASAE
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Involvement T1 1
+T2	TIME_X3 16 20	hoje
+A4	Time_Type T2 Date
+A5	FunctionInDocument T2 Publication_Time
+A6	Value T2 Date
+#1	AnnotatorNotes T2	value="2016-10-01"
+T3	ACTOR 21 32	a apreensão
+A7	Lexical_Head T3 Noun
+A8	Individuation T3 Individual
+A9	Actor_Type T3 Sit
+A10	Involvement T3 1
+T4	ACTOR 36 67	cerca de sete toneladas de uvas
+A11	Lexical_Head T4 Noun
+A12	Individuation T4 Individual
+A13	Actor_Type T4 Obj
+A14	Involvement T4 >1
+T5	ACTOR 70 91	5.000 litros de mosto
+A15	Lexical_Head T5 Noun
+A16	Individuation T5 Individual
+A17	Actor_Type T5 Obj
+A18	Involvement T5 >1
+T6	ACTOR 110 118	Amarante
+A19	Lexical_Head T6 Noun
+A20	Individuation T6 Individual
+A21	Actor_Type T6 Loc
+A22	Involvement T6 1
+T7	ACTOR 121 128	Melgaço
+A23	Lexical_Head T7 Noun
+A24	Individuation T7 Individual
+A25	Actor_Type T7 Loc
+A26	Involvement T7 1
+T8	ACTOR 133 146	Norte do país
+A27	Lexical_Head T8 Noun
+A28	Individuation T8 Individual
+A29	Actor_Type T8 Loc
+A30	Involvement T8 1
+T11	ACTOR 282 293	estas ações
+A38	Lexical_Head T11 Noun
+A39	Individuation T11 Individual
+A40	Actor_Type T11 Sit
+A41	Involvement T11 >1
+T12	ACTOR 161 199	ações de controlo de trânsito agrícola
+A42	Lexical_Head T12 Noun
+A43	Individuation T12 Individual
+A44	Actor_Type T12 Sit
+A45	Involvement T12 >1
+R5	OBJ_REL_objIdentity Arg1:T11 Arg2:T12	
+T13	ACTOR 322 338	uma investigação
+A46	Lexical_Head T13 Noun
+A47	Individuation T13 Individual
+A48	Actor_Type T13 Sit
+A49	Involvement T13 1
+T14	TIME_X3 354 360	dia 23
+A50	Time_Type T14 Date
+A51	FunctionInDocument T14 None
+A52	Value T14 Date
+#2	AnnotatorNotes T14	value="2016-09-23"
+T15	TIME_X3 366 384	dia 25 de setembro
+A53	Time_Type T15 Date
+A54	FunctionInDocument T15 None
+A55	Value T15 Date
+#3	AnnotatorNotes T15	value="2016-09-25"
+T16	ACTOR 432 452	mais de 12 mil euros
+A56	Lexical_Head T16 Noun
+A57	Individuation T16 Individual
+A58	Actor_Type T16 Obj
+A59	Involvement T16 >1
+T17	ACTOR 455 467	Nestas ações
+A60	Lexical_Head T17 Noun
+A61	Individuation T17 Individual
+A62	Actor_Type T17 Sit
+A63	Involvement T17 >1
+T18	ACTOR 480 492	um indivíduo
+A64	Lexical_Head T18 Noun
+A65	Individuation T18 Individual
+A66	Actor_Type T18 Per
+A67	Involvement T18 1
+T19	ACTOR 506 531	um veículo de mercadorias
+A68	Lexical_Head T19 Noun
+A69	Individuation T19 Individual
+A70	Actor_Type T19 Obj
+A71	Involvement T19 1
+T20	ACTOR 713 747	as cerca de sete toneladas de uvas
+A72	Lexical_Head T20 Noun
+A73	Individuation T20 Individual
+A74	Actor_Type T20 Obj
+A75	Involvement T20 >1
+R6	REF_REL_sameHead Arg1:T20 Arg2:T4	
+R7	OBJ_REL_objIdentity Arg1:T20 Arg2:T4	
+T21	ACTOR 537 560	tentativa de introdução
+A76	Lexical_Head T21 Noun
+A77	Individuation T21 Individual
+A78	Actor_Type T21 Sit
+A79	Involvement T21 1
+T22	ACTOR 564 568	uvas
+A80	Lexical_Head T22 Noun
+A81	Individuation T22 Individual
+A82	Actor_Type T22 Obj
+A83	Involvement T22 >1
+T23	ACTOR 572 586	zona demarcada
+A84	Lexical_Head T23 Noun
+A85	Involvement T23 1
+T26	ACTOR 644 664	alvará de específico
+A94	Lexical_Head T26 Noun
+A95	Individuation T26 Individual
+A96	Actor_Type T26 Obj
+A97	Involvement T26 1
+T27	ACTOR 670 687	aquele transporte
+A98	Lexical_Head T27 Noun
+A99	Individuation T27 Individual
+A100	Involvement T27 1
+T29	ACTOR 391 419	o valor total das apreensões
+A105	Lexical_Head T29 Noun
+A106	Individuation T29 Individual
+A107	Actor_Type T29 Obj
+A108	Involvement T29 1
+T30	ACTOR 771 788	um processo-crime
+A109	Lexical_Head T30 Noun
+A110	Individuation T30 Individual
+A111	Involvement T30 1
+A112	Actor_Type T30 Sit
+T31	ACTOR 793 819	falsificação de documentos
+A113	Lexical_Head T31 Noun
+A114	Individuation T31 Individual
+A115	Actor_Type T31 Sit
+A116	Involvement T31 1
+T32	ACTOR 825 844	industria de vinhos
+A117	Lexical_Head T32 Noun
+A118	Individuation T32 Individual
+A119	Actor_Type T32 Loc
+A120	Involvement T32 1
+T33	ACTOR 847 851	onde
+A121	Lexical_Head T33 Pronoun
+A122	Individuation T33 Individual
+A123	Actor_Type T33 Loc
+A124	Involvement T33 1
+R8	REF_REL_pronominal Arg1:T33 Arg2:T32	
+R9	OBJ_REL_objIdentity Arg1:T33 Arg2:T32	
+T34	ACTOR 871 900	5.000 litros de mosto de uvas
+A125	Lexical_Head T34 Noun
+A126	Individuation T34 Individual
+A127	Actor_Type T34 Obj
+A128	Involvement T34 >1
+A133	Actor_Type T1 Org
+R11	REF_REL_sameHead Arg1:T34 Arg2:T5	
+R12	OBJ_REL_objIdentity Arg1:T34 Arg2:T5	
+R13	OBJ_REL_partOf Arg1:T7 Arg2:T8	
+R14	OBJ_REL_partOf Arg1:T6 Arg2:T8	
+R15	OBJ_REL_objIdentity Arg1:T17 Arg2:T11	
+R16	REF_REL_sameHead Arg1:T17 Arg2:T11	
+R17	OBJ_REL_objIdentity Arg1:T22 Arg2:T4	
+R18	OBJ_REL_objIdentity Arg1:T27 Arg2:T19	
+R19	OBJ_REL_objIdentity Arg1:T20 Arg2:T22	
+T36	EVENT 7 15	anunciou
+E1	EVENT:T36 
+A134	Class E1 Occurrence
+A135	Tense E1 Past1
+A136	Polarity E1 Pos
+A137	Time E1 Past
+A138	Factuality E1 Factual
+T38	EVENT 295 305	realizadas
+E3	EVENT:T38 
+A144	Class E3 Occurrence
+A145	Tense E3 PastPart
+A146	Polarity E3 Pos
+A147	Time E3 Past
+A148	Factuality E3 Factual
+T39	EVENT 340 350	decorreram
+E4	EVENT:T39 
+A149	Class E4 Occurrence
+A150	Tense E4 Past1
+A151	Polarity E4 Pos
+A152	Time E4 Past
+A153	Factuality E4 Factual
+T40	EVENT 421 429	ascendeu
+E5	EVENT:T40 
+A154	Class E5 Occurrence
+A155	Tense E5 Past1
+A156	Polarity E5 Pos
+A157	Time E5 Past
+A158	Factuality E5 Factual
+T41	EVENT 469 479	foi detido
+E6	EVENT:T41 
+A159	Class E6 Occurrence
+A160	Tense E6 Past1
+A161	Polarity E6 Pos
+A162	Time E6 Past
+A163	Factuality E6 Factual
+T42	EVENT 495 505	apreendido
+E7	EVENT:T42 
+A164	Class E7 Occurrence
+A165	Tense E7 PastPart
+A166	Time E7 Past
+A167	Factuality E7 Factual
+T43	EVENT 690 712	tendo sido apreendidas
+E8	EVENT:T43 
+A168	Class E8 Occurrence
+A169	Tense E8 PastPerfect
+A170	Polarity E8 Pos
+A171	Time E8 Past
+A172	Factuality E8 Factual
+T44	EVENT 749 752;759 769	Foi instaurado
+E9	EVENT:T44 
+A173	Class E9 Occurrence
+A174	Tense E9 Past1
+A175	Polarity E9 Pos
+A176	Time E9 Past
+A177	Factuality E9 Factual
+T45	EVENT 852 870	foram "apreendidos
+E10	EVENT:T45 
+A178	Class E10 Occurrence
+A179	Tense E10 Past1
+A180	Polarity E10 Pos
+A181	Time E10 Past
+A182	Factuality E10 Factual
+R24	TLINK_simultaneous Arg1:E7 Arg2:E6	
+R30	TLINK_includes Arg1:T2 Arg2:E1	
+R21	TLINK_identity Arg1:E4 Arg2:E3	
+R22	TLINK_after Arg1:E5 Arg2:E4	
+R25	TLINK_isIncluded Arg1:E6 Arg2:E4	
+R26	TLINK_identity Arg1:E8 Arg2:E7	
+R28	TLINK_after Arg1:E9 Arg2:E8	
+R29	TLINK_before Arg1:E10 Arg2:E9	
+R31	TLINK_includes Arg1:T14 Arg2:E4	
+R32	TLINK_includes Arg1:T15 Arg2:E4	
+R33	SEMROLE_agent Arg1:T1 Arg2:E1	
+R34	SEMROLE_time Arg1:T2 Arg2:E1	
+R35	SEMROLE_theme Arg1:T3 Arg2:E1	
+R36	SEMROLE_location Arg1:T6 Arg2:T3	
+R37	SEMROLE_location Arg1:T7 Arg2:T3	
+R40	SEMROLE_theme Arg1:T11 Arg2:E4	
+R41	SEMROLE_time Arg1:T14 Arg2:E4	
+R42	SEMROLE_time Arg1:T15 Arg2:E4	
+R43	SEMROLE_theme Arg1:T29 Arg2:E5	
+R44	SEMROLE_theme Arg1:T18 Arg2:E6	
+R45	SEMROLE_theme Arg1:T19 Arg2:E7	
+R46	SEMROLE_theme Arg1:T20 Arg2:E8	
+R47	SEMROLE_theme Arg1:T30 Arg2:E9	
+R48	SEMROLE_location Arg1:T32 Arg2:E10	
+R49	SEMROLE_theme Arg1:T34 Arg2:E10	
+R39	SEMROLE_theme Arg1:T4 Arg2:T3	
+R52	SEMROLE_theme Arg1:T5 Arg2:T3	
+R1	SEMROLE_theme Arg1:T11 Arg2:E3	
+R2	SEMROLE_theme Arg1:T16 Arg2:E5	
+R3	SEMROLE_agent Arg1:T1 Arg2:E3	
+R4	SEMROLE_agent Arg1:T1 Arg2:E6	
+R10	SEMROLE_location Arg1:T17 Arg2:E6	
+R20	SEMROLE_agent Arg1:T1 Arg2:E7	
+R23	SEMROLE_location Arg1:T17 Arg2:E7	
+R27	SEMROLE_instrument Arg1:T22 Arg2:T21	
+R38	SEMROLE_goal Arg1:T23 Arg2:T21	
+A31	Individuation T23 Individual
+A32	Actor_Type T23 Loc
+T9	ACTOR 592 639	qualquer documentação da proveniência de origem
+A33	Lexical_Head T9 Noun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Obj
+A36	Involvement T9 0
+R51	SEMROLE_goal Arg1:T26 Arg2:T27	
+R53	SEMROLE_agent Arg1:T1 Arg2:E8	
+R50	SEMROLE_agent Arg1:T1 Arg2:E9	
+R54	SEMROLE_location Arg1:T32 Arg2:T31	
+R55	SEMROLE_agent Arg1:T1 Arg2:E10	

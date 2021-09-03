@@ -1,0 +1,145 @@
+» EVENTS
+# E1 (provocaram) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(source,T1) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(source,T1), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (ferindo) -> b
+# FOL:  exists Factual Occurrence Past Pos PresPart b.(event(b) & eventClass(b,Occurrence) & Tense(b,PresPart) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,c) & relationRole(source,T1) & relationRole(experiencer,T5) & relationRole(location,T6) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PresPart), Polarity(b,Pos), Time(b,Past), occursBefore(b,c), relationRole(source,T1), relationRole(experiencer,T5), relationRole(location,T6), Factuality(b,Factual)]) 
+
+# E3 (foram atribuídas) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursAfter(c,b) & relationRole(theme,T9) & relationRole(goal,T11) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursAfter(c,b), relationRole(theme,T9), relationRole(goal,T11), Factuality(c,Factual)]) 
+
+# E4 (combatem) -> d
+# FOL:  exists Factual Occurrence Pos Present d.(event(d) & eventClass(d,Occurrence) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & relationRole(agent,T11) & relationRole(theme,T12) & relationRole(location,T13) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Present), Polarity(d,Pos), Time(d,Present), relationRole(agent,T11), relationRole(theme,T12), relationRole(location,T13), Factuality(d,Factual)]) 
+
+# E5 (ocorrem) -> e
+# FOL:  exists Factual Occurrence Past Pos Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Past) & occursBefore(e,f) & occursBefore(e,h) & relationRole(theme,T9) & relationRole(time,T14) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Present), Polarity(e,Pos), Time(e,Past), occursBefore(e,f), occursBefore(e,h), relationRole(theme,T9), relationRole(time,T14), Factuality(e,Factual)]) 
+
+# E6 (terem provocado) -> f
+# FOL:  exists Factual Occurrence Past PastPerfect Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,PastPerfect) & Polarity(f,Pos) & relationRole(source,T15) & relationRole(experiencer,T16) & relationRole(experiencer,T17) & relationRole(location,T18) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PastPerfect), Polarity(f,Pos), relationRole(source,T15), relationRole(experiencer,T16), relationRole(experiencer,T17), relationRole(location,T18), Factuality(f,Factual)]) 
+
+# E7 (será) -> g
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Future1) & Polarity(g,Pos) & Time(g,Future) & relationRole(experiencer,T20) & relationRole(theme,T48) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Future1), Polarity(g,Pos), Time(g,Future), relationRole(experiencer,T20), relationRole(theme,T48), Factuality(g,Non_Factual)]) 
+
+# E8 (se desconhece) -> h
+# FOL:  exists Factual Occurrence Pos Present h.(event(h) & eventClass(h,Occurrence) & Tense(h,Present) & Polarity(h,Pos) & Time(h,Present) & occursAfter(h,e) & occursBefore(h,j) & relationRole(theme,T47) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Present), Polarity(h,Pos), Time(h,Present), occursAfter(h,e), occursBefore(h,j), relationRole(theme,T47), Factuality(h,Factual)]) 
+
+# E9 (frequentada) -> i
+# FOL:  exists Factual Occurrence Past PastPart Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,PastPart) & Polarity(i,Pos) & Time(i,Past) & relationRole(location,T34) & relationRole(agent,T21) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,PastPart), Polarity(i,Pos), Time(i,Past), relationRole(location,T34), relationRole(agent,T21), Factuality(i,Factual)]) 
+
+# E10 (tinham atingido) -> j
+# FOL:  exists Factual Occurrence Past PastPerfect Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,PastPerfect) & Polarity(j,Pos) & Time(j,Past) & occursBefore(j,k) & relationRole(time,T24) & relationRole(source,T23) & relationRole(location,T25) & relationRole(location,T26) & relationRole(location,T27) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,PastPerfect), Polarity(j,Pos), Time(j,Past), occursBefore(j,k), relationRole(time,T24), relationRole(source,T23), relationRole(location,T25), relationRole(location,T26), relationRole(location,T27), Factuality(j,Factual)]) 
+
+# E11 (tinham ferido) -> k
+# FOL:  exists Factual Occurrence Past PastPerfect Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,PastPerfect) & Polarity(k,Pos) & Time(k,Past) & occursAfter(k,j) & relationRole(experiencer,T28) & relationRole(source,T23) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,PastPerfect), Polarity(k,Pos), Time(k,Past), occursAfter(k,j), relationRole(experiencer,T28), relationRole(source,T23), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> Duas explosões
+# T10 -> viaturas armadilhadas
+# T11 -> grupos de rebeldes
+# T12 -> o exército
+# T13 -> região
+# T15 -> 11 atentados
+# T16 -> quatro mortos
+# T17 -> dezenas de feridos
+# T18 -> várias zonas turísticas
+# T19 -> sul do país
+# T20 -> A vítima mortal
+# T21 -> turistas britânicos
+# T22 -> feridos
+# T23 -> Os ataques
+# T25 -> Hua Hin
+# T26 -> Phuket
+# T27 -> Phang Nga
+# T28 -> vários turistas europeus
+# T29 -> três italianos
+# T3 -> morte
+# T30 -> três holandeses
+# T31 -> três alemães
+# T32 -> um cidadão austríaco
+# T33 -> que
+# T34 -> zona
+# T4 -> pelo menos uma pessoa
+# T44 -> que
+# T47 -> a identidade
+# T48 -> nacionalidade tailandesa
+# T5 -> outras trinta
+# T6 -> praia de Pattani
+# T7 -> junto a um hotel
+# T8 -> sul da Tailândia
+# T9 -> As deflagrações
+# T24 -> há duas semanas
+# T2 -> em menos de vinte minutos
+# T14 -> duas semanas após
+
+» RELATIONS
+# T1 - source - E1
+# T3 - theme - E1
+# T4 - experiencer - T3
+# T1 - source - E2
+# T5 - experiencer - E2
+# T6 - location - E2
+# T9 - theme - E3
+# T11 - goal - E3
+# T11 - agent - E4
+# T12 - theme - E4
+# T13 - location - E4
+# T9 - theme - E5
+# T14 - time - E5
+# T15 - source - E6
+# T16 - experiencer - E6
+# T17 - experiencer - E6
+# T18 - location - E6
+# T20 - experiencer - E7
+# T47 - theme - E8
+# T34 - location - E9
+# T21 - agent - E9
+# T24 - time - E10
+# T23 - source - E10
+# T25 - location - E10
+# T26 - location - E10
+# T27 - location - E10
+# T28 - experiencer - E11
+# T23 - source - E11
+# T10 - instrument - T9
+# T34 - location - T22
+# T2 - time - T1
+# T48 - theme - E7
+# T22 - theme - T47
+# T24 - time - T23
+# T9 - synonymy - T1
+# T9 - objIdentity - T1
+# T13 - objIdentity - T8
+# T33 - pronominal - T11
+# T33 - objIdentity - T11
+# T18 - partOf - T19
+# T19 - objIdentity - T8
+# T20 - objIdentity - T4
+# T22 - objIdentity - T5
+# T34 - objIdentity - T6
+# T23 - objIdentity - T15
+# T23 - synonymy - T15
+# T21 - partOf - T28
+# T21 - hyponymy - T28
+# T29 - partOf - T28
+# T30 - partOf - T28
+# T31 - partOf - T28
+# T32 - partOf - T28
+# T29 - hyponymy - T28
+# T30 - hyponymy - T28
+# T31 - hyponymy - T28
+# T32 - hyponymy - T28
+# T7 - partOf - T6
+# T6 - partOf - T8
+# T44 - pronominal - T23
+# T44 - objIdentity - T23

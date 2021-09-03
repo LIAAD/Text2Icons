@@ -1,0 +1,15 @@
+{
+  "name": "drs2viz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vis-network": "^9.0.5"
+  },
+  "devDependencies": {},
+  "description": "The Icon Dictionary contains the classes and methods to search for icons to use in the visualization of the Text2Story pipeline."
+}

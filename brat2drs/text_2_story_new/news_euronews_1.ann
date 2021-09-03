@@ -1,0 +1,428 @@
+T1	ACTOR 0 18	A polícia francesa
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	ACTOR 308 326	a polícia francesa
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Org
+A8	Involvement T2 1
+R1	REF_REL_sameHead Arg1:T2 Arg2:T1	
+R2	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T3	ACTOR 740 747	polícia
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Org
+A12	Involvement T3 1
+R3	OBJ_REL_objIdentity Arg1:T3 Arg2:T2	
+T4	ACTOR 749 773	As autoridades francesas
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Org
+A16	Involvement T4 >1
+R4	OBJ_REL_objIdentity Arg1:T4 Arg2:T3	
+R5	REF_REL_synonymy Arg1:T4 Arg2:T3	
+T5	ACTOR 26 38	sete pessoas
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Per
+A20	Involvement T5 >1
+T7	ACTOR 65 73	condutor
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Per
+A28	Involvement T7 1
+T8	ACTOR 77 83	camião
+A29	Lexical_Head T8 Noun
+A30	Individuation T8 Individual
+A31	Actor_Type T8 Obj
+A32	Involvement T8 1
+T9	ACTOR 84 87	que
+A33	Lexical_Head T9 Pronoun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Obj
+A36	Involvement T9 1
+R6	REF_REL_pronominal Arg1:T9 Arg2:T8	
+R7	OBJ_REL_objIdentity Arg1:T9 Arg2:T8	
+T10	ACTOR 102 114	uma multidão
+A37	Lexical_Head T10 Noun
+A38	Individuation T10 Set
+A39	Actor_Type T10 Per
+A40	Involvement T10 1
+T11	ACTOR 117 120	que
+A41	Lexical_Head T11 Pronoun
+A42	Individuation T11 Individual
+A43	Actor_Type T11 Obj
+A44	Involvement T11 1
+R8	REF_REL_pronominal Arg1:T11 Arg2:T8	
+R9	OBJ_REL_objIdentity Arg1:T11 Arg2:T8	
+T12	ACTOR 128 137	84 mortos
+A45	Lexical_Head T12 Noun
+A46	Individuation T12 Individual
+A47	Actor_Type T12 Per
+A48	Involvement T12 >1
+T13	ACTOR 140 160	cerca de 300 feridos
+A49	Lexical_Head T13 Noun
+A50	Individuation T13 Individual
+A51	Actor_Type T13 Per
+A52	Involvement T13 >1
+R10	OBJ_REL_partOf Arg1:T12 Arg2:T10	
+R11	OBJ_REL_partOf Arg1:T13 Arg2:T10	
+T14	ACTOR 168 178	os detidos
+A53	Lexical_Head T14 Noun
+A54	Individuation T14 Individual
+A55	Actor_Type T14 Per
+A56	Involvement T14 >1
+R12	OBJ_REL_objIdentity Arg1:T14 Arg2:T5	
+T15	ACTOR 191 202	a ex-mulher
+A57	Lexical_Head T15 Noun
+A58	Individuation T15 Individual
+A59	Actor_Type T15 Per
+A60	Involvement T15 1
+T16	ACTOR 206 231	Mohamed Lahouaiej-Bouhlel
+A61	Lexical_Head T16 Noun
+A62	Individuation T16 Individual
+A63	Actor_Type T16 Per
+A64	Involvement T16 1
+T17	ACTOR 233 251	um franco-tunisino
+A65	Lexical_Head T17 Noun
+A66	Individuation T17 Individual
+A67	Actor_Type T17 Per
+A68	Involvement T17 1
+R13	OBJ_REL_objIdentity Arg1:T17 Arg2:T16	
+T18	ACTOR 252 255	que
+A69	Lexical_Head T18 Pronoun
+A70	Individuation T18 Individual
+A71	Actor_Type T18 Per
+A72	Involvement T18 1
+R14	REF_REL_pronominal Arg1:T18 Arg2:T17	
+R15	OBJ_REL_objIdentity Arg1:T18 Arg2:T17	
+T19	ACTOR 266 284	quaisquer ligações
+A73	Lexical_Head T19 Noun
+A74	Individuation T19 Individual
+A75	Actor_Type T19 Sit
+A76	Involvement T19 0
+T20	ACTOR 288 298	terrorismo
+A77	Lexical_Head T20 Noun
+A78	Individuation T20 Individual
+A79	Actor_Type T20 Sit
+A80	Involvement T20 1
+T21	ACTOR 304 307	que
+A81	Lexical_Head T21 Pronoun
+A82	Individuation T21 Individual
+A83	Actor_Type T21 Per
+A84	Involvement T21 1
+R16	REF_REL_pronominal Arg1:T21 Arg2:T17	
+R17	OBJ_REL_objIdentity Arg1:T21 Arg2:T17	
+T22	ACTOR 372 405	O grupo jihadista Estado Islâmico
+A85	Lexical_Head T22 Noun
+A86	Individuation T22 Individual
+A87	Actor_Type T22 Org
+A88	Involvement T22 1
+T23	ACTOR 409 414	Daesh
+A89	Lexical_Head T23 Noun
+A90	Individuation T23 Individual
+A91	Actor_Type T23 Org
+A92	Involvement T23 1
+R18	OBJ_REL_objIdentity Arg1:T23 Arg2:T22	
+R19	REF_REL_synonymy Arg1:T23 Arg2:T22	
+T24	ACTOR 456 465	a autoria
+A93	Lexical_Head T24 Noun
+A94	Individuation T24 Individual
+A95	Actor_Type T24 Sit
+A96	Involvement T24 1
+T25	ACTOR 469 477	atentado
+A97	Individuation T25 Individual
+A98	Actor_Type T25 Sit
+A99	Involvement T25 1
+T26	TIME_X3 479 502	Na quinta-feira à noite
+A100	Time_Type T26 Date
+A101	FunctionInDocument T26 None
+A102	Value T26 Date
+#1	AnnotatorNotes T26	value="2016-07-14"
+T27	ACTOR 504 513	um camião
+A103	Lexical_Head T27 Noun
+A104	Individuation T27 Individual
+A105	Actor_Type T27 Obj
+A106	Involvement T27 1
+R20	OBJ_REL_objIdentity Arg1:T27 Arg2:T8	
+R21	REF_REL_sameHead Arg1:T27 Arg2:T8	
+T28	ACTOR 553 565	uma multidão
+A107	Lexical_Head T28 Noun
+A108	Individuation T28 Set
+A109	Actor_Type T28 Per
+A110	Involvement T28 1
+R22	REF_REL_sameHead Arg1:T28 Arg2:T10	
+R23	OBJ_REL_objIdentity Arg1:T28 Arg2:T10	
+T29	ACTOR 569 589	Passeio dos Ingleses
+A111	Lexical_Head T29 Noun
+A112	Individuation T29 Individual
+A113	Actor_Type T29 Loc
+A114	Involvement T29 1
+T30	ACTOR 594 598	Nice
+A115	Lexical_Head T30 Noun
+A116	Individuation T30 Individual
+A117	Actor_Type T30 Loc
+A118	Involvement T30 1
+R24	OBJ_REL_partOf Arg1:T29 Arg2:T30	
+T31	ACTOR 616 633	fogo-de-artifício
+A119	Lexical_Head T31 Noun
+A120	Individuation T31 Individual
+A121	Actor_Type T31 Obj
+A122	Involvement T31 1
+T32	ACTOR 680 700	a Tomada da Bastilha
+A123	Lexical_Head T32 Noun
+A124	Individuation T32 Individual
+A125	Actor_Type T32 Sit
+A126	Involvement T32 1
+T33	ACTOR 648 663	o dia de França
+A127	Lexical_Head T33 Noun
+A128	Individuation T33 Individual
+A129	Actor_Type T33 Sit
+A130	Involvement T33 1
+R25	OBJ_REL_objIdentity Arg1:T32 Arg2:T33	
+T34	ACTOR 702 712	O condutor
+A131	Lexical_Head T34 Noun
+A132	Individuation T34 Individual
+A133	Actor_Type T34 Per
+A134	Involvement T34 1
+T35	ACTOR 716 722	camião
+A135	Lexical_Head T35 Noun
+A136	Individuation T35 Individual
+A137	Actor_Type T35 Obj
+A138	Involvement T35 1
+R26	REF_REL_sameHead Arg1:T34 Arg2:T7	
+R27	OBJ_REL_objIdentity Arg1:T34 Arg2:T7	
+R28	REF_REL_sameHead Arg1:T35 Arg2:T8	
+R29	OBJ_REL_objIdentity Arg1:T35 Arg2:T8	
+T36	ACTOR 804 826	um atentado terrorista
+A139	Lexical_Head T36 Noun
+A140	Individuation T36 Individual
+A141	Actor_Type T36 Sit
+A142	Involvement T36 1
+R30	OBJ_REL_objIdentity Arg1:T36 Arg2:T25	
+T37	ACTOR 829 859	o presidente François Hollande
+A143	Lexical_Head T37 Noun
+A144	Individuation T37 Individual
+A145	Actor_Type T37 Per
+A146	Involvement T37 1
+T38	ACTOR 872 885	prolongamento
+A147	Lexical_Head T38 Noun
+A148	Individuation T38 Individual
+A149	Actor_Type T38 Sit
+A150	Involvement T38 1
+T39	TIME_X3 890 905	mais três meses
+A151	Time_Type T39 Duration
+A152	FunctionInDocument T39 None
+A153	Value T39 Duration
+#2	AnnotatorNotes T39	value="P3M"
+T40	ACTOR 909 929	estado de emergência
+A154	Lexical_Head T40 Noun
+A155	Individuation T40 Individual
+A156	Actor_Type T40 Sit
+A157	Involvement T40 1
+T41	TIME_X3 949 968	desde o ano passado
+A158	Time_Type T41 Duration
+A159	FunctionInDocument T41 None
+A160	Value T41 Duration
+#3	AnnotatorNotes T41	beginPoint="2015"
+T42	EVENT 19 25	deteve
+E1	EVENT:T42 
+A161	Class E1 Occurrence
+A162	Tense E1 Past1
+A163	Polarity E1 Pos
+A164	Time E1 Past
+A165	Factuality E1 Factual
+T43	EVENT 88 95	avançou
+E2	EVENT:T43 
+A166	Class E2 Occurrence
+A167	Tense E2 Past1
+A168	Polarity E2 Pos
+A169	Time E2 Past
+A170	Factuality E2 Factual
+R31	TLINK_before Arg1:E2 Arg2:E1	
+T44	EVENT 121 127	causou
+E3	EVENT:T44 
+A171	Class E3 Occurrence
+A172	Tense E3 Past1
+A173	Polarity E3 Pos
+A174	Time E3 Past
+A175	Factuality E3 Factual
+R32	TLINK_after Arg1:E3 Arg2:E2	
+T45	EVENT 179 190	encontra-se
+E4	EVENT:T45 
+A176	Class E4 State
+A177	Tense E4 Present
+A178	Polarity E4 Pos
+A179	Time E4 Present
+A180	Factuality E4 Factual
+R33	TLINK_includes Arg1:E4 Arg2:E1	
+T46	EVENT 256 265	não teria
+E5	EVENT:T46 
+A181	Class E5 Occurrence
+A182	Tense E5 Past2
+A183	Polarity E5 Neg
+A184	Time E5 Past
+A185	Factuality E5 Non_Factual
+T47	EVENT 327 333	admite
+E6	EVENT:T47 
+A186	Class E6 Occurrence
+A187	Tense E6 Present
+A188	Polarity E6 Pos
+A189	Time E6 Present
+A190	Factuality E6 Factual
+T48	EVENT 334 353	ter-se radicalizado
+E7	EVENT:T48 
+A191	Class E7 Occurrence
+A192	Tense E7 PastPerfect
+A193	Polarity E7 Pos
+A194	Time E7 Past
+A195	Factuality E7 Factual
+T49	EVENT 447 455	reclamou
+E8	EVENT:T49 
+A196	Class E8 Occurrence
+A197	Tense E8 Past1
+A198	Polarity E8 Pos
+A199	Time E8 Past
+A200	Factuality E8 Factual
+T50	EVENT 514 521	avançou
+E9	EVENT:T50 
+A201	Class E9 Occurrence
+A202	Tense E9 Past1
+A203	Polarity E9 Pos
+A204	Time E9 Past
+A205	Factuality E9 Factual
+R38	TLINK_identity Arg1:E9 Arg2:E2	
+T51	EVENT 604 612	assistia
+E10	EVENT:T51 
+A206	Class E10 Occurrence
+A207	Tense E10 Past2
+A208	Polarity E10 Pos
+A209	Time E10 Past
+A210	Factuality E10 Factual
+R39	TLINK_before Arg1:E10 Arg2:E9	
+T52	EVENT 639 647	celebrar
+E11	EVENT:T52 
+A211	Class E11 Occurrence
+A212	Tense E11 Infinitive
+A213	Polarity E11 Pos
+A214	Time E11 Past
+A215	Factuality E11 Factual
+T53	EVENT 665 674	conhecido
+E12	EVENT:T53 
+A216	Class E12 Occurrence
+A217	Tense E12 PastPart
+A218	Polarity E12 Pos
+A219	Time E12 Past
+A220	Factuality E12 Factual
+T54	EVENT 723 734	foi abatido
+E13	EVENT:T54 
+A221	Class E13 Occurrence
+A222	Tense E13 Past1
+A223	Polarity E13 Pos
+A224	Time E13 Past
+A225	Factuality E13 Factual
+R42	TLINK_after Arg1:E13 Arg2:E9	
+T55	EVENT 774 786	consideraram
+E14	EVENT:T55 
+A226	Class E14 Occurrence
+A227	Tense E14 Past1
+A228	Polarity E14 Pos
+A229	Time E14 Past
+A230	Factuality E14 Factual
+T56	EVENT 787 795	estar-se
+E15	EVENT:T56 
+A231	Class E15 State
+A232	Tense E15 Infinitive
+A233	Polarity E15 Pos
+A234	Factuality E15 Factual
+R44	TLINK_isIncluded Arg1:E15 Arg2:E14	
+T57	EVENT 861 869	anunciou
+E16	EVENT:T57 
+A235	Tense E16 Past1
+A236	Polarity E16 Pos
+A237	Time E16 Past
+A238	Factuality E16 Factual
+R45	TLINK_after Arg1:E16 Arg2:E14	
+T58	EVENT 934 940	vigora
+E17	EVENT:T58 
+A239	Class E17 Occurrence
+A240	Tense E17 Present
+A241	Polarity E17 Pos
+A242	Time E17 Present
+A243	Factuality E17 Factual
+R46	TLINK_includes Arg1:E17 Arg2:E16	
+T59	ACTOR 944 948	país
+A244	Lexical_Head T59 Noun
+A245	Individuation T59 Individual
+A246	Actor_Type T59 Loc
+A247	Involvement T59 1
+R47	OBJ_REL_partOf Arg1:T30 Arg2:T59	
+R34	TLINK_before Arg1:E5 Arg2:E4	
+R48	TLINK_includes Arg1:E6 Arg2:E4	
+R35	TLINK_after Arg1:E7 Arg2:E5	
+R36	TLINK_after Arg1:E8 Arg2:E2	
+R37	TLINK_includes Arg1:E11 Arg2:E10	
+R40	TLINK_after Arg1:E14 Arg2:E13	
+R41	TLINK_includes Arg1:T41 Arg2:E17	
+R43	TLINK_after Arg1:T39 Arg2:E16	
+R49	TLINK_includes Arg1:T26 Arg2:E9	
+R50	SEMROLE_agent Arg1:T22 Arg2:E8	
+R51	SEMROLE_theme Arg1:T24 Arg2:E8	
+R52	SEMROLE_agent Arg1:T1 Arg2:E1	
+R53	SEMROLE_theme Arg1:T5 Arg2:E1	
+R55	SEMROLE_theme Arg1:T8 Arg2:E2	
+R56	SEMROLE_theme Arg1:T10 Arg2:E2	
+R57	SEMROLE_experiencer Arg1:T12 Arg2:E3	
+R58	SEMROLE_experiencer Arg1:T13 Arg2:E3	
+R59	SEMROLE_theme Arg1:T15 Arg2:E4	
+R60	SEMROLE_theme Arg1:T16 Arg2:E5	
+R61	SEMROLE_theme Arg1:T19 Arg2:E5	
+R62	SEMROLE_agent Arg1:E6 Arg2:T2	
+R63	SEMROLE_agent Arg1:T16 Arg2:E7	
+R64	SEMROLE_time Arg1:T26 Arg2:E9	
+R65	SEMROLE_theme Arg1:T27 Arg2:E9	
+R66	SEMROLE_goal Arg1:T28 Arg2:E9	
+R67	SEMROLE_location Arg1:T29 Arg2:E9	
+R68	SEMROLE_experiencer Arg1:T28 Arg2:E10	
+R69	SEMROLE_theme Arg1:T31 Arg2:E10	
+R70	SEMROLE_theme Arg1:T33 Arg2:E11	
+R71	SEMROLE_theme Arg1:T34 Arg2:E13	
+R72	SEMROLE_agent Arg1:T3 Arg2:E13	
+R73	SEMROLE_agent Arg1:T4 Arg2:E14	
+R74	SEMROLE_theme Arg1:T36 Arg2:E14	
+R75	SEMROLE_agent Arg1:T37 Arg2:E16	
+R76	SEMROLE_theme Arg1:T38 Arg2:E16	
+R77	SEMROLE_theme Arg1:T40 Arg2:E17	
+R78	SEMROLE_location Arg1:T59 Arg2:E17	
+R79	SEMROLE_time Arg1:T41 Arg2:E17	
+R80	SEMROLE_source Arg1:T8 Arg2:E3	
+R81	SEMROLE_goal Arg1:T20 Arg2:E5	
+T6	ACTOR 43 61	aparentes ligações
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Sit
+A24	Involvement T6 >1
+R82	SEMROLE_goal Arg1:T7 Arg2:T6	
+R84	OBJ_REL_partOf Arg1:T15 Arg2:T16	
+R85	OBJ_REL_memberOf Arg1:T15 Arg2:T14	
+R86	SEMROLE_theme Arg1:E7 Arg2:E6	
+R87	SEMROLE_theme Arg1:T16 Arg2:E6	
+R88	SEMROLE_theme Arg1:T25 Arg2:T24	
+R54	SEMROLE_instrument Arg1:T8 Arg2:T7	
+T60	ACTOR 600 603	que
+A248	Lexical_Head T60 Pronoun
+A249	Individuation T60 Set
+A250	Actor_Type T60 Per
+A251	Involvement T60 1
+R83	REF_REL_pronominal Arg1:T60 Arg2:T28	
+R89	OBJ_REL_objIdentity Arg1:T60 Arg2:T28	
+R90	SEMROLE_agent Arg1:T28 Arg2:E11	
+R91	SEMROLE_theme Arg1:T33 Arg2:E12	
+R92	SEMROLE_theme Arg1:T32 Arg2:E12	
+R93	SEMROLE_instrument Arg1:T35 Arg2:T34	
+R94	SEMROLE_theme Arg1:E15 Arg2:E14	
+R95	SEMROLE_theme Arg1:T36 Arg2:E15	
+R96	SEMROLE_time Arg1:T39 Arg2:T38	
+R97	SEMROLE_theme Arg1:T40 Arg2:T38	

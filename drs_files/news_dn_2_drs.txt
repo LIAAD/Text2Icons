@@ -1,0 +1,94 @@
+» EVENTS
+# E1 (morreram) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(location,T1) & relationRole(experiencer,T2) & relationRole(source,T30) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(location,T1), relationRole(experiencer,T2), relationRole(source,T30), Factuality(a,Factual)]) 
+
+# E2 (foram massacrados) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & relationRole(experiencer,T4) & relationRole(agent,T7) & relationRole(location,T8) & relationRole(time,T5) & relationRole(time,T6) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), relationRole(experiencer,T4), relationRole(agent,T7), relationRole(location,T8), relationRole(time,T5), relationRole(time,T6), Factuality(b,Factual)]) 
+
+# E4 (deu-se) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(theme,T31) & relationRole(location,T12) & relationRole(location,T14) & relationRole(location,T11) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(theme,T31), relationRole(location,T12), relationRole(location,T14), relationRole(location,T11), Factuality(c,Factual)]) 
+
+# E5 (vive) -> d
+# FOL:  exists Factual In_or_After_Past Past Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,In_or_After_Past) & relationRole(experiencer,T11) & relationRole(time,T15) & relationRole(theme,T32) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,In_or_After_Past), relationRole(experiencer,T11), relationRole(time,T15), relationRole(theme,T32), Factuality(d,Factual)]) 
+
+# E6 (fez) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & occursBefore(e,f) & relationRole(source,T32) & relationRole(theme,T35) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), occursBefore(e,f), relationRole(source,T32), relationRole(theme,T35), Factuality(e,Factual)]) 
+
+# E7 (imputou a responsabilidade) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursAfter(f,e) & relationRole(agent,T17) & relationRole(theme,T36) & relationRole(goal,T20) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursAfter(f,e), relationRole(agent,T17), relationRole(theme,T36), relationRole(goal,T20), Factuality(f,Factual)]) 
+
+» ACTORS
+# T1 -> zona de Kivu Norte
+# T11 -> zona norte de Kivu Norte
+# T12 -> Erigeti
+# T13 -> arredores
+# T14 -> território de Beni
+# T16 -> que
+# T17 -> Amisi Kalondano
+# T18 -> administrador territorial
+# T19 -> que
+# T2 -> mais de 700 pessoas
+# T20 -> rebeldes ugandeses
+# T30 -> massacres
+# T31 -> O drama
+# T32 -> uma vaga sangrenta
+# T33 -> massacres
+# T34 -> que
+# T35 -> mais de 700 mortes
+# T36 -> massacres
+# T4 -> Vinte e dois civis
+# T7 -> assaltantes armados
+# T8 -> Kivu Norte
+# T15 -> há mais de dois anos
+# T5 -> sábado
+# T3 -> nos últimos anos
+# T9 -> leste da República Democrática do Congo
+# T6 -> hoje
+
+» RELATIONS
+# T1 - location - E1
+# T2 - experiencer - E1
+# T4 - experiencer - E2
+# T7 - agent - E2
+# T8 - location - E2
+# T5 - time - E2
+# T6 - time - E2
+# T31 - theme - E4
+# T12 - location - E4
+# T14 - location - E4
+# T11 - location - E4
+# T11 - experiencer - E5
+# T15 - time - E5
+# T32 - theme - E5
+# T32 - source - E6
+# T35 - theme - E6
+# T17 - agent - E7
+# T36 - theme - E7
+# T20 - goal - E7
+# T3 - time - T2
+# T30 - source - E1
+# T16 - pronominal - T11
+# T16 - objIdentity - T11
+# T18 - objIdentity - T17
+# T19 - pronominal - T17
+# T19 - objIdentity - T17
+# T8 - objIdentity - T1
+# T8 - partOf - T9
+# T13 - partOf - T14
+# T12 - partOf - T14
+# T14 - partOf - T11
+# T11 - objIdentity - T1
+# T33 - sameHead - T30
+# T33 - objIdentity - T30
+# T34 - pronominal - T32
+# T34 - objIdentity - T32
+# T35 - objIdentity - T2
+# T36 - sameHead - T33
+# T36 - objIdentity - T33
+# T31 - objIdentity - E2

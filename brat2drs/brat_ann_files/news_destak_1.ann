@@ -1,0 +1,184 @@
+T2	ACTOR 22 25	PCP
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Org
+A8	Involvement T2 1
+T3	ACTOR 44 53	o partido
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Org
+A12	Involvement T3 1
+R1	OBJ_REL_objIdentity Arg1:T3 Arg2:T2	
+T4	EVENT 54 74	esteja "domesticado"
+E1	EVENT:T4 
+A13	Class E1 State
+A14	Tense E1 Past1
+A15	Polarity E1 Pos
+A16	Time E1 Past
+A17	Factuality E1 Non_Factual
+T1	ACTOR 0 18	O secretário-geral
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T5	TIME_X3 35 39	hoje
+T6	ACTOR 112 124	compromissos
+A18	Lexical_Head T6 Noun
+A19	Individuation T6 Individual
+A21	Involvement T6 >1
+T7	ACTOR 136 155	política de direita
+A22	Lexical_Head T7 Noun
+A23	Individuation T7 Individual
+A24	Actor_Type T7 Sit
+A25	Involvement T7 1
+T8	ACTOR 176 183	PSD/CDS
+A26	Lexical_Head T8 Noun
+A27	Individuation T8 Individual
+A28	Actor_Type T8 Org
+A29	Involvement T8 1
+T9	ACTOR 193 195	PS
+A30	Lexical_Head T9 Noun
+A31	Individuation T9 Individual
+A32	Actor_Type T9 Org
+A33	Involvement T9 1
+T10	ACTOR 227 239	a historieta
+A34	Lexical_Head T10 Noun
+A35	Individuation T10 Individual
+A36	Involvement T10 1
+T11	ACTOR 243 246	PCP
+A37	Lexical_Head T11 Noun
+A38	Individuation T11 Individual
+A39	Actor_Type T11 Org
+A40	Involvement T11 1
+T12	ACTOR 267 270	nos
+A41	Lexical_Head T12 Pronoun
+A42	Individuation T12 Individual
+A43	Actor_Type T12 Per
+T13	ACTOR 309 316	ninguém
+A44	Lexical_Head T13 Pronoun
+A45	Individuation T13 Individual
+A46	Actor_Type T13 Per
+A47	Involvement T13 0
+T14	TIME_X3 324 332	há meses
+T15	ACTOR 342 354	a perspetiva
+A48	Lexical_Head T15 Noun
+A49	Individuation T15 Individual
+A50	Actor_Type T15 Sit
+A51	Involvement T15 1
+T16	ACTOR 358 369	uma solução
+A52	Lexical_Head T16 Noun
+A53	Individuation T16 Individual
+A54	Actor_Type T16 Sit
+A55	Involvement T16 1
+T17	ACTOR 390 397	Governo
+A56	Lexical_Head T17 Noun
+A57	Individuation T17 Individual
+A58	Actor_Type T17 Org
+A59	Involvement T17 1
+T18	ACTOR 400 407	derrota
+A60	Lexical_Head T18 Noun
+A61	Individuation T18 Individual
+A62	Actor_Type T18 Sit
+A63	Involvement T18 1
+T19	ACTOR 480 496	assalto ao poder
+A64	Lexical_Head T19 Noun
+A65	Individuation T19 Individual
+A66	Actor_Type T19 Sit
+A67	Involvement T19 1
+T20	ACTOR 558 575	Jerónimo de Sousa
+A68	Lexical_Head T20 Noun
+A69	Individuation T20 Individual
+A70	Actor_Type T20 Per
+A71	Involvement T20 1
+T22	ACTOR 631 641	comunistas
+A76	Lexical_Head T22 Noun
+A77	Individuation T22 Individual
+A78	Actor_Type T22 Per
+A79	Involvement T22 >1
+T23	ACTOR 646 652	Almada
+A80	Lexical_Head T23 Noun
+A81	Individuation T23 Individual
+A82	Actor_Type T23 Loc
+A83	Involvement T23 1
+R2	OBJ_REL_objIdentity Arg1:T20 Arg2:T1	
+T24	ACTOR 654 671	O líder comunista
+A84	Lexical_Head T24 Noun
+A85	Individuation T24 Individual
+A86	Actor_Type T24 Per
+A87	Involvement T24 1
+R3	OBJ_REL_objIdentity Arg1:T24 Arg2:T20	
+T25	ACTOR 685 695	o problema
+A88	Lexical_Head T25 Noun
+A89	Individuation T25 Individual
+A90	Actor_Type T25 Sit
+A91	Involvement T25 1
+T26	ACTOR 699 702	seu
+A92	Lexical_Head T26 Pronoun
+A93	Individuation T26 Individual
+A94	Actor_Type T26 Per
+A95	Involvement T26 1
+R4	REF_REL_pronominal Arg1:T26 Arg2:T24	
+R5	OBJ_REL_objIdentity Arg1:T26 Arg2:T24	
+T27	ACTOR 703 710	partido
+A96	Lexical_Head T27 Noun
+A97	Individuation T27 Individual
+A98	Actor_Type T27 Org
+A99	Involvement T27 1
+T28	ACTOR 502 505	PCP
+A100	Lexical_Head T28 Noun
+A101	Individuation T28 Individual
+A102	Actor_Type T28 Org
+A103	Involvement T28 1
+R6	OBJ_REL_objIdentity Arg1:T27 Arg2:T28	
+T29	ACTOR 759 771	compromissos
+A104	Lexical_Head T29 Noun
+A105	Individuation T29 Individual
+A106	Involvement T29 >1
+R7	OBJ_REL_objIdentity Arg1:T29 Arg2:T6	
+R8	REF_REL_sameHead Arg1:T29 Arg2:T6	
+T30	ACTOR 787 795	problema
+A20	Lexical_Head T30 Noun
+A107	Individuation T30 Individual
+A108	Actor_Type T30 Sit
+A109	Involvement T30 1
+T31	ACTOR 851 855	luta
+A110	Lexical_Head T31 Noun
+A111	Individuation T31 Individual
+A112	Actor_Type T31 Sit
+A113	Involvement T31 1
+T32	ACTOR 861 881	transformação social
+A114	Lexical_Head T32 Noun
+A115	Individuation T32 Individual
+A116	Actor_Type T32 Sit
+A117	Involvement T32 1
+A72	Time_Type T5 Date
+A73	FunctionInDocument T5 Publication_Time
+A74	Value T5 Date
+#1	AnnotatorNotes T5	value="2016-12-02"
+T21	EVENT 26 34	rejeitou
+E2	EVENT:T21 
+A75	Class E2 Occurrence
+A118	Tense E2 Past1
+A119	Polarity E2 Pos
+A120	Time E2 Past
+A121	Factuality E2 Factual
+R9	SEMROLE_agent Arg1:T1 Arg2:E2	
+R10	SEMROLE_time Arg1:T5 Arg2:E2	
+R11	SEMROLE_experiencer Arg1:T3 Arg2:E1	
+R12	SEMROLE_theme Arg1:T3 Arg2:E2	
+T33	EVENT 672 680	declarou
+E3	EVENT:T33 
+A122	Class E3 Occurrence
+A123	Tense E3 Past1
+A124	Polarity E3 Pos
+A125	Time E3 Past
+A126	Factuality E3 Factual
+R13	SEMROLE_agent Arg1:T24 Arg2:E3	
+R14	SEMROLE_theme Arg1:T25 Arg2:E3	
+T34	EVENT 712 720	não está
+E4	EVENT:T34 
+A127	Class E4 State
+A128	Tense E4 Present
+A129	Polarity E4 Neg
+A130	Time E4 Present
+A131	Factuality E4 Non_Factual

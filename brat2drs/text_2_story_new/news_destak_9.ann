@@ -1,0 +1,211 @@
+T1	ACTOR 0 21	A embaixada da Rússia
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T3	ACTOR 25 31	Brasil
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+T4	TIME_X3 38 42	hoje
+A13	Time_Type T4 Date
+A14	FunctionInDocument T4 Publication_Time
+A15	Value T4 Date
+T5	ACTOR 43 57	uma informação
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Other
+A19	Involvement T5 1
+T6	ACTOR 61 68	polícia
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Org
+A23	Involvement T6 1
+T7	ACTOR 72 86	Rio de Janeiro
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Loc
+A27	Involvement T7 1
+R1	OBJ_REL_partOf Arg1:T7 Arg2:T3	
+T8	ACTOR 104 123	o vice-cônsul russo
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Per
+A31	Involvement T8 1
+T9	ACTOR 125 138	aquela cidade
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Involvement T9 1
+T10	ACTOR 159 167	uma luta
+A35	Lexical_Head T10 Noun
+A36	Individuation T10 Individual
+A37	Actor_Type T10 Sit
+A38	Involvement T10 1
+T11	ACTOR 172 193	um alegado assaltante
+A39	Lexical_Head T11 Noun
+A40	Individuation T11 Individual
+A41	Actor_Type T11 Per
+A42	Involvement T11 1
+T13	ACTOR 264 284	nenhum representante
+A47	Lexical_Head T13 Noun
+A48	Individuation T13 Individual
+A49	Actor_Type T13 Per
+A50	Involvement T13 0
+T15	ACTOR 317 331	Rio de Janeiro
+A55	Lexical_Head T15 Noun
+A56	Individuation T15 Individual
+A57	Actor_Type T15 Loc
+A58	Involvement T15 1
+T16	ACTOR 352 381	qualquer tentativa de assalto
+A59	Lexical_Head T16 Noun
+A60	Individuation T16 Individual
+A61	Actor_Type T16 Sit
+A62	Involvement T16 1
+T17	ACTOR 399 406	a morte
+A63	Lexical_Head T17 Noun
+A64	Individuation T17 Individual
+A65	Actor_Type T17 Sit
+A66	Involvement T17 1
+T18	ACTOR 408 418	o suspeito
+A67	Lexical_Head T18 Noun
+A68	Individuation T18 Individual
+A69	Actor_Type T18 Per
+A70	Involvement T18 1
+T21	ACTOR 452 486	todos os funcionários diplomáticos
+A79	Lexical_Head T21 Noun
+A80	Individuation T21 Individual
+A81	Actor_Type T21 Per
+A82	Involvement T21 All
+T22	ACTOR 491 506	cidadãos russos
+A83	Lexical_Head T22 Noun
+A84	Individuation T22 Individual
+A85	Actor_Type T22 Per
+T23	ACTOR 551 567	assalto em causa
+A86	Lexical_Head T23 Noun
+A87	Individuation T23 Individual
+A88	Actor_Type T23 Sit
+A89	Involvement T23 1
+R5	OBJ_REL_objIdentity Arg1:T9 Arg2:T7	
+R7	REF_REL_sameHead Arg1:T15 Arg2:T7	
+R8	OBJ_REL_objIdentity Arg1:T15 Arg2:T7	
+R9	OBJ_REL_objIdentity Arg1:T18 Arg2:T11	
+R11	OBJ_REL_partOf Arg1:T8 Arg2:T21	
+R12	OBJ_REL_objIdentity Arg1:T23 Arg2:T16	
+T2	EVENT 32 37	negou
+E1	EVENT:T2 
+A5	Class E1 Occurrence
+A6	Tense E1 Past1
+A7	Polarity E1 Pos
+A8	Time E1 Past
+A75	Factuality E1 Factual
+#1	AnnotatorNotes T4	value="2016-08-05"
+T20	ACTOR 87 90	que
+A76	Lexical_Head T20 Pronoun
+A77	Individuation T20 Individual
+A78	Actor_Type T20 Obj
+A90	Involvement T20 1
+R13	REF_REL_pronominal Arg1:T20 Arg2:T5	
+R14	OBJ_REL_objIdentity Arg1:T20 Arg2:T5	
+T24	EVENT 91 99	indicava
+E2	EVENT:T24 
+A91	Class E2 Occurrence
+A92	Tense E2 Past2
+A93	Polarity E2 Pos
+A94	Time E2 Past
+A95	Factuality E2 Factual
+T25	ACTOR 139 141	se
+A96	Lexical_Head T25 Pronoun
+A97	Individuation T25 Individual
+A98	Actor_Type T25 Per
+A99	Involvement T25 1
+R15	REF_REL_pronominal Arg1:T25 Arg2:T8	
+R16	OBJ_REL_objIdentity Arg1:T25 Arg2:T8	
+T26	EVENT 142 157	tinha envolvido
+E3	EVENT:T26 
+A100	Class E3 Occurrence
+A101	Tense E3 Past2
+A102	Polarity E3 Pos
+A103	Time E3 Past
+A104	Factuality E3 Factual
+T27	EVENT 198 215	acabou por morrer
+E4	EVENT:T27 
+A105	Class E4 Occurrence
+A106	Tense E4 Past1
+A107	Polarity E4 Pos
+A108	Time E4 Past
+A109	Factuality E4 Factual
+T28	ACTOR 194 197	que
+A110	Lexical_Head T28 Pronoun
+A111	Individuation T28 Individual
+A112	Actor_Type T28 Per
+A113	Involvement T28 1
+R17	REF_REL_pronominal Arg1:T28 Arg2:T11	
+R18	OBJ_REL_objIdentity Arg1:T28 Arg2:T11	
+R20	TLINK_after Arg1:E4 Arg2:E3	
+T30	EVENT 332 348	esteve envolvido
+E6	EVENT:T30 
+A119	Class E6 Occurrence
+A120	Tense E6 Past1
+A121	Polarity E6 Pos
+A122	Time E6 Past
+A123	Factuality E6 Non_Factual
+T31	EVENT 386 394	terminou
+E7	EVENT:T31 
+A124	Class E7 Occurrence
+A125	Tense E7 Past1
+A126	Polarity E7 Pos
+A127	Time E7 Past
+A128	Factuality E7 Factual
+R22	TLINK_after Arg1:E7 Arg2:E6	
+T33	EVENT 487 490	são
+E9	EVENT:T33 
+A134	Class E9 State
+A135	Tense E9 Present
+A136	Polarity E9 Pos
+A137	Time E9 Present
+A138	Factuality E9 Factual
+T34	EVENT 532 546	não era o caso
+E10	EVENT:T34 
+A139	Class E10 State
+A140	Tense E10 Past2
+A141	Polarity E10 Neg
+A142	Time E10 Past
+A143	Factuality E10 Factual
+R27	TLINK_includes Arg1:T4 Arg2:E1	
+R28	TLINK_before Arg1:E2 Arg2:E1	
+R19	TLINK_before Arg1:E3 Arg2:E2	
+R10	SEMROLE_agent Arg1:T1 Arg2:E1	
+R24	SEMROLE_theme Arg1:T5 Arg2:E1	
+R29	SEMROLE_theme Arg1:T20 Arg2:E2	
+R30	SEMROLE_agent Arg1:T8 Arg2:E3	
+R31	SEMROLE_experiencer Arg1:T28 Arg2:E4	
+R33	SEMROLE_theme Arg1:T13 Arg2:E6	
+R35	SEMROLE_experiencer Arg1:T21 Arg2:E9	
+R36	SEMROLE_theme Arg1:T22 Arg2:E9	
+R37	SEMROLE_time Arg1:T4 Arg2:E1	
+R38	SEMROLE_source Arg1:T6 Arg2:T5	
+R39	SEMROLE_theme Arg1:T8 Arg2:E2	
+R40	SEMROLE_theme Arg1:T10 Arg2:E3	
+R42	SEMROLE_theme Arg1:T16 Arg2:E6	
+R43	SEMROLE_theme Arg1:T16 Arg2:E7	
+R44	SEMROLE_theme Arg1:T17 Arg2:E7	
+R46	SEMROLE_location Arg1:T23 Arg2:E10	
+R47	SEMROLE_location Arg1:T3 Arg2:T1	
+R49	SEMROLE_location Arg1:T7 Arg2:T6	
+R48	SEMROLE_location Arg1:T9 Arg2:T8	
+R50	SEMROLE_experiencer Arg1:T11 Arg2:T10	
+T12	ACTOR 288 313	consulado geral da Rússia
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Org
+A46	Involvement T12 1
+R2	SEMROLE_location Arg1:T15 Arg2:T12	
+R3	OBJ_REL_partOf Arg1:T13 Arg2:T12	
+T14	ACTOR 382 385	que
+A51	Lexical_Head T14 Pronoun
+A52	Individuation T14 Individual
+A53	Involvement T14 1
+R4	REF_REL_pronominal Arg1:T14 Arg2:T16	
+R6	OBJ_REL_objIdentity Arg1:T14 Arg2:T16	
+R21	SEMROLE_experiencer Arg1:T18 Arg2:T17	

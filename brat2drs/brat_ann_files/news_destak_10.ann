@@ -1,0 +1,241 @@
+T1	ACTOR 0 11	A Austrália
+A1	Lexical_Head T1 Noun
+A3	Actor_Type T1 Loc
+A4	Involvement T1 1
+T2	ACTOR 32 41	um pedido
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Sit
+A8	Involvement T2 1
+T3	ACTOR 46 71	Estados Unidos da América
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+T4	ACTOR 88 101	ajuda militar
+A13	Lexical_Head T4 Noun
+A14	Actor_Type T4 Sit
+A15	Involvement T4 1
+T5	ACTOR 105 112	combate
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 1
+T6	EVENT 12 19	recusou
+E1	EVENT:T6 
+A20	Class E1 Occurrence
+A21	Tense E1 Past1
+A22	Polarity E1 Pos
+A23	Time E1 Past
+A24	Factuality E1 Factual
+T8	ACTOR 116 148	grupo extremista Estado Islâmico
+A29	Lexical_Head T8 Noun
+A30	Individuation T8 Individual
+A31	Actor_Type T8 Org
+A32	Involvement T8 1
+T7	ACTOR 179 208	um contributo "significativo"
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Sit
+A28	Involvement T7 1
+T9	ACTOR 210 248	O secretário da Defesa norte-americano
+A33	Lexical_Head T9 Noun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Per
+A36	Involvement T9 1
+T10	ACTOR 250 260	Ash Carter
+A37	Lexical_Head T10 Noun
+A38	Individuation T10 Individual
+A39	Actor_Type T10 Per
+A40	Involvement T10 1
+R1	OBJ_REL_objIdentity Arg1:T10 Arg2:T9	
+T11	TIME_X3 273 291	em dezembro último
+A41	Time_Type T11 Date
+A42	FunctionInDocument T11 None
+A43	Value T11 Date
+#1	AnnotatorNotes T11	value="2015-12-XX"
+T13	ACTOR 346 360	os extremistas
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Per
+A51	Involvement T13 >1
+T14	ACTOR 364 370	Iraque
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Loc
+A55	Involvement T14 1
+T15	ACTOR 376 381	Síria
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Loc
+A59	Involvement T15 1
+T16	ACTOR 382 402	um maior compromisso
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Sit
+A63	Involvement T16 1
+T17	ACTOR 420 429	atentados
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Sit
+A67	Involvement T17 >1
+T18	ACTOR 433 438	Paris
+A68	Lexical_Head T18 Noun
+A69	Individuation T18 Individual
+A70	Involvement T18 1
+T19	ACTOR 451 461	130 mortos
+A71	Lexical_Head T19 Noun
+A72	Individuation T19 Individual
+A73	Actor_Type T19 Per
+A74	Involvement T19 >1
+T20	ACTOR 297 333	parceiros da coligação internacional
+A75	Lexical_Head T20 Noun
+A76	Individuation T20 Individual
+A77	Involvement T20 >1
+T21	ACTOR 463 494	O primeiro-ministro australiano
+A78	Lexical_Head T21 Noun
+A79	Individuation T21 Individual
+A80	Actor_Type T21 Per
+A81	Involvement T21 1
+T22	ACTOR 496 512	Malcolm Turnbull
+A82	Lexical_Head T22 Noun
+A83	Individuation T22 Individual
+A84	Actor_Type T22 Per
+A85	Involvement T22 1
+R2	OBJ_REL_objIdentity Arg1:T22 Arg2:T21	
+T23	ACTOR 548 555	vontade
+A86	Lexical_Head T23 Noun
+A87	Individuation T23 Individual
+A88	Actor_Type T23 Sit
+A89	Involvement T23 1
+T24	ACTOR 561 564	tal
+A90	Lexical_Head T24 Noun
+A91	Individuation T24 Individual
+A92	Actor_Type T24 Sit
+A93	Involvement T24 1
+R3	OBJ_REL_objIdentity Arg1:T24 Arg2:T16	
+T25	ACTOR 567 587	a ministra da Defesa
+A94	Lexical_Head T25 Noun
+A95	Individuation T25 Individual
+A96	Actor_Type T25 Per
+A97	Involvement T25 1
+T26	ACTOR 589 601	Marise Payne
+A98	Lexical_Head T26 Noun
+A99	Individuation T26 Individual
+A100	Actor_Type T26 Per
+A101	Involvement T26 1
+T27	ACTOR 615 635	o atual envolvimento
+A102	Lexical_Head T27 Noun
+A103	Individuation T27 Individual
+A104	Actor_Type T27 Sit
+A105	Involvement T27 1
+T28	ACTOR 639 648	Austrália
+A106	Lexical_Head T28 Noun
+A107	Individuation T28 Individual
+A108	Actor_Type T28 Loc
+A109	Involvement T28 1
+R4	REF_REL_sameHead Arg1:T28 Arg2:T1	
+R5	OBJ_REL_objIdentity Arg1:T28 Arg2:T1	
+T29	EVENT 155 167	argumentando
+E2	EVENT:T29 
+A110	Class E2 Occurrence
+A111	Tense E2 PresPart
+A112	Polarity E2 Pos
+A113	Time E2 Past
+A114	Factuality E2 Factual
+T30	EVENT 172 175	deu
+E3	EVENT:T30 
+A115	Class E3 Occurrence
+A116	Tense E3 Past1
+A117	Polarity E3 Pos
+A118	Time E3 Past
+A119	Factuality E3 Factual
+R6	TLINK_isIncluded Arg1:E2 Arg2:E1	
+R7	TLINK_before Arg1:E3 Arg2:E2	
+T31	EVENT 262 271	solicitou
+E4	EVENT:T31 
+A120	Class E4 Occurrence
+A121	Tense E4 Past1
+A122	Polarity E4 Pos
+A123	Time E4 Past
+A124	Factuality E4 Factual
+T32	EVENT 338 345	combate
+E5	EVENT:T32 
+A125	Tense E5 Present
+A126	Polarity E5 Pos
+A127	Time E5 Present
+A128	Factuality E5 Factual
+T33	EVENT 443 450	fizeram
+E6	EVENT:T33 
+A129	Class E6 Occurrence
+A130	Tense E6 Past1
+A131	Polarity E6 Pos
+A132	Time E6 Past
+A133	Factuality E6 Factual
+R9	TLINK_before Arg1:E6 Arg2:E4	
+T34	EVENT 514 523	sinalizou
+E7	EVENT:T34 
+A134	Class E7 Occurrence
+A135	Tense E7 Past1
+A136	Polarity E7 Pos
+A137	Time E7 Past
+A138	Factuality E7 Factual
+T35	TIME_X3 524 533	na altura
+T36	EVENT 538 547	não havia
+E8	EVENT:T36 
+A139	Class E8 Occurrence
+A140	Tense E8 Past2
+A141	Polarity E8 Neg
+A142	Time E8 Past
+A143	Factuality E8 Factual
+R11	TLINK_before Arg1:E8 Arg2:E7	
+T37	EVENT 603 610	afirmou
+E9	EVENT:T37 
+A144	Class E9 Occurrence
+A145	Tense E9 Past1
+A146	Polarity E9 Pos
+A147	Time E9 Past
+A148	Factuality E9 Factual
+R12	TLINK_simultaneous Arg1:E9 Arg2:E7	
+T38	EVENT 649 663	era suficiente
+E10	EVENT:T38 
+A149	Tense E10 Past2
+A150	Polarity E10 Pos
+A151	Time E10 Past
+A152	Factuality E10 Factual
+R13	TLINK_simultaneous Arg1:E10 Arg2:E8	
+R14	OBJ_REL_objIdentity Arg1:T26 Arg2:T25	
+R8	TLINK_before Arg1:E4 Arg2:E3	
+R15	TLINK_includes Arg1:T11 Arg2:E4	
+A2	Actor_Type T20 Loc
+R16	TLINK_includes Arg1:E5 Arg2:E4	
+R10	TLINK_identity Arg1:T35 Arg2:T11	
+A44	Time_Type T35 Date
+A45	FunctionInDocument T35 None
+A46	Value T35 Date
+#2	AnnotatorNotes T35	value="2015-12-XX"
+R17	TLINK_after Arg1:E7 Arg2:E6	
+R18	TLINK_includes Arg1:T35 Arg2:E7	
+R19	SEMROLE_agent Arg1:T1 Arg2:E1	
+R20	SEMROLE_theme Arg1:T2 Arg2:E1	
+R21	SEMROLE_agent Arg1:T1 Arg2:E2	
+R22	SEMROLE_agent Arg1:T1 Arg2:E3	
+R23	SEMROLE_theme Arg1:T7 Arg2:E3	
+R24	SEMROLE_agent Arg1:T10 Arg2:E4	
+R25	SEMROLE_agent Arg1:T20 Arg2:E5	
+R26	SEMROLE_theme Arg1:T13 Arg2:E5	
+R27	SEMROLE_theme Arg1:T16 Arg2:E4	
+R28	SEMROLE_source Arg1:T17 Arg2:E6	
+R29	SEMROLE_source Arg1:T3 Arg2:E1	
+A47	Individuation T1 Individual
+R30	SEMROLE_time Arg1:T11 Arg2:E4	
+R31	SEMROLE_goal Arg1:T20 Arg2:E4	
+R32	SEMROLE_location Arg1:T14 Arg2:E5	
+R33	SEMROLE_location Arg1:T15 Arg2:E5	
+R34	SEMROLE_theme Arg1:T19 Arg2:E6	
+R35	SEMROLE_agent Arg1:T22 Arg2:E7	
+R36	SEMROLE_time Arg1:T35 Arg2:E7	
+R37	SEMROLE_theme Arg1:T23 Arg2:E8	
+R38	SEMROLE_agent Arg1:T26 Arg2:E9	
+R39	SEMROLE_theme Arg1:T27 Arg2:E9	
+R40	SEMROLE_theme Arg1:T27 Arg2:E10	

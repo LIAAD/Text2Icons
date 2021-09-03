@@ -1,0 +1,253 @@
+T1	ACTOR 0 19	O Governo português
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	ACTOR 54 64	o atentado
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Sit
+A8	Involvement T2 1
+T3	TIME_X3 74 94	quinta-feira à noite
+A9	Time_Type T3 Date
+A10	FunctionInDocument T3 None
+A11	Value T3 Date
+#1	AnnotatorNotes T3	value="2016-07-15NI"
+T4	ACTOR 114 133	o primeiro-ministro
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Per
+A15	Involvement T4 1
+T5	ACTOR 135 148	António Costa
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Per
+A19	Involvement T5 1
+R1	OBJ_REL_objIdentity Arg1:T5 Arg2:T4	
+T6	ACTOR 189 207	Presidente francês
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Per
+A23	Involvement T6 1
+T7	ACTOR 209 226	François Hollande
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Per
+A27	Involvement T7 1
+R2	OBJ_REL_objIdentity Arg1:T7 Arg2:T6	
+T8	ACTOR 247 259	Manuel Valls
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Per
+A31	Involvement T8 1
+T9	ACTOR 233 236	seu
+A32	Lexical_Head T9 Pronoun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Per
+A35	Involvement T9 1
+R3	REF_REL_pronominal Arg1:T9 Arg2:T5	
+R4	OBJ_REL_objIdentity Arg1:T9 Arg2:T5	
+T13	ACTOR 346 357	o executivo
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Org
+A51	Involvement T13 1
+T14	ACTOR 391 404	este atentado
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Sit
+A55	Involvement T14 1
+R14	OBJ_REL_objIdentity Arg1:T14 Arg2:T2	
+T15	ACTOR 405 408	que
+A56	Lexical_Head T15 Pronoun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Sit
+A59	Involvement T15 1
+R15	OBJ_REL_objIdentity Arg1:T15 Arg2:T14	
+T16	ACTOR 430 438	a França
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Loc
+A63	Involvement T16 1
+T17	ACTOR 441 458	todos os europeus
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Per
+A67	Involvement T17 All
+T18	ACTOR 98 102	Nice
+A68	Lexical_Head T18 Noun
+A69	Individuation T18 Individual
+A70	Actor_Type T18 Loc
+A71	Involvement T18 1
+T19	ACTOR 104 110	França
+A72	Lexical_Head T19 Noun
+A73	Individuation T19 Individual
+A74	Actor_Type T19 Loc
+A75	Involvement T19 1
+R16	OBJ_REL_partOf Arg1:T18 Arg2:T19	
+T20	ACTOR 160 185	mensagens de condolências
+A76	Lexical_Head T20 Noun
+A77	Individuation T20 Individual
+A78	Involvement T20 >1
+T21	ACTOR 237 245	homólogo
+A79	Individuation T21 Individual
+A80	Actor_Type T21 Per
+A81	Involvement T21 1
+R17	OBJ_REL_objIdentity Arg1:T8 Arg2:T21	
+T22	ACTOR 473 483	as vítimas
+A82	Lexical_Head T22 Noun
+A83	Individuation T22 Individual
+A84	Actor_Type T22 Per
+A85	Involvement T22 >1
+T23	ACTOR 499 518	total solidariedade
+A86	Lexical_Head T23 Noun
+A87	Individuation T23 Individual
+A88	Actor_Type T23 Sit
+A89	Involvement T23 All
+T24	ACTOR 528 534	França
+A90	Lexical_Head T24 Noun
+A91	Individuation T24 Individual
+A92	Actor_Type T24 Loc
+A93	Involvement T24 1
+R19	OBJ_REL_objIdentity Arg1:T24 Arg2:T16	
+T25	ACTOR 537 549	os franceses
+A94	Lexical_Head T25 Noun
+A95	Individuation T25 Individual
+A96	Actor_Type T25 Per
+A97	Involvement T25 >1
+R20	OBJ_REL_subSet Arg1:T25 Arg2:T24	
+T28	ACTOR 582 593	A embaixada
+A106	Individuation T28 Individual
+A107	Actor_Type T28 Org
+A108	Involvement T28 1
+T29	ACTOR 596 618	consulados portugueses
+A109	Lexical_Head T29 Noun
+A110	Individuation T29 Individual
+A111	Actor_Type T29 Org
+A112	Involvement T29 >1
+T30	ACTOR 641 662	autoridades francesas
+A113	Lexical_Head T30 Noun
+A114	Individuation T30 Individual
+A115	Actor_Type T30 Org
+A116	Involvement T30 >1
+T31	EVENT 21 28	repudia
+E1	EVENT:T31 
+A117	Class E1 Occurrence
+A118	Tense E1 Present
+A119	Polarity E1 Pos
+A120	Time E1 Present
+A121	Factuality E1 Factual
+T32	EVENT 31 52	condena veementemente
+E2	EVENT:T32 
+A122	Tense E2 Present
+A123	Polarity E2 Pos
+A124	Time E2 Present
+A125	Factuality E2 Factual
+T33	EVENT 65 73	ocorrido
+E3	EVENT:T33 
+A126	Class E3 Occurrence
+A127	Tense E3 PastPart
+A128	Polarity E3 Pos
+A129	Time E3 Past
+A130	Factuality E3 Factual
+R21	TLINK_before Arg1:E3 Arg2:E2	
+R23	OBJ_REL_objIdentity Arg1:T16 Arg2:T19	
+T34	EVENT 153 159	enviou
+E4	EVENT:T34 
+A131	Class E4 Occurrence
+A132	Polarity E4 Pos
+A133	Time E4 Past
+A134	Factuality E4 Factual
+T36	EVENT 359 366	repudia
+E6	EVENT:T36 
+A140	Class E6 Occurrence
+A141	Tense E6 Present
+A142	Polarity E6 Pos
+A143	Time E6 Present
+A144	Factuality E6 Factual
+T37	EVENT 369 390	condena veementemente
+E7	EVENT:T37 
+A145	Class E7 Occurrence
+A146	Tense E7 Present
+A147	Polarity E7 Pos
+A148	Time E7 Present
+A149	Factuality E7 Factual
+R22	TLINK_identity Arg1:E6 Arg2:E1	
+R24	TLINK_identity Arg1:E7 Arg2:E2	
+T38	EVENT 424 429	ataca
+E8	EVENT:T38 
+A150	Class E8 Occurrence
+A151	Tense E8 Present
+A152	Polarity E8 Pos
+A153	Time E8 Present
+A154	Factuality E8 Factual
+T39	EVENT 462 472	Lamentamos
+E9	EVENT:T39 
+A155	Class E9 Occurrence
+A156	Tense E9 Present
+A157	Polarity E9 Pos
+A158	Time E9 Present
+A159	Factuality E9 Factual
+T40	EVENT 486 498	manifestamos
+E10	EVENT:T40 
+A160	Class E10 Occurrence
+A161	Tense E10 Present
+A162	Polarity E10 Pos
+A163	Time E10 Present
+A164	Factuality E10 Factual
+R25	TLINK_isIncluded Arg1:E10 Arg2:E9	
+T41	EVENT 619 636	estão a trabalhar
+E11	EVENT:T41 
+A165	Class E11 Occurrence
+A166	Tense E11 Present
+A167	Polarity E11 Pos
+A168	Factuality E11 Factual
+T42	EVENT 682 688	ajudar
+E12	EVENT:T42 
+A169	Class E12 Occurrence
+A170	Tense E12 Infinitive
+A171	Polarity E12 Pos
+A172	Time E12 Present
+A173	Factuality E12 Factual
+R26	TLINK_simultaneous Arg1:E2 Arg2:E1	
+R27	TLINK_includes Arg1:T3 Arg2:E3	
+R5	TLINK_after Arg1:E4 Arg2:E3	
+R29	TLINK_isIncluded Arg1:E8 Arg2:E7	
+R30	SEMROLE_theme Arg1:T2 Arg2:E2	
+R31	SEMROLE_location Arg1:T18 Arg2:E3	
+R32	SEMROLE_agent Arg1:T5 Arg2:E4	
+R33	SEMROLE_theme Arg1:T20 Arg2:E4	
+R34	SEMROLE_goal Arg1:T7 Arg2:E4	
+R36	SEMROLE_goal Arg1:T8 Arg2:E4	
+R38	SEMROLE_agent Arg1:T13 Arg2:E6	
+R39	SEMROLE_agent Arg1:T13 Arg2:E7	
+R40	SEMROLE_agent Arg1:T1 Arg2:E1	
+R41	SEMROLE_theme Arg1:T14 Arg2:E7	
+R42	SEMROLE_source Arg1:T14 Arg2:E8	
+R43	SEMROLE_goal Arg1:T16 Arg2:E8	
+R44	SEMROLE_goal Arg1:T17 Arg2:E8	
+R45	SEMROLE_theme Arg1:T22 Arg2:E9	
+R46	SEMROLE_agent Arg1:T28 Arg2:E11	
+R47	SEMROLE_agent Arg1:T29 Arg2:E11	
+T44	ACTOR 689 712	todos os que necessitem
+A179	Individuation T44 Individual
+A180	Actor_Type T44 Per
+A181	Involvement T44 All
+R48	SEMROLE_theme Arg1:T44 Arg2:E12	
+R50	SEMROLE_theme Arg1:T2 Arg2:E1	
+R35	SEMROLE_agent Arg1:T1 Arg2:E2	
+R51	SEMROLE_time Arg1:T3 Arg2:E3	
+R52	SEMROLE_theme Arg1:T14 Arg2:E6	
+R53	SEMROLE_theme Arg1:T23 Arg2:E10	
+R54	SEMROLE_theme Arg1:T2 Arg2:E3	
+R6	OBJ_REL_objIdentity Arg1:T13 Arg2:T1	
+R7	REF_REL_pronominal Arg1:T15 Arg2:T14	
+R8	SEMROLE_agent Arg1:T13 Arg2:E9	
+R9	SEMROLE_agent Arg1:T13 Arg2:E10	
+R10	SEMROLE_theme Arg1:T24 Arg2:T23	
+R11	SEMROLE_theme Arg1:T25 Arg2:T23	
+R12	SEMROLE_agent Arg1:T30 Arg2:E11	
+R13	SEMROLE_goal Arg1:E12 Arg2:E11	
+R18	SEMROLE_agent Arg1:T28 Arg2:E12	
+R28	SEMROLE_agent Arg1:T29 Arg2:E12	
+R37	SEMROLE_agent Arg1:T30 Arg2:E12	

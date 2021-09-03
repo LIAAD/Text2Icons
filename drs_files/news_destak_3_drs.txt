@@ -1,0 +1,84 @@
+» EVENTS
+# E1 (não foram avançados) -> a
+# FOL:  exists Factual Neg Occurrence Past Past1 a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Neg) & Time(a,Past) & relationRole(theme,T18) & relationRole(agent,T4) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Neg), Time(a,Past), relationRole(theme,T18), relationRole(agent,T4), Factuality(a,Factual)]) 
+
+# E2 (reforçou) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,c) & relationRole(agent,T1) & relationRole(theme,T6) & relationRole(location,T7) & relationRole(location,T8) & relationRole(location,T9) & relationRole(time,T2) & relationRole(time,T21) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursBefore(b,c), relationRole(agent,T1), relationRole(theme,T6), relationRole(location,T7), relationRole(location,T8), relationRole(location,T9), relationRole(time,T2), relationRole(time,T21), Factuality(b,Factual)]) 
+
+# E3 (coordenaram) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursAfter(c,b) & relationRole(agent,T4) & relationRole(theme,T16) & relationRole(agent,T17) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursAfter(c,b), relationRole(agent,T4), relationRole(theme,T16), relationRole(agent,T17), Factuality(c,Factual)]) 
+
+# E4 (estão) -> d
+# FOL:  exists Factual Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & relationRole(experiencer,T20) & relationRole(theme,T24) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,Present), relationRole(experiencer,T20), relationRole(theme,T24), Factuality(d,Factual)]) 
+
+# E7 (se trata) -> e
+# FOL:  exists Factual Pos Present State e.(event(e) & eventClass(e,State) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & occursBefore(e,f) & relationRole(theme,T29) & relationRole(theme,T30) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,State), Tense(e,Present), Polarity(e,Pos), Time(e,Present), occursBefore(e,f), relationRole(theme,T29), relationRole(theme,T30), Factuality(e,Factual)]) 
+
+# E8 (se encontravam) -> f
+# FOL:  exists Factual Past Past1 Pos State f.(event(f) & eventClass(f,State) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & relationRole(location,T33) & relationRole(experiencer,T29) & relationRole(experiencer,T30) & relationRole(goal,T34) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,State), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), relationRole(location,T33), relationRole(experiencer,T29), relationRole(experiencer,T30), relationRole(goal,T34), Factuality(f,Factual)]) 
+
+» ACTORS
+# T1 -> A polícia federal alemã
+# T10 -> morte
+# T11 -> 84 pessoas
+# T12 -> atentado
+# T14 -> Nice
+# T16 -> esforços
+# T17 -> as forças de segurança francesas
+# T18 -> os detalhes da operação de segurança
+# T19 -> ataque de Nice
+# T20 -> as vítimas
+# T24 -> três alemães
+# T29 -> um professor
+# T30 -> dois alunos
+# T31 -> que
+# T33 -> sul da França
+# T34 -> uma visita de estudo
+# T4 -> As autoridades alemãs
+# T6 -> os controlos de segurança
+# T7 -> fronteira com França
+# T8 -> aeroportos da Alemanha
+# T9 -> ligações ferroviárias transfronteiriças
+# T21 -> depois da morte de 84 pessoas
+# T2 -> hoje
+# T13 -> quinta-feira
+
+» RELATIONS
+# T1 - agent - E2
+# T6 - theme - E2
+# T7 - location - E2
+# T8 - location - E2
+# T9 - location - E2
+# T4 - agent - E3
+# T16 - theme - E3
+# T18 - theme - E1
+# T20 - experiencer - E4
+# T24 - theme - E4
+# T29 - theme - E7
+# T30 - theme - E7
+# T33 - location - E8
+# T2 - time - E2
+# T29 - experiencer - E8
+# T30 - experiencer - E8
+# T34 - goal - E8
+# T10 - theme - T11
+# T12 - location - T10
+# T13 - time - T12
+# T14 - location - T12
+# T17 - agent - E3
+# T4 - agent - E1
+# T19 - theme - T20
+# T21 - time - E2
+# T4 - objIdentity - T1
+# T31 - objIdentity - T30
+# T31 - objIdentity - T29
+# T24 - partOf - T20
+# T20 - objIdentity - T11
+# T19 - objIdentity - T12
+# T31 - pronominal - T30

@@ -1,0 +1,301 @@
+T1	ACTOR 0 18	A secretária-geral
+A1	Lexical_Head T1 Noun
+A2	Actor_Type T1 Per
+A3	Involvement T1 1
+T2	ACTOR 22 50	Sistema de Segurança Interna
+A4	Lexical_Head T2 Noun
+A5	Individuation T2 Individual
+A6	Actor_Type T2 Org
+A7	Involvement T2 1
+T3	ACTOR 64 92	todas as forças de segurança
+A8	Lexical_Head T3 Noun
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Org
+A11	Involvement T3 All
+T4	ACTOR 96 133	Unidade de Coordenação Antiterrorismo
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Org
+A15	Involvement T4 1
+T5	ACTOR 153 170	os acontecimentos
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 >1
+T6	ACTOR 174 182	Bruxelas
+A20	Lexical_Head T6 Noun
+A21	Actor_Type T6 Loc
+A22	Involvement T6 1
+T7	ACTOR 198 213	nível de alerta
+A23	Lexical_Head T7 Noun
+A24	Individuation T7 Individual
+A25	Actor_Type T7 Sit
+A26	Involvement T7 1
+T8	ACTOR 217 225	Portugal
+A27	Lexical_Head T8 Noun
+A28	Individuation T8 Individual
+A29	Actor_Type T8 Loc
+A30	Involvement T8 1
+T9	ACTOR 228 267	Todas as Forças e Serviços de Segurança
+A31	Lexical_Head T9 Noun
+A32	Individuation T9 Individual
+A33	Actor_Type T9 Org
+A34	Involvement T9 All
+T10	ACTOR 283 320	Unidade de Coordenação Antiterrorismo
+A35	Lexical_Head T10 Noun
+A36	Individuation T10 Individual
+A37	Actor_Type T10 Org
+A38	Involvement T10 1
+T11	ACTOR 378 395	os acontecimentos
+A39	Lexical_Head T11 Noun
+A40	Individuation T11 Individual
+A41	Actor_Type T11 Sit
+A42	Involvement T11 >1
+R1	REF_REL_sameHead Arg1:T11 Arg2:T5	
+R2	OBJ_REL_objIdentity Arg1:T11 Arg2:T5	
+R3	REF_REL_sameHead Arg1:T10 Arg2:T4	
+R4	OBJ_REL_objIdentity Arg1:T10 Arg2:T4	
+R5	OBJ_REL_objIdentity Arg1:T9 Arg2:T3	
+T12	ACTOR 419 427	Bruxelas
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Loc
+A46	Involvement T12 1
+R6	REF_REL_sameHead Arg1:T12 Arg2:T6	
+R7	OBJ_REL_objIdentity Arg1:T12 Arg2:T6	
+T13	ACTOR 454 458	suas
+A47	Lexical_Head T13 Pronoun
+A48	Individuation T13 Individual
+A49	Actor_Type T13 Org
+A50	Involvement T13 All
+R8	REF_REL_pronominal Arg1:T13 Arg2:T9	
+R9	OBJ_REL_objIdentity Arg1:T13 Arg2:T9	
+T14	ACTOR 483 509	todos os dados necessários
+A51	Lexical_Head T14 Noun
+A52	Individuation T14 Individual
+A53	Actor_Type T14 Obj
+A54	Involvement T14 All
+T15	ACTOR 512 515	sua
+A55	Lexical_Head T15 Noun
+A56	Individuation T15 Individual
+A57	Actor_Type T15 Org
+A58	Involvement T15 All
+R10	REF_REL_pronominal Arg1:T15 Arg2:T9	
+R11	OBJ_REL_objIdentity Arg1:T15 Arg2:T9	
+T16	ACTOR 516 525	avaliação
+A59	Lexical_Head T16 Noun
+A60	Individuation T16 Individual
+A61	Actor_Type T16 Sit
+A62	Involvement T16 1
+T17	ACTOR 553 563	o gabinete
+A63	Lexical_Head T17 Noun
+A64	Individuation T17 Individual
+A65	Actor_Type T17 Org
+A66	Involvement T17 1
+T18	ACTOR 567 583	secretária-geral
+A67	Lexical_Head T18 Noun
+A68	Individuation T18 Individual
+A69	Actor_Type T18 Per
+A70	Involvement T18 1
+R12	REF_REL_sameHead Arg1:T18 Arg2:T1	
+R13	OBJ_REL_objIdentity Arg1:T18 Arg2:T1	
+T19	ACTOR 587 615	Sistema de Segurança Interna
+A71	Lexical_Head T19 Noun
+A72	Individuation T19 Individual
+A73	Actor_Type T19 Org
+A74	Involvement T19 1
+R14	REF_REL_sameHead Arg1:T19 Arg2:T2	
+R15	OBJ_REL_objIdentity Arg1:T19 Arg2:T2	
+T20	ACTOR 617 637	A cidade de Bruxelas
+A75	Lexical_Head T20 Noun
+A76	Individuation T20 Individual
+A77	Actor_Type T20 Loc
+A78	Involvement T20 1
+R16	OBJ_REL_objIdentity Arg1:T20 Arg2:T6	
+T21	TIME_X3 642 655	hoje de manhã
+A79	Time_Type T21 Date
+A80	FunctionInDocument T21 Publication_Time
+A81	Value T21 Date
+T22	ACTOR 668 682	dois atentados
+A82	Lexical_Head T22 Noun
+A83	Individuation T22 Individual
+A84	Actor_Type T22 Sit
+A85	Involvement T22 >1
+T23	ACTOR 688 702	duas explosões
+A86	Lexical_Head T23 Noun
+A87	Individuation T23 Individual
+A88	Actor_Type T23 Sit
+A89	Involvement T23 >1
+T24	ACTOR 718 727	mais duas
+A90	Lexical_Head T24 Noun
+A91	Individuation T24 Individual
+A92	Actor_Type T24 Sit
+A93	Involvement T24 >1
+T25	ACTOR 706 715	aeroporto
+A94	Lexical_Head T25 Noun
+A95	Individuation T25 Individual
+A96	Actor_Type T25 Loc
+A97	Involvement T25 1
+T26	ACTOR 731 736	metro
+A98	Lexical_Head T26 Noun
+A99	Individuation T26 Individual
+A100	Actor_Type T26 Loc
+A101	Involvement T26 1
+T27	ACTOR 740 758	capital da Bélgica
+A102	Individuation T27 Individual
+A103	Actor_Type T27 Loc
+A104	Involvement T27 1
+R17	REF_REL_synonymy Arg1:T27 Arg2:T20	
+R18	OBJ_REL_objIdentity Arg1:T27 Arg2:T20	
+T28	ACTOR 772 792	pelo menos 21 mortos
+A105	Lexical_Head T28 Noun
+A106	Individuation T28 Individual
+A107	Actor_Type T28 Per
+A108	Involvement T28 >1
+T29	ACTOR 795 813	dezenas de feridos
+A109	Lexical_Head T29 Noun
+A110	Individuation T29 Individual
+A111	Actor_Type T29 Per
+A112	Involvement T29 >1
+R21	OBJ_REL_partOf Arg1:T23 Arg2:T22	
+R22	OBJ_REL_partOf Arg1:T24 Arg2:T22	
+R23	OBJ_REL_partOf Arg1:T25 Arg2:T20	
+R24	OBJ_REL_partOf Arg1:T26 Arg2:T20	
+T30	TIME_X3 59 63	hoje
+A113	Time_Type T30 Date
+A114	FunctionInDocument T30 Publication_Time
+A115	Value T30 Date
+T31	EVENT 51 58	revelou
+E1	EVENT:T31 
+A116	Class E1 Occurrence
+A117	Tense E1 Past1
+A118	Polarity E1 Pos
+A119	Time E1 Past
+A120	Factuality E1 Factual
+T32	EVENT 134 152	estão a acompanhar
+E2	EVENT:T32 
+A121	Class E2 State
+A122	Tense E2 Present
+A123	Polarity E2 Pos
+A124	Time E2 Present
+A125	Factuality E2 Factual
+T33	EVENT 184 195	mantendo-se
+E3	EVENT:T33 
+A126	Class E3 Occurrence
+A127	Tense E3 PresPart
+A128	Polarity E3 Pos
+A129	Time E3 Present
+A130	Factuality E3 Factual
+T34	EVENT 272 280	integram
+E4	EVENT:T34 
+A131	Class E4 State
+A132	Tense E4 Present
+A133	Polarity E4 Pos
+A134	Time E4 Present
+A135	Factuality E4 Factual
+T35	EVENT 321 338	estão a trabalhar
+E5	EVENT:T35 
+A136	Class E5 State
+A137	Tense E5 Present
+A138	Polarity E5 Pos
+A139	Time E5 Present
+A140	Factuality E5 Factual
+T36	EVENT 365 377	a acompanhar
+E6	EVENT:T36 
+A141	Class E6 State
+A142	Tense E6 Present
+A143	Polarity E6 Pos
+A144	Time E6 Present
+A145	Factuality E6 Factual
+T37	EVENT 400 415	estão a ocorrer
+E7	EVENT:T37 
+A146	Class E7 State
+A147	Tense E7 Present
+A148	Polarity E7 Pos
+A149	Time E7 Present
+A150	Factuality E7 Factual
+T38	EVENT 429 446	mantendo contacto
+E8	EVENT:T38 
+A151	Class E8 Occurrence
+A152	Tense E8 PresPart
+A153	Polarity E8 Pos
+A154	Time E8 Present
+A155	Factuality E8 Factual
+T39	EVENT 472 482	recolhendo
+E9	EVENT:T39 
+A156	Class E9 Occurrence
+A157	Tense E9 PresPart
+A158	Polarity E9 Pos
+A159	Time E9 Present
+A160	Factuality E9 Factual
+T40	EVENT 528 536	informou
+E10	EVENT:T40 
+A161	Class E10 Occurrence
+A162	Tense E10 Past1
+A163	Polarity E10 Pos
+A164	Time E10 Past
+A165	Factuality E10 Factual
+T41	EVENT 638 641;656 663	foi abalada
+E11	EVENT:T41 
+A166	Class E11 Occurrence
+A167	Tense E11 Past1
+A168	Polarity E11 Pos
+A169	Time E11 Past
+A170	Factuality E11 Factual
+T42	EVENT 764 771	fizeram
+E12	EVENT:T42 
+A171	Class E12 Occurrence
+A172	Tense E12 Past1
+A173	Polarity E12 Pos
+A174	Time E12 Past
+A175	Factuality E12 Factual
+R25	TLINK_identity Arg1:E10 Arg2:E1	
+R26	TLINK_before Arg1:E11 Arg2:E10	
+R27	TLINK_after Arg1:E12 Arg2:E10	
+R28	TLINK_includes Arg1:E2 Arg2:E1	
+R31	TLINK_simultaneous Arg1:E5 Arg2:E2	
+R32	TLINK_identity Arg1:E6 Arg2:E2	
+R33	TLINK_simultaneous Arg1:E7 Arg2:E5	
+R34	TLINK_simultaneous Arg1:E8 Arg2:E5	
+#1	AnnotatorNotes T30	value="2016-03-22"
+#2	AnnotatorNotes T21	value="2016-03-22"
+R36	TLINK_includes Arg1:T30 Arg2:E1	
+R37	OBJ_REL_partOf Arg1:T3 Arg2:T4	
+R29	TLINK_includes Arg1:E3 Arg2:E2	
+R30	TLINK_includes Arg1:E4 Arg2:E1	
+R35	TLINK_simultaneous Arg1:E9 Arg2:E8	
+R38	TLINK_after Arg1:E12 Arg2:E11	
+R39	TLINK_before Arg1:E11 Arg2:E10	
+R40	TLINK_isIncluded Arg1:T21 Arg2:T30	
+R41	SEMROLE_agent Arg1:T1 Arg2:E1	
+R42	SEMROLE_agent Arg1:T3 Arg2:E2	
+R43	SEMROLE_theme Arg1:T5 Arg2:E2	
+R44	SEMROLE_agent Arg1:T9 Arg2:E5	
+R45	SEMROLE_agent Arg1:E4 Arg2:E6	
+R46	SEMROLE_theme Arg1:T11 Arg2:E6	
+R47	SEMROLE_theme Arg1:T11 Arg2:E7	
+R48	SEMROLE_agent Arg1:T9 Arg2:E8	
+R50	SEMROLE_theme Arg1:T14 Arg2:E9	
+R51	SEMROLE_agent Arg1:T17 Arg2:E10	
+R52	SEMROLE_theme Arg1:T20 Arg2:E11	
+R53	SEMROLE_theme Arg1:T22 Arg2:E11	
+R54	SEMROLE_source Arg1:T22 Arg2:E12	
+R55	SEMROLE_time Arg1:T30 Arg2:E1	
+R56	SEMROLE_theme Arg1:T3 Arg2:E1	
+R57	SEMROLE_theme Arg1:T7 Arg2:E3	
+R58	SEMROLE_location Arg1:T8 Arg2:E3	
+R59	SEMROLE_location Arg1:T12 Arg2:E7	
+T43	ACTOR 459 469	congéneres
+A176	Lexical_Head T43 Noun
+A177	Individuation T43 Individual
+A178	Actor_Type T43 Org
+A179	Involvement T43 >1
+R60	SEMROLE_theme Arg1:T43 Arg2:E8	
+R49	SEMROLE_agent Arg1:T9 Arg2:E9	
+R61	SEMROLE_time Arg1:T21 Arg2:E11	
+R62	SEMROLE_location Arg1:T25 Arg2:T23	
+R63	SEMROLE_location Arg1:T26 Arg2:T24	
+R64	SEMROLE_theme Arg1:T28 Arg2:E12	
+R65	SEMROLE_theme Arg1:T29 Arg2:E12	
+R66	SEMROLE_theme Arg1:T9 Arg2:E4	
+R67	SEMROLE_theme Arg1:T10 Arg2:E4	

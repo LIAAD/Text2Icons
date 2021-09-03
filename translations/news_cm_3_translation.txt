@@ -1,0 +1,1 @@
+{'T1': 'Thieves', 'T3': '500 cows, all', 'T4': 'a livestock farm', 'T5': 'New Zealand', 'T6': 'the owner, the man, the farmer', 'T8': 'for weeks', 'T10': 'the herd, 1300 heads', 'T11': 'early july', 'T14': 'just over 800', 'T16': 'The police, officers', 'T18': 'the theft, theft', 'T20': 'few clues', 'T30': 'now'}

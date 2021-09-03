@@ -1,0 +1,199 @@
+T1	ACTOR 0 23	A polícia federal alemã
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	TIME_X3 33 37	hoje
+A5	Time_Type T2 Date
+A6	FunctionInDocument T2 Publication_Time
+A7	Value T2 Date
+#1	AnnotatorNotes T2	value="2016-07-15"
+T3	EVENT 359 378	não foram avançados
+E1	EVENT:T3 
+A8	Class E1 Occurrence
+A9	Tense E1 Past1
+A10	Polarity E1 Neg
+A11	Time E1 Past
+A12	Factuality E1 Factual
+T4	ACTOR 237 258	As autoridades alemãs
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Org
+A16	Involvement T4 >1
+T5	EVENT 24 32	reforçou
+E2	EVENT:T5 
+A17	Class E2 Occurrence
+A18	Tense E2 Past1
+A19	Polarity E2 Pos
+A20	Time E2 Past
+A21	Factuality E2 Factual
+T6	ACTOR 38 63	os controlos de segurança
+A22	Lexical_Head T6 Noun
+A23	Individuation T6 Individual
+A24	Actor_Type T6 Sit
+A25	Involvement T6 >1
+T7	ACTOR 67 87	fronteira com França
+A26	Lexical_Head T7 Noun
+A27	Individuation T7 Individual
+A28	Actor_Type T7 Loc
+A29	Involvement T7 1
+T8	ACTOR 104 126	aeroportos da Alemanha
+A30	Lexical_Head T8 Noun
+A31	Individuation T8 Individual
+A32	Actor_Type T8 Loc
+A33	Involvement T8 >1
+T9	ACTOR 129 168	ligações ferroviárias transfronteiriças
+A34	Lexical_Head T9 Noun
+A35	Individuation T9 Individual
+A36	Actor_Type T9 Loc
+A37	Involvement T9 >1
+T10	ACTOR 180 185	morte
+A38	Lexical_Head T10 Noun
+A39	Individuation T10 Individual
+A40	Actor_Type T10 Sit
+A41	Involvement T10 1
+T11	ACTOR 189 199	84 pessoas
+A42	Lexical_Head T11 Noun
+A43	Individuation T11 Individual
+A44	Actor_Type T11 Per
+A45	Involvement T11 >1
+T12	ACTOR 203 211	atentado
+A46	Lexical_Head T12 Noun
+A47	Individuation T12 Individual
+A48	Actor_Type T12 Sit
+A49	Involvement T12 1
+T13	TIME_X3 215 227	quinta-feira
+A50	Time_Type T13 Date
+A51	FunctionInDocument T13 None
+A52	Value T13 Date
+#2	AnnotatorNotes T13	value="2016-07-14"
+T14	ACTOR 231 235	Nice
+A53	Lexical_Head T14 Noun
+A54	Individuation T14 Individual
+A55	Actor_Type T14 Loc
+A56	Involvement T14 1
+R1	OBJ_REL_objIdentity Arg1:T4 Arg2:T1	
+T15	EVENT 259 270	coordenaram
+E3	EVENT:T15 
+A57	Class E3 Occurrence
+A58	Tense E3 Past1
+A59	Polarity E3 Pos
+A60	Time E3 Past
+A61	Factuality E3 Factual
+T16	ACTOR 271 279	esforços
+A62	Lexical_Head T16 Noun
+A63	Individuation T16 Individual
+A64	Actor_Type T16 Sit
+A65	Involvement T16 >1
+T17	ACTOR 284 316	as forças de segurança francesas
+A66	Lexical_Head T17 Noun
+A67	Individuation T17 Individual
+A68	Actor_Type T17 Org
+A69	Involvement T17 >1
+T18	ACTOR 322 358	os detalhes da operação de segurança
+A70	Lexical_Head T18 Noun
+A71	Individuation T18 Individual
+A72	Actor_Type T18 Other
+A73	Involvement T18 >1
+T20	ACTOR 474 484	as vítimas
+A78	Lexical_Head T20 Noun
+A79	Individuation T20 Individual
+A80	Actor_Type T20 Per
+A81	Involvement T20 >1
+T23	EVENT 503 508	estão
+E4	EVENT:T23 
+A90	Class E4 State
+A91	Tense E4 Present
+A92	Polarity E4 Pos
+A93	Time E4 Present
+A94	Factuality E4 Factual
+T24	ACTOR 509 521	três alemães
+A95	Lexical_Head T24 Noun
+A96	Individuation T24 Individual
+A97	Actor_Type T24 Per
+A98	Involvement T24 >1
+T28	EVENT 571 579	se trata
+E7	EVENT:T28 
+A113	Class E7 State
+A114	Tense E7 Present
+A115	Polarity E7 Pos
+A116	Time E7 Present
+A117	Factuality E7 Factual
+T29	ACTOR 583 595	um professor
+A118	Lexical_Head T29 Noun
+A119	Individuation T29 Individual
+A120	Actor_Type T29 Per
+A121	Involvement T29 1
+T30	ACTOR 598 609	dois alunos
+A122	Lexical_Head T30 Noun
+A123	Individuation T30 Individual
+A124	Actor_Type T30 Per
+A125	Involvement T30 >1
+T31	ACTOR 610 613	que
+A126	Lexical_Head T31 Pronoun
+A127	Individuation T31 Individual
+A128	Actor_Type T31 Per
+A129	Involvement T31 >1
+R2	OBJ_REL_objIdentity Arg1:T31 Arg2:T30	
+R3	OBJ_REL_objIdentity Arg1:T31 Arg2:T29	
+T32	EVENT 614 628	se encontravam
+E8	EVENT:T32 
+A130	Class E8 State
+A131	Tense E8 Past1
+A132	Polarity E8 Pos
+A133	Time E8 Past
+A134	Factuality E8 Factual
+T33	ACTOR 632 645	sul da França
+A135	Lexical_Head T33 Noun
+A136	Individuation T33 Individual
+A137	Actor_Type T33 Loc
+A138	Involvement T33 1
+T34	ACTOR 651 671	uma visita de estudo
+A139	Lexical_Head T34 Noun
+A140	Individuation T34 Individual
+A141	Actor_Type T34 Sit
+A142	Involvement T34 1
+R4	TLINK_includes Arg1:T2 Arg2:E2	
+R5	TLINK_includes Arg1:T13 Arg2:T12	
+R6	TLINK_after Arg1:E3 Arg2:E2	
+R7	TLINK_isIncluded Arg1:E1 Arg2:E3	
+R8	TLINK_includes Arg1:E4 Arg2:E1	
+R12	TLINK_before Arg1:E8 Arg2:E7	
+R13	SEMROLE_agent Arg1:T1 Arg2:E2	
+R14	SEMROLE_theme Arg1:T6 Arg2:E2	
+R15	SEMROLE_location Arg1:T7 Arg2:E2	
+R16	SEMROLE_location Arg1:T8 Arg2:E2	
+R17	SEMROLE_location Arg1:T9 Arg2:E2	
+R18	SEMROLE_agent Arg1:T4 Arg2:E3	
+R19	SEMROLE_theme Arg1:T16 Arg2:E3	
+R20	SEMROLE_theme Arg1:T18 Arg2:E1	
+R21	SEMROLE_experiencer Arg1:T20 Arg2:E4	
+R22	SEMROLE_theme Arg1:T24 Arg2:E4	
+R25	SEMROLE_theme Arg1:T29 Arg2:E7	
+R26	SEMROLE_theme Arg1:T30 Arg2:E7	
+R27	SEMROLE_location Arg1:T33 Arg2:E8	
+R28	SEMROLE_time Arg1:T2 Arg2:E2	
+R29	SEMROLE_experiencer Arg1:T29 Arg2:E8	
+R30	SEMROLE_experiencer Arg1:T30 Arg2:E8	
+R31	SEMROLE_goal Arg1:T34 Arg2:E8	
+R32	OBJ_REL_partOf Arg1:T24 Arg2:T20	
+R33	SEMROLE_theme Arg1:T10 Arg2:T11	
+R34	OBJ_REL_objIdentity Arg1:T20 Arg2:T11	
+R35	SEMROLE_location Arg1:T12 Arg2:T10	
+R9	SEMROLE_time Arg1:T13 Arg2:T12	
+R10	SEMROLE_location Arg1:T14 Arg2:T12	
+R11	SEMROLE_agent Arg1:T17 Arg2:E3	
+R23	SEMROLE_agent Arg1:T4 Arg2:E1	
+T19	ACTOR 488 502	ataque de Nice
+A74	Lexical_Head T19 Noun
+A75	Individuation T19 Individual
+A76	Actor_Type T19 Sit
+A77	Involvement T19 1
+R24	OBJ_REL_objIdentity Arg1:T19 Arg2:T12	
+R36	SEMROLE_theme Arg1:T19 Arg2:T20	
+R37	REF_REL_pronominal Arg1:T31 Arg2:T30	
+T21	TIME_X3 170 199	depois da morte de 84 pessoas
+A82	Time_Type T21 Time
+A83	FunctionInDocument T21 None
+A84	Value T21 Time
+R38	SEMROLE_time Arg1:T21 Arg2:E2	

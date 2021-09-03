@@ -1,0 +1,284 @@
+T1	ACTOR 0 11	Uma empresa
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	ACTOR 33 47	Marinha Grande
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Loc
+A8	Involvement T2 1
+T3	ACTOR 49 55	Leiria
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+R1	OBJ_REL_partOf Arg1:T2 Arg2:T3	
+T4	ACTOR 77 120	um prejuízo superior a 5,5 milhões de euros
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Other
+A16	Involvement T4 1
+T6	ACTOR 125 144	esquema em pirâmide
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Other
+A24	Involvement T6 1
+T7	TIME_X3 609 614	agora
+A25	Time_Type T7 Date
+A26	FunctionInDocument T7 Publication_Time
+A27	Value T7 Date
+#2	AnnotatorNotes T7	value="2016-07-14" endPoint="2016-07-14"
+T9	TIME_X3 593 597	2011
+A28	Time_Type T9 Date
+A29	FunctionInDocument T9 None
+A30	Value T9 Date
+#3	AnnotatorNotes T9	value="2011-XX-XX" beginPoint="2011"
+T11	ACTOR 155 173	dezenas de pessoas
+A31	Lexical_Head T11 Noun
+A32	Individuation T11 Individual
+A33	Actor_Type T11 Per
+A34	Involvement T11 >1
+T12	ACTOR 188 194	Lisboa
+A35	Lexical_Head T12 Noun
+A36	Individuation T12 Individual
+A37	Actor_Type T12 Loc
+A38	Involvement T12 1
+T13	ACTOR 200 205	Porto
+A39	Lexical_Head T13 Noun
+A40	Individuation T13 Individual
+A41	Actor_Type T13 Loc
+A42	Involvement T13 1
+T15	ACTOR 222 231	A empresa
+A46	Lexical_Head T15 Noun
+A47	Individuation T15 Individual
+A48	Actor_Type T15 Org
+A49	Involvement T15 1
+R2	REF_REL_sameHead Arg1:T15 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T15 Arg2:T1	
+T16	ACTOR 233 266	uma 'offshore' com sede no Panamá
+A50	Lexical_Head T16 Noun
+A51	Individuation T16 Individual
+A52	Actor_Type T16 Org
+A53	Involvement T16 1
+T18	ACTOR 288 314	concelho da Marinha Grande
+A58	Lexical_Head T18 Noun
+A59	Individuation T18 Individual
+A60	Actor_Type T18 Loc
+A61	Involvement T18 1
+T19	ACTOR 316 334	distrito de Leiria
+A62	Lexical_Head T19 Noun
+A63	Individuation T19 Individual
+A64	Actor_Type T19 Loc
+A65	Involvement T19 1
+R4	OBJ_REL_partOf Arg1:T18 Arg2:T19	
+R5	REF_REL_hyponymy Arg1:T18 Arg2:T19	
+R6	REF_REL_hyponymy Arg1:T2 Arg2:T3	
+T20	ACTOR 353 359	Lisboa
+A66	Lexical_Head T20 Noun
+A67	Individuation T20 Individual
+A68	Actor_Type T20 Loc
+A69	Involvement T20 1
+T21	ACTOR 365 370	Porto
+A70	Lexical_Head T21 Noun
+A71	Individuation T21 Individual
+A72	Actor_Type T21 Loc
+A73	Involvement T21 1
+T22	ACTOR 381 410	dezenas de pessoas singulares
+A74	Lexical_Head T22 Noun
+A75	Individuation T22 Individual
+A76	Actor_Type T22 Per
+A77	Involvement T22 >1
+T23	ACTOR 445 456	uma herança
+A78	Lexical_Head T23 Noun
+A79	Individuation T23 Individual
+A80	Actor_Type T23 Obj
+A81	Involvement T23 1
+T25	ACTOR 517 531	a investigação
+A86	Lexical_Head T25 Noun
+A87	Individuation T25 Individual
+A88	Actor_Type T25 Sit
+A89	Involvement T25 1
+T26	ACTOR 562 576	a investigação
+A90	Lexical_Head T26 Noun
+A91	Individuation T26 Individual
+A92	Actor_Type T26 Sit
+A93	Involvement T26 1
+R8	REF_REL_sameHead Arg1:T26 Arg2:T25	
+R9	OBJ_REL_objIdentity Arg1:T26 Arg2:T25	
+T27	ACTOR 616 620	a PJ
+A94	Lexical_Head T27 Noun
+A95	Individuation T27 Individual
+A96	Actor_Type T27 Org
+A97	Involvement T27 1
+T29	ACTOR 632 673	Departamento de Investigação e Ação Penal
+A102	Lexical_Head T29 Noun
+A103	Individuation T29 Individual
+A104	Actor_Type T29 Org
+A105	Involvement T29 1
+T30	ACTOR 677 694	Comarca de Leiria
+A106	Lexical_Head T30 Noun
+A107	Individuation T30 Individual
+A108	Actor_Type T30 Org
+A109	Involvement T30 1
+R16	OBJ_REL_partOf Arg1:T29 Arg2:T30	
+T31	ACTOR 695 708	um "inquérito
+A110	Lexical_Head T31 Noun
+A111	Individuation T31 Individual
+A112	Actor_Type T31 Obj
+A113	Involvement T31 1
+T32	ACTOR 713 731	presumível prática
+A114	Lexical_Head T32 Noun
+A115	Individuation T32 Individual
+A116	Actor_Type T32 Sit
+A117	Involvement T32 1
+T33	ACTOR 736 742	crimes
+A118	Lexical_Head T33 Noun
+A119	Individuation T33 Individual
+A120	Actor_Type T33 Sit
+A121	Involvement T33 >1
+T34	ACTOR 746 763	burla qualificada
+A122	Lexical_Head T34 Noun
+A123	Individuation T34 Individual
+A124	Actor_Type T34 Sit
+A125	Involvement T34 1
+T35	ACTOR 765 777	infidelidade
+A126	Lexical_Head T35 Noun
+A127	Individuation T35 Individual
+A128	Actor_Type T35 Sit
+A129	Involvement T35 1
+T36	ACTOR 780 798	abuso de confiança
+A130	Lexical_Head T36 Noun
+A131	Individuation T36 Individual
+A132	Actor_Type T36 Sit
+A133	Involvement T36 1
+R17	OBJ_REL_memberOf Arg1:T34 Arg2:T33	
+R18	OBJ_REL_memberOf Arg1:T35 Arg2:T33	
+R19	OBJ_REL_memberOf Arg1:T36 Arg2:T33	
+T37	ACTOR 434 442	empresas
+A134	Lexical_Head T37 Noun
+A135	Individuation T37 Individual
+A136	Actor_Type T37 Org
+R20	OBJ_REL_objIdentity Arg1:T22 Arg2:T11	
+T38	ACTOR 177 183	região
+A137	Lexical_Head T38 Noun
+A138	Individuation T38 Individual
+A139	Actor_Type T38 Loc
+A140	Involvement T38 1
+T39	EVENT 12 20	a operar
+E1	EVENT:T39 
+A141	Class E1 Occurrence
+A142	Tense E1 Infinitive
+A143	Polarity E1 Pos
+A144	Time E1 Present
+A145	Factuality E1 Factual
+T40	EVENT 57 67	é suspeita
+E2	EVENT:T40 
+A146	Class E2 Occurrence
+A147	Tense E2 Present
+A148	Polarity E2 Pos
+A149	Time E2 Present
+A150	Factuality E2 Factual
+T41	EVENT 71 76	criar
+E3	EVENT:T41 
+A151	Class E3 Occurrence
+A152	Tense E3 Infinitive
+A153	Polarity E3 Pos
+A154	Time E3 Present
+A155	Factuality E3 Factual
+T42	EVENT 146 154	afetando
+E4	EVENT:T42 
+A156	Class E4 Occurrence
+A157	Tense E4 PresPart
+A158	Polarity E4 Pos
+A159	Time E4 Present
+A160	Factuality E4 Factual
+T44	EVENT 268 275	operava
+E6	EVENT:T44 
+A166	Class E6 Occurrence
+A167	Tense E6 Past2
+A168	Polarity E6 Pos
+A169	Time E6 Past
+A170	Factuality E6 Factual
+R21	OBJ_REL_objIdentity Arg1:T16 Arg2:T15	
+R22	TLINK_isIncluded Arg1:E4 Arg2:E3	
+T45	EVENT 372 380	afetando
+E7	EVENT:T45 
+A171	Class E7 Occurrence
+A172	Tense E7 PresPart
+A173	Polarity E7 Pos
+A174	Time E7 Present
+A175	Factuality E7 Factual
+R24	TLINK_isIncluded Arg1:E7 Arg2:E6	
+T48	EVENT 532 540	foi dada
+E10	EVENT:T48 
+A186	Class E10 Occurrence
+A187	Tense E10 Past1
+A188	Polarity E10 Pos
+A189	Time E10 Past
+A190	Factuality E10 Factual
+T49	EVENT 546 555	concluída
+E11	EVENT:T49 
+A191	Class E11 Occurrence
+A192	Tense E11 PastPart
+A193	Polarity E11 Pos
+A194	Time E11 Past
+A195	Factuality E11 Factual
+R28	TLINK_isIncluded Arg1:E11 Arg2:E10	
+T50	EVENT 582 589	começou
+E12	EVENT:T50 
+A196	Class E12 Occurrence
+A197	Tense E12 Past1
+A198	Polarity E12 Pos
+A199	Time E12 Past
+A200	Factuality E12 Factual
+T51	EVENT 600 608	terminou
+E13	EVENT:T51 
+A201	Class E13 Occurrence
+A202	Tense E13 Past1
+A203	Time E13 Past
+A204	Factuality E13 Factual
+T52	EVENT 621 628	remeteu
+E14	EVENT:T52 
+A205	Class E14 Occurrence
+A206	Tense E14 Past1
+A207	Polarity E14 Pos
+A208	Time E14 Past
+A209	Factuality E14 Factual
+R31	TLINK_isIncluded Arg1:E2 Arg2:E1	
+R29	TLINK_before Arg1:E12 Arg2:E11	
+R34	TLINK_after Arg1:E13 Arg2:E12	
+R35	TLINK_after Arg1:E14 Arg2:E13	
+R36	TLINK_includes Arg1:T9 Arg2:E12	
+R37	TLINK_includes Arg1:T7 Arg2:E13	
+R39	OBJ_REL_objIdentity Arg1:T18 Arg2:T2	
+R40	OBJ_REL_objIdentity Arg1:T19 Arg2:T3	
+R41	OBJ_REL_objIdentity Arg1:T20 Arg2:T12	
+R42	REF_REL_sameHead Arg1:T20 Arg2:T12	
+R43	REF_REL_sameHead Arg1:T21 Arg2:T13	
+R44	OBJ_REL_objIdentity Arg1:T21 Arg2:T13	
+A210	Involvement T37 >1
+#4	AnnotatorNotes T32	modality="presumível"
+R12	SEMROLE_location Arg1:T2 Arg2:E1	
+R13	SEMROLE_theme Arg1:T4 Arg2:E3	
+R30	SEMROLE_theme Arg1:T1 Arg2:E2	
+R45	SEMROLE_agent Arg1:T1 Arg2:E1	
+R46	SEMROLE_experiencer Arg1:T11 Arg2:E4	
+R48	SEMROLE_theme Arg1:T15 Arg2:E6	
+R49	SEMROLE_location Arg1:T18 Arg2:E6	
+R50	SEMROLE_experiencer Arg1:T22 Arg2:E7	
+R51	SEMROLE_theme Arg1:T37 Arg2:E7	
+R52	SEMROLE_theme Arg1:T23 Arg2:E7	
+R55	SEMROLE_theme Arg1:T25 Arg2:E10	
+R56	SEMROLE_theme Arg1:T26 Arg2:E12	
+R57	SEMROLE_theme Arg1:T26 Arg2:E13	
+R58	SEMROLE_agent Arg1:T27 Arg2:E14	
+R59	SEMROLE_theme Arg1:T31 Arg2:E14	
+R60	SEMROLE_goal Arg1:T29 Arg2:E14	
+R61	SEMROLE_theme Arg1:T4 Arg2:E4	
+R62	SEMROLE_theme Arg1:T15 Arg2:E7	
+R64	SEMROLE_time Arg1:T9 Arg2:E12	
+R65	SEMROLE_time Arg1:T7 Arg2:E13	
+R7	SEMROLE_agent Arg1:T1 Arg2:E3	
+R15	SEMROLE_agent Arg1:T1 Arg2:E4	
+R23	SEMROLE_agent Arg1:T15 Arg2:E7	

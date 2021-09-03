@@ -1,0 +1,185 @@
+T1	ACTOR 0 15	Um homem armado
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 20 28	uma faca
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Obj
+A8	Involvement T2 1
+T3	ACTOR 36 57	uma bomba de gasolina
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+T4	ACTOR 61 82	estado de Nova Jérsia
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Loc
+A16	Involvement T4 1
+T5	ACTOR 94 103	empregado
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Per
+A20	Involvement T5 1
+T6	ACTOR 113 137	dois dólares de gasolina
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Obj
+A24	Involvement T6 >1
+T7	ACTOR 139 148	1,9 euros
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Obj
+A28	Involvement T7 >1
+R1	OBJ_REL_objIdentity Arg1:T7 Arg2:T6	
+T8	ACTOR 159 167	a recusa
+A29	Lexical_Head T8 Noun
+A30	Individuation T8 Individual
+A31	Actor_Type T8 Sit
+A32	Involvement T8 1
+T9	ACTOR 171 180	empregado
+A33	Lexical_Head T9 Noun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Per
+A36	Involvement T9 1
+R2	REF_REL_sameHead Arg1:T9 Arg2:T5	
+R3	OBJ_REL_objIdentity Arg1:T9 Arg2:T5	
+T10	ACTOR 182 205	o desastrado assaltante
+A37	Lexical_Head T10 Noun
+A38	Individuation T10 Individual
+A39	Actor_Type T10 Per
+A40	Involvement T10 1
+R4	OBJ_REL_objIdentity Arg1:T10 Arg2:T1	
+T11	ACTOR 222 244	A tentativa de assalto
+A41	Lexical_Head T11 Noun
+A42	Individuation T11 Individual
+A43	Actor_Type T11 Sit
+A44	Involvement T11 1
+T12	ACTOR 258 277	Coastal Gas Station
+A45	Lexical_Head T12 Noun
+A46	Individuation T12 Individual
+A47	Actor_Type T12 Loc
+A48	Involvement T12 1
+R5	OBJ_REL_objIdentity Arg1:T12 Arg2:T3	
+T13	ACTOR 282 305	município de Pennsville
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Loc
+A51	Involvement T13 1
+T14	ACTOR 307 318	Nova Jérsia
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Loc
+A55	Involvement T14 1
+R6	REF_REL_sameHead Arg1:T14 Arg2:T4	
+R7	OBJ_REL_objIdentity Arg1:T14 Arg2:T4	
+R8	OBJ_REL_partOf Arg1:T13 Arg2:T14	
+T15	ACTOR 416 426	a aventura
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Sit
+A59	Involvement T15 1
+R9	OBJ_REL_objIdentity Arg1:T15 Arg2:T11	
+T16	ACTOR 438 452	pena de prisão
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Obj
+A63	Involvement T16 1
+T17	ACTOR 456 466	assaltante
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Per
+A67	Involvement T17 1
+R10	REF_REL_sameHead Arg1:T17 Arg2:T10	
+R11	OBJ_REL_objIdentity Arg1:T17 Arg2:T10	
+T18	EVENT 29 35	atacou
+E1	EVENT:T18 
+A68	Class E1 Occurrence
+A69	Tense E1 Past1
+A70	Polarity E1 Pos
+A71	Time E1 Past
+A72	Factuality E1 Factual
+T19	EVENT 85 90	pediu
+E2	EVENT:T19 
+A73	Class E2 Occurrence
+A74	Tense E2 Past1
+A75	Polarity E2 Pos
+A76	Time E2 Past
+A77	Factuality E2 Factual
+T20	EVENT 109 112	pôr
+E3	EVENT:T20 
+A78	Class E3 Occurrence
+A79	Tense E3 Infinitive
+A80	Polarity E3 Pos
+A81	Time E3 Past
+A82	Factuality E3 Non_Factual
+T21	EVENT 206 211	fugiu
+E4	EVENT:T21 
+A83	Class E4 Occurrence
+A84	Tense E4 Past1
+A85	Polarity E4 Pos
+A86	Time E4 Past
+A87	Factuality E4 Factual
+T22	ACTOR 215 220	local
+A88	Lexical_Head T22 Noun
+A89	Individuation T22 Individual
+A90	Actor_Type T22 Loc
+A91	Involvement T22 1
+R12	OBJ_REL_objIdentity Arg1:T22 Arg2:T3	
+T23	EVENT 245 254	aconteceu
+E5	EVENT:T23 
+A92	Class E5 Occurrence
+A93	Tense E5 Past1
+A94	Polarity E5 Pos
+A95	Time E5 Past
+A96	Factuality E5 Factual
+T24	EVENT 427 437	pode valer
+E6	EVENT:T24 
+A97	Class E6 Occurrence
+A98	Tense E6 Present
+A99	Polarity E6 Pos
+A100	Time E6 Future
+A101	Factuality E6 Non_Factual
+T25	EVENT 394 403	reclamado
+E7	EVENT:T25 
+A102	Class E7 Occurrence
+A103	Tense E7 PastPart
+A104	Polarity E7 Pos
+A105	Time E7 Past
+A106	Factuality E7 Non_Factual
+T26	ACTOR 407 414	assalto
+A107	Lexical_Head T26 Noun
+A108	Individuation T26 Individual
+A109	Actor_Type T26 Sit
+A110	Involvement T26 1
+R13	REF_REL_sameHead Arg1:T26 Arg2:T11	
+R14	OBJ_REL_objIdentity Arg1:T26 Arg2:T11	
+R15	TLINK_isIncluded Arg1:E3 Arg2:E2	
+R17	TLINK_after Arg1:E4 Arg2:E2	
+R18	TLINK_identity Arg1:E5 Arg2:E1	
+R16	TLINK_isIncluded Arg1:E2 Arg2:E1	
+R19	TLINK_isIncluded Arg1:E7 Arg2:E5	
+R20	TLINK_after Arg1:E6 Arg2:E7	
+R21	SEMROLE_agent Arg1:T1 Arg2:E1	
+R22	SEMROLE_instrument Arg1:T2 Arg2:E1	
+R23	SEMROLE_theme Arg1:T3 Arg2:E1	
+R24	SEMROLE_location Arg1:T4 Arg2:E1	
+R25	SEMROLE_agent Arg1:T1 Arg2:E2	
+R26	SEMROLE_theme Arg1:T5 Arg2:E2	
+R27	SEMROLE_theme Arg1:T6 Arg2:E3	
+R28	SEMROLE_agent Arg1:T10 Arg2:E4	
+R29	SEMROLE_theme Arg1:T11 Arg2:E5	
+R30	SEMROLE_location Arg1:T12 Arg2:E5	
+R31	SEMROLE_goal Arg1:T17 Arg2:E6	
+R32	SEMROLE_agent Arg1:T5 Arg2:E3	
+R33	SEMROLE_source Arg1:T22 Arg2:E4	
+T27	ACTOR 373 393	valor insignificante
+A111	Lexical_Head T27 Noun
+A112	Individuation T27 Individual
+A113	Actor_Type T27 Obj
+A114	Involvement T27 1
+R34	SEMROLE_theme Arg1:T27 Arg2:E7	
+R35	SEMROLE_theme Arg1:T15 Arg2:E6	
+R36	SEMROLE_theme Arg1:T16 Arg2:E6	
+R37	OBJ_REL_partOf Arg1:T3 Arg2:T4	

@@ -1,0 +1,127 @@
+» EVENTS
+# E1 (assaltou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,f) & relationRole(agent,T1) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,f), relationRole(agent,T1), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (estava) -> b
+# FOL:  exists Past Past2 Pos State b.(event(b) & Tense(b,Past2) & Polarity(b,Pos) & Time(b,Past) & relationRole(theme,T4) & relationRole(location,T6) & eventClass(b,State))
+# DRS:  ([b],[event(b), Tense(b,Past2), Polarity(b,Pos), Time(b,Past), relationRole(theme,T4), relationRole(location,T6), eventClass(b,State)]) 
+
+# E3 (apontando) -> c
+# FOL:  exists Factual Occurrence Past Pos PresPart c.(event(c) & eventClass(c,Occurrence) & Tense(c,PresPart) & Time(c,Past) & Polarity(c,Pos) & relationRole(instrument,T9) & relationRole(location,T10) & relationRole(agent,T1) & relationRole(goal,T8) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PresPart), Time(c,Past), Polarity(c,Pos), relationRole(instrument,T9), relationRole(location,T10), relationRole(agent,T1), relationRole(goal,T8), Factuality(c,Factual)]) 
+
+# E5 (ocorreu) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & eventClass(d,Occurrence) & occursBefore(d,e) & relationRole(theme,T12) & relationRole(time,T20) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), eventClass(d,Occurrence), occursBefore(d,e), relationRole(theme,T12), relationRole(time,T20), Factuality(d,Factual)]) 
+
+# E6 (fugiu) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & occursAfter(e,d) & relationRole(agent,T14) & relationRole(instrument,T16) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), occursAfter(e,d), relationRole(agent,T14), relationRole(instrument,T16), Factuality(e,Factual)]) 
+
+# E7 (encontraram) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(experiencer,T17) & relationRole(theme,T19) & relationRole(location,T21) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(experiencer,T17), relationRole(theme,T19), relationRole(location,T21), Factuality(f,Factual)]) 
+
+# E8 (terá conseguido convencer) -> g
+# FOL:  exists Factual Future1 Non_Factual Occurrence Past Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Future1) & Polarity(g,Pos) & Time(g,Past) & occursAfter(g,f) & occursBefore(g,i) & relationRole(agent,T22) & relationRole(theme,T25) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Future1), Polarity(g,Pos), Time(g,Past), occursAfter(g,f), occursBefore(g,i), relationRole(agent,T22), relationRole(theme,T25), Factuality(g,Non_Factual)]) 
+
+# E10 (conhecia) -> h
+# FOL:  exists Factual Non_Factual Past Past2 Pos State h.(event(h) & eventClass(h,State) & Tense(h,Past2) & Polarity(h,Pos) & Time(h,Past) & relationRole(theme,T26) & relationRole(experiencer,T22) & Factuality(h,Non_Factual))
+# DRS:  ([h],[event(h), eventClass(h,State), Tense(h,Past2), Polarity(h,Pos), Time(h,Past), relationRole(theme,T26), relationRole(experiencer,T22), Factuality(h,Non_Factual)]) 
+
+# E11 (entregando) -> i
+# FOL:  exists Factual Occurrence Past Pos PresPart i.(event(i) & eventClass(i,Occurrence) & Tense(i,PresPart) & Polarity(i,Pos) & Time(i,Past) & occursAfter(i,g) & occursBefore(i,j) & relationRole(goal,T29) & relationRole(theme,T30) & relationRole(theme,T31) & relationRole(agent,T22) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,PresPart), Polarity(i,Pos), Time(i,Past), occursAfter(i,g), occursBefore(i,j), relationRole(goal,T29), relationRole(theme,T30), relationRole(theme,T31), relationRole(agent,T22), Factuality(i,Factual)]) 
+
+# E12 (foi convidado) -> j
+# FOL:  exists Factual Occurrence Past Past1 Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Polarity(j,Pos) & Time(j,Past) & occursAfter(j,i) & occursBefore(j,k) & occursBefore(j,l) & relationRole(goal,T32) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Polarity(j,Pos), Time(j,Past), occursAfter(j,i), occursBefore(j,k), occursBefore(j,l), relationRole(goal,T32), Factuality(j,Factual)]) 
+
+# E14 (ir) -> k
+# FOL:  exists Factual Infinitive Occurrence Past Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Infinitive) & Polarity(k,Pos) & Time(k,Past) & occursAfter(k,j) & relationRole(goal,T36) & relationRole(agent,T32) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Infinitive), Polarity(k,Pos), Time(k,Past), occursAfter(k,j), relationRole(goal,T36), relationRole(agent,T32), Factuality(k,Factual)]) 
+
+# E15 (foi assaltado) -> l
+# FOL:  exists Factual Occurrence Past Past1 Pos l.(event(l) & eventClass(l,Occurrence) & Tense(l,Past1) & Polarity(l,Pos) & Time(l,Past) & occursAfter(l,j) & relationRole(location,T36) & relationRole(theme,T32) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Past1), Polarity(l,Pos), Time(l,Past), occursAfter(l,j), relationRole(location,T36), relationRole(theme,T32), Factuality(l,Factual)]) 
+
+» ACTORS
+# T1 -> Um homem
+# T10 -> avenida da Liberdade
+# T11 -> Lisboa
+# T12 -> O crime
+# T14 -> o ladrão
+# T16 -> cerca de 400 euros
+# T17 -> As vítimas
+# T19 -> o assaltante
+# T21 -> Rossio
+# T22 -> O ladrão
+# T25 -> ambos
+# T26 -> os
+# T29 -> lhes
+# T3 -> um casal
+# T30 -> uma câmara de filmar
+# T31 -> dois relógios
+# T32 -> O casal
+# T36 -> o carro
+# T38 -> onde
+# T4 -> que
+# T6 -> um carro
+# T8 -> lhes
+# T9 -> uma pistola
+# T20 -> terça-feira à tarde
+
+» RELATIONS
+# T1 - agent - E1
+# T3 - theme - E1
+# T4 - theme - E2
+# T6 - location - E2
+# T9 - instrument - E3
+# T10 - location - E3
+# T1 - agent - E3
+# T14 - agent - E6
+# T16 - instrument - E6
+# T17 - experiencer - E7
+# T22 - agent - E8
+# T25 - theme - E8
+# T29 - goal - E11
+# T30 - theme - E11
+# T31 - theme - E11
+# E15 - location - T36
+# T12 - theme - E5
+# T20 - time - E5
+# T19 - theme - E7
+# T21 - location - E7
+# T26 - theme - E10
+# T22 - agent - E11
+# T32 - goal - E12
+# T36 - goal - E14
+# T8 - goal - E3
+# T32 - agent - E14
+# T22 - experiencer - E10
+# T32 - theme - E15
+# T4 - pronominal - T3
+# T19 - synonymy - T14
+# T22 - sameHead - T14
+# T26 - pronominal - T25
+# T32 - sameHead - T3
+# T36 - sameHead - T6
+# T38 - pronominal - T36
+# T4 - objIdentity - T3
+# T10 - partOf - T11
+# T14 - objIdentity - T1
+# T17 - objIdentity - T3
+# T19 - objIdentity - T14
+# T21 - partOf - T11
+# T22 - objIdentity - T14
+# T25 - objIdentity - T17
+# T26 - objIdentity - T25
+# T26 - objIdentity - T29
+# T32 - objIdentity - T29
+# T36 - objIdentity - T6
+# T38 - objIdentity - T36
+# T8 - objIdentity - T4
+# T8 - pronominal - T4
+# T12 - objIdentity - E1

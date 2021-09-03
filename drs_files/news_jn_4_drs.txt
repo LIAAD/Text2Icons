@@ -1,0 +1,147 @@
+» EVENTS
+# E1 (morreram) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(theme,T1) & relationRole(theme,T2) & relationRole(time,T4) & relationRole(source,T5) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(theme,T1), relationRole(theme,T2), relationRole(time,T4), relationRole(source,T5), Factuality(a,Factual)]) 
+
+# E3 (atribuído) -> b
+# FOL:  exists Factual Occurrence Past PastPart Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & occursAfter(b,a) & relationRole(theme,T5) & relationRole(goal,T9) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), occursAfter(b,a), relationRole(theme,T5), relationRole(goal,T9), Factuality(b,Factual)]) 
+
+# E5 (causou) -> c
+# FOL:  exists Factual Past Past1 Pos c.(event(c) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(source,T11) & relationRole(experiencer,T13) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(source,T11), relationRole(experiencer,T13), Factuality(c,Factual)]) 
+
+# E6 (teve) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & relationRole(theme,T11) & relationRole(location,T17) & relationRole(theme,T51) & relationRole(goal,T17) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), relationRole(theme,T11), relationRole(location,T17), relationRole(theme,T51), relationRole(goal,T17), Factuality(d,Factual)]) 
+
+# E7 (liga) -> e
+# FOL:  exists Factual Occurrence Pos Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & relationRole(source,T22) & relationRole(goal,T23) & relationRole(theme,T19) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Present), Polarity(e,Pos), Time(e,Present), relationRole(source,T22), relationRole(goal,T23), relationRole(theme,T19), Factuality(e,Factual)]) 
+
+# E10 (ocorreu) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(theme,T27) & relationRole(time,T29) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(theme,T27), relationRole(time,T29), Factuality(f,Factual)]) 
+
+# E12 (atribuídos) -> g
+# FOL:  exists Factual Occurrence Past PastPart Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPart) & Polarity(g,Pos) & Time(g,Past) & occursBefore(g,h) & relationRole(theme,T30) & relationRole(goal,T34) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPart), Polarity(g,Pos), Time(g,Past), occursBefore(g,h), relationRole(theme,T30), relationRole(goal,T34), Factuality(g,Factual)]) 
+
+# E13 (causaram) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & relationRole(source,T30) & relationRole(instrument,T31) & relationRole(experiencer,T37) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), relationRole(source,T30), relationRole(instrument,T31), relationRole(experiencer,T37), Factuality(h,Factual)]) 
+
+# E14 (realizou) -> i
+# FOL:  exists Factual Occurrence Past Past1 Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Past1) & Polarity(i,Pos) & relationRole(time,T38) & relationRole(agent,T39) & relationRole(theme,T41) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Past1), Polarity(i,Pos), relationRole(time,T38), relationRole(agent,T39), relationRole(theme,T41), Factuality(i,Factual)]) 
+
+# E16 (afastar) -> j
+# FOL:  exists Factual Infinitive Occurrence Past Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Infinitive) & Polarity(j,Pos) & Time(j,Past) & relationRole(theme,T44) & relationRole(source,T45) & relationRole(agent,T39) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Infinitive), Polarity(j,Pos), Time(j,Past), relationRole(theme,T44), relationRole(source,T45), relationRole(agent,T39), Factuality(j,Factual)]) 
+
+# E18 (fez) -> k
+# FOL:  exists Factual Occurrence Past Past1 Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Past1) & Polarity(k,Pos) & Time(k,Past) & relationRole(source,T46) & relationRole(theme,T48) & relationRole(time,T49) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Past1), Polarity(k,Pos), Time(k,Past), relationRole(source,T46), relationRole(theme,T48), relationRole(time,T49), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> Dois polícias turcos
+# T10 -> Partido dos Trabalhadores do Curdistão
+# T11 -> O ataque
+# T13 -> 25 feridos
+# T14 -> cinco dos quais
+# T15 -> agentes policiais
+# T17 -> um posto de controlo da polícia
+# T19 -> autoestrada
+# T2 -> uma criança
+# T20 -> que
+# T22 -> Diyarbakir
+# T23 -> Batman
+# T27 -> O atentado
+# T30 -> dois ataques
+# T31 -> bomba
+# T32 -> sudeste da Turquia
+# T34 -> PKK
+# T35 -> PKK
+# T37 -> pelo menos oito mortos
+# T39 -> o Governo
+# T41 -> operações militares
+# T42 -> o PKK
+# T44 -> os combatentes curdos
+# T45 -> zonas urbanas
+# T46 -> O conflito
+# T48 -> mais de 40.000 mortos
+# T5 -> um atentado
+# T51 -> alvo
+# T52 -> civis
+# T53 -> que
+# T6 -> uma viatura armadilhada
+# T7 -> perto de Diyarbakir
+# T9 -> rebeldes
+# T49 -> desde 1984
+# T38 -> Nos últimos meses
+# T50 -> início da rebelião curda
+# T4 -> esta segunda-feira
+# T29 -> cinco dias depois
+
+» RELATIONS
+# T1 - theme - E1
+# T2 - theme - E1
+# T4 - time - E1
+# T5 - source - E1
+# T6 - instrument - T5
+# T5 - theme - E3
+# T9 - goal - E3
+# T11 - source - E5
+# T13 - experiencer - E5
+# T11 - theme - E6
+# T17 - location - E6
+# T51 - theme - E6
+# T22 - source - E7
+# T23 - goal - E7
+# T27 - theme - E10
+# T30 - theme - E12
+# T29 - time - E10
+# T34 - goal - E12
+# T30 - source - E13
+# T31 - instrument - E13
+# T37 - experiencer - E13
+# T38 - time - E14
+# T39 - agent - E14
+# T41 - theme - E14
+# T44 - theme - E16
+# T45 - source - E16
+# T46 - source - E18
+# T48 - theme - E18
+# T7 - location - T5
+# T17 - goal - E6
+# T19 - location - T17
+# T19 - theme - E7
+# T32 - location - T30
+# T10 - source - T9
+# T29 - time - T30
+# T31 - instrument - T30
+# T42 - goal - T41
+# T39 - agent - E16
+# T49 - time - E18
+# T49 - time - T50
+# T35 - objIdentity - T10
+# T11 - synonymy - T5
+# T11 - objIdentity - T5
+# T14 - partOf - T13
+# T20 - pronominal - T19
+# T20 - objIdentity - T19
+# T22 - sameHead - T7
+# T22 - objIdentity - T7
+# T27 - sameHead - T5
+# T27 - objIdentity - T5
+# T34 - sameHead - T35
+# T34 - objIdentity - T35
+# T52 - partOf - T37
+# T42 - sameHead - T34
+# T42 - objIdentity - T34
+# T9 - partOf - T10
+# T15 - objIdentity - T14
+# T51 - objIdentity - T17
+# T44 - objIdentity - T9
+# T53 - pronominal - T30
+# T53 - objIdentity - T30

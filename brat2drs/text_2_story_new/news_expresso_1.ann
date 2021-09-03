@@ -1,0 +1,306 @@
+T1	ACTOR 0 14	O vice-diretor
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 19 57	serviços prisionais da Federação Russa
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Org
+A8	Involvement T2 >1
+T3	ACTOR 59 79	Alexander Protopopov
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Per
+A12	Involvement T3 1
+R1	OBJ_REL_objIdentity Arg1:T3 Arg2:T1	
+T4	TIME_X3 92 107	na quarta-feira
+A13	Time_Type T4 Date
+A14	FunctionInDocument T4 None
+A15	Value T4 Date
+T5	ACTOR 121 126	roubo
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 1
+T6	ACTOR 127 156	50 quilómetros de autoestrada
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Obj
+A23	Involvement T6 >1
+T7	ACTOR 160 184	região república de Komi
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Loc
+A27	Involvement T7 1
+T8	ACTOR 188 206	nordeste da Rússia
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Loc
+A31	Involvement T8 1
+T9	EVENT 81 91	foi detido
+E1	EVENT:T9 
+A32	Class E1 Occurrence
+A33	Tense E1 Past1
+A34	Polarity E1 Pos
+A35	Time E1 Past
+A36	Factuality E1 Factual
+T10	EVENT 110 117	acusado
+E2	EVENT:T10 
+A37	Class E2 Occurrence
+A38	Tense E2 PastPart
+A39	Polarity E2 Pos
+A40	Time E2 Past
+A41	Factuality E2 Factual
+T11	ACTOR 208 264	Mais de 7 mil placas de betão reforçadas da auto-estrada
+A42	Lexical_Head T11 Noun
+A43	Individuation T11 Individual
+A44	Actor_Type T11 Obj
+A45	Involvement T11 >1
+T13	TIME_X3 297 323	ao longo de mais de um ano
+A50	Time_Type T13 Duration
+A51	FunctionInDocument T13 None
+A52	Value T13 Duration
+A53	Mod T13 Equal_or_More
+#1	AnnotatorNotes T13	value="P1Y"
+T16	ACTOR 374 385	uma empresa
+A54	Lexical_Head T16 Noun
+A55	Individuation T16 Individual
+A56	Actor_Type T16 Org
+A57	Involvement T16 1
+T17	ACTOR 387 397	Protopopov
+A58	Lexical_Head T17 Noun
+A59	Individuation T17 Individual
+A60	Actor_Type T17 Per
+A61	Involvement T17 1
+R6	REF_REL_sameHead Arg1:T17 Arg2:T3	
+R7	OBJ_REL_objIdentity Arg1:T17 Arg2:T3	
+T18	ACTOR 411 445	apropriação de propriedade estatal
+A62	Lexical_Head T18 Noun
+A63	Individuation T18 Individual
+A64	Actor_Type T18 Sit
+A65	Involvement T18 1
+T19	EVENT 446 457	fazendo uso
+E3	EVENT:T19 
+A66	Class E3 Occurrence
+A67	Tense E3 PresPart
+A68	Polarity E3 Pos
+A69	Time E3 Past
+A70	Factuality E3 Factual
+T20	ACTOR 461 464	seu
+A71	Lexical_Head T20 Pronoun
+A72	Individuation T20 Individual
+A73	Actor_Type T20 Per
+A74	Involvement T20 1
+R8	REF_REL_pronominal Arg1:T20 Arg2:T17	
+R9	OBJ_REL_objIdentity Arg1:T20 Arg2:T17	
+T21	ACTOR 465 470	cargo
+A75	Lexical_Head T21 Noun
+A76	Individuation T21 Individual
+A77	Involvement T21 1
+T22	ACTOR 478 481	lhe
+A78	Lexical_Head T22 Noun
+A79	Individuation T22 Individual
+A80	Actor_Type T22 Per
+A81	Involvement T22 1
+R10	REF_REL_pronominal Arg1:T22 Arg2:T17	
+R11	OBJ_REL_objIdentity Arg1:T22 Arg2:T17	
+T23	EVENT 482 494	poderá valer
+E4	EVENT:T23 
+A82	Class E4 Occurrence
+A83	Tense E4 Future1
+A84	Polarity E4 Pos
+A85	Time E4 Future
+A86	Factuality E4 Non_Factual
+T24	ACTOR 495 509	uma condenação
+A87	Lexical_Head T24 Noun
+A88	Individuation T24 Individual
+A89	Actor_Type T24 Sit
+A90	Involvement T24 1
+T25	TIME_X3 512 529	10 anos de prisão
+A91	Time_Type T25 Duration
+A92	FunctionInDocument T25 None
+A93	Value T25 Duration
+A94	Mod T25 Equal_or_Less
+#2	AnnotatorNotes T25	value="P10Y"
+T26	ACTOR 531 548	Os investigadores
+A95	Lexical_Head T26 Noun
+A96	Individuation T26 Individual
+A97	Actor_Type T26 Per
+A98	Involvement T26 >1
+T27	ACTOR 561 568	o roubo
+A99	Lexical_Head T27 Noun
+A100	Individuation T27 Individual
+A101	Actor_Type T27 Sit
+A102	Involvement T27 1
+R12	REF_REL_sameHead Arg1:T27 Arg2:T5	
+R13	OBJ_REL_objIdentity Arg1:T27 Arg2:T5	
+T28	ACTOR 593 623	mais de seis milhões de rublos
+A103	Lexical_Head T28 Noun
+A104	Individuation T28 Individual
+A105	Actor_Type T28 Obj
+A106	Involvement T28 >1
+T29	ACTOR 625 646	cerca de 75 mil euros
+A107	Lexical_Head T29 Noun
+A108	Individuation T29 Individual
+A109	Actor_Type T29 Obj
+A110	Involvement T29 >1
+R14	OBJ_REL_objIdentity Arg1:T29 Arg2:T28	
+T30	ACTOR 649 659	Protopopov
+A111	Lexical_Head T30 Noun
+A112	Individuation T30 Individual
+A113	Actor_Type T30 Per
+A114	Involvement T30 1
+R15	REF_REL_sameHead Arg1:T30 Arg2:T17	
+R16	OBJ_REL_objIdentity Arg1:T30 Arg2:T17	
+T31	ACTOR 682 709	serviços prisionais de Komi
+A115	Lexical_Head T31 Noun
+A116	Individuation T31 Individual
+A117	Actor_Type T31 Org
+A118	Involvement T31 >1
+R17	OBJ_REL_objIdentity Arg1:T31 Arg2:T2	
+T35	ACTOR 749 796	uma medalha pela criação de "unidade espiritual
+A122	Lexical_Head T35 Noun
+A123	Individuation T35 Individual
+A124	Actor_Type T35 Obj
+A125	Involvement T35 1
+T36	ACTOR 799 823	A construção de estradas
+A126	Lexical_Head T36 Noun
+A127	Individuation T36 Individual
+A128	Actor_Type T36 Sit
+A129	Involvement T36 1
+T37	ACTOR 859 865	Rússia
+A130	Lexical_Head T37 Noun
+A131	Individuation T37 Individual
+A132	Actor_Type T37 Loc
+A133	Involvement T37 1
+T38	EVENT 265 285	foram "desmanteladas
+E5	EVENT:T38 
+T39	EVENT 288 295	levadas
+E6	EVENT:T39 
+A134	Class E6 Occurrence
+A135	Tense E6 PastPart
+A136	Polarity E6 Pos
+A137	Time E6 Past
+A138	Factuality E6 Factual
+A139	Tense E5 Past1
+A140	Polarity E5 Pos
+A141	Time E5 Past
+A142	Factuality E5 Factual
+R18	TLINK_after Arg1:E6 Arg2:E5	
+T40	EVENT 361 369	vendidas
+E7	EVENT:T40 
+A143	Class E7 Occurrence
+A144	Tense E7 PastPart
+A145	Polarity E7 Pos
+A146	Time E7 Past
+A147	Factuality E7 Factual
+R19	TLINK_after Arg1:E7 Arg2:E6	
+T41	EVENT 398 407	é acusado
+E8	EVENT:T41 
+A148	Tense E8 Present
+A149	Polarity E8 Pos
+A150	Time E8 Present
+A151	Factuality E8 Factual
+R20	TLINK_includes Arg1:E8 Arg2:E2	
+R21	TLINK_after Arg1:E4 Arg2:E8	
+T42	EVENT 549 556	estimam
+E9	EVENT:T42 
+A152	Class E9 Occurrence
+A153	Tense E9 Present
+A154	Polarity E9 Pos
+A155	Time E9 Present
+A156	Factuality E9 Factual
+T43	EVENT 569 580	terá lesado
+E10	EVENT:T43 
+A157	Class E10 Occurrence
+A158	Tense E10 Future1
+A159	Polarity E10 Pos
+A160	Time E10 Past
+A161	Factuality E10 Non_Factual
+R23	TLINK_before Arg1:E10 Arg2:E8	
+T44	EVENT 660 675	foi responsável
+E11	EVENT:T44 
+A162	Class E11 Occurrence
+A163	Tense E11 Past1
+A164	Polarity E11 Pos
+A165	Time E11 Past
+A166	Factuality E11 Factual
+T45	EVENT 729 744	foi distinguido
+E12	EVENT:T45 
+A167	Class E12 Occurrence
+A168	Tense E12 Past1
+A169	Polarity E12 Pos
+A170	Time E12 Past
+A171	Factuality E12 Factual
+R25	TLINK_during Arg1:E12 Arg2:E11	
+T46	EVENT 824 825	é
+E13	EVENT:T46 
+A172	Class E13 State
+A173	Tense E13 Present
+A174	Polarity E13 Pos
+A175	Time E13 Present
+A176	Factuality E13 Factual
+R26	TLINK_includes Arg1:E13 Arg2:E9	
+R27	TLINK_includes Arg1:T13 Arg2:E5	
+R2	TLINK_includes Arg1:T4 Arg2:E1	
+R24	TLINK_after Arg1:E2 Arg2:E1	
+R28	TLINK_before Arg1:E5 Arg2:E2	
+R29	TLINK_during Arg1:E3 Arg2:T18	
+R22	TLINK_includes Arg1:E9 Arg2:E8	
+R30	TLINK_before Arg1:E11 Arg2:E9	
+R4	SEMROLE_theme Arg1:T3 Arg2:E1	
+R5	SEMROLE_time Arg1:T4 Arg2:E1	
+R31	SEMROLE_theme Arg1:T3 Arg2:E2	
+R32	SEMROLE_theme Arg1:T5 Arg2:E2	
+R33	SEMROLE_theme Arg1:T11 Arg2:E5	
+R34	SEMROLE_time Arg1:T13 Arg2:E5	
+R35	SEMROLE_theme Arg1:T11 Arg2:E7	
+R36	SEMROLE_agent Arg1:T16 Arg2:E7	
+R37	SEMROLE_theme Arg1:T17 Arg2:E8	
+R38	SEMROLE_theme Arg1:T18 Arg2:E8	
+R39	SEMROLE_agent Arg1:T17 Arg2:E3	
+R40	SEMROLE_theme Arg1:T24 Arg2:E4	
+R41	SEMROLE_agent Arg1:T26 Arg2:E9	
+R42	SEMROLE_theme Arg1:T27 Arg2:E9	
+R43	SEMROLE_theme Arg1:T30 Arg2:E11	
+R45	SEMROLE_theme Arg1:T30 Arg2:E12	
+R46	SEMROLE_instrument Arg1:T35 Arg2:E12	
+R47	SEMROLE_theme Arg1:T36 Arg2:E13	
+R49	SEMROLE_theme Arg1:T11 Arg2:E6	
+R50	SEMROLE_time Arg1:T13 Arg2:E6	
+R51	SEMROLE_theme Arg1:T27 Arg2:E10	
+R52	SEMROLE_theme Arg1:T31 Arg2:E11	
+R53	SEMROLE_location Arg1:T7 Arg2:T5	
+R54	SEMROLE_theme Arg1:T6 Arg2:T5	
+R55	OBJ_REL_partOf Arg1:T7 Arg2:T8	
+R3	OBJ_REL_objIdentity Arg1:T11 Arg2:T6	
+T12	TIME_X3 325 342	entre 2014 e 2015
+A46	Time_Type T12 Duration
+A47	FunctionInDocument T12 None
+A48	Value T12 Duration
+A49	Mod T12 Equal_or_More
+R48	TLINK_identity Arg1:T12 Arg2:T13	
+R56	OBJ_REL_objIdentity Arg1:T12 Arg2:T13	
+R57	SEMROLE_theme Arg1:T21 Arg2:E3	
+R58	SEMROLE_goal Arg1:T17 Arg2:E4	
+R59	SEMROLE_time Arg1:T25 Arg2:T24	
+T14	ACTOR 581 589	o Estado
+A182	Lexical_Head T14 Noun
+A183	Individuation T14 Individual
+A184	Actor_Type T14 Org
+A185	Involvement T14 1
+R60	SEMROLE_theme Arg1:T14 Arg2:E10	
+R61	SEMROLE_theme Arg1:T28 Arg2:E10	
+T15	TIME_X3 710 726	de 2010 até 2015
+A119	Time_Type T15 Duration
+A120	FunctionInDocument T15 None
+A121	Value T15 Duration
+R44	SEMROLE_time Arg1:T15 Arg2:E11	
+T32	ACTOR 826 855	um dos setores mais corruptos
+A177	Lexical_Head T32 Noun
+A178	Individuation T32 Individual
+A179	Actor_Type T32 Other
+A180	Involvement T32 1
+R62	SEMROLE_theme Arg1:T32 Arg2:E13	
+R63	SEMROLE_location Arg1:T37 Arg2:T32	

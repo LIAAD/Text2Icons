@@ -1,0 +1,162 @@
+T1	ACTOR 0 19	A procuradora-geral
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 23 32	Venezuela
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Loc
+A8	Involvement T2 1
+T3	ACTOR 44 55	preocupação
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Sit
+A12	Involvement T3 1
+T4	ACTOR 61 82	crescente insegurança
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Sit
+A16	Involvement T4 1
+T5	ACTOR 86 90	país
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Loc
+A20	Involvement T5 1
+R1	OBJ_REL_objIdentity Arg1:T5 Arg2:T2	
+T7	ACTOR 157 176	operações especiais
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Sit
+A28	Involvement T7 >1
+T8	ACTOR 181 200	forças de segurança
+A29	Lexical_Head T8 Noun
+A30	Individuation T8 Individual
+A31	Actor_Type T8 Org
+A32	Involvement T8 >1
+T9	TIME_X3 218 229	ano passado
+A33	Time_Type T9 Date
+A34	FunctionInDocument T9 None
+A35	Value T9 Date
+#1	AnnotatorNotes T9	value="2015-XX-XX"
+T10	ACTOR 235 260	Presidente Nicolás Maduro
+A36	Lexical_Head T10 Noun
+A37	Individuation T10 Individual
+A38	Actor_Type T10 Per
+A39	Involvement T10 1
+T11	ACTOR 98 118	aumento de denúncias
+A40	Lexical_Head T11 Noun
+A41	Individuation T11 Individual
+A42	Actor_Type T11 Sit
+A43	Involvement T11 1
+T13	ACTOR 122 152	violações dos direitos humanos
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Sit
+A51	Involvement T13 >1
+T15	ACTOR 547 564	Luísa Ortega Díaz
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Per
+A59	Involvement T15 1
+R2	OBJ_REL_objIdentity Arg1:T15 Arg2:T1	
+T16	ACTOR 581 586	casos
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Sit
+A63	Involvement T16 >1
+T17	ACTOR 590 598	polícias
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Per
+A67	Involvement T17 >1
+T18	ACTOR 615 625	habitações
+A68	Lexical_Head T18 Noun
+A69	Individuation T18 Individual
+A70	Actor_Type T18 Obj
+A71	Involvement T18 >1
+T19	ACTOR 661 669	o delito
+A72	Lexical_Head T19 Noun
+A73	Individuation T19 Individual
+A74	Actor_Type T19 Sit
+A75	Involvement T19 1
+T31	EVENT 33 43	manifestou
+E1	EVENT:T31 
+A120	Class E1 Occurrence
+A121	Tense E1 Past1
+A122	Polarity E1 Pos
+A123	Time E1 Past
+A124	Factuality E1 Factual
+T32	EVENT 201 214	implementadas
+E2	EVENT:T32 
+A125	Tense E2 PastPart
+A126	Polarity E2 Pos
+A127	Time E2 Past
+A128	Factuality E2 Factual
+R12	TLINK_before Arg1:E2 Arg2:E1	
+T38	EVENT 565 573	explicou
+E8	EVENT:T38 
+A154	Class E8 Occurrence
+A155	Tense E8 Past1
+A156	Polarity E8 Pos
+A157	Time E8 Past
+A158	Factuality E8 Factual
+T39	EVENT 578 580	há
+E9	EVENT:T39 
+A159	Class E9 Occurrence
+A160	Tense E9 Present
+A161	Time E9 Present
+A162	Factuality E9 Factual
+T40	EVENT 604 614	destruíram
+E10	EVENT:T40 
+A163	Class E10 Occurrence
+A164	Tense E10 Past1
+A165	Polarity E10 Pos
+A166	Time E10 Past
+A167	Factuality E10 Factual
+R18	TLINK_includes Arg1:E9 Arg2:E8	
+R19	TLINK_before Arg1:E10 Arg2:E9	
+T41	EVENT 634 649	deveriam "atuar
+E11	EVENT:T41 
+A168	Class E11 Occurrence
+A169	Tense E11 Past2
+A170	Polarity E11 Pos
+A171	Time E11 Past
+A172	Factuality E11 Non_Factual
+T42	EVENT 650 660	prevenindo
+E12	EVENT:T42 
+A173	Class E12 Occurrence
+A174	Tense E12 PresPart
+A175	Polarity E12 Pos
+A176	Time E12 Present
+A177	Factuality E12 Factual
+R20	TLINK_isIncluded Arg1:E12 Arg2:E11	
+R9	TLINK_includes Arg1:T9 Arg2:E2	
+R21	TLINK_isIncluded Arg1:E11 Arg2:E10	
+R22	SEMROLE_agent Arg1:T1 Arg2:E1	
+R23	SEMROLE_theme Arg1:T3 Arg2:E1	
+R24	SEMROLE_theme Arg1:T7 Arg2:E2	
+R25	SEMROLE_agent Arg1:T10 Arg2:E2	
+R29	SEMROLE_agent Arg1:T15 Arg2:E8	
+R30	SEMROLE_theme Arg1:T16 Arg2:E9	
+R31	SEMROLE_agent Arg1:T17 Arg2:E10	
+R32	SEMROLE_theme Arg1:T18 Arg2:E10	
+R33	SEMROLE_time Arg1:T9 Arg2:E2	
+R36	SEMROLE_agent Arg1:T17 Arg2:E11	
+R37	SEMROLE_theme Arg1:T19 Arg2:E12	
+R38	OBJ_REL_partOf Arg1:T1 Arg2:T2	
+R39	SEMROLE_theme Arg1:T4 Arg2:T3	
+R40	SEMROLE_location Arg1:T5 Arg2:T4	
+R41	SEMROLE_theme Arg1:T11 Arg2:T3	
+R4	SEMROLE_theme Arg1:T13 Arg2:T11	
+R5	SEMROLE_location Arg1:T7 Arg2:T13	
+R42	SEMROLE_agent Arg1:T8 Arg2:T7	
+R3	SEMROLE_agent Arg1:T17 Arg2:T16	
+T6	ACTOR 599 602	que
+A21	Lexical_Head T6 Pronoun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Per
+A24	Involvement T6 >1
+R6	REF_REL_pronominal Arg1:T6 Arg2:T17	
+R7	OBJ_REL_objIdentity Arg1:T6 Arg2:T17	
+R8	SEMROLE_theme Arg1:E9 Arg2:E8	

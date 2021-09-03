@@ -1,0 +1,73 @@
+» EVENTS
+# E1 (deteve) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(theme,T4) & relationRole(time,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(agent,T1), relationRole(theme,T4), relationRole(time,T3), Factuality(a,Factual)]) 
+
+# E2 (apreendeu) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursAfter(b,a) & relationRole(agent,T1) & relationRole(theme,T6) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursAfter(b,a), relationRole(agent,T1), relationRole(theme,T6), Factuality(b,Factual)]) 
+
+# E5 (deteve) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(agent,T9) & relationRole(theme,T11) & relationRole(time,T10) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(agent,T9), relationRole(theme,T11), relationRole(time,T10), Factuality(c,Factual)]) 
+
+# E7 (foram apreendidas) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & relationRole(theme,T23) & relationRole(theme,T24) & relationRole(theme,T25) & relationRole(theme,T26) & relationRole(theme,T27) & relationRole(agent,T22) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), relationRole(theme,T23), relationRole(theme,T24), relationRole(theme,T25), relationRole(theme,T26), relationRole(theme,T27), relationRole(agent,T22), Factuality(d,Factual)]) 
+
+» ACTORS
+# T1 -> A Guarda Nacional Republicana
+# T11 -> 118 pessoas
+# T12 -> 62 das quais
+# T14 -> 18
+# T16 -> seis
+# T18 -> quatro
+# T2 -> GNR
+# T20 -> 93
+# T21 -> 54
+# T22 -> A GNR
+# T23 -> 608 doses de haxixe
+# T24 -> 36 gramas de liamba
+# T25 -> 24 doses de cocaína
+# T26 -> uma arma de fogo
+# T27 -> quatro armas brancas
+# T36 -> 34
+# T4 -> 118 pessoas
+# T6 -> 608 doses de haxixe
+# T7 -> a maioria das quais
+# T9 -> a GNR
+# T10 -> no fim de semana
+# T3 -> no passado fim de semana
+
+» RELATIONS
+# T1 - agent - E1
+# T4 - theme - E1
+# T1 - agent - E2
+# T6 - theme - E2
+# T9 - agent - E5
+# T11 - theme - E5
+# T23 - theme - E7
+# T24 - theme - E7
+# T25 - theme - E7
+# T26 - theme - E7
+# T27 - theme - E7
+# T3 - time - E1
+# T10 - time - E5
+# T22 - agent - E7
+# T2 - objIdentity - T1
+# T7 - partOf - T4
+# T9 - objIdentity - T2
+# T9 - sameHead - T2
+# T12 - partOf - T11
+# T14 - partOf - T11
+# T16 - partOf - T11
+# T18 - partOf - T11
+# T22 - sameHead - T9
+# T22 - objIdentity - T9
+# T23 - sameHead - T6
+# T23 - objIdentity - T6
+# T11 - sameHead - T4
+# T11 - objIdentity - T4
+# T20 - partOf - T11
+# T21 - partOf - T11
+# T36 - partOf - T11

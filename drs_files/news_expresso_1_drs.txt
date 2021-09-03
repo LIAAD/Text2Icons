@@ -1,0 +1,135 @@
+» EVENTS
+# E1 (foi detido) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(theme,T3) & relationRole(time,T4) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(theme,T3), relationRole(time,T4), Factuality(a,Factual)]) 
+
+# E2 (acusado) -> b
+# FOL:  exists Factual Occurrence Past PastPart Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & occursAfter(b,a) & occursBefore(b,e) & relationRole(theme,T3) & relationRole(theme,T5) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), occursAfter(b,a), occursBefore(b,e), relationRole(theme,T3), relationRole(theme,T5), Factuality(b,Factual)]) 
+
+# E3 (fazendo uso) -> c
+# FOL:  exists Factual Occurrence Past Pos PresPart c.(event(c) & eventClass(c,Occurrence) & Tense(c,PresPart) & Polarity(c,Pos) & Time(c,Past) & relationRole(agent,T17) & relationRole(theme,T21) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PresPart), Polarity(c,Pos), Time(c,Past), relationRole(agent,T17), relationRole(theme,T21), Factuality(c,Factual)]) 
+
+# E4 (poderá valer) -> d
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Future1) & Polarity(d,Pos) & Time(d,Future) & occursAfter(d,h) & relationRole(theme,T24) & relationRole(goal,T17) & Factuality(d,Non_Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Future1), Polarity(d,Pos), Time(d,Future), occursAfter(d,h), relationRole(theme,T24), relationRole(goal,T17), Factuality(d,Non_Factual)]) 
+
+# E5 (foram "desmanteladas) -> e
+# FOL:  exists Factual Past Past1 Pos e.(event(e) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & occursBefore(e,f) & relationRole(theme,T11) & relationRole(time,T13) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), occursBefore(e,f), relationRole(theme,T11), relationRole(time,T13), Factuality(e,Factual)]) 
+
+# E6 (levadas) -> f
+# FOL:  exists Factual Occurrence Past PastPart Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,PastPart) & Polarity(f,Pos) & Time(f,Past) & occursAfter(f,e) & occursBefore(f,g) & relationRole(theme,T11) & relationRole(time,T13) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PastPart), Polarity(f,Pos), Time(f,Past), occursAfter(f,e), occursBefore(f,g), relationRole(theme,T11), relationRole(time,T13), Factuality(f,Factual)]) 
+
+# E7 (vendidas) -> g
+# FOL:  exists Factual Occurrence Past PastPart Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPart) & Polarity(g,Pos) & Time(g,Past) & occursAfter(g,f) & relationRole(theme,T11) & relationRole(agent,T16) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPart), Polarity(g,Pos), Time(g,Past), occursAfter(g,f), relationRole(theme,T11), relationRole(agent,T16), Factuality(g,Factual)]) 
+
+# E8 (é acusado) -> h
+# FOL:  exists Factual Pos Present h.(event(h) & Tense(h,Present) & Polarity(h,Pos) & Time(h,Present) & occursBefore(h,d) & occursBefore(h,j) & relationRole(theme,T17) & relationRole(theme,T18) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), Tense(h,Present), Polarity(h,Pos), Time(h,Present), occursBefore(h,d), occursBefore(h,j), relationRole(theme,T17), relationRole(theme,T18), Factuality(h,Factual)]) 
+
+# E9 (estimam) -> i
+# FOL:  exists Factual Occurrence Pos Present i.(event(i) & eventClass(i,Occurrence) & Tense(i,Present) & Polarity(i,Pos) & Time(i,Present) & occursBefore(i,k) & relationRole(agent,T26) & relationRole(theme,T27) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Present), Polarity(i,Pos), Time(i,Present), occursBefore(i,k), relationRole(agent,T26), relationRole(theme,T27), Factuality(i,Factual)]) 
+
+# E10 (terá lesado) -> j
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Past Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Future1) & Polarity(j,Pos) & Time(j,Past) & relationRole(theme,T27) & relationRole(theme,T14) & relationRole(theme,T28) & Factuality(j,Non_Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Future1), Polarity(j,Pos), Time(j,Past), relationRole(theme,T27), relationRole(theme,T14), relationRole(theme,T28), Factuality(j,Non_Factual)]) 
+
+# E11 (foi responsável) -> k
+# FOL:  exists Factual Occurrence Past Past1 Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Past1) & Polarity(k,Pos) & Time(k,Past) & relationRole(theme,T30) & relationRole(theme,T31) & relationRole(time,T15) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Past1), Polarity(k,Pos), Time(k,Past), relationRole(theme,T30), relationRole(theme,T31), relationRole(time,T15), Factuality(k,Factual)]) 
+
+# E12 (foi distinguido) -> l
+# FOL:  exists Factual Occurrence Past Past1 Pos l.(event(l) & eventClass(l,Occurrence) & Tense(l,Past1) & Polarity(l,Pos) & Time(l,Past) & relationRole(theme,T30) & relationRole(instrument,T35) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Past1), Polarity(l,Pos), Time(l,Past), relationRole(theme,T30), relationRole(instrument,T35), Factuality(l,Factual)]) 
+
+# E13 (é) -> m
+# FOL:  exists Factual Pos Present State m.(event(m) & eventClass(m,State) & Tense(m,Present) & Polarity(m,Pos) & Time(m,Present) & relationRole(theme,T36) & relationRole(theme,T32) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,State), Tense(m,Present), Polarity(m,Pos), Time(m,Present), relationRole(theme,T36), relationRole(theme,T32), Factuality(m,Factual)]) 
+
+» ACTORS
+# T1 -> O vice-diretor
+# T11 -> Mais de 7 mil placas de betão reforçadas da auto-estrada
+# T14 -> o Estado
+# T16 -> uma empresa
+# T17 -> Protopopov
+# T18 -> apropriação de propriedade estatal
+# T20 -> seu
+# T21 -> cargo
+# T22 -> lhe
+# T24 -> uma condenação
+# T26 -> Os investigadores
+# T27 -> o roubo
+# T28 -> mais de seis milhões de rublos
+# T29 -> cerca de 75 mil euros
+# T3 -> Alexander Protopopov
+# T30 -> Protopopov
+# T31 -> serviços prisionais de Komi
+# T32 -> um dos setores mais corruptos
+# T35 -> uma medalha pela criação de "unidade espiritual
+# T36 -> A construção de estradas
+# T37 -> Rússia
+# T5 -> roubo
+# T6 -> 50 quilómetros de autoestrada
+# T7 -> região república de Komi
+# T15 -> de 2010 até 2015
+# T2 -> serviços prisionais da Federação Russa
+# T13 -> ao longo de mais de um ano
+# T12 -> entre 2014 e 2015
+# T8 -> nordeste da Rússia
+# T4 -> na quarta-feira
+# T25 -> 10 anos de prisão
+
+» RELATIONS
+# T3 - theme - E1
+# T4 - time - E1
+# T3 - theme - E2
+# T5 - theme - E2
+# T11 - theme - E5
+# T13 - time - E5
+# T11 - theme - E7
+# T16 - agent - E7
+# T17 - theme - E8
+# T18 - theme - E8
+# T17 - agent - E3
+# T24 - theme - E4
+# T26 - agent - E9
+# T27 - theme - E9
+# T30 - theme - E11
+# T30 - theme - E12
+# T35 - instrument - E12
+# T36 - theme - E13
+# T11 - theme - E6
+# T13 - time - E6
+# T27 - theme - E10
+# T31 - theme - E11
+# T7 - location - T5
+# T6 - theme - T5
+# T21 - theme - E3
+# T17 - goal - E4
+# T25 - time - T24
+# T14 - theme - E10
+# T28 - theme - E10
+# T15 - time - E11
+# T32 - theme - E13
+# T37 - location - T32
+# T3 - objIdentity - T1
+# T17 - sameHead - T3
+# T17 - objIdentity - T3
+# T20 - pronominal - T17
+# T20 - objIdentity - T17
+# T22 - pronominal - T17
+# T22 - objIdentity - T17
+# T27 - sameHead - T5
+# T27 - objIdentity - T5
+# T29 - objIdentity - T28
+# T30 - sameHead - T17
+# T30 - objIdentity - T17
+# T31 - objIdentity - T2
+# T7 - partOf - T8
+# T11 - objIdentity - T6
+# T12 - objIdentity - T13

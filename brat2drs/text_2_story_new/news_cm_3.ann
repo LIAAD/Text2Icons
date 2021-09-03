@@ -1,0 +1,221 @@
+T1	ACTOR 0 7	Ladrões
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 >1
+T2	EVENT 8 16	roubaram
+E1	EVENT:T2 
+A5	Class E1 Occurrence
+A7	Tense E1 Past1
+A8	Polarity E1 Pos
+A9	Time E1 Past
+T3	ACTOR 17 26	500 vacas
+A10	Lexical_Head T3 Noun
+A11	Individuation T3 Individual
+A12	Actor_Type T3 Ani
+A13	Involvement T3 >1
+T4	ACTOR 30 53	uma exploração pecuária
+A14	Lexical_Head T4 Noun
+A15	Individuation T4 Individual
+A16	Actor_Type T4 Loc
+A17	Involvement T4 1
+T5	ACTOR 57 70	Nova Zelândia
+A18	Lexical_Head T5 Noun
+A19	Individuation T5 Individual
+A20	Actor_Type T5 Loc
+A21	Involvement T5 1
+T6	ACTOR 79 85	o dono
+A22	Lexical_Head T6 Noun
+A23	Individuation T6 Individual
+A24	Actor_Type T6 Per
+A25	Involvement T6 1
+T7	EVENT 86 100	se apercebesse
+E2	EVENT:T7 
+A26	Class E2 Occurrence
+A29	Polarity E2 Neg
+A30	Time E2 Past
+T8	TIME_X3 109 124	durante semanas
+A31	Time_Type T8 Duration
+A32	FunctionInDocument T8 None
+T9	EVENT 143 149	contou
+E3	EVENT:T9 
+A34	Class E3 Occurrence
+A36	Tense E3 Past1
+A37	Polarity E3 Pos
+A38	Time E3 Past
+T10	ACTOR 150 158	a manada
+A39	Lexical_Head T10 Noun
+A40	Individuation T10 Set
+A41	Actor_Type T10 Ani
+A42	Involvement T10 1
+T12	ACTOR 180 187	o homem
+A45	Lexical_Head T12 Noun
+A46	Individuation T12 Individual
+A47	Actor_Type T12 Per
+A48	Involvement T12 1
+T13	ACTOR 194 206	1300 cabeças
+A49	Lexical_Head T13 Noun
+A50	Individuation T13 Individual
+A51	Actor_Type T13 Ani
+A52	Involvement T13 >1
+T14	ACTOR 225 242	pouco mais de 800
+A53	Lexical_Head T14 Noun
+A54	Individuation T14 Individual
+A55	Actor_Type T14 Ani
+A56	Involvement T14 >1
+T15	EVENT 218 224	restam
+E4	EVENT:T15 
+A57	Class E4 State
+A59	Tense E4 Present
+A60	Polarity E4 Pos
+A61	Time E4 Present
+T16	ACTOR 244 253	A polícia
+A62	Lexical_Head T16 Noun
+A63	Individuation T16 Individual
+A64	Actor_Type T16 Org
+A65	Involvement T16 1
+T17	EVENT 254 271	está a investigar
+E5	EVENT:T17 
+A66	Class E5 State
+A68	Tense E5 Present
+A69	Polarity E5 Pos
+A70	Time E5 Present
+T19	EVENT 285 288	tem
+E7	EVENT:T19 
+A74	Class E7 State
+A76	Tense E7 Present
+A77	Polarity E7 Pos
+A78	Time E7 Present
+T20	ACTOR 289 302	poucas pistas
+A79	Lexical_Head T20 Noun
+A80	Individuation T20 Individual
+A81	Actor_Type T20 Obj
+A82	Involvement T20 >1
+T21	EVENT 320 337	não foram levadas
+E8	EVENT:T21 
+A83	Class E8 Occurrence
+A85	Tense E8 Past1
+A86	Polarity E8 Neg
+A87	Time E8 Past
+T22	ACTOR 338 343	todas
+A88	Lexical_Head T22 Noun
+A89	Individuation T22 Individual
+A90	Actor_Type T22 Ani
+A91	Involvement T22 All
+T23	EVENT 357 364	admitem
+E9	EVENT:T23 
+A92	Class E9 Occurrence
+A94	Tense E9 Present
+A95	Polarity E9 Pos
+A96	Time E9 Present
+T24	ACTOR 365 375	os agentes
+A97	Lexical_Head T24 Noun
+A98	Individuation T24 Individual
+A99	Actor_Type T24 Per
+A100	Involvement T24 >1
+T25	EVENT 381 393	não percebem
+E10	EVENT:T25 
+A101	Class E10 State
+A103	Tense E10 Present
+A104	Polarity E10 Neg
+A105	Time E10 Present
+T26	ACTOR 399 411	o agricultor
+A106	Lexical_Head T26 Noun
+A107	Individuation T26 Individual
+A108	Actor_Type T26 Per
+A109	Involvement T26 1
+T27	EVENT 412 419	não deu
+E11	EVENT:T27 
+A110	Class E11 Occurrence
+A112	Tense E11 Past1
+A113	Polarity E11 Neg
+A114	Time E11 Past
+T30	TIME_X3 212 217	agora
+A118	Time_Type T30 Date
+A119	FunctionInDocument T30 Publication_Time
+R2	OBJ_REL_partOf Arg1:T3 Arg2:T10	
+R3	OBJ_REL_objIdentity Arg1:T12 Arg2:T6	
+R4	OBJ_REL_objIdentity Arg1:T26 Arg2:T12	
+R5	OBJ_REL_objIdentity Arg1:T13 Arg2:T10	
+R6	OBJ_REL_partOf Arg1:T14 Arg2:T13	
+R7	OBJ_REL_objIdentity Arg1:T24 Arg2:T16	
+R8	OBJ_REL_objIdentity Arg1:T22 Arg2:T3	
+R9	OBJ_REL_objIdentity Arg1:T26 Arg2:T6	
+R11	TLINK_before Arg1:E3 Arg2:E1	
+R13	TLINK_after Arg1:E4 Arg2:E3	
+R14	TLINK_after Arg1:E4 Arg2:E1	
+R16	TLINK_simultaneous Arg1:E5 Arg2:E4	
+R17	TLINK_simultaneous Arg1:E7 Arg2:E5	
+R18	TLINK_isIncluded Arg1:E8 Arg2:E1	
+R19	TLINK_isIncluded Arg1:E9 Arg2:E5	
+R21	TLINK_includes Arg1:E10 Arg2:E9	
+R22	TLINK_before Arg1:E11 Arg2:E10	
+#1	AnnotatorNotes E2	Missing a tag for the Past (Imperfectum) Subjuntive
+#2	AnnotatorNotes T8	value="PXW"
+T11	TIME_X3 163 178	início de julho
+A28	Time_Type T11 Date
+A33	Mod T11 Start
+#3	AnnotatorNotes T11	value="2016-07-XX"
+T31	EVENT 188 193	tinha
+E13	EVENT:T31 
+A43	Class E13 State
+A121	Tense E13 Past2
+A122	Polarity E13 Pos
+A123	Time E13 Past
+R12	TLINK_includes Arg1:E13 Arg2:E3	
+#4	AnnotatorNotes T30	value="2016-08-31"
+T18	ACTOR 272 279	o roubo
+A71	Lexical_Head T18 Noun
+A72	Individuation T18 Individual
+A73	Involvement T18 1
+R15	TLINK_after Arg1:E5 Arg2:E1	
+T28	ACTOR 425 430	roubo
+A115	Lexical_Head T28 Noun
+A116	Individuation T28 Individual
+A117	Involvement T28 1
+A120	Actor_Type T18 Sit
+A124	Actor_Type T28 Sit
+R20	REF_REL_sameHead Arg1:T28 Arg2:T18	
+R23	OBJ_REL_objIdentity Arg1:T28 Arg2:T18	
+R10	TLINK_after Arg1:E2 Arg2:E1	
+A6	Value T8 Duration
+R24	TLINK_during Arg1:T8 Arg2:E2	
+A27	FunctionInDocument T11 None
+A35	Value T11 Date
+R25	TLINK_includes Arg1:T11 Arg2:E3	
+R26	TLINK_simultaneous Arg1:T30 Arg2:E4	
+A44	Factuality E8 Non_Factual
+R27	TLINK_identity Arg1:E11 Arg2:E2	
+R28	TLINK_identity Arg1:T28 Arg2:E1	
+A58	Factuality E1 Factual
+A67	Factuality E3 Factual
+A75	Factuality E13 Factual
+A84	Factuality E4 Factual
+A93	Factuality E5 Factual
+A102	Factuality E7 Factual
+A111	Factuality E9 Factual
+A125	Factuality E10 Factual
+A126	Factuality E11 Factual
+R29	SEMROLE_agent Arg1:T1 Arg2:E1	
+R30	SEMROLE_theme Arg1:T3 Arg2:E1	
+R31	SEMROLE_source Arg1:T4 Arg2:E1	
+R32	SEMROLE_location Arg1:T5 Arg2:E1	
+R33	SEMROLE_experiencer Arg1:T6 Arg2:E2	
+R34	SEMROLE_agent Arg1:T12 Arg2:E3	
+R35	SEMROLE_theme Arg1:T10 Arg2:E3	
+R36	SEMROLE_experiencer Arg1:T12 Arg2:E13	
+R37	SEMROLE_theme Arg1:T13 Arg2:E13	
+R38	SEMROLE_agent Arg1:T16 Arg2:E5	
+R39	SEMROLE_theme Arg1:T18 Arg2:E5	
+R40	SEMROLE_theme Arg1:T20 Arg2:E7	
+R41	SEMROLE_experiencer Arg1:T3 Arg2:E8	
+R42	SEMROLE_agent Arg1:T24 Arg2:E9	
+R43	SEMROLE_experiencer Arg1:T24 Arg2:E10	
+R44	SEMROLE_experiencer Arg1:T26 Arg2:E11	
+R45	SEMROLE_theme Arg1:T28 Arg2:E11	
+R46	SEMROLE_time Arg1:T8 Arg2:E2	
+R47	SEMROLE_time Arg1:T11 Arg2:E3	
+R48	SEMROLE_time Arg1:T30 Arg2:E4	
+R49	SEMROLE_theme Arg1:T14 Arg2:E4	
+R50	SEMROLE_experiencer Arg1:T16 Arg2:E7	
+R51	OBJ_REL_partOf Arg1:T4 Arg2:T5	

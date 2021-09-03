@@ -1,0 +1,325 @@
+T1	ACTOR 0 7	Vítimas
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 >1
+T2	EVENT 8 18	pertenciam
+E1	EVENT:T2 
+A5	Class E1 Occurrence
+A6	Tense E1 Past2
+A7	Polarity E1 Pos
+A8	Time E1 Past
+A9	Factuality E1 Factual
+T3	ACTOR 21 27	tribos
+A10	Lexical_Head T3 Noun
+A11	Individuation T3 Set
+A12	Actor_Type T3 Per
+A13	Involvement T3 >1
+T4	ACTOR 28 31	que
+A14	Lexical_Head T4 Pronoun
+A15	Individuation T4 Set
+A16	Actor_Type T4 Per
+A17	Involvement T4 >1
+R1	REF_REL_pronominal Arg1:T4 Arg2:T3	
+R2	OBJ_REL_objIdentity Arg1:T4 Arg2:T3	
+T5	EVENT 32 38	apoiam
+E2	EVENT:T5 
+A18	Class E2 Occurrence
+A19	Tense E2 Present
+A20	Polarity E2 Pos
+A21	Time E2 Present
+A22	Factuality E2 Factual
+T6	ACTOR 39 59	as forças do governo
+A23	Individuation T6 Individual
+A24	Actor_Type T6 Org
+A25	Involvement T6 >1
+T7	EVENT 62 79	foram confundidas
+E3	EVENT:T7 
+A26	Class E3 Occurrence
+A27	Tense E3 Past1
+A28	Polarity E3 Pos
+A29	Time E3 Past
+A30	Factuality E3 Factual
+T8	ACTOR 84 91	membros
+A31	Lexical_Head T8 Noun
+A32	Individuation T8 Individual
+A33	Actor_Type T8 Per
+A34	Involvement T8 >1
+T9	ACTOR 95 116	grupo Estado Islâmico
+A35	Lexical_Head T9 Noun
+A36	Actor_Type T9 Org
+A37	Involvement T9 1
+T10	EVENT 133 138	matou
+E4	EVENT:T10 
+A38	Class E4 Occurrence
+A39	Tense E4 Past1
+A40	Polarity E4 Pos
+A41	Time E4 Past
+A42	Factuality E4 Factual
+T11	TIME_X3 139 143	hoje
+T12	ACTOR 144 158	21 combatentes
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Per
+A46	Involvement T12 >1
+T13	ACTOR 162 176	tribos sunitas
+A47	Lexical_Head T13 Noun
+A48	Individuation T13 Set
+A49	Actor_Type T13 Per
+A50	Involvement T13 >1
+T14	EVENT 177 184	aliadas
+E5	EVENT:T14 
+A51	Class E5 Occurrence
+A52	Tense E5 PastPart
+A53	Polarity E5 Pos
+A54	Time E5 Past
+A55	Factuality E5 Factual
+T15	ACTOR 189 210	forças governamentais
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Org
+A59	Involvement T15 >1
+T16	ACTOR 275 290	norte do Iraque
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Loc
+A63	Involvement T16 1
+T19	ACTOR 211 226	perto de Mossul
+A72	Lexical_Head T19 Noun
+A73	Individuation T19 Individual
+A74	Actor_Type T19 Loc
+A75	Involvement T19 1
+T20	ACTOR 239 271	grupo extremista Estado Islâmico
+A76	Lexical_Head T20 Noun
+A77	Individuation T20 Individual
+A78	Actor_Type T20 Org
+A79	Involvement T20 1
+T21	ACTOR 378 401	a Força Aérea iraquiana
+A80	Lexical_Head T21 Noun
+A81	Individuation T21 Individual
+A82	Actor_Type T21 Org
+A83	Involvement T21 1
+T22	ACTOR 405 430	a coligação internacional
+A84	Lexical_Head T22 Noun
+A85	Individuation T22 Individual
+A86	Actor_Type T22 Org
+A87	Involvement T22 1
+T23	ACTOR 446 460	Estados Unidos
+A88	Lexical_Head T23 Noun
+A89	Individuation T23 Individual
+A90	Actor_Type T23 Loc
+A91	Involvement T23 1
+T24	ACTOR 485 498	s combatentes
+A92	Lexical_Head T24 Noun
+A93	Individuation T24 Individual
+A94	Actor_Type T24 Per
+A95	Involvement T24 >1
+T25	ACTOR 500 508	O ataque
+A96	Lexical_Head T25 Noun
+A97	Individuation T25 Individual
+A98	Actor_Type T25 Sit
+A99	Involvement T25 1
+T26	ACTOR 573 604	leste da localidade de Qayyarah
+A100	Lexical_Head T26 Noun
+A101	Individuation T26 Individual
+A102	Actor_Type T26 Loc
+A103	Involvement T26 1
+T27	ACTOR 608 621	sul de Mossul
+A104	Lexical_Head T27 Noun
+A105	Individuation T27 Individual
+A106	Actor_Type T27 Loc
+A107	Involvement T27 1
+T28	ACTOR 639 651	'jihadistas'
+A108	Lexical_Head T28 Noun
+A109	Individuation T28 Individual
+A110	Actor_Type T28 Per
+A111	Involvement T28 >1
+T29	ACTOR 663 683	As forças iraquianas
+A112	Lexical_Head T29 Noun
+A113	Individuation T29 Individual
+A114	Actor_Type T29 Org
+A115	Involvement T29 >1
+T30	ACTOR 701 717	um assalto final
+A116	Lexical_Head T30 Noun
+A117	Individuation T30 Individual
+A118	Actor_Type T30 Sit
+A119	Involvement T30 1
+T31	ACTOR 720 726	Mossul
+A120	Lexical_Head T31 Noun
+A121	Individuation T31 Individual
+A122	Actor_Type T31 Loc
+A123	Involvement T31 1
+T32	ACTOR 728 741	última cidade
+A124	Lexical_Head T32 Noun
+A125	Individuation T32 Individual
+A126	Actor_Type T32 Loc
+A127	Involvement T32 1
+T33	ACTOR 758 773	Estado Islâmico
+A128	Lexical_Head T33 Noun
+A129	Individuation T33 Individual
+A130	Actor_Type T33 Org
+A131	Involvement T33 1
+T34	ACTOR 777 783	Iraque
+A132	Lexical_Head T34 Noun
+A133	Individuation T34 Individual
+A134	Actor_Type T34 Loc
+A135	Involvement T34 1
+A136	Individuation T9 Individual
+R3	OBJ_REL_objIdentity Arg1:T20 Arg2:T9	
+R4	REF_REL_sameHead Arg1:T20 Arg2:T9	
+R5	OBJ_REL_partOf Arg1:T8 Arg2:T9	
+T35	ACTOR 117 132	Um ataque aéreo
+A137	Lexical_Head T35 Noun
+A138	Individuation T35 Individual
+A139	Actor_Type T35 Sit
+A140	Involvement T35 1
+R6	OBJ_REL_objIdentity Arg1:T25 Arg2:T35	
+R7	REF_REL_sameHead Arg1:T27 Arg2:T19	
+R8	OBJ_REL_objIdentity Arg1:T27 Arg2:T19	
+R9	OBJ_REL_objIdentity Arg1:T15 Arg2:T6	
+R10	OBJ_REL_objIdentity Arg1:T12 Arg2:T1	
+R11	REF_REL_sameHead Arg1:T13 Arg2:T3	
+R12	OBJ_REL_objIdentity Arg1:T13 Arg2:T3	
+R13	REF_REL_sameHead Arg1:T13 Arg2:T3	
+R14	OBJ_REL_partOf Arg1:T16 Arg2:T34	
+R15	REF_REL_sameHead Arg1:T24 Arg2:T12	
+R16	OBJ_REL_objIdentity Arg1:T24 Arg2:T12	
+R17	OBJ_REL_objIdentity Arg1:T28 Arg2:T20	
+R18	OBJ_REL_partOf Arg1:T21 Arg2:T29	
+R19	OBJ_REL_objIdentity Arg1:T29 Arg2:T15	
+R21	REF_REL_sameHead Arg1:T31 Arg2:T27	
+R22	OBJ_REL_objIdentity Arg1:T31 Arg2:T27	
+R20	OBJ_REL_objIdentity Arg1:T32 Arg2:T31	
+R23	OBJ_REL_objIdentity Arg1:T33 Arg2:T28	
+R24	OBJ_REL_objIdentity Arg1:T33 Arg2:T20	
+R25	OBJ_REL_partOf Arg1:T31 Arg2:T34	
+T37	EVENT 336 355	Não foi esclarecido
+E7	EVENT:T37 
+A146	Class E7 Occurrence
+A147	Tense E7 Past1
+A148	Polarity E7 Neg
+A149	Time E7 Past
+A150	Factuality E7 Non_Factual
+T38	EVENT 374 377	foi
+E8	EVENT:T38 
+A151	Class E8 Occurrence
+A152	Tense E8 Past1
+A153	Time E8 Past
+A154	Polarity E8 Pos
+A155	Factuality E8 Non_Factual
+T39	EVENT 431 439	liderada
+E9	EVENT:T39 
+A156	Class E9 Occurrence
+A157	Tense E9 PastPart
+A158	Polarity E9 Pos
+A159	Time E9 Past
+A160	Factuality E9 Factual
+T40	EVENT 465 483	atingiu por engano
+E10	EVENT:T40 
+A161	Class E10 Occurrence
+A162	Tense E10 Past1
+A163	Polarity E10 Pos
+A164	Time E10 Past
+A165	Factuality E10 Non_Factual
+T41	EVENT 509 516	ocorreu
+E11	EVENT:T41 
+A166	Class E11 Occurrence
+A167	Tense E11 Past1
+A168	Polarity E11 Pos
+A169	Time E11 Past
+A170	Factuality E11 Factual
+T42	EVENT 623 634	recapturada
+E12	EVENT:T42 
+A171	Class E12 Occurrence
+A172	Tense E12 PastPart
+A173	Polarity E12 Pos
+A174	Time E12 Past
+A175	Factuality E12 Factual
+T43	EVENT 684 700	estão a preparar
+E13	EVENT:T43 
+A176	Class E13 State
+A177	Tense E13 Present
+A178	Polarity E13 Pos
+A179	Time E13 Present
+A180	Factuality E13 Factual
+T44	EVENT 742 752	controlada
+E14	EVENT:T44 
+A181	Class E14 Occurrence
+A182	Tense E14 PastPart
+A183	Polarity E14 Pos
+A184	Time E14 Present
+A185	Factuality E14 Factual
+R29	TLINK_after Arg1:E4 Arg2:E3	
+R31	TLINK_before Arg1:E8 Arg2:E7	
+T45	ACTOR 461 464	que
+A186	Lexical_Head T45 Pronoun
+A187	Individuation T45 Individual
+A188	Actor_Type T45 Org
+A189	Involvement T45 1
+R33	REF_REL_pronominal Arg1:T45 Arg2:T22	
+R34	OBJ_REL_objIdentity Arg1:T45 Arg2:T22	
+R36	TLINK_identity Arg1:E11 Arg2:E10	
+R37	TLINK_before Arg1:E12 Arg2:E11	
+R38	TLINK_after Arg1:E13 Arg2:E11	
+R39	TLINK_includes Arg1:E14 Arg2:E13	
+#1	AnnotatorNotes T11	value="2016-10-05"
+A190	Time_Type T11 Date
+A191	FunctionInDocument T11 Publication_Time
+A192	Value T11 Date
+T46	TIME_X3 517 537	cerca da 01:00 local
+A193	Time_Type T46 Time
+A194	FunctionInDocument T46 None
+A195	Value T46 Time
+#2	AnnotatorNotes T46	value="T01:00"
+T47	TIME_X3 539 569	23:00 de terça-feira em Lisboa
+A196	Time_Type T47 Time
+A197	FunctionInDocument T47 None
+A198	Value T47 Time
+#3	AnnotatorNotes T47	value="T23:00"
+T48	TIME_X3 652 661	em agosto
+A199	Time_Type T48 Date
+A200	Value T48 Date
+#4	AnnotatorNotes T48	value="2016-08-XX"
+R40	TLINK_includes Arg1:E2 Arg2:E1	
+R41	TLINK_isIncluded Arg1:E3 Arg2:E1	
+R27	TLINK_isIncluded Arg1:E9 Arg2:E8	
+R28	TLINK_identity Arg1:E10 Arg2:E4	
+R30	TLINK_includes Arg1:T11 Arg2:E4	
+R35	TLINK_includes Arg1:T46 Arg2:E11	
+R42	TLINK_identity Arg1:T47 Arg2:T46	
+R43	TLINK_includes Arg1:T48 Arg2:E12	
+R44	SEMROLE_experiencer Arg1:T1 Arg2:E1	
+R45	SEMROLE_agent Arg1:T3 Arg2:E2	
+R46	SEMROLE_source Arg1:T3 Arg2:E1	
+R47	SEMROLE_theme Arg1:T6 Arg2:E2	
+R49	SEMROLE_theme Arg1:T8 Arg2:E3	
+R50	SEMROLE_theme Arg1:T35 Arg2:E4	
+R51	SEMROLE_time Arg1:T11 Arg2:E4	
+R48	SEMROLE_theme Arg1:T1 Arg2:E3	
+R52	SEMROLE_source Arg1:T9 Arg2:E3	
+R53	SEMROLE_experiencer Arg1:T12 Arg2:E4	
+R54	SEMROLE_theme Arg1:T13 Arg2:E5	
+R55	SEMROLE_source Arg1:T15 Arg2:E5	
+R58	SEMROLE_experiencer Arg1:T24 Arg2:E10	
+R59	SEMROLE_agent Arg1:T21 Arg2:E10	
+R60	SEMROLE_agent Arg1:T22 Arg2:E10	
+R61	SEMROLE_agent Arg1:T23 Arg2:E9	
+R63	SEMROLE_theme Arg1:T22 Arg2:E9	
+R64	SEMROLE_theme Arg1:T25 Arg2:E11	
+R65	SEMROLE_time Arg1:T46 Arg2:E11	
+R66	SEMROLE_time Arg1:T47 Arg2:E11	
+R67	SEMROLE_location Arg1:T26 Arg2:E11	
+R68	SEMROLE_location Arg1:T27 Arg2:E11	
+R70	SEMROLE_source Arg1:T28 Arg2:E12	
+R71	SEMROLE_time Arg1:T48 Arg2:E12	
+R72	SEMROLE_agent Arg1:T29 Arg2:E13	
+R73	SEMROLE_theme Arg1:T30 Arg2:E13	
+R74	SEMROLE_goal Arg1:T30 Arg2:T31	
+R75	SEMROLE_theme Arg1:T32 Arg2:E14	
+R76	SEMROLE_source Arg1:T33 Arg2:E14	
+R77	SEMROLE_location Arg1:T34 Arg2:E14	
+R78	OBJ_REL_partOf Arg1:T12 Arg2:T13	
+R79	SEMROLE_location Arg1:T19 Arg2:E4	
+R26	SEMROLE_theme Arg1:T21 Arg2:E8	
+R32	SEMROLE_theme Arg1:T22 Arg2:E8	
+R56	SEMROLE_theme Arg1:T27 Arg2:E12	

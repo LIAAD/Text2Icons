@@ -1,0 +1,206 @@
+T1	ACTOR 32 46	Charles Michel
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 284 298	Charles Michel
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 1
+R1	REF_REL_sameHead Arg1:T2 Arg2:T1	
+R2	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T3	ACTOR 96 104	Bruxelas
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Loc
+A11	Involvement T3 1
+T4	ACTOR 0 19	O primeiro-ministro
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Per
+A15	Involvement T4 1
+T5	ACTOR 23 30	Bélgica
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Loc
+A19	Involvement T5 1
+R3	OBJ_REL_partOf Arg1:T3 Arg2:T5	
+T6	ACTOR 121 129	críticas
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Sit
+A23	Involvement T6 >1
+T7	ACTOR 137 168	os serviços de segurança belgas
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Org
+A27	Involvement T7 >1
+T8	ACTOR 171 180	O governo
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Org
+A31	Involvement T8 1
+T9	ACTOR 183 209	as autoridades competentes
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Org
+A35	Involvement T9 >1
+T10	ACTOR 220 237	todos os esforços
+A36	Individuation T10 Individual
+A37	Actor_Type T10 Sit
+A38	Involvement T10 All
+T11	ACTOR 259 271	os atentados
+A39	Lexical_Head T11 Noun
+A40	Individuation T11 Individual
+A41	Actor_Type T11 Sit
+A42	Involvement T11 >1
+T12	ACTOR 373 392	o primeiro-ministro
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Per
+A46	Involvement T12 1
+T13	ACTOR 398 414	cerimónia solene
+A47	Lexical_Head T13 Noun
+A48	Actor_Type T13 Loc
+A49	Involvement T13 1
+#1	AnnotatorNotes T13	Loc ou Sit? 
+T14	ACTOR 438 450	o rei Filipe
+A50	Lexical_Head T14 Noun
+A51	Individuation T14 Individual
+A52	Actor_Type T14 Per
+A53	Involvement T14 1
+T15	ACTOR 452 468	a rainha Matilde
+A54	Lexical_Head T15 Noun
+A55	Individuation T15 Individual
+A56	Actor_Type T15 Per
+A57	Involvement T15 1
+T16	ACTOR 470 488	membros do Governo
+A58	Lexical_Head T16 Noun
+A59	Individuation T16 Individual
+A60	Actor_Type T16 Per
+A61	Involvement T16 >1
+T17	ACTOR 491 503	o presidente
+A62	Lexical_Head T17 Noun
+A63	Actor_Type T17 Per
+A64	Involvement T17 1
+T18	ACTOR 507 524	Comissão Europeia
+A65	Lexical_Head T18 Noun
+A66	Individuation T18 Individual
+A67	Actor_Type T18 Org
+A68	Involvement T18 1
+T19	ACTOR 526 545	Jean-Claude Juncker
+A69	Lexical_Head T19 Noun
+A70	Individuation T19 Individual
+A71	Actor_Type T19 Per
+A72	Involvement T19 1
+R4	OBJ_REL_objIdentity Arg1:T1 Arg2:T4	
+R5	REF_REL_sameHead Arg1:T12 Arg2:T4	
+R6	OBJ_REL_objIdentity Arg1:T12 Arg2:T4	
+R7	OBJ_REL_objIdentity Arg1:T19 Arg2:T17	
+R8	OBJ_REL_partOf Arg1:T16 Arg2:T8	
+R9	OBJ_REL_objIdentity Arg1:T9 Arg2:T7	
+T20	ACTOR 80 92	os atentados
+A73	Lexical_Head T20 Noun
+A74	Individuation T20 Individual
+A75	Actor_Type T20 Sit
+A76	Involvement T20 >1
+R10	REF_REL_sameHead Arg1:T11 Arg2:T20	
+R11	OBJ_REL_objIdentity Arg1:T11 Arg2:T20	
+T21	TIME_X3 57 61	hoje
+A77	Time_Type T21 Date
+A78	FunctionInDocument T21 Publication_Time
+A79	Value T21 Date
+#2	AnnotatorNotes T21	value=""
+T22	EVENT 48 56	prometeu
+E1	EVENT:T22 
+A80	Class E1 Occurrence
+A81	Tense E1 Past1
+A82	Polarity E1 Pos
+A83	Time E1 Past
+A84	Factuality E1 Factual
+T23	EVENT 210 219	envidarão
+E2	EVENT:T23 
+A85	Class E2 Occurrence
+A86	Tense E2 Future1
+A87	Polarity E2 Pos
+A88	Factuality E2 Factual
+T24	EVENT 274 283	assegurou
+E3	EVENT:T24 
+A89	Class E3 Occurrence
+A90	Tense E3 Past1
+A91	Polarity E3 Pos
+A92	Time E3 Past
+A93	Factuality E3 Factual
+T25	EVENT 243 252	fazer luz
+E4	EVENT:T25 
+A94	Class E4 Occurrence
+A95	Tense E4 Infinitive
+A96	Polarity E4 Pos
+A97	Time E4 Future
+A98	Factuality E4 Factual
+T26	EVENT 301 318	Não ficará impune
+E5	EVENT:T26 
+A99	Class E5 Occurrence
+A100	Tense E5 Future1
+A101	Polarity E5 Neg
+A102	Time E5 Future
+A103	Factuality E5 Factual
+T27	EVENT 325 335	Não haverá
+E6	EVENT:T27 
+A104	Class E6 Occurrence
+A105	Tense E6 Future1
+A106	Polarity E6 Neg
+A107	Time E6 Future
+A108	Factuality E6 Factual
+T28	ACTOR 336 361	quaisquer zonas cinzentas
+A109	Lexical_Head T28 Noun
+A110	Individuation T28 Individual
+A111	Involvement T28 0
+#3	AnnotatorNotes T28	actor_type?
+T29	EVENT 364 372	declarou
+E7	EVENT:T29 
+A112	Class E7 Occurrence
+A113	Tense E7 Past1
+A114	Polarity E7 Pos
+A115	Time E7 Past
+A116	Factuality E7 Factual
+T30	EVENT 422 437	estava presente
+E8	EVENT:T30 
+A117	Class E8 State
+A118	Tense E8 Past2
+A119	Polarity E8 Pos
+A120	Time E8 Past
+A121	Factuality E8 Factual
+R12	TLINK_isIncluded Arg1:E7 Arg2:E3	
+R14	TLINK_after Arg1:E2 Arg2:E1	
+R15	TLINK_isIncluded Arg1:E4 Arg2:E2	
+R16	TLINK_after Arg1:E5 Arg2:E3	
+R17	TLINK_after Arg1:E6 Arg2:E3	
+R18	TLINK_simultaneous Arg1:E8 Arg2:E7	
+R19	TLINK_includes Arg1:T21 Arg2:E1	
+R13	TLINK_identity Arg1:E3 Arg2:E1	
+R20	SEMROLE_agent Arg1:T1 Arg2:E1	
+R21	SEMROLE_agent Arg1:T9 Arg2:E2	
+R22	SEMROLE_theme Arg1:T10 Arg2:E2	
+R23	SEMROLE_agent Arg1:T2 Arg2:E3	
+R24	SEMROLE_agent Arg1:T12 Arg2:E7	
+R25	SEMROLE_time Arg1:T21 Arg2:E1	
+T31	ACTOR 63 72	plena luz
+A122	Lexical_Head T31 Noun
+A123	Individuation T31 Individual
+A124	Actor_Type T31 Other
+A125	Involvement T31 1
+R26	SEMROLE_theme Arg1:T31 Arg2:E1	
+R27	SEMROLE_agent Arg1:T8 Arg2:E2	
+R28	SEMROLE_goal Arg1:T10 Arg2:E4	
+R29	SEMROLE_location Arg1:T13 Arg2:E7	
+R30	SEMROLE_location Arg1:T13 Arg2:E8	
+R31	SEMROLE_theme Arg1:T14 Arg2:E8	
+R32	SEMROLE_theme Arg1:T15 Arg2:E8	
+R33	SEMROLE_theme Arg1:T16 Arg2:E8	
+R34	SEMROLE_theme Arg1:T19 Arg2:E8	
+T32	ACTOR 171 271	O governo e as autoridades competentes envidarão todos os esforços para fazer luz sobre os atentados
+A126	Individuation T32 Individual
+A127	Actor_Type T32 Other
+A128	Involvement T32 1
+R35	SEMROLE_theme Arg1:T32 Arg2:E3	

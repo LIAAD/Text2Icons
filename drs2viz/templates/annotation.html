@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <!-- <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    </head>
+
+    <body>
+        <div class="container mt-4">
+            <div class="content d-flex justify-content-center">
+                <div>
+                    <div class="row">
+
+                        <div class="col-sm">
+                            {% for line in text[:(text|length)//2] %}
+                                {{ line }}
+                                <br>
+                            {% endfor %}
+                        </div>
+                        
+                        <div class="col-sm">
+                            {% for line in text[(text|length)//2:] %}
+                                {{ line }}
+                                <br>
+                            {% endfor %}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

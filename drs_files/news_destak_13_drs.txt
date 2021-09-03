@@ -1,0 +1,119 @@
+» EVENTS
+# E1 (repudia) -> a
+# FOL:  exists Factual Occurrence Pos Present a.(event(a) & eventClass(a,Occurrence) & Tense(a,Present) & Polarity(a,Pos) & Time(a,Present) & relationRole(agent,T1) & relationRole(theme,T2) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Present), Polarity(a,Pos), Time(a,Present), relationRole(agent,T1), relationRole(theme,T2), Factuality(a,Factual)]) 
+
+# E2 (condena veementemente) -> b
+# FOL:  exists Factual Pos Present b.(event(b) & Tense(b,Present) & Polarity(b,Pos) & Time(b,Present) & occursBefore(b,c) & relationRole(theme,T2) & relationRole(agent,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), Tense(b,Present), Polarity(b,Pos), Time(b,Present), occursBefore(b,c), relationRole(theme,T2), relationRole(agent,T1), Factuality(b,Factual)]) 
+
+# E3 (ocorrido) -> c
+# FOL:  exists Factual Occurrence Past PastPart Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,PastPart) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(location,T18) & relationRole(time,T3) & relationRole(theme,T2) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PastPart), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(location,T18), relationRole(time,T3), relationRole(theme,T2), Factuality(c,Factual)]) 
+
+# E4 (enviou) -> d
+# FOL:  exists Factual Occurrence Past Pos d.(event(d) & eventClass(d,Occurrence) & Polarity(d,Pos) & Time(d,Past) & occursAfter(d,c) & relationRole(agent,T5) & relationRole(theme,T20) & relationRole(goal,T7) & relationRole(goal,T8) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Polarity(d,Pos), Time(d,Past), occursAfter(d,c), relationRole(agent,T5), relationRole(theme,T20), relationRole(goal,T7), relationRole(goal,T8), Factuality(d,Factual)]) 
+
+# E6 (repudia) -> e
+# FOL:  exists Factual Occurrence Pos Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & relationRole(agent,T13) & relationRole(theme,T14) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Present), Polarity(e,Pos), Time(e,Present), relationRole(agent,T13), relationRole(theme,T14), Factuality(e,Factual)]) 
+
+# E7 (condena veementemente) -> f
+# FOL:  exists Factual Occurrence Pos Present f.(event(f) & eventClass(f,Occurrence) & Tense(f,Present) & Polarity(f,Pos) & Time(f,Present) & relationRole(agent,T13) & relationRole(theme,T14) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Present), Polarity(f,Pos), Time(f,Present), relationRole(agent,T13), relationRole(theme,T14), Factuality(f,Factual)]) 
+
+# E8 (ataca) -> g
+# FOL:  exists Factual Occurrence Pos Present g.(event(g) & eventClass(g,Occurrence) & Tense(g,Present) & Polarity(g,Pos) & Time(g,Present) & relationRole(source,T14) & relationRole(goal,T16) & relationRole(goal,T17) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Present), Polarity(g,Pos), Time(g,Present), relationRole(source,T14), relationRole(goal,T16), relationRole(goal,T17), Factuality(g,Factual)]) 
+
+# E9 (Lamentamos) -> h
+# FOL:  exists Factual Occurrence Pos Present h.(event(h) & eventClass(h,Occurrence) & Tense(h,Present) & Polarity(h,Pos) & Time(h,Present) & relationRole(theme,T22) & relationRole(agent,T13) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Present), Polarity(h,Pos), Time(h,Present), relationRole(theme,T22), relationRole(agent,T13), Factuality(h,Factual)]) 
+
+# E10 (manifestamos) -> i
+# FOL:  exists Factual Occurrence Pos Present i.(event(i) & eventClass(i,Occurrence) & Tense(i,Present) & Polarity(i,Pos) & Time(i,Present) & relationRole(theme,T23) & relationRole(agent,T13) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Present), Polarity(i,Pos), Time(i,Present), relationRole(theme,T23), relationRole(agent,T13), Factuality(i,Factual)]) 
+
+# E11 (estão a trabalhar) -> j
+# FOL:  exists Factual Occurrence Pos Present j.(event(j) & eventClass(j,Occurrence) & Tense(j,Present) & Polarity(j,Pos) & relationRole(agent,T28) & relationRole(agent,T29) & relationRole(agent,T30) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Present), Polarity(j,Pos), relationRole(agent,T28), relationRole(agent,T29), relationRole(agent,T30), Factuality(j,Factual)]) 
+
+# E12 (ajudar) -> k
+# FOL:  exists Factual Infinitive Occurrence Pos Present k.(event(k) & eventClass(k,Occurrence) & Tense(k,Infinitive) & Polarity(k,Pos) & Time(k,Present) & relationRole(theme,T44) & relationRole(goal,E11) & relationRole(agent,T28) & relationRole(agent,T29) & relationRole(agent,T30) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Infinitive), Polarity(k,Pos), Time(k,Present), relationRole(theme,T44), relationRole(goal,E11), relationRole(agent,T28), relationRole(agent,T29), relationRole(agent,T30), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> O Governo português
+# T13 -> o executivo
+# T14 -> este atentado
+# T15 -> que
+# T16 -> a França
+# T17 -> todos os europeus
+# T18 -> Nice
+# T19 -> França
+# T2 -> o atentado
+# T20 -> mensagens de condolências
+# T22 -> as vítimas
+# T23 -> total solidariedade
+# T24 -> França
+# T25 -> os franceses
+# T28 -> A embaixada
+# T29 -> consulados portugueses
+# T30 -> autoridades francesas
+# T4 -> o primeiro-ministro
+# T44 -> todos os que necessitem
+# T5 -> António Costa
+# T7 -> François Hollande
+# T8 -> Manuel Valls
+# T9 -> seu
+# T6 -> Presidente francês
+# T21 -> homólogo
+# T3 -> quinta-feira à noite
+
+» RELATIONS
+# T2 - theme - E2
+# T18 - location - E3
+# T5 - agent - E4
+# T20 - theme - E4
+# T7 - goal - E4
+# T8 - goal - E4
+# T13 - agent - E6
+# T13 - agent - E7
+# T1 - agent - E1
+# T14 - theme - E7
+# T14 - source - E8
+# T16 - goal - E8
+# T17 - goal - E8
+# T22 - theme - E9
+# T28 - agent - E11
+# T29 - agent - E11
+# T44 - theme - E12
+# T2 - theme - E1
+# T1 - agent - E2
+# T3 - time - E3
+# T14 - theme - E6
+# T23 - theme - E10
+# T2 - theme - E3
+# T13 - agent - E9
+# T13 - agent - E10
+# T24 - theme - T23
+# T25 - theme - T23
+# T30 - agent - E11
+# E12 - goal - E11
+# T28 - agent - E12
+# T29 - agent - E12
+# T30 - agent - E12
+# T5 - objIdentity - T4
+# T7 - objIdentity - T6
+# T9 - pronominal - T5
+# T9 - objIdentity - T5
+# T14 - objIdentity - T2
+# T15 - objIdentity - T14
+# T18 - partOf - T19
+# T8 - objIdentity - T21
+# T24 - objIdentity - T16
+# T25 - subSet - T24
+# T16 - objIdentity - T19
+# T13 - objIdentity - T1
+# T15 - pronominal - T14

@@ -1,0 +1,270 @@
+T1	ACTOR 0 10	Empresário
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 21 38	quatro familiares
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 >1
+T3	ACTOR 42 57	Póvoa de Varzim
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+T4	ACTOR 128 148	Um médico psiquiatra
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Per
+A16	Involvement T4 1
+T6	ACTOR 246 260	sete mil euros
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Obj
+A24	Involvement T6 >1
+T7	TIME_X3 109 126	25 anos de prisão
+A25	Time_Type T7 Duration
+A26	FunctionInDocument T7 None
+A27	Value T7 Duration
+#1	AnnotatorNotes T7	value="P25Y"
+T8	ACTOR 263 271	um preso
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Per
+A31	Involvement T8 1
+T5	EVENT 15 20	matou
+E1	EVENT:T5 
+A17	Class E1 Occurrence
+A18	Tense E1 Past1
+A19	Polarity E1 Pos
+A20	Time E1 Past
+A32	Factuality E1 Factual
+T9	EVENT 58 63	pediu
+E2	EVENT:T9 
+A33	Class E2 Occurrence
+A34	Tense E2 Past1
+A35	Polarity E2 Pos
+A36	Time E2 Past
+A37	Factuality E2 Factual
+T10	ACTOR 64 84	parecer psiquiátrico
+A38	Lexical_Head T10 Noun
+A39	Individuation T10 Individual
+A40	Actor_Type T10 Obj
+A41	Involvement T10 1
+T11	EVENT 90 106	acabou condenado
+E3	EVENT:T11 
+A42	Class E3 Occurrence
+A43	Tense E3 Past1
+A44	Polarity E3 Pos
+A45	Time E3 Past
+A46	Factuality E3 Factual
+T12	EVENT 149 159	contratado
+E4	EVENT:T12 
+A47	Class E4 Occurrence
+A48	Tense E4 PastPart
+A49	Polarity E4 Pos
+A50	Time E4 Past
+A51	Factuality E4 Factual
+T13	EVENT 165 172	prestar
+E5	EVENT:T13 
+A52	Tense E5 Infinitive
+A53	Polarity E5 Pos
+A54	Time E5 Past
+A55	Factuality E5 Factual
+T14	ACTOR 185 222	estabelecimento prisional de Custóias
+A56	Lexical_Head T14 Noun
+A57	Individuation T14 Individual
+A58	Actor_Type T14 Loc
+A59	Involvement T14 1
+T16	ACTOR 227 237	Matosinhos
+A64	Lexical_Head T16 Noun
+A65	Individuation T16 Individual
+A66	Actor_Type T16 Loc
+A67	Involvement T16 1
+T17	EVENT 239 245	cobrou
+E6	EVENT:T17 
+A68	Class E6 Occurrence
+A69	Tense E6 Past1
+A70	Polarity E6 Pos
+A71	Time E6 Past
+A72	Factuality E6 Factual
+T18	ACTOR 276 300	um parecer "clandestino"
+A73	Lexical_Head T18 Noun
+A74	Individuation T18 Individual
+A75	Actor_Type T18 Obj
+A76	Involvement T18 1
+T19	EVENT 301 310	destinado
+E7	EVENT:T19 
+A77	Class E7 Occurrence
+A78	Tense E7 PastPart
+A79	Polarity E7 Pos
+A80	Time E7 Past
+A81	Factuality E7 Factual
+T20	EVENT 313 326	ser utilizado
+E8	EVENT:T20 
+A82	Class E8 Occurrence
+A83	Tense E8 Infinitive
+A84	Time E8 Past
+A85	Factuality E8 Factual
+T23	TIME_X3 368 388	abril do ano passado
+A93	Time_Type T23 Date
+A94	FunctionInDocument T23 None
+A95	Value T23 Date
+#2	AnnotatorNotes T23	"2015-04-XX"
+T24	ACTOR 393 408	Póvoa de Varzim
+A96	Lexical_Head T24 Noun
+A97	Individuation T24 Individual
+A98	Actor_Type T24 Loc
+A99	Involvement T24 1
+T25	ACTOR 417 426	o arguido
+A100	Lexical_Head T25 Noun
+A101	Individuation T25 Individual
+A102	Actor_Type T25 Per
+A103	Involvement T25 1
+T26	EVENT 427 443	acabou condenado
+E11	EVENT:T26 
+A104	Class E11 Occurrence
+A105	Tense E11 Past1
+A106	Polarity E11 Pos
+A107	Time E11 Past
+A108	Factuality E11 Factual
+T27	TIME_X3 446 463	25 anos de prisão
+A109	Time_Type T27 Duration
+A110	FunctionInDocument T27 None
+A111	Value T27 Duration
+#3	AnnotatorNotes T27	value="P25Y"
+T28	EVENT 466 474;475 484	resolveu denunciar
+E12	EVENT:T28 
+A112	Class E12 Occurrence
+A113	Tense E12 Past1
+A114	Polarity E12 Pos
+A115	Time E12 Past
+A116	Factuality E12 Factual
+T30	ACTOR 485 494	o clínico
+A122	Lexical_Head T30 Noun
+A123	Individuation T30 Individual
+A124	Actor_Type T30 Per
+A125	Involvement T30 1
+T31	EVENT 499 505	violar
+E14	EVENT:T31 
+A126	Class E14 Occurrence
+A127	Tense E14 Infinitive
+A128	Polarity E14 Pos
+A129	Time E14 Past
+A130	Factuality E14 Factual
+T32	ACTOR 506 515	as regras
+A131	Lexical_Head T32 Noun
+A132	Individuation T32 Individual
+A133	Actor_Type T32 Obj
+A134	Involvement T32 >1
+T33	ACTOR 519 525	cadeia
+A135	Lexical_Head T33 Noun
+A136	Individuation T33 Individual
+A137	Actor_Type T33 Loc
+A138	Involvement T33 1
+T34	ACTOR 527 535	O visado
+A140	Individuation T34 Individual
+A141	Actor_Type T34 Per
+A142	Involvement T34 1
+T35	EVENT 536 539;553 561	foi afastado
+E15	EVENT:T35 
+A139	Class E15 Occurrence
+A143	Polarity E15 Pos
+A144	Factuality E15 Factual
+T36	EVENT 575 585	foi aberto
+E16	EVENT:T36 
+A145	Class E16 Occurrence
+A146	Tense E16 Past1
+A147	Polarity E16 Pos
+A148	Time E16 Past
+A149	Factuality E16 Factual
+T38	ACTOR 607 625	Ministério Público
+A154	Lexical_Head T38 Noun
+A155	Individuation T38 Individual
+A156	Actor_Type T38 Loc
+A157	Involvement T38 1
+T39	ACTOR 11 14	que
+A158	Lexical_Head T39 Pronoun
+A159	Individuation T39 Individual
+A160	Actor_Type T39 Per
+A161	Involvement T39 1
+R1	REF_REL_pronominal Arg1:T39 Arg2:T1	
+R2	OBJ_REL_objIdentity Arg1:T39 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T8 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T25 Arg2:T8	
+R5	REF_REL_synonymy Arg1:T30 Arg2:T4	
+R6	OBJ_REL_objIdentity Arg1:T30 Arg2:T4	
+R7	OBJ_REL_objIdentity Arg1:T34 Arg2:T30	
+R8	OBJ_REL_objIdentity Arg1:T18 Arg2:T10	
+R11	REF_REL_synonymy Arg1:T33 Arg2:T14	
+R12	OBJ_REL_objIdentity Arg1:T33 Arg2:T14	
+R16	TLINK_after Arg1:E2 Arg2:E1	
+R17	TLINK_after Arg1:E3 Arg2:E2	
+R18	TLINK_after Arg1:E6 Arg2:E5	
+R21	TLINK_after Arg1:E12 Arg2:E11	
+R24	TLINK_after Arg1:E16 Arg2:E15	
+R26	TLINK_identity Arg1:E11 Arg2:E3	
+R9	REF_REL_sameHead Arg1:T24 Arg2:T3	
+R10	OBJ_REL_objIdentity Arg1:T24 Arg2:T3	
+T37	ACTOR 586 603	um processo-crime
+A150	Lexical_Head T37 Noun
+A151	Individuation T37 Individual
+A152	Involvement T37 1
+R14	TLINK_after Arg1:E5 Arg2:E4	
+R15	TLINK_identity Arg1:E4 Arg2:E2	
+T21	ACTOR 331 339	processo
+A86	Lexical_Head T21 Noun
+A87	Individuation T21 Individual
+A88	Actor_Type T21 Sit
+A89	Involvement T21 1
+T22	ACTOR 344 363	quádruplo homicídio
+A90	Lexical_Head T22 Noun
+A91	Individuation T22 Individual
+A92	Actor_Type T22 Sit
+A153	Involvement T22 >1
+R19	TLINK_includes Arg1:T23 Arg2:T22	
+R25	TLINK_after Arg1:E11 Arg2:E6	
+R20	TLINK_before Arg1:E14 Arg2:E12	
+R22	TLINK_after Arg1:E15 Arg2:E14	
+R23	SEMROLE_agent Arg1:T1 Arg2:E1	
+R27	SEMROLE_theme Arg1:T2 Arg2:E1	
+R28	SEMROLE_location Arg1:T3 Arg2:E1	
+R29	SEMROLE_agent Arg1:T1 Arg2:E2	
+R30	SEMROLE_theme Arg1:T10 Arg2:E2	
+R31	SEMROLE_theme Arg1:T1 Arg2:E3	
+R32	SEMROLE_theme Arg1:T4 Arg2:E4	
+R33	SEMROLE_location Arg1:T14 Arg2:E5	
+R34	SEMROLE_agent Arg1:T4 Arg2:E6	
+R35	SEMROLE_theme Arg1:T6 Arg2:E6	
+R36	SEMROLE_goal Arg1:T8 Arg2:E6	
+R37	SEMROLE_theme Arg1:T18 Arg2:E7	
+R38	SEMROLE_theme Arg1:T25 Arg2:E11	
+R40	SEMROLE_agent Arg1:T25 Arg2:E12	
+R41	SEMROLE_theme Arg1:T30 Arg2:E12	
+R42	SEMROLE_agent Arg1:T30 Arg2:E14	
+R43	SEMROLE_theme Arg1:T32 Arg2:E14	
+R44	SEMROLE_theme Arg1:T34 Arg2:E15	
+R45	SEMROLE_theme Arg1:T37 Arg2:E16	
+R46	SEMROLE_location Arg1:T38 Arg2:E16	
+R48	SEMROLE_goal Arg1:T21 Arg2:E8	
+R39	SEMROLE_source Arg1:T33 Arg2:T32	
+R49	SEMROLE_theme Arg1:T7 Arg2:E3	
+T29	ACTOR 173 181	serviços
+A117	Lexical_Head T29 Noun
+A118	Individuation T29 Individual
+A119	Actor_Type T29 Sit
+A120	Involvement T29 >1
+R50	SEMROLE_theme Arg1:T29 Arg2:E5	
+R13	OBJ_REL_partOf Arg1:T14 Arg2:T16	
+R47	SEMROLE_theme Arg1:T18 Arg2:E6	
+R51	SEMROLE_theme Arg1:T22 Arg2:T21	
+R52	SEMROLE_theme Arg1:T18 Arg2:E8	
+R53	SEMROLE_time Arg1:T23 Arg2:T22	
+R54	SEMROLE_location Arg1:T24 Arg2:T22	
+R55	SEMROLE_theme Arg1:T27 Arg2:E11	
+T15	ACTOR 565 572	serviço
+A60	Lexical_Head T15 Noun
+A61	Individuation T15 Individual
+A63	Involvement T15 1
+R56	SEMROLE_source Arg1:T15 Arg2:E15	

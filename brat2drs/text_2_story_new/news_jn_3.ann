@@ -1,0 +1,201 @@
+T1	ACTOR 0 7	O homem
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	EVENT 32 38	recaía
+E1	EVENT:T2 
+A5	Class E1 Occurrence
+A6	Tense E1 Past2
+A7	Polarity E1 Pos
+A8	Time E1 Past
+A9	Factuality E1 Factual
+T3	ACTOR 39 66	um mandado de busca europeu
+A10	Lexical_Head T3 Noun
+A11	Individuation T3 Individual
+A12	Actor_Type T3 Obj
+A13	Involvement T3 1
+T5	EVENT 68 89	estava a cumprir pena
+E2	EVENT:T5 
+A17	Class E2 State
+A18	Tense E2 Past2
+A19	Polarity E2 Pos
+A20	Time E2 Past
+A21	Factuality E2 Factual
+T6	ACTOR 124 136	arma de fogo
+A22	Lexical_Head T6 Noun
+A23	Individuation T6 Individual
+A24	Actor_Type T6 Obj
+A25	Involvement T6 1
+T8	ACTOR 150 162	ourivesarias
+A30	Lexical_Head T8 Noun
+A31	Individuation T8 Individual
+A32	Actor_Type T8 Loc
+A33	Involvement T8 >1
+T9	ACTOR 166 173	Espanha
+A34	Lexical_Head T9 Noun
+A35	Individuation T9 Individual
+A36	Actor_Type T9 Loc
+A37	Involvement T9 1
+T10	ACTOR 178 211	Centro Penitenciário de "La Lama"
+A38	Lexical_Head T10 Noun
+A39	Actor_Type T10 Loc
+A40	Involvement T10 1
+T11	ACTOR 216 226	Pontevedra
+A41	Lexical_Head T11 Noun
+A42	Individuation T11 Individual
+A43	Actor_Type T11 Loc
+A44	Involvement T11 1
+T12	ACTOR 228 244	A GNR de Valença
+A45	Lexical_Head T12 Noun
+A46	Individuation T12 Individual
+A47	Actor_Type T12 Org
+A48	Involvement T12 1
+T14	EVENT 245 264	acabou por capturar
+E4	EVENT:T14 
+A53	Class E4 Occurrence
+A54	Tense E4 Past1
+A55	Polarity E4 Pos
+A56	Time E4 Past
+A57	Factuality E4 Factual
+T15	ACTOR 265 275	o fugitivo
+A58	Lexical_Head T15 Noun
+A59	Individuation T15 Individual
+A60	Actor_Type T15 Per
+A61	Involvement T15 1
+T16	ACTOR 277 280	que
+A62	Lexical_Head T16 Pronoun
+A63	Individuation T16 Individual
+A64	Actor_Type T16 Per
+A65	Involvement T16 1
+T17	EVENT 281 305	não ofereceu resistência
+E5	EVENT:T17 
+A66	Class E5 Occurrence
+A67	Tense E5 Past1
+A68	Polarity E5 Neg
+A69	Time E5 Past
+A70	Factuality E5 Factual
+T18	ACTOR 353 394	Centro de Cooperação Policial e Aduaneira
+A71	Lexical_Head T18 Noun
+A72	Individuation T18 Individual
+A73	Actor_Type T18 Loc
+A74	Involvement T18 1
+T19	ACTOR 398 401	Tui
+A75	Lexical_Head T19 Noun
+A76	Individuation T19 Individual
+A77	Actor_Type T19 Loc
+A78	Involvement T19 1
+T20	ACTOR 410 413	seu
+A79	Lexical_Head T20 Noun
+A80	Individuation T20 Individual
+A81	Actor_Type T20 Per
+A82	Involvement T20 1
+R1	REF_REL_pronominal Arg1:T20 Arg2:T15	
+R2	OBJ_REL_objIdentity Arg1:T20 Arg2:T15	
+T21	ACTOR 414 429	atual paradeiro
+A83	Lexical_Head T21 Noun
+A84	Individuation T21 Individual
+A85	Actor_Type T21 Loc
+A86	Involvement T21 1
+T22	ACTOR 431 439	O detido
+A87	Lexical_Head T22 Noun
+A88	Individuation T22 Individual
+A89	Actor_Type T22 Per
+A90	Involvement T22 1
+T23	EVENT 440 450	foi levado
+E6	EVENT:T23 
+A91	Class E6 Occurrence
+A92	Tense E6 Past1
+A93	Polarity E6 Pos
+A94	Time E6 Past
+A95	Factuality E6 Factual
+T24	ACTOR 456 466	o tribunal
+A96	Lexical_Head T24 Noun
+A97	Individuation T24 Individual
+A98	Actor_Type T24 Loc
+A99	Involvement T24 1
+T25	ACTOR 470 479	Guimarães
+A100	Lexical_Head T25 Noun
+A101	Individuation T25 Individual
+A102	Actor_Type T25 Loc
+A103	Involvement T25 1
+T26	EVENT 481 497	desconhecendo-se
+E7	EVENT:T26 
+A104	Tense E7 PresPart
+A105	Polarity E7 Pos
+A106	Time E7 Present
+A107	Factuality E7 Factual
+T27	ACTOR 504 524	as medidas de coação
+A108	Lexical_Head T27 Noun
+A109	Individuation T27 Individual
+A110	Actor_Type T27 Obj
+A111	Involvement T27 >1
+T28	EVENT 525 534	aplicadas
+E8	EVENT:T28 
+A112	Class E8 Occurrence
+A113	Tense E8 PastPart
+A114	Polarity E8 Pos
+A115	Time E8 Past
+A116	Factuality E8 Factual
+T29	ACTOR 27 31	quem
+A117	Lexical_Head T29 Pronoun
+A118	Individuation T29 Individual
+A119	Actor_Type T29 Per
+A120	Involvement T29 1
+R3	REF_REL_pronominal Arg1:T29 Arg2:T1	
+R4	OBJ_REL_objIdentity Arg1:T29 Arg2:T1	
+T30	ACTOR 94 109	crimes de roubo
+A121	Lexical_Head T30 Noun
+A122	Individuation T30 Individual
+A123	Actor_Type T30 Sit
+A124	Involvement T30 >1
+T7	ACTOR 139 147	assaltos
+A26	Lexical_Head T7 Noun
+A27	Individuation T7 Individual
+A28	Actor_Type T7 Sit
+A29	Involvement T7 >1
+T31	ACTOR 312 323	informações
+A125	Lexical_Head T31 Noun
+A126	Individuation T31 Individual
+A127	Involvement T31 >1
+T32	ACTOR 328 349	congéneres espanholas
+A128	Actor_Type T32 Org
+A129	Involvement T32 >1
+R5	OBJ_REL_objIdentity Arg1:T15 Arg2:T1	
+R6	OBJ_REL_objIdentity Arg1:T22 Arg2:T15	
+R8	TLINK_after Arg1:E4 Arg2:E2	
+R9	TLINK_includes Arg1:E2 Arg2:E1	
+R10	TLINK_isIncluded Arg1:E5 Arg2:E4	
+R11	TLINK_after Arg1:E6 Arg2:E4	
+R12	TLINK_after Arg1:E7 Arg2:E6	
+R7	REF_REL_pronominal Arg1:T16 Arg2:T15	
+R13	OBJ_REL_objIdentity Arg1:T16 Arg2:T15	
+A130	Actor_Type T31 Other
+A131	Individuation T32 Individual
+R16	TLINK_before Arg1:T31 Arg2:E4	
+R17	TLINK_isIncluded Arg1:E8 Arg2:E7	
+R18	SEMROLE_goal Arg1:T1 Arg2:E1	
+R19	SEMROLE_theme Arg1:T3 Arg2:E1	
+R20	SEMROLE_theme Arg1:T1 Arg2:E2	
+R21	SEMROLE_agent Arg1:T12 Arg2:E4	
+R22	SEMROLE_theme Arg1:T15 Arg2:E4	
+R23	SEMROLE_instrument Arg1:T6 Arg2:T30	
+R24	SEMROLE_location Arg1:T10 Arg2:E2	
+R25	SEMROLE_agent Arg1:T15 Arg2:E5	
+R26	SEMROLE_theme Arg1:T22 Arg2:E6	
+R27	SEMROLE_goal Arg1:T24 Arg2:E6	
+R28	SEMROLE_theme Arg1:T27 Arg2:E7	
+R29	SEMROLE_theme Arg1:T27 Arg2:E8	
+R30	SEMROLE_location Arg1:T25 Arg2:T24	
+R31	SEMROLE_goal Arg1:T8 Arg2:T7	
+R32	SEMROLE_location Arg1:T9 Arg2:T7	
+A14	Individuation T10 Individual
+R34	SEMROLE_source Arg1:T32 Arg2:T31	
+R14	SEMROLE_source Arg1:T18 Arg2:T32	
+R15	SEMROLE_location Arg1:T19 Arg2:T18	
+R35	SEMROLE_theme Arg1:T21 Arg2:T31	
+R36	SEMROLE_agent Arg1:T1 Arg2:T30	
+R37	SEMROLE_agent Arg1:T1 Arg2:T7	
+R38	SEMROLE_location Arg1:T11 Arg2:T10	
+R33	SEMROLE_goal Arg1:T12 Arg2:E5	
+R39	SEMROLE_theme Arg1:T20 Arg2:T21	

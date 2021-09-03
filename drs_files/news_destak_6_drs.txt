@@ -1,0 +1,101 @@
+» EVENTS
+# E1 (foram detidos) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(theme,T2) & relationRole(agent,T1) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(theme,T2), relationRole(agent,T1), Factuality(a,Factual)]) 
+
+# E2 (rondará) -> b
+# FOL:  exists Factual Future1 Non_Factual Occurrence Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Future1) & Polarity(b,Pos) & relationRole(theme,T8) & relationRole(theme,T5) & relationRole(theme,T9) & Factuality(b,Non_Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Future1), Polarity(b,Pos), relationRole(theme,T8), relationRole(theme,T5), relationRole(theme,T9), Factuality(b,Non_Factual)]) 
+
+# E5 (estão "fortemente indiciados) -> c
+# FOL:  exists Factual Pos Present State c.(event(c) & eventClass(c,State) & Tense(c,Present) & Polarity(c,Pos) & Time(c,Present) & occursBefore(c,d) & relationRole(experiencer,T12) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,State), Tense(c,Present), Polarity(c,Pos), Time(c,Present), occursBefore(c,d), relationRole(experiencer,T12), Factuality(c,Factual)]) 
+
+# E6 (tendo sido "apurado) -> d
+# FOL:  exists Factual Occurrence Past PastPerfect Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,PastPerfect) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,e) & relationRole(theme,T18) & relationRole(location,T21) & relationRole(agent,T1) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,PastPerfect), Polarity(d,Pos), Time(d,Past), occursBefore(d,e), relationRole(theme,T18), relationRole(location,T21), relationRole(agent,T1), Factuality(d,Factual)]) 
+
+# E7 (buscadas) -> e
+# FOL:  exists Factual Occurrence Past PastPart Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,PastPart) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T21) & relationRole(agent,T1) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,PastPart), Polarity(e,Pos), Time(e,Past), relationRole(theme,T21), relationRole(agent,T1), Factuality(e,Factual)]) 
+
+# E9 (consistia) -> f
+# FOL:  exists Factual Occurrence Past Past2 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past2) & Polarity(f,Pos) & Time(f,Past) & relationRole(theme,T23) & relationRole(theme,T24) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past2), Polarity(f,Pos), Time(f,Past), relationRole(theme,T23), relationRole(theme,T24), Factuality(f,Factual)]) 
+
+# E10 (paga) -> g
+# FOL:  exists Factual Occurrence Past PastPart Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPart) & Polarity(g,Pos) & Time(g,Past) & occursBefore(g,h) & relationRole(agent,T30) & relationRole(theme,T29) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPart), Polarity(g,Pos), Time(g,Past), occursBefore(g,h), relationRole(agent,T30), relationRole(theme,T29), Factuality(g,Factual)]) 
+
+# E11 (revertesse) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & occursAfter(h,g) & relationRole(theme,T29) & relationRole(goal,T31) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), occursAfter(h,g), relationRole(theme,T29), relationRole(goal,T31), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> a PJ
+# T12 -> os quatro farmacêuticos
+# T13 -> burla qualificada
+# T14 -> corrupção
+# T15 -> falsificação de documento agravado
+# T16 -> fraude
+# T17 -> falsidade informática
+# T18 -> valor
+# T19 -> SNS
+# T2 -> Quatro farmacêuticos
+# T20 -> um milhão de euros
+# T21 -> três farmácias
+# T23 -> a atividade criminosa
+# T24 -> esquema fraudulento
+# T29 -> a taxa de comparticipação
+# T3 -> três farmácias
+# T30 -> Estado
+# T31 -> os suspeitos
+# T37 -> crimes
+# T4 -> Grande Porto
+# T5 -> alegada fraude
+# T6 -> Serviço Nacional de Saúde
+# T7 -> SNS
+# T8 -> um milhão de euros
+# T9 -> um valor
+
+» RELATIONS
+# T2 - theme - E1
+# T8 - theme - E2
+# T12 - experiencer - E5
+# T18 - theme - E6
+# T21 - theme - E7
+# T23 - theme - E9
+# T30 - agent - E10
+# T29 - theme - E10
+# T29 - theme - E11
+# T31 - goal - E11
+# T5 - theme - E2
+# E6 - location - T21
+# T24 - theme - E9
+# T1 - agent - E6
+# T1 - agent - E7
+# T6 - goal - T5
+# T9 - theme - E2
+# T2 - agent - T5
+# T1 - agent - E1
+# T18 - theme - T16
+# T3 - partOf - T4
+# T7 - objIdentity - T6
+# T12 - objIdentity - T2
+# T19 - sameHead - T7
+# T19 - objIdentity - T7
+# T20 - sameHead - T8
+# T20 - objIdentity - T8
+# T21 - sameHead - T3
+# T21 - objIdentity - T3
+# T23 - synonymy - T16
+# T23 - objIdentity - T16
+# T31 - objIdentity - T12
+# T12 - sameHead - T2
+# T13 - memberOf - T37
+# T14 - memberOf - T37
+# T15 - memberOf - T37
+# T17 - memberOf - T37
+# T16 - objIdentity - T5
+# T2 - partOf - T3
+# T18 - objIdentity - T9

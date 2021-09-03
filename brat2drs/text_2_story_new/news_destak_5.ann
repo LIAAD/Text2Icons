@@ -1,0 +1,216 @@
+T1	ACTOR 0 29	A Guarda Nacional Republicana
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	ACTOR 31 34	GNR
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Org
+A8	Involvement T2 1
+R1	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T3	TIME_X3 43 67	no passado fim de semana
+A9	Time_Type T3 Date
+A10	FunctionInDocument T3 None
+A11	Value T3 Date
+T4	ACTOR 68 79	118 pessoas
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Per
+A15	Involvement T4 >1
+T5	ACTOR 125 156	condução sob o efeito do álcool
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 1
+T6	ACTOR 170 189	608 doses de haxixe
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Obj
+A23	Involvement T6 >1
+T7	ACTOR 101 120	a maioria das quais
+A24	Individuation T7 Individual
+A25	Actor_Type T7 Per
+A26	Involvement T7 >1
+R2	OBJ_REL_partOf Arg1:T7 Arg2:T4	
+T9	ACTOR 221 226	a GNR
+A30	Lexical_Head T9 Noun
+A31	Individuation T9 Individual
+A32	Actor_Type T9 Org
+A33	Involvement T9 1
+R3	OBJ_REL_objIdentity Arg1:T9 Arg2:T2	
+R4	REF_REL_sameHead Arg1:T9 Arg2:T2	
+T10	TIME_X3 241 257	no fim de semana
+A34	Time_Type T10 Date
+A35	FunctionInDocument T10 Publication_Time
+A36	Value T10 Date
+T11	ACTOR 266 277	118 pessoas
+A37	Lexical_Head T11 Noun
+A38	Individuation T11 Individual
+A39	Actor_Type T11 Per
+A40	Involvement T11 >1
+T12	ACTOR 299 311	62 das quais
+A41	Lexical_Head T12 Pronoun
+A42	Individuation T12 Individual
+A43	Actor_Type T12 Per
+A44	Involvement T12 >1
+R5	OBJ_REL_partOf Arg1:T12 Arg2:T11	
+T13	ACTOR 316 347	condução sob o efeito do álcool
+A45	Lexical_Head T13 Noun
+A46	Individuation T13 Individual
+A47	Actor_Type T13 Sit
+A48	Involvement T13 1
+T14	ACTOR 349 351	18
+A49	Lexical_Head T14 Noun
+A50	Individuation T14 Individual
+A51	Actor_Type T14 Per
+A52	Involvement T14 >1
+R6	OBJ_REL_partOf Arg1:T14 Arg2:T11	
+T15	ACTOR 356 386	condução sem habilitação legal
+A53	Lexical_Head T15 Noun
+A54	Individuation T15 Individual
+A55	Actor_Type T15 Sit
+A56	Involvement T15 1
+T16	ACTOR 388 392	seis
+A57	Lexical_Head T16 Noun
+A58	Individuation T16 Individual
+A59	Actor_Type T16 Per
+A60	Involvement T16 >1
+R7	OBJ_REL_partOf Arg1:T16 Arg2:T11	
+T17	ACTOR 397 422	tráfico de estupefaciente
+A61	Lexical_Head T17 Noun
+A62	Individuation T17 Individual
+A63	Actor_Type T17 Sit
+A64	Involvement T17 1
+T18	ACTOR 426 432	quatro
+A65	Lexical_Head T18 Noun
+A66	Individuation T18 Individual
+A67	Actor_Type T18 Per
+A68	Involvement T18 >1
+R8	OBJ_REL_partOf Arg1:T18 Arg2:T11	
+T19	ACTOR 437 459	posse de arma proibida
+A69	Lexical_Head T19 Noun
+A70	Individuation T19 Individual
+A71	Actor_Type T19 Sit
+A72	Involvement T19 1
+T20	ACTOR 609 611	93
+A73	Lexical_Head T20 Noun
+A74	Individuation T20 Individual
+A75	Actor_Type T20 Per
+A76	Involvement T20 >1
+T21	ACTOR 708 710	54
+A77	Lexical_Head T21 Noun
+A78	Individuation T21 Individual
+A79	Actor_Type T21 Per
+A80	Involvement T21 >1
+T22	ACTOR 461 466	A GNR
+A81	Lexical_Head T22 Noun
+A82	Individuation T22 Individual
+A83	Actor_Type T22 Org
+A84	Involvement T22 1
+R9	REF_REL_sameHead Arg1:T22 Arg2:T9	
+R10	OBJ_REL_objIdentity Arg1:T22 Arg2:T9	
+T23	ACTOR 505 524	608 doses de haxixe
+A85	Lexical_Head T23 Noun
+A86	Individuation T23 Individual
+A87	Actor_Type T23 Obj
+A88	Involvement T23 >1
+R11	REF_REL_sameHead Arg1:T23 Arg2:T6	
+R12	OBJ_REL_objIdentity Arg1:T23 Arg2:T6	
+T24	ACTOR 526 545	36 gramas de liamba
+A89	Lexical_Head T24 Noun
+A90	Individuation T24 Individual
+A91	Actor_Type T24 Obj
+A92	Involvement T24 >1
+T25	ACTOR 547 566	24 doses de cocaína
+A93	Lexical_Head T25 Noun
+A94	Individuation T25 Individual
+A95	Actor_Type T25 Obj
+A96	Involvement T25 >1
+T26	ACTOR 568 584	uma arma de fogo
+A97	Lexical_Head T26 Noun
+A98	Individuation T26 Individual
+A99	Actor_Type T26 Obj
+A100	Involvement T26 1
+T27	ACTOR 587 607	quatro armas brancas
+A101	Lexical_Head T27 Noun
+A102	Individuation T27 Individual
+A103	Actor_Type T27 Obj
+A104	Involvement T27 >1
+T28	ACTOR 616 706	falta ou incorreta utilização do cinto de segurança e/ou sistema de retenção para crianças
+A105	Lexical_Head T28 Noun
+A106	Individuation T28 Individual
+A107	Actor_Type T28 Sit
+A108	Involvement T28 1
+T33	ACTOR 715 765	uso indevido do telemóvel no exercício da condução
+A124	Lexical_Head T33 Noun
+A125	Individuation T33 Individual
+A126	Actor_Type T33 Sit
+A127	Involvement T33 1
+T36	ACTOR 768 770	34
+A136	Lexical_Head T36 Noun
+A137	Individuation T36 Individual
+A138	Actor_Type T36 Per
+A139	Involvement T36 >1
+T37	ACTOR 775 828	falta de seguro de responsabilidade civil obrigatório
+A140	Lexical_Head T37 Noun
+A141	Individuation T37 Individual
+A142	Actor_Type T37 Sit
+A143	Involvement T37 1
+T41	EVENT 36 42	deteve
+E1	EVENT:T41 
+A156	Class E1 Occurrence
+A157	Tense E1 Past1
+A158	Polarity E1 Pos
+A159	Time E1 Past
+A160	Factuality E1 Factual
+T42	EVENT 160 169	apreendeu
+E2	EVENT:T42 
+A161	Class E2 Occurrence
+A162	Tense E2 Past1
+A163	Polarity E2 Pos
+A164	Time E2 Past
+A165	Factuality E2 Factual
+T45	EVENT 259 265	deteve
+E5	EVENT:T45 
+A175	Class E5 Occurrence
+A176	Tense E5 Past1
+A177	Polarity E5 Pos
+A178	Time E5 Past
+A179	Factuality E5 Factual
+T47	EVENT 487 504	foram apreendidas
+E7	EVENT:T47 
+A185	Class E7 Occurrence
+A186	Tense E7 Past1
+A187	Polarity E7 Pos
+A188	Time E7 Past
+A189	Factuality E7 Factual
+R13	TLINK_after Arg1:E2 Arg2:E1	
+R18	TLINK_identity Arg1:E7 Arg2:E2	
+A190	Lexical_Head T7 Pronoun
+#2	AnnotatorNotes T3	beginPoint="2016-07-15" endPoint="2016-07-17"
+#3	AnnotatorNotes T10	beginPoint="2016-07-15" endPoint="2016-07-17"
+R19	TLINK_includes Arg1:T3 Arg2:E1	
+R22	TLINK_includes Arg1:T10 Arg2:E5	
+R23	REF_REL_sameHead Arg1:T11 Arg2:T4	
+R24	OBJ_REL_objIdentity Arg1:T11 Arg2:T4	
+R25	SEMROLE_agent Arg1:T1 Arg2:E1	
+R26	SEMROLE_theme Arg1:T4 Arg2:E1	
+R27	SEMROLE_agent Arg1:T1 Arg2:E2	
+R28	SEMROLE_theme Arg1:T6 Arg2:E2	
+R30	SEMROLE_agent Arg1:T9 Arg2:E5	
+R31	SEMROLE_theme Arg1:T11 Arg2:E5	
+R33	SEMROLE_theme Arg1:T23 Arg2:E7	
+R34	SEMROLE_theme Arg1:T24 Arg2:E7	
+R35	SEMROLE_theme Arg1:T25 Arg2:E7	
+R36	SEMROLE_theme Arg1:T26 Arg2:E7	
+R37	SEMROLE_theme Arg1:T27 Arg2:E7	
+R38	SEMROLE_time Arg1:T3 Arg2:E1	
+R40	SEMROLE_time Arg1:T10 Arg2:E5	
+R14	OBJ_REL_partOf Arg1:T20 Arg2:T11	
+R15	OBJ_REL_partOf Arg1:T21 Arg2:T11	
+R20	OBJ_REL_partOf Arg1:T36 Arg2:T11	
+R16	SEMROLE_agent Arg1:T22 Arg2:E7	
+R17	TLINK_identity Arg1:E5 Arg2:E1	
+R21	TLINK_simultaneous Arg1:E5 Arg2:E2	
+R29	TLINK_simultaneous Arg1:E7 Arg2:E5	

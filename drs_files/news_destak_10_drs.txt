@@ -1,0 +1,112 @@
+» EVENTS
+# E1 (recusou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(agent,T1) & relationRole(theme,T2) & relationRole(source,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(agent,T1), relationRole(theme,T2), relationRole(source,T3), Factuality(a,Factual)]) 
+
+# E2 (argumentando) -> b
+# FOL:  exists Factual Occurrence Past Pos PresPart b.(event(b) & eventClass(b,Occurrence) & Tense(b,PresPart) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,c) & relationRole(agent,T1) & relationRole(theme,T12) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PresPart), Polarity(b,Pos), Time(b,Past), occursBefore(b,c), relationRole(agent,T1), relationRole(theme,T12), Factuality(b,Factual)]) 
+
+# E3 (deu) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(agent,T1) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(agent,T1), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (solicitou) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,f) & relationRole(agent,T10) & relationRole(theme,T16) & relationRole(time,T11) & relationRole(goal,T20) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursBefore(d,f), relationRole(agent,T10), relationRole(theme,T16), relationRole(time,T11), relationRole(goal,T20), Factuality(d,Factual)]) 
+
+# E5 (combate) -> e
+# FOL:  exists Factual Pos Present e.(event(e) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & relationRole(agent,T20) & relationRole(theme,T13) & relationRole(location,T14) & relationRole(location,T15) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), Tense(e,Present), Polarity(e,Pos), Time(e,Present), relationRole(agent,T20), relationRole(theme,T13), relationRole(location,T14), relationRole(location,T15), Factuality(e,Factual)]) 
+
+# E6 (fizeram) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(source,T17) & relationRole(theme,T19) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(source,T17), relationRole(theme,T19), Factuality(f,Factual)]) 
+
+# E7 (sinalizou) -> g
+# FOL:  exists Factual Occurrence Past Past1 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past1) & Polarity(g,Pos) & Time(g,Past) & occursBefore(g,h) & occursAfter(g,f) & relationRole(agent,T22) & relationRole(time,T35) & relationRole(theme,T40) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past1), Polarity(g,Pos), Time(g,Past), occursBefore(g,h), occursAfter(g,f), relationRole(agent,T22), relationRole(time,T35), relationRole(theme,T40), Factuality(g,Factual)]) 
+
+# E8 (não havia) -> h
+# FOL:  exists Factual Neg Occurrence Past Past2 h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past2) & Polarity(h,Neg) & Time(h,Past) & relationRole(theme,T23) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past2), Polarity(h,Neg), Time(h,Past), relationRole(theme,T23), Factuality(h,Factual)]) 
+
+# E9 (afirmou) -> i
+# FOL:  exists Factual Occurrence Past Past1 Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Past1) & Polarity(i,Pos) & Time(i,Past) & relationRole(agent,T26) & relationRole(theme,T41) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Past1), Polarity(i,Pos), Time(i,Past), relationRole(agent,T26), relationRole(theme,T41), Factuality(i,Factual)]) 
+
+# E10 (era suficiente) -> j
+# FOL:  exists Factual Past Past2 Pos j.(event(j) & Tense(j,Past2) & Polarity(j,Pos) & Time(j,Past) & relationRole(theme,T27) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), Tense(j,Past2), Polarity(j,Pos), Time(j,Past), relationRole(theme,T27), Factuality(j,Factual)]) 
+
+» ACTORS
+# T1 -> A Austrália
+# T10 -> Ash Carter
+# T12 -> que deu já um contributo "significativo"
+# T13 -> os extremistas
+# T14 -> Iraque
+# T15 -> Síria
+# T16 -> um maior compromisso
+# T17 -> atentados
+# T18 -> Paris
+# T19 -> 130 mortos
+# T2 -> um pedido
+# T20 -> parceiros da coligação internacional
+# T22 -> Malcolm Turnbull
+# T23 -> vontade
+# T24 -> tal
+# T26 -> Marise Payne
+# T27 -> o atual envolvimento
+# T28 -> Austrália
+# T3 -> Estados Unidos da América
+# T39 -> que
+# T4 -> ajuda militar
+# T40 -> que não havia vontade para tal
+# T41 -> que o atual envolvimento da Austrália era suficiente
+# T5 -> combate
+# T7 -> um contributo "significativo"
+# T8 -> grupo extremista Estado Islâmico
+# T11 -> em dezembro último
+# T25 -> a ministra da Defesa
+# T35 -> na altura
+# T21 -> O primeiro-ministro australiano
+# T9 -> O secretário da Defesa norte-americano
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - theme - E1
+# T1 - agent - E2
+# T1 - agent - E3
+# T7 - theme - E3
+# T10 - agent - E4
+# T20 - agent - E5
+# T13 - theme - E5
+# T16 - theme - E4
+# T17 - source - E6
+# T3 - source - E1
+# T11 - time - E4
+# T20 - goal - E4
+# T14 - location - E5
+# T15 - location - E5
+# T19 - theme - E6
+# T22 - agent - E7
+# T35 - time - E7
+# T23 - theme - E8
+# T26 - agent - E9
+# T27 - theme - E10
+# T8 - goal - T5
+# T4 - location - T5
+# T12 - theme - E2
+# T18 - location - T17
+# T40 - theme - E7
+# T24 - goal - T23
+# T41 - theme - E9
+# T28 - agent - T27
+# T10 - objIdentity - T9
+# T22 - objIdentity - T21
+# T24 - objIdentity - T16
+# T28 - sameHead - T1
+# T28 - objIdentity - T1
+# T26 - objIdentity - T25
+# T39 - pronominal - T17
+# T39 - objIdentity - T17

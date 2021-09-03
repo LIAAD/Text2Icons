@@ -1,0 +1,1 @@
+{'T1': 'A man, the thief, the burglar, The thief', 'T3': 'a couple, who, them, the victims, both, the, the couple', 'T6': 'a car, the car, where', 'T9': 'a pistol', 'T10': 'Liberty avenue', 'T11': 'Lisbon', 'T12': 'The crime', 'T16': 'about 400 euros', 'T20': 'Tuesday afternoon', 'T21': 'Rossio', 'T29': 'them, the, the couple', 'T30': 'a camcorder', 'T31': 'two watches'}

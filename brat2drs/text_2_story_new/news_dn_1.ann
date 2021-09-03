@@ -1,0 +1,367 @@
+T1	ACTOR 0 21	As autoridades belgas
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 >1
+T2	ACTOR 49 58	população
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Set
+A7	Actor_Type T2 Per
+A8	Involvement T2 1
+T4	ACTOR 155 174	a comitiva olímpica
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Per
+A16	Involvement T4 >1
+T5	ACTOR 208 221	seis medalhas
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Obj
+A20	Involvement T5 >1
+T6	ACTOR 223 232	A Bélgica
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Loc
+A24	Involvement T6 1
+T7	ACTOR 345 350	metro
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Loc
+T8	ACTOR 356 365	aeroporto
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Loc
+A31	Involvement T8 1
+T9	ACTOR 412 422	familiares
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Per
+A35	Involvement T9 >1
+T12	ACTOR 483 508	a comitiva olímpica belga
+A44	Lexical_Head T12 Noun
+A45	Individuation T12 Individual
+A46	Actor_Type T12 Per
+A47	Involvement T12 >1
+T13	ACTOR 525 538	seis medalhas
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Obj
+A51	Involvement T13 >1
+T14	ACTOR 551 563	duas de ouro
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Obj
+A55	Involvement T14 >1
+T15	ACTOR 565 578	duas de prata
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Obj
+A59	Involvement T15 >1
+T16	ACTOR 581 595	duas de bronze
+A60	Lexical_Head T16 Noun
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Obj
+A63	Involvement T16 >1
+T17	ACTOR 628 637	aeroporto
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Loc
+A67	Involvement T17 1
+T18	ACTOR 694 712	Memorial Van Damme
+A68	Lexical_Head T18 Noun
+A69	Individuation T18 Individual
+A70	Actor_Type T18 Loc
+A71	Involvement T18 1
+T19	ACTOR 760 765	metro
+A72	Lexical_Head T19 Noun
+A73	Individuation T19 Individual
+A74	Actor_Type T19 Loc
+A75	Involvement T19 1
+T20	ACTOR 771 792	aeroporto de Bruxelas
+A76	Lexical_Head T20 Noun
+A77	Individuation T20 Individual
+A78	Actor_Type T20 Loc
+A79	Involvement T20 1
+T21	ACTOR 813 823	32 pessoas
+A80	Lexical_Head T21 Noun
+A81	Individuation T21 Individual
+A82	Actor_Type T21 Per
+A83	Involvement T21 >1
+T22	ACTOR 825 834	a Bélgica
+A84	Lexical_Head T22 Noun
+A85	Individuation T22 Individual
+A86	Actor_Type T22 Loc
+A87	Involvement T22 1
+R1	REF_REL_sameHead Arg1:T22 Arg2:T6	
+R2	OBJ_REL_objIdentity Arg1:T22 Arg2:T6	
+R3	REF_REL_sameHead Arg1:T20 Arg2:T8	
+R4	OBJ_REL_objIdentity Arg1:T20 Arg2:T8	
+R5	REF_REL_sameHead Arg1:T19 Arg2:T7	
+R6	OBJ_REL_objIdentity Arg1:T19 Arg2:T7	
+R7	REF_REL_sameHead Arg1:T20 Arg2:T17	
+R8	OBJ_REL_objIdentity Arg1:T20 Arg2:T17	
+R9	OBJ_REL_objIdentity Arg1:T8 Arg2:T23	
+T23	ACTOR 110 140	aeroporto de Bruxelas-Zaventem
+A88	Lexical_Head T23 Noun
+A89	Individuation T23 Individual
+A90	Actor_Type T23 Loc
+A91	Involvement T23 1
+R11	REF_REL_sameHead Arg1:T8 Arg2:T23	
+R12	REF_REL_sameHead Arg1:T13 Arg2:T5	
+R13	OBJ_REL_objIdentity Arg1:T13 Arg2:T5	
+R14	OBJ_REL_partOf Arg1:T14 Arg2:T13	
+R15	OBJ_REL_partOf Arg1:T15 Arg2:T13	
+R16	OBJ_REL_partOf Arg1:T16 Arg2:T14	
+R17	REF_REL_sameHead Arg1:T17 Arg2:T8	
+R18	OBJ_REL_objIdentity Arg1:T17 Arg2:T8	
+T24	TIME_X3 30 46	esta terça-feira
+T25	TIME_X3 329 340	22 de março
+T26	TIME_X3 675 689	09 de setembro
+A96	Time_Type T26 Date
+A97	FunctionInDocument T26 None
+A98	Value T26 Date
+#1	AnnotatorNotes T26	value="2016-09-09"
+A102	Time_Type T25 Date
+A103	FunctionInDocument T25 None
+A104	Value T25 Date
+#3	AnnotatorNotes T25	value="2016-03-22"
+A105	Time_Type T24 Date
+A106	FunctionInDocument T24 Publication_Time
+A107	Value T24 Date
+#4	AnnotatorNotes T24	value="2016-08-23"
+T29	EVENT 22 29	pediram
+E1	EVENT:T29 
+A108	Class E1 Occurrence
+A109	Tense E1 Past1
+A110	Polarity E1 Pos
+A111	Time E1 Past
+A112	Factuality E1 Factual
+T30	EVENT 91 106	não se deslocar
+E2	EVENT:T30 
+A113	Class E2 Occurrence
+A114	Tense E2 Infinitive
+A115	Polarity E2 Neg
+A116	Time E2 Future
+A117	Factuality E2 Non_Factual
+T31	EVENT 147 154	receber
+E3	EVENT:T31 
+A118	Class E3 Occurrence
+A119	Tense E3 Infinitive
+A120	Polarity E3 Pos
+A121	Time E3 Future
+A122	Factuality E3 Non_Factual
+T32	EVENT 238 247	permanece
+E4	EVENT:T32 
+A123	Class E4 State
+A124	Tense E4 Present
+A125	Polarity E4 Pos
+A126	Time E4 Present
+A127	Factuality E4 Factual
+T33	EVENT 289 301	se repetirem
+E5	EVENT:T33 
+A128	Class E5 Occurrence
+A129	Tense E5 Present
+A130	Polarity E5 Pos
+A131	Time E5 Present
+A132	Factuality E5 Non_Factual
+T34	EVENT 315 326	verificados
+E6	EVENT:T34 
+A133	Class E6 Occurrence
+A134	Tense E6 PastPart
+A135	Polarity E6 Pos
+A136	Time E6 Past
+A137	Factuality E6 Factual
+T35	EVENT 367 382	decidiu limitar
+E7	EVENT:T35 
+A138	Class E7 Occurrence
+A139	Tense E7 Past1
+A140	Polarity E7 Pos
+A141	Time E7 Past
+A142	Factuality E7 Factual
+T36	EVENT 514 524	conquistou
+E8	EVENT:T36 
+A143	Class E8 Occurrence
+A144	Tense E8 Past1
+A145	Polarity E8 Pos
+A146	Time E8 Past
+A147	Factuality E8 Factual
+T37	EVENT 597 601	terá
+E9	EVENT:T37 
+A148	Class E9 Occurrence
+A149	Tense E9 Future1
+A150	Polarity E9 Pos
+A151	Time E9 Future
+T38	EVENT 640 644;660 671	será homenageada
+E10	EVENT:T38 
+A152	Class E10 Occurrence
+A153	Tense E10 Future1
+A154	Polarity E10 Pos
+A155	Time E10 Future
+A156	Factuality E10 Factual
+T39	EVENT 804 812	morreram
+E11	EVENT:T39 
+A157	Class E11 Occurrence
+A158	Tense E11 Past1
+A159	Polarity E11 Pos
+A160	Time E11 Past
+A161	Factuality E11 Factual
+T40	EVENT 835 844	permanece
+E12	EVENT:T40 
+A162	Class E12 State
+A163	Tense E12 Present
+A164	Polarity E12 Pos
+A165	Time E12 Present
+A166	Factuality E12 Factual
+T41	ACTOR 794 803	nos quais
+A167	Lexical_Head T41 Pronoun
+A168	Individuation T41 Individual
+A169	Involvement T41 >1
+T42	ACTOR 510 513	que
+A170	Lexical_Head T42 Pronoun
+A171	Individuation T42 Individual
+A172	Actor_Type T42 Per
+A173	Involvement T42 >1
+R21	REF_REL_pronominal Arg1:T42 Arg2:T12	
+R22	OBJ_REL_objIdentity Arg1:T42 Arg2:T12	
+T43	ACTOR 234 237	que
+A174	Lexical_Head T43 Pronoun
+A175	Individuation T43 Individual
+A176	Actor_Type T43 Loc
+A177	Involvement T43 1
+R23	REF_REL_pronominal Arg1:T43 Arg2:T6	
+R24	OBJ_REL_objIdentity Arg1:T43 Arg2:T6	
+T44	ACTOR 175 178	que
+A178	Lexical_Head T44 Pronoun
+A179	Individuation T44 Individual
+A180	Actor_Type T44 Per
+A181	Involvement T44 >1
+R25	REF_REL_pronominal Arg1:T44 Arg2:T4	
+R26	OBJ_REL_objIdentity Arg1:T44 Arg2:T4	
+T45	ACTOR 183 196	Jogos Rio2016
+A182	Lexical_Head T45 Noun
+A183	Individuation T45 Individual
+A184	Involvement T45 >1
+T46	EVENT 197 207	conquistou
+E13	EVENT:T46 
+A185	Class E13 Occurrence
+A186	Tense E13 Past1
+A187	Polarity E13 Pos
+A188	Time E13 Past
+A189	Factuality E13 Factual
+T47	ACTOR 302 314	os atentados
+A190	Individuation T47 Individual
+A191	Actor_Type T47 Sit
+A192	Involvement T47 >1
+R30	TLINK_identity Arg1:E8 Arg2:E13	
+T48	ACTOR 383 407	a receção de boas-vindas
+A193	Lexical_Head T48 Noun
+A194	Actor_Type T48 Sit
+A195	Involvement T48 1
+T49	ACTOR 542 549	Rio2016
+A196	Lexical_Head T49 Noun
+A197	Individuation T49 Individual
+A198	Actor_Type T49 Loc
+A199	Involvement T49 1
+T50	ACTOR 602 624	uma "receção discreta"
+A200	Lexical_Head T50 Noun
+A201	Individuation T50 Individual
+A202	Actor_Type T50 Sit
+A203	Involvement T50 1
+R31	OBJ_REL_objIdentity Arg1:T50 Arg2:T48	
+T51	ACTOR 720 730	os ataques
+A204	Lexical_Head T51 Noun
+A205	Actor_Type T51 Sit
+A206	Involvement T51 >1
+R33	REF_REL_synonymy Arg1:T51 Arg2:T47	
+R34	OBJ_REL_objIdentity Arg1:T51 Arg2:T47	
+R35	REF_REL_sameHead Arg1:T12 Arg2:T4	
+R36	OBJ_REL_objIdentity Arg1:T12 Arg2:T4	
+T52	EVENT 731 742	verificados
+E14	EVENT:T52 
+A207	Class E14 Occurrence
+A208	Tense E14 PastPart
+A209	Polarity E14 Pos
+A210	Time E14 Past
+R37	TLINK_identity Arg1:E14 Arg2:E6	
+R38	TLINK_after Arg1:E2 Arg2:E1	
+R28	TLINK_after Arg1:E3 Arg2:E2	
+R41	TLINK_isIncluded Arg1:E5 Arg2:E4	
+R45	TLINK_after Arg1:E10 Arg2:E1	
+R46	TLINK_after Arg1:E11 Arg2:E14	
+R47	TLINK_identity Arg1:E12 Arg2:E4	
+A215	Individuation T48 Individual
+R48	TLINK_includes Arg1:T24 Arg2:E1	
+R27	TLINK_before Arg1:E13 Arg2:E3	
+R29	TLINK_includes Arg1:E4 Arg2:E1	
+R39	TLINK_before Arg1:E6 Arg2:E5	
+R40	TLINK_includes Arg1:T25 Arg2:E6	
+R42	TLINK_after Arg1:E7 Arg2:E6	
+R43	TLINK_after Arg1:E9 Arg2:E8	
+R44	TLINK_after Arg1:E10 Arg2:E9	
+R49	SEMROLE_agent Arg1:T1 Arg2:E1	
+R50	SEMROLE_goal Arg1:T2 Arg2:E1	
+R51	SEMROLE_agent Arg1:T2 Arg2:E2	
+R52	SEMROLE_goal Arg1:T23 Arg2:E2	
+R53	SEMROLE_theme Arg1:T4 Arg2:E3	
+R54	SEMROLE_agent Arg1:T2 Arg2:E3	
+R55	SEMROLE_agent Arg1:T4 Arg2:E13	
+R56	SEMROLE_theme Arg1:T5 Arg2:E13	
+R58	SEMROLE_theme Arg1:T47 Arg2:E5	
+R57	SEMROLE_theme Arg1:T6 Arg2:E4	
+R59	SEMROLE_theme Arg1:T47 Arg2:E6	
+R60	SEMROLE_location Arg1:T7 Arg2:E6	
+R61	SEMROLE_location Arg1:T8 Arg2:E6	
+R62	SEMROLE_theme Arg1:T48 Arg2:E7	
+R63	SEMROLE_goal Arg1:T9 Arg2:E7	
+R64	SEMROLE_agent Arg1:T12 Arg2:E8	
+R65	SEMROLE_theme Arg1:T13 Arg2:E8	
+R66	SEMROLE_location Arg1:T49 Arg2:E8	
+R67	SEMROLE_experiencer Arg1:T12 Arg2:E9	
+R68	SEMROLE_theme Arg1:T50 Arg2:E9	
+R69	SEMROLE_location Arg1:T17 Arg2:T50	
+R70	SEMROLE_experiencer Arg1:T12 Arg2:E10	
+R71	SEMROLE_location Arg1:T18 Arg2:E10	
+R72	SEMROLE_theme Arg1:T51 Arg2:E14	
+R73	SEMROLE_location Arg1:T19 Arg2:E14	
+R74	SEMROLE_location Arg1:T20 Arg2:E14	
+R75	SEMROLE_source Arg1:T41 Arg2:E11	
+R76	SEMROLE_experiencer Arg1:T21 Arg2:E11	
+R77	SEMROLE_experiencer Arg1:T22 Arg2:E12	
+R78	SEMROLE_time Arg1:T24 Arg2:E1	
+R79	SEMROLE_location Arg1:T45 Arg2:E13	
+T54	ACTOR 248 264	em alerta máximo
+A216	Lexical_Head T54 Noun
+A217	Individuation T54 Individual
+A218	Actor_Type T54 Sit
+A219	Involvement T54 1
+R80	SEMROLE_theme Arg1:T54 Arg2:E4	
+R81	SEMROLE_time Arg1:T25 Arg2:E6	
+R82	SEMROLE_agent Arg1:T6 Arg2:E7	
+R83	SEMROLE_time Arg1:T26 Arg2:E10	
+T55	ACTOR 845 861	em alerta máximo
+A220	Lexical_Head T55 Noun
+A221	Individuation T55 Individual
+A222	Actor_Type T55 Sit
+A223	Involvement T55 1
+R85	SEMROLE_theme Arg1:T55 Arg2:E12	
+T3	ACTOR 272 285	possibilidade
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Sit
+A12	Involvement T3 1
+R10	SEMROLE_theme Arg1:T3 Arg2:E5	
+R19	SEMROLE_theme Arg1:T3 Arg2:T54	
+T10	ACTOR 427 449	desportistas olímpicos
+A36	Lexical_Head T10 Noun
+A37	Individuation T10 Individual
+A38	Actor_Type T10 Per
+A39	Involvement T10 >1
+R20	OBJ_REL_objIdentity Arg1:T12 Arg2:T10	
+R32	OBJ_REL_partOf Arg1:T9 Arg2:T10	
+A92	Actor_Type T41 Sit
+R84	OBJ_REL_objIdentity Arg1:T41 Arg2:T51	
+T11	TIME_X3 745 756	22 de março
+A40	Time_Type T11 Date
+A41	FunctionInDocument T11 None
+A42	Value T11 Date
+R86	TLINK_identity Arg1:T11 Arg2:T25	

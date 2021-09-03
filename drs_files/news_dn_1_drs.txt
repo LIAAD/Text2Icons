@@ -1,0 +1,166 @@
+» EVENTS
+# E1 (pediram) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & occursBefore(a,j) & relationRole(agent,T1) & relationRole(goal,T2) & relationRole(time,T24) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), occursBefore(a,j), relationRole(agent,T1), relationRole(goal,T2), relationRole(time,T24), Factuality(a,Factual)]) 
+
+# E2 (não se deslocar) -> b
+# FOL:  exists Factual Future Infinitive Neg Non_Factual Occurrence b.(event(b) & eventClass(b,Occurrence) & Tense(b,Infinitive) & Polarity(b,Neg) & Time(b,Future) & occursAfter(b,a) & occursBefore(b,c) & relationRole(agent,T2) & relationRole(goal,T23) & Factuality(b,Non_Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Infinitive), Polarity(b,Neg), Time(b,Future), occursAfter(b,a), occursBefore(b,c), relationRole(agent,T2), relationRole(goal,T23), Factuality(b,Non_Factual)]) 
+
+# E3 (receber) -> c
+# FOL:  exists Factual Future Infinitive Non_Factual Occurrence Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Infinitive) & Polarity(c,Pos) & Time(c,Future) & occursAfter(c,b) & occursBefore(c,m) & relationRole(theme,T4) & relationRole(agent,T2) & Factuality(c,Non_Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Infinitive), Polarity(c,Pos), Time(c,Future), occursAfter(c,b), occursBefore(c,m), relationRole(theme,T4), relationRole(agent,T2), Factuality(c,Non_Factual)]) 
+
+# E4 (permanece) -> d
+# FOL:  exists Factual Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & relationRole(theme,T6) & relationRole(theme,T54) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,Present), relationRole(theme,T6), relationRole(theme,T54), Factuality(d,Factual)]) 
+
+# E5 (se repetirem) -> e
+# FOL:  exists Factual Non_Factual Occurrence Pos Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & occursBefore(e,f) & relationRole(theme,T47) & relationRole(theme,T3) & Factuality(e,Non_Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Present), Polarity(e,Pos), Time(e,Present), occursBefore(e,f), relationRole(theme,T47), relationRole(theme,T3), Factuality(e,Non_Factual)]) 
+
+# E6 (verificados) -> f
+# FOL:  exists Factual Occurrence Past PastPart Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,PastPart) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(theme,T47) & relationRole(location,T7) & relationRole(location,T8) & relationRole(time,T25) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PastPart), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(theme,T47), relationRole(location,T7), relationRole(location,T8), relationRole(time,T25), Factuality(f,Factual)]) 
+
+# E7 (decidiu limitar) -> g
+# FOL:  exists Factual Occurrence Past Past1 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past1) & Polarity(g,Pos) & Time(g,Past) & occursAfter(g,f) & relationRole(theme,T48) & relationRole(goal,T9) & relationRole(agent,T6) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past1), Polarity(g,Pos), Time(g,Past), occursAfter(g,f), relationRole(theme,T48), relationRole(goal,T9), relationRole(agent,T6), Factuality(g,Factual)]) 
+
+# E8 (conquistou) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & occursBefore(h,i) & relationRole(agent,T12) & relationRole(theme,T13) & relationRole(location,T49) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), occursBefore(h,i), relationRole(agent,T12), relationRole(theme,T13), relationRole(location,T49), Factuality(h,Factual)]) 
+
+# E9 (terá) -> i
+# FOL:  exists Future Future1 Occurrence Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Future1) & Polarity(i,Pos) & occursAfter(i,h) & occursBefore(i,j) & relationRole(experiencer,T12) & relationRole(theme,T50) & Time(i,Future))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Future1), Polarity(i,Pos), occursAfter(i,h), occursBefore(i,j), relationRole(experiencer,T12), relationRole(theme,T50), Time(i,Future)]) 
+
+# E10 (será homenageada) -> j
+# FOL:  exists Factual Future Future1 Occurrence Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Future1) & Polarity(j,Pos) & Time(j,Future) & occursAfter(j,a) & occursAfter(j,i) & relationRole(experiencer,T12) & relationRole(location,T18) & relationRole(time,T26) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Future1), Polarity(j,Pos), Time(j,Future), occursAfter(j,a), occursAfter(j,i), relationRole(experiencer,T12), relationRole(location,T18), relationRole(time,T26), Factuality(j,Factual)]) 
+
+# E11 (morreram) -> k
+# FOL:  exists Factual Occurrence Past Past1 Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Past1) & Polarity(k,Pos) & Time(k,Past) & occursAfter(k,n) & relationRole(source,T41) & relationRole(experiencer,T21) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Past1), Polarity(k,Pos), Time(k,Past), occursAfter(k,n), relationRole(source,T41), relationRole(experiencer,T21), Factuality(k,Factual)]) 
+
+# E12 (permanece) -> l
+# FOL:  exists Factual Pos Present State l.(event(l) & eventClass(l,State) & Tense(l,Present) & Polarity(l,Pos) & Time(l,Present) & relationRole(experiencer,T22) & relationRole(theme,T55) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,State), Tense(l,Present), Polarity(l,Pos), Time(l,Present), relationRole(experiencer,T22), relationRole(theme,T55), Factuality(l,Factual)]) 
+
+# E13 (conquistou) -> m
+# FOL:  exists Factual Occurrence Past Past1 Pos m.(event(m) & eventClass(m,Occurrence) & Tense(m,Past1) & Polarity(m,Pos) & Time(m,Past) & relationRole(agent,T4) & relationRole(theme,T5) & relationRole(location,T45) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Past1), Polarity(m,Pos), Time(m,Past), relationRole(agent,T4), relationRole(theme,T5), relationRole(location,T45), Factuality(m,Factual)]) 
+
+# E14 (verificados) -> n
+# FOL:  exists Occurrence Past PastPart Pos n.(event(n) & eventClass(n,Occurrence) & Tense(n,PastPart) & Polarity(n,Pos) & occursBefore(n,k) & relationRole(theme,T51) & relationRole(location,T19) & relationRole(location,T20) & Time(n,Past))
+# DRS:  ([n],[event(n), eventClass(n,Occurrence), Tense(n,PastPart), Polarity(n,Pos), occursBefore(n,k), relationRole(theme,T51), relationRole(location,T19), relationRole(location,T20), Time(n,Past)]) 
+
+» ACTORS
+# T1 -> As autoridades belgas
+# T10 -> desportistas olímpicos
+# T12 -> a comitiva olímpica belga
+# T13 -> seis medalhas
+# T14 -> duas de ouro
+# T15 -> duas de prata
+# T16 -> duas de bronze
+# T17 -> aeroporto
+# T18 -> Memorial Van Damme
+# T19 -> metro
+# T2 -> população
+# T20 -> aeroporto de Bruxelas
+# T21 -> 32 pessoas
+# T22 -> a Bélgica
+# T23 -> aeroporto de Bruxelas-Zaventem
+# T3 -> possibilidade
+# T4 -> a comitiva olímpica
+# T41 -> nos quais
+# T42 -> que
+# T43 -> que
+# T44 -> que
+# T45 -> Jogos Rio2016
+# T47 -> os atentados
+# T48 -> a receção de boas-vindas
+# T49 -> Rio2016
+# T5 -> seis medalhas
+# T50 -> uma "receção discreta"
+# T51 -> os ataques
+# T54 -> em alerta máximo
+# T55 -> em alerta máximo
+# T6 -> A Bélgica
+# T7 -> metro
+# T8 -> aeroporto
+# T9 -> familiares
+# T25 -> 22 de março
+# T24 -> esta terça-feira
+# T26 -> 09 de setembro
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - goal - E1
+# T2 - agent - E2
+# T23 - goal - E2
+# T4 - theme - E3
+# T2 - agent - E3
+# T4 - agent - E13
+# T5 - theme - E13
+# T47 - theme - E5
+# T6 - theme - E4
+# T47 - theme - E6
+# T7 - location - E6
+# T8 - location - E6
+# T48 - theme - E7
+# T9 - goal - E7
+# T12 - agent - E8
+# T13 - theme - E8
+# T49 - location - E8
+# T12 - experiencer - E9
+# T50 - theme - E9
+# T17 - location - T50
+# T12 - experiencer - E10
+# T18 - location - E10
+# T51 - theme - E14
+# T19 - location - E14
+# T20 - location - E14
+# T41 - source - E11
+# T21 - experiencer - E11
+# T22 - experiencer - E12
+# T24 - time - E1
+# T45 - location - E13
+# T54 - theme - E4
+# T25 - time - E6
+# T6 - agent - E7
+# T26 - time - E10
+# T55 - theme - E12
+# T3 - theme - E5
+# T3 - theme - T54
+# T22 - sameHead - T6
+# T22 - objIdentity - T6
+# T20 - sameHead - T8
+# T20 - objIdentity - T8
+# T19 - sameHead - T7
+# T19 - objIdentity - T7
+# T20 - sameHead - T17
+# T20 - objIdentity - T17
+# T8 - objIdentity - T23
+# T8 - sameHead - T23
+# T13 - sameHead - T5
+# T13 - objIdentity - T5
+# T14 - partOf - T13
+# T15 - partOf - T13
+# T16 - partOf - T14
+# T17 - sameHead - T8
+# T17 - objIdentity - T8
+# T42 - pronominal - T12
+# T42 - objIdentity - T12
+# T43 - pronominal - T6
+# T43 - objIdentity - T6
+# T44 - pronominal - T4
+# T44 - objIdentity - T4
+# T50 - objIdentity - T48
+# T51 - synonymy - T47
+# T51 - objIdentity - T47
+# T12 - sameHead - T4
+# T12 - objIdentity - T4
+# T12 - objIdentity - T10
+# T9 - partOf - T10
+# T41 - objIdentity - T51

@@ -1,0 +1,221 @@
+T1	ACTOR 0 10	O suspeito
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 15 24	atentados
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Sit
+A8	Involvement T2 >1
+T3	ACTOR 28 39	Nova Iorque
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Loc
+A12	Involvement T3 1
+T4	ACTOR 42 53	Nova Jérsia
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Loc
+A16	Involvement T4 1
+T5	ACTOR 55 72	Ahmad Khan Rahami
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Per
+A20	Involvement T5 1
+T6	TIME_X3 86 100	na terça-feira
+A21	Time_Type T6 Date
+A22	FunctionInDocument T6 None
+A23	Value T6 Date
+#1	AnnotatorNotes T6	value="2016-09-20"
+T7	ACTOR 104 145	utilização de armas de destruição massiva
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Sit
+A27	Involvement T7 1
+T9	ACTOR 183 193	procurador
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Per
+A35	Involvement T9 1
+T10	ACTOR 197 209	distrito sul
+A36	Lexical_Head T10 Noun
+A37	Individuation T10 Individual
+A38	Actor_Type T10 Loc
+A39	Involvement T10 1
+T11	ACTOR 213 234	Estado de Nova Iorque
+A40	Lexical_Head T11 Noun
+A41	Individuation T11 Individual
+A42	Actor_Type T11 Loc
+A43	Involvement T11 1
+R1	OBJ_REL_partOf Arg1:T10 Arg2:T11	
+T12	ACTOR 236 243	O homem
+A44	Lexical_Head T12 Noun
+A45	Individuation T12 Individual
+A46	Actor_Type T12 Per
+A47	Involvement T12 1
+R2	OBJ_REL_objIdentity Arg1:T12 Arg2:T1	
+T13	ACTOR 279 310	ataque à bomba em local público
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Sit
+A51	Involvement T13 1
+T14	ACTOR 312 339	destruição de bens privados
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Sit
+A55	Involvement T14 1
+T15	ACTOR 342 380	utilização de um engenho de destruição
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Sit
+A59	Involvement T15 1
+T17	ACTOR 394 411	um crime violento
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Sit
+A67	Involvement T17 1
+T21	ACTOR 413 419	Rahami
+A80	Lexical_Head T21 Noun
+A81	Individuation T21 Individual
+A82	Actor_Type T21 Per
+A83	Involvement T21 1
+T22	TIME_X3 431 456	na manhã de segunda-feira
+A84	Time_Type T22 Date
+A85	FunctionInDocument T22 None
+A86	Value T22 Date
+#2	AnnotatorNotes T22	value="2016-09-19"
+R3	OBJ_REL_objIdentity Arg1:T21 Arg2:T5	
+T23	ACTOR 462 473	um tiroteio
+A87	Lexical_Head T23 Noun
+A88	Individuation T23 Set
+A89	Actor_Type T23 Sit
+A90	Involvement T23 1
+T24	ACTOR 477 493	cidade de Linden
+A91	Lexical_Head T24 Noun
+A92	Individuation T24 Individual
+A93	Actor_Type T24 Loc
+A94	Involvement T24 1
+T25	ACTOR 495 506	Nova Jérsia
+A95	Lexical_Head T25 Noun
+A96	Individuation T25 Individual
+A97	Actor_Type T25 Loc
+A98	Involvement T25 1
+R4	OBJ_REL_partOf Arg1:T24 Arg2:T25	
+R5	REF_REL_sameHead Arg1:T25 Arg2:T4	
+R6	OBJ_REL_objIdentity Arg1:T25 Arg2:T4	
+T26	ACTOR 531 541	um polícia
+A99	Lexical_Head T26 Noun
+A100	Individuation T26 Individual
+A101	Actor_Type T26 Per
+A102	Involvement T26 1
+T27	ACTOR 551 571	o Ministério Público
+A103	Lexical_Head T27 Noun
+A104	Individuation T27 Individual
+A105	Actor_Type T27 Org
+A106	Involvement T27 1
+T28	ACTOR 575 591	condado de Union
+A107	Lexical_Head T28 Noun
+A108	Individuation T28 Individual
+A109	Actor_Type T28 Loc
+A110	Involvement T28 1
+T29	ACTOR 608 627	primeiras acusações
+A111	Lexical_Head T29 Noun
+A112	Individuation T29 Individual
+A113	Actor_Type T29 Obj
+A114	Involvement T29 >1
+T30	ACTOR 633 655	entativa de assassínio
+A115	Lexical_Head T30 Noun
+A116	Individuation T30 Individual
+A117	Actor_Type T30 Sit
+A118	Involvement T30 1
+T31	EVENT 74 85	foi acusado
+E1	EVENT:T31 
+A119	Class E1 Occurrence
+A120	Tense E1 Past1
+A121	Polarity E1 Pos
+A122	Time E1 Past
+A123	Factuality E1 Factual
+T34	EVENT 257 260;268 275	foi acusado
+E3	EVENT:T34 
+A133	Class E3 Occurrence
+A134	Tense E3 Past1
+A135	Polarity E3 Pos
+A136	Time E3 Past
+A137	Factuality E3 Factual
+T35	EVENT 386 393	cometer
+E4	EVENT:T35 
+A138	Class E4 Occurrence
+A139	Tense E4 Infinitive
+A140	Polarity E4 Pos
+A141	Time E4 Past
+A142	Factuality E4 Factual
+R7	OBJ_REL_objIdentity Arg1:T23 Arg2:T17	
+T36	EVENT 420 430	foi detido
+E5	EVENT:T36 
+A143	Class E5 Occurrence
+A144	Tense E5 Past1
+A145	Polarity E5 Pos
+A146	Time E5 Past
+A147	Factuality E5 Factual
+T37	EVENT 515 523	disparou
+E6	EVENT:T37 
+A148	Class E6 Occurrence
+A149	Tense E6 Past1
+A150	Polarity E6 Pos
+A151	Time E6 Past
+A152	Factuality E6 Factual
+T38	EVENT 543 550	levando
+E7	EVENT:T38 
+A153	Class E7 Occurrence
+A154	Tense E7 PresPart
+A155	Polarity E7 Pos
+A156	Time E7 Past
+A157	Factuality E7 Factual
+T39	EVENT 594 604	apresentar
+E8	EVENT:T39 
+A158	Class E8 Occurrence
+A159	Tense E8 Infinitive
+A160	Polarity E8 Pos
+A161	Time E8 Past
+A162	Factuality E8 Factual
+R9	TLINK_identity Arg1:E3 Arg2:E1	
+R11	TLINK_before Arg1:E6 Arg2:E5	
+R12	TLINK_after Arg1:E7 Arg2:E6	
+R13	TLINK_isIncluded Arg1:E8 Arg2:E7	
+R14	OBJ_REL_objIdentity Arg1:T5 Arg2:T1	
+R15	TLINK_includes Arg1:T6 Arg2:E1	
+R16	TLINK_before Arg1:E4 Arg2:E3	
+R10	TLINK_after Arg1:E5 Arg2:E4	
+R17	TLINK_includes Arg1:T22 Arg2:E5	
+R18	SEMROLE_theme Arg1:T5 Arg2:E1	
+R19	SEMROLE_theme Arg1:T7 Arg2:E1	
+R22	SEMROLE_theme Arg1:T12 Arg2:E3	
+R23	SEMROLE_theme Arg1:T17 Arg2:E4	
+R24	SEMROLE_theme Arg1:T21 Arg2:E5	
+R25	SEMROLE_agent Arg1:T21 Arg2:E6	
+R26	SEMROLE_goal Arg1:T26 Arg2:E6	
+R27	SEMROLE_agent Arg1:T27 Arg2:E8	
+R28	SEMROLE_theme Arg1:T29 Arg2:E8	
+R29	SEMROLE_time Arg1:T6 Arg2:E1	
+R30	SEMROLE_theme Arg1:T13 Arg2:E3	
+R31	SEMROLE_theme Arg1:T14 Arg2:E3	
+R32	SEMROLE_theme Arg1:T15 Arg2:E3	
+R33	SEMROLE_goal Arg1:T15 Arg2:E4	
+R34	SEMROLE_time Arg1:T22 Arg2:E5	
+R35	SEMROLE_agent Arg1:T1 Arg2:T2	
+R36	SEMROLE_location Arg1:T3 Arg2:T2	
+R37	SEMROLE_location Arg1:T4 Arg2:T2	
+R8	SEMROLE_agent Arg1:T5 Arg2:T7	
+R20	SEMROLE_source Arg1:T10 Arg2:T9	
+T8	TIME_X3 457 473	após um tiroteio
+A28	Time_Type T8 Time
+A29	FunctionInDocument T8 None
+A30	Value T8 Time
+R21	SEMROLE_time Arg1:T8 Arg2:E5	
+R38	TLINK_before Arg1:T8 Arg2:E5	
+R39	SEMROLE_location Arg1:T24 Arg2:T23	
+R40	SEMROLE_agent Arg1:T21 Arg2:E7	
+R41	SEMROLE_theme Arg1:T27 Arg2:E7	
+R42	OBJ_REL_partOf Arg1:T27 Arg2:T28	
+R43	SEMROLE_theme Arg1:T30 Arg2:T29	

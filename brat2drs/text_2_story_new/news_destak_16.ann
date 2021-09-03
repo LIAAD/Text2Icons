@@ -1,0 +1,218 @@
+T1	ACTOR 0 74	A Associação Sindical dos Profissionais da Inspeção Tributária e Aduaneira
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	TIME_X3 91 95	hoje
+A5	Time_Type T2 Date
+A6	FunctionInDocument T2 Publication_Time
+A7	Value T2 Date
+T3	ACTOR 123 146	todos os comportamentos
+A8	Lexical_Head T3 Noun
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Sit
+A11	Involvement T3 All
+T4	ACTOR 201 220	crimes de corrupção
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Sit
+A15	Involvement T4 >1
+T5	ACTOR 223 243	A Polícia Judiciária
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Org
+A19	Involvement T5 1
+T6	TIME_X3 253 257	hoje
+A20	Time_Type T6 Date
+A21	FunctionInDocument T6 Publication_Time
+A22	Value T6 Date
+R1	TLINK_identity Arg1:T6 Arg2:T2	
+T7	ACTOR 276 286	15 pessoas
+A23	Lexical_Head T7 Noun
+A24	Individuation T7 Individual
+A25	Actor_Type T7 Per
+A26	Involvement T7 >1
+T8	ACTOR 298 310	funcionários
+A27	Lexical_Head T8 Noun
+A28	Individuation T8 Individual
+A29	Actor_Type T8 Per
+A30	Involvement T8 >1
+T9	ACTOR 314 347	Autoridade Tributária e Aduaneira
+A31	Lexical_Head T9 Noun
+A32	Individuation T9 Individual
+A33	Actor_Type T9 Org
+A34	Involvement T9 1
+R2	OBJ_REL_partOf Arg1:T8 Arg2:T9	
+T10	ACTOR 358 413	suspeitas de corrupção ativa e passiva para ato ilícito
+A35	Lexical_Head T10 Noun
+A36	Individuation T10 Individual
+A37	Actor_Type T10 Sit
+A38	Involvement T10 >1
+T12	ACTOR 415 447	recebimento indevido de vantagem
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Sit
+A46	Involvement T12 1
+T13	ACTOR 450 471	falsidade informática
+A47	Lexical_Head T13 Noun
+A48	Actor_Type T13 Sit
+A49	Involvement T13 1
+R4	OBJ_REL_memberOf Arg1:T12 Arg2:T10	
+R5	OBJ_REL_memberOf Arg1:T13 Arg2:T10	
+T15	TIME_X3 521 525	hoje
+A54	Time_Type T15 Date
+A55	FunctionInDocument T15 Publication_Time
+A56	Value T15 Date
+T16	ACTOR 535 541	a APIT
+A57	Lexical_Head T16 Noun
+A58	Individuation T16 Individual
+A59	Actor_Type T16 Org
+A60	Involvement T16 1
+T17	ACTOR 76 80	APIT
+A61	Lexical_Head T17 Noun
+A62	Individuation T17 Individual
+A63	Actor_Type T17 Org
+A64	Involvement T17 1
+R7	OBJ_REL_objIdentity Arg1:T17 Arg2:T1	
+T18	ACTOR 556 564	a missão
+A65	Lexical_Head T18 Noun
+A66	Individuation T18 Individual
+A67	Actor_Type T18 Sit
+A68	Involvement T18 1
+T19	ACTOR 567 593	a competência profissional
+A69	Lexical_Head T19 Noun
+A70	Individuation T19 Individual
+A71	Actor_Type T19 Sit
+A72	Involvement T19 1
+T20	ACTOR 598 610	funcionários
+A73	Lexical_Head T20 Noun
+A74	Individuation T20 Individual
+A75	Actor_Type T20 Per
+A76	Involvement T20 >1
+T21	ACTOR 614 616	AT
+A77	Lexical_Head T21 Noun
+A78	Individuation T21 Individual
+A79	Actor_Type T21 Org
+A80	Involvement T21 1
+T22	ACTOR 349 351	AT
+A81	Lexical_Head T22 Noun
+A82	Individuation T22 Individual
+A83	Actor_Type T22 Org
+A84	Involvement T22 1
+R10	OBJ_REL_objIdentity Arg1:T22 Arg2:T9	
+R11	REF_REL_sameHead Arg1:T21 Arg2:T22	
+R12	OBJ_REL_objIdentity Arg1:T21 Arg2:T22	
+R13	REF_REL_sameHead Arg1:T16 Arg2:T17	
+R14	OBJ_REL_objIdentity Arg1:T16 Arg2:T17	
+T23	ACTOR 672 703	estas eventuais irregularidades
+A85	Lexical_Head T23 Noun
+A86	Individuation T23 Individual
+A87	Actor_Type T23 Sit
+A88	Involvement T23 >1
+T24	ACTOR 709 714	quais
+A89	Lexical_Head T24 Pronoun
+A90	Individuation T24 Individual
+A91	Actor_Type T24 Sit
+A92	Involvement T24 >1
+R6	REF_REL_pronominal Arg1:T24 Arg2:T23	
+R15	OBJ_REL_objIdentity Arg1:T24 Arg2:T23	
+T25	ACTOR 733 754	situações esporádicas
+A93	Lexical_Head T25 Noun
+A94	Individuation T25 Individual
+A95	Actor_Type T25 Sit
+A96	Involvement T25 >1
+T26	EVENT 757 770	identificadas
+E1	EVENT:T26 
+A97	Class E1 Occurrence
+A98	Tense E1 PastPart
+A99	Polarity E1 Pos
+A100	Time E1 Past
+A101	Factuality E1 Factual
+R16	OBJ_REL_partOf Arg1:T8 Arg2:T7	
+T27	EVENT 82 90	condenou
+E2	EVENT:T27 
+A102	Class E2 Occurrence
+A103	Tense E2 Past1
+A104	Polarity E2 Pos
+A105	Time E2 Past
+A106	Factuality E2 Factual
+T28	EVENT 151 171	possam constituir-se
+E3	EVENT:T28 
+A107	Class E3 Occurrence
+A108	Tense E3 Present
+A109	Polarity E3 Pos
+A110	Time E3 Present
+A111	Factuality E3 Factual
+T29	EVENT 177 200	passíveis de configurar
+E4	EVENT:T29 
+A112	Class E4 Occurrence
+A113	Tense E4 Infinitive
+A114	Polarity E4 Pos
+A115	Time E4 Present
+R8	TLINK_isIncluded Arg1:E4 Arg2:E3	
+T31	EVENT 262 275	foram detidas
+E6	EVENT:T31 
+A121	Class E6 Occurrence
+A122	Tense E6 Past1
+A123	Polarity E6 Pos
+A124	Time E6 Past
+A125	Factuality E6 Factual
+T33	EVENT 542 550	defendeu
+E8	EVENT:T33 
+A131	Class E8 Occurrence
+A132	Tense E8 Past1
+A133	Polarity E8 Pos
+A134	Time E8 Past
+A135	Factuality E8 Factual
+T34	EVENT 617 626;645 667	não podem ser colocadas em causa
+E9	EVENT:T34 
+A136	Class E9 Occurrence
+A137	Tense E9 Present
+A138	Polarity E9 Neg
+A139	Time E9 Present
+A140	Factuality E9 Factual
+T36	EVENT 715 725	considerou
+E11	EVENT:T36 
+A145	Class E11 Occurrence
+A146	Tense E11 Past1
+A147	Polarity E11 Pos
+A148	Time E11 Past
+A149	Factuality E11 Factual
+T37	EVENT 726 731	serem
+E12	EVENT:T37 
+A150	Class E12 State
+A151	Tense E12 Infinitive
+A152	Polarity E12 Pos
+A153	Time E12 Present
+A154	Factuality E12 Factual
+R22	TLINK_isIncluded Arg1:E12 Arg2:E11	
+R23	TLINK_includes Arg1:T2 Arg2:E2	
+R21	TLINK_before Arg1:E11 Arg2:E9	
+R25	SEMROLE_agent Arg1:T1 Arg2:E2	
+R27	SEMROLE_theme Arg1:T3 Arg2:E2	
+R28	SEMROLE_theme Arg1:T4 Arg2:E4	
+R26	SEMROLE_theme Arg1:T7 Arg2:E6	
+R30	SEMROLE_agent Arg1:T16 Arg2:E8	
+R31	SEMROLE_agent Arg1:T16 Arg2:E11	
+R32	SEMROLE_theme Arg1:T18 Arg2:E9	
+R33	SEMROLE_theme Arg1:T19 Arg2:E9	
+R34	SEMROLE_theme Arg1:T25 Arg2:E12	
+R35	SEMROLE_time Arg1:T2 Arg2:E2	
+R36	SEMROLE_theme Arg1:T3 Arg2:E3	
+R39	SEMROLE_theme Arg1:T18 Arg2:E8	
+R40	SEMROLE_theme Arg1:T19 Arg2:E8	
+R41	SEMROLE_theme Arg1:T19 Arg2:E9	
+R42	SEMROLE_theme Arg1:T18 Arg2:E9	
+R43	SEMROLE_theme Arg1:T23 Arg2:E12	
+R44	SEMROLE_theme Arg1:T25 Arg2:E12	
+R45	SEMROLE_theme Arg1:T3 Arg2:E4	
+R17	SEMROLE_agent Arg1:T5 Arg2:E6	
+R18	OBJ_REL_objIdentity Arg1:T20 Arg2:T8	
+R3	SEMROLE_theme Arg1:T10 Arg2:E6	
+R9	SEMROLE_theme Arg1:T12 Arg2:E6	
+R19	SEMROLE_theme Arg1:T13 Arg2:E6	
+T11	ACTOR 486 505	Operação "Tax Free"
+A39	Lexical_Head T11 Noun
+A40	Individuation T11 Individual
+A41	Actor_Type T11 Sit
+A42	Involvement T11 1

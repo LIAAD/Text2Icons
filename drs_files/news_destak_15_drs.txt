@@ -1,0 +1,130 @@
+» EVENTS
+# E1 (considerou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(theme,T4) & relationRole(time,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(agent,T1), relationRole(theme,T4), relationRole(time,T3), Factuality(a,Factual)]) 
+
+# E2 (convocada) -> b
+# FOL:  exists Factual Occurrence Past Pos b.(event(b) & eventClass(b,Occurrence) & Polarity(b,Pos) & Time(b,Past) & relationRole(theme,T13) & relationRole(agent,T14) & relationRole(time,T15) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Polarity(b,Pos), Time(b,Past), relationRole(theme,T13), relationRole(agent,T14), relationRole(time,T15), Factuality(b,Factual)]) 
+
+# E3 (mediado) -> c
+# FOL:  exists Factual Occurrence Past PastPart Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,PastPart) & Polarity(c,Pos) & Time(c,Past) & relationRole(theme,T18) & relationRole(agent,T21) & relationRole(theme,T18) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PastPart), Polarity(c,Pos), Time(c,Past), relationRole(theme,T18), relationRole(agent,T21), relationRole(theme,T18), Factuality(c,Factual)]) 
+
+# E4 (congratulou) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,e) & relationRole(agent,T16) & relationRole(theme,T18) & relationRole(theme,T18) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursBefore(d,e), relationRole(agent,T16), relationRole(theme,T18), relationRole(theme,T18), Factuality(d,Factual)]) 
+
+# E5 (tomaram) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T25) & relationRole(agent,T5) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(theme,T25), relationRole(agent,T5), Factuality(e,Factual)]) 
+
+# E6 (suspender) -> f
+# FOL:  exists Factual Infinitive Occurrence Past Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Infinitive) & Polarity(f,Pos) & Time(f,Past) & relationRole(theme,T26) & relationRole(theme,T25) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Infinitive), Polarity(f,Pos), Time(f,Past), relationRole(theme,T26), relationRole(theme,T25), Factuality(f,Factual)]) 
+
+# E7 (não está) -> g
+# FOL:  exists Factual Neg Present State g.(event(g) & eventClass(g,State) & Tense(g,Present) & Polarity(g,Neg) & Time(g,Present) & relationRole(theme,T31) & relationRole(source,T32) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,State), Tense(g,Present), Polarity(g,Neg), Time(g,Present), relationRole(theme,T31), relationRole(source,T32), Factuality(g,Factual)]) 
+
+# E8 (não era) -> h
+# FOL:  exists Factual Neg Non_Factual Past Past2 State h.(event(h) & eventClass(h,State) & Tense(h,Past2) & Polarity(h,Neg) & Time(h,Past) & relationRole(theme,T35) & relationRole(theme,T36) & Factuality(h,Non_Factual))
+# DRS:  ([h],[event(h), eventClass(h,State), Tense(h,Past2), Polarity(h,Neg), Time(h,Past), relationRole(theme,T35), relationRole(theme,T36), Factuality(h,Non_Factual)]) 
+
+# E9 (estava convocada) -> i
+# FOL:  exists Factual Non_Factual Past Past2 Pos State i.(event(i) & eventClass(i,State) & Tense(i,Past2) & Polarity(i,Pos) & Time(i,Past) & relationRole(theme,T23) & relationRole(location,T24) & Factuality(i,Non_Factual))
+# DRS:  ([i],[event(i), eventClass(i,State), Tense(i,Past2), Polarity(i,Pos), Time(i,Past), relationRole(theme,T23), relationRole(location,T24), Factuality(i,Non_Factual)]) 
+
+# E10 (disse) -> j
+# FOL:  exists Factual Occurrence Past Past1 Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Polarity(j,Pos) & Time(j,Past) & relationRole(agent,T16) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Polarity(j,Pos), Time(j,Past), relationRole(agent,T16), Factuality(j,Factual)]) 
+
+# E11 (referindo) -> k
+# FOL:  exists Factual Occurrence Past Pos PresPart k.(event(k) & eventClass(k,Occurrence) & Tense(k,PresPart) & Polarity(k,Pos) & Time(k,Past) & relationRole(agent,T16) & relationRole(theme,T23) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,PresPart), Polarity(k,Pos), Time(k,Past), relationRole(agent,T16), relationRole(theme,T23), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> O Presidente
+# T10 -> alegada "rutura da ordem constitucional
+# T12 -> a suspensão
+# T13 -> manifestação
+# T14 -> oposição
+# T16 -> Nicolas Maduro
+# T17 -> se
+# T18 -> o início do diálogo
+# T19 -> oposição
+# T20 -> Governo
+# T21 -> Vaticano
+# T22 -> se
+# T23 -> manifestação
+# T24 -> a frente do palácio presidencial
+# T25 -> a feliz decisão
+# T26 -> o processo inconstitucional político
+# T28 -> minha
+# T31 -> o julgamento político
+# T32 -> Constituição
+# T33 -> o assalto
+# T35 -> isso
+# T36 -> uma marcha
+# T37 -> m assalto
+# T4 -> uma feliz decisão
+# T5 -> parlamento
+# T6 -> o adiamento
+# T7 -> debate
+# T8 -> sua
+# T9 -> responsabilidade política
+# T15 -> quinta-feira
+# T3 -> na terça-feora
+
+» RELATIONS
+# T1 - agent - E1
+# T4 - theme - E1
+# T13 - theme - E2
+# T14 - agent - E2
+# T16 - agent - E4
+# T18 - theme - E4
+# T18 - theme - E3
+# T21 - agent - E3
+# T25 - theme - E5
+# T26 - theme - E6
+# T5 - agent - E5
+# T31 - theme - E7
+# T32 - source - E7
+# T16 - agent - E10
+# T23 - theme - E9
+# T24 - location - E9
+# T3 - time - E1
+# T6 - theme - T4
+# T18 - theme - E4
+# T18 - theme - E3
+# T35 - theme - E8
+# T36 - theme - E8
+# T16 - agent - E11
+# T23 - theme - E11
+# T5 - source - T4
+# T7 - theme - T6
+# T10 - goal - T9
+# T8 - source - T9
+# T9 - theme - T7
+# T13 - theme - T12
+# T15 - time - E2
+# T19 - theme - T18
+# T20 - theme - T18
+# E6 - theme - T25
+# T8 - pronominal - T1
+# T8 - objIdentity - T1
+# T16 - objIdentity - T1
+# T17 - pronominal - T16
+# T17 - objIdentity - T16
+# T22 - pronominal - T16
+# T22 - objIdentity - T16
+# T23 - sameHead - T13
+# T23 - objIdentity - T13
+# T19 - sameHead - T14
+# T19 - objIdentity - T14
+# T25 - objIdentity - T4
+# T28 - pronominal - T16
+# T28 - objIdentity - T16
+# T35 - pronominal - T33
+# T35 - objIdentity - T33
+# T37 - objIdentity - T33

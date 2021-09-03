@@ -1,0 +1,96 @@
+» EVENTS
+# E1 (identificadas) -> a
+# FOL:  exists Factual Occurrence Past PastPart Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,PastPart) & Polarity(a,Pos) & Time(a,Past) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,PastPart), Polarity(a,Pos), Time(a,Past), Factuality(a,Factual)]) 
+
+# E2 (condenou) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & relationRole(agent,T1) & relationRole(theme,T3) & relationRole(time,T2) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), relationRole(agent,T1), relationRole(theme,T3), relationRole(time,T2), Factuality(b,Factual)]) 
+
+# E3 (possam constituir-se) -> c
+# FOL:  exists Factual Occurrence Pos Present c.(event(c) & eventClass(c,Occurrence) & Tense(c,Present) & Polarity(c,Pos) & Time(c,Present) & relationRole(theme,T3) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Present), Polarity(c,Pos), Time(c,Present), relationRole(theme,T3), Factuality(c,Factual)]) 
+
+# E4 (passíveis de configurar) -> d
+# FOL:  exists Infinitive Occurrence Pos Present d.(event(d) & eventClass(d,Occurrence) & Tense(d,Infinitive) & Polarity(d,Pos) & relationRole(theme,T4) & relationRole(theme,T3) & Time(d,Present))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Infinitive), Polarity(d,Pos), relationRole(theme,T4), relationRole(theme,T3), Time(d,Present)]) 
+
+# E6 (foram detidas) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T7) & relationRole(agent,T5) & relationRole(theme,T10) & relationRole(theme,T12) & relationRole(theme,T13) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(theme,T7), relationRole(agent,T5), relationRole(theme,T10), relationRole(theme,T12), relationRole(theme,T13), Factuality(e,Factual)]) 
+
+# E8 (defendeu) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & relationRole(agent,T16) & relationRole(theme,T18) & relationRole(theme,T19) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), relationRole(agent,T16), relationRole(theme,T18), relationRole(theme,T19), Factuality(f,Factual)]) 
+
+# E9 (não podem ser colocadas em causa) -> g
+# FOL:  exists Factual Neg Occurrence Present g.(event(g) & eventClass(g,Occurrence) & Tense(g,Present) & Polarity(g,Neg) & Time(g,Present) & occursBefore(g,h) & relationRole(theme,T18) & relationRole(theme,T19) & relationRole(theme,T19) & relationRole(theme,T18) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Present), Polarity(g,Neg), Time(g,Present), occursBefore(g,h), relationRole(theme,T18), relationRole(theme,T19), relationRole(theme,T19), relationRole(theme,T18), Factuality(g,Factual)]) 
+
+# E11 (considerou) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & relationRole(agent,T16) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), relationRole(agent,T16), Factuality(h,Factual)]) 
+
+# E12 (serem) -> i
+# FOL:  exists Factual Infinitive Pos Present State i.(event(i) & eventClass(i,State) & Tense(i,Infinitive) & Polarity(i,Pos) & Time(i,Present) & relationRole(theme,T25) & relationRole(theme,T23) & relationRole(theme,T25) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,State), Tense(i,Infinitive), Polarity(i,Pos), Time(i,Present), relationRole(theme,T25), relationRole(theme,T23), relationRole(theme,T25), Factuality(i,Factual)]) 
+
+» ACTORS
+# T1 -> A Associação Sindical dos Profissionais da Inspeção Tributária e Aduaneira
+# T10 -> suspeitas de corrupção ativa e passiva para ato ilícito
+# T12 -> recebimento indevido de vantagem
+# T13 -> falsidade informática
+# T16 -> a APIT
+# T17 -> APIT
+# T18 -> a missão
+# T19 -> a competência profissional
+# T20 -> funcionários
+# T21 -> AT
+# T22 -> AT
+# T23 -> estas eventuais irregularidades
+# T24 -> quais
+# T25 -> situações esporádicas
+# T3 -> todos os comportamentos
+# T4 -> crimes de corrupção
+# T5 -> A Polícia Judiciária
+# T7 -> 15 pessoas
+# T8 -> funcionários
+# T9 -> Autoridade Tributária e Aduaneira
+# T2 -> hoje
+
+» RELATIONS
+# T1 - agent - E2
+# T3 - theme - E2
+# T4 - theme - E4
+# T7 - theme - E6
+# T16 - agent - E8
+# T16 - agent - E11
+# T18 - theme - E9
+# T19 - theme - E9
+# T25 - theme - E12
+# T2 - time - E2
+# T3 - theme - E3
+# T18 - theme - E8
+# T19 - theme - E8
+# T19 - theme - E9
+# T18 - theme - E9
+# T23 - theme - E12
+# T25 - theme - E12
+# T3 - theme - E4
+# T5 - agent - E6
+# T10 - theme - E6
+# T12 - theme - E6
+# T13 - theme - E6
+# T8 - partOf - T9
+# T12 - memberOf - T10
+# T13 - memberOf - T10
+# T17 - objIdentity - T1
+# T22 - objIdentity - T9
+# T21 - sameHead - T22
+# T21 - objIdentity - T22
+# T16 - sameHead - T17
+# T16 - objIdentity - T17
+# T24 - pronominal - T23
+# T24 - objIdentity - T23
+# T8 - partOf - T7
+# T20 - objIdentity - T8

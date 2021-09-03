@@ -1,0 +1,1 @@
+{'T1': 'The secretary general, Jerónimo de Sousa, The communist leader, his', 'T2': 'PCP, the party', 'T5': 'today', 'T6': 'commitments, commitments', 'T25': 'the problem', 'T28': 'PCP, party'}

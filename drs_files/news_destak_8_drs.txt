@@ -1,0 +1,92 @@
+» EVENTS
+# E1 (foi acusado) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(theme,T5) & relationRole(theme,T7) & relationRole(time,T6) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(theme,T5), relationRole(theme,T7), relationRole(time,T6), Factuality(a,Factual)]) 
+
+# E3 (foi acusado) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,c) & relationRole(theme,T12) & relationRole(theme,T13) & relationRole(theme,T14) & relationRole(theme,T15) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursBefore(b,c), relationRole(theme,T12), relationRole(theme,T13), relationRole(theme,T14), relationRole(theme,T15), Factuality(b,Factual)]) 
+
+# E4 (cometer) -> c
+# FOL:  exists Factual Infinitive Occurrence Past Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Infinitive) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(theme,T17) & relationRole(goal,T15) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Infinitive), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(theme,T17), relationRole(goal,T15), Factuality(c,Factual)]) 
+
+# E5 (foi detido) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,e) & occursAfter(d,c) & relationRole(theme,T21) & relationRole(time,T22) & relationRole(time,T8) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursBefore(d,e), occursAfter(d,c), relationRole(theme,T21), relationRole(time,T22), relationRole(time,T8), Factuality(d,Factual)]) 
+
+# E6 (disparou) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & occursBefore(e,f) & relationRole(agent,T21) & relationRole(goal,T26) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), occursBefore(e,f), relationRole(agent,T21), relationRole(goal,T26), Factuality(e,Factual)]) 
+
+# E7 (levando) -> f
+# FOL:  exists Factual Occurrence Past Pos PresPart f.(event(f) & eventClass(f,Occurrence) & Tense(f,PresPart) & Polarity(f,Pos) & Time(f,Past) & occursAfter(f,e) & relationRole(agent,T21) & relationRole(theme,T27) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PresPart), Polarity(f,Pos), Time(f,Past), occursAfter(f,e), relationRole(agent,T21), relationRole(theme,T27), Factuality(f,Factual)]) 
+
+# E8 (apresentar) -> g
+# FOL:  exists Factual Infinitive Occurrence Past Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Infinitive) & Polarity(g,Pos) & Time(g,Past) & relationRole(agent,T27) & relationRole(theme,T29) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Infinitive), Polarity(g,Pos), Time(g,Past), relationRole(agent,T27), relationRole(theme,T29), Factuality(g,Factual)]) 
+
+» ACTORS
+# T1 -> O suspeito
+# T12 -> O homem
+# T13 -> ataque à bomba em local público
+# T14 -> destruição de bens privados
+# T15 -> utilização de um engenho de destruição
+# T17 -> um crime violento
+# T2 -> atentados
+# T21 -> Rahami
+# T23 -> um tiroteio
+# T24 -> cidade de Linden
+# T25 -> Nova Jérsia
+# T26 -> um polícia
+# T27 -> o Ministério Público
+# T29 -> primeiras acusações
+# T3 -> Nova Iorque
+# T30 -> entativa de assassínio
+# T4 -> Nova Jérsia
+# T5 -> Ahmad Khan Rahami
+# T7 -> utilização de armas de destruição massiva
+# T22 -> na manhã de segunda-feira
+# T11 -> Estado de Nova Iorque
+# T9 -> procurador
+# T6 -> na terça-feira
+# T8 -> após um tiroteio
+# T28 -> condado de Union
+# T10 -> distrito sul
+
+» RELATIONS
+# T5 - theme - E1
+# T7 - theme - E1
+# T12 - theme - E3
+# T17 - theme - E4
+# T21 - theme - E5
+# T21 - agent - E6
+# T26 - goal - E6
+# T27 - agent - E8
+# T29 - theme - E8
+# T6 - time - E1
+# T13 - theme - E3
+# T14 - theme - E3
+# T15 - theme - E3
+# T15 - goal - E4
+# T22 - time - E5
+# T1 - agent - T2
+# T3 - location - T2
+# T4 - location - T2
+# T5 - agent - T7
+# T10 - source - T9
+# T8 - time - E5
+# T24 - location - T23
+# T21 - agent - E7
+# T27 - theme - E7
+# T30 - theme - T29
+# T10 - partOf - T11
+# T12 - objIdentity - T1
+# T21 - objIdentity - T5
+# T24 - partOf - T25
+# T25 - sameHead - T4
+# T25 - objIdentity - T4
+# T23 - objIdentity - T17
+# T5 - objIdentity - T1
+# T27 - partOf - T28

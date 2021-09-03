@@ -1,0 +1,332 @@
+T1	ACTOR 0 14	Duas explosões
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Sit
+A4	Involvement T1 >1
+T2	TIME_X3 15 40	em menos de vinte minutos
+A5	Time_Type T2 Duration
+A6	FunctionInDocument T2 None
+A7	Value T2 Duration
+A8	Mod T2 Equal_or_Less
+#1	AnnotatorNotes T2	value="P20m"
+T3	ACTOR 54 59	morte
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Sit
+A12	Involvement T3 1
+T4	ACTOR 63 84	pelo menos uma pessoa
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Per
+A16	Involvement T4 1
+#2	AnnotatorNotes T4	mod="equal_or_more"
+T5	ACTOR 94 107	outras trinta
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Per
+A19	Involvement T5 >1
+T6	ACTOR 130 146	praia de Pattani
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Loc
+A23	Involvement T6 1
+T7	ACTOR 109 125	junto a um hotel
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Loc
+A27	Involvement T7 1
+T8	ACTOR 151 167	sul da Tailândia
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Loc
+A31	Involvement T8 1
+T9	ACTOR 169 184	As deflagrações
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Sit
+A35	Involvement T9 >1
+T10	ACTOR 188 209	viaturas armadilhadas
+A36	Lexical_Head T10 Noun
+A37	Individuation T10 Individual
+A38	Actor_Type T10 Obj
+A39	Involvement T10 >1
+T11	ACTOR 229 247	grupos de rebeldes
+A40	Lexical_Head T11 Noun
+A41	Actor_Type T11 Per
+A42	Involvement T11 >1
+T12	ACTOR 261 271	o exército
+A43	Lexical_Head T12 Noun
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Org
+A46	Involvement T12 1
+T13	ACTOR 275 281	região
+A47	Lexical_Head T13 Noun
+A48	Individuation T13 Individual
+A49	Actor_Type T13 Loc
+A50	Involvement T13 1
+T14	TIME_X3 293 310	duas semanas após
+A51	Time_Type T14 Duration
+A52	FunctionInDocument T14 None
+A53	Value T14 Duration
+A54	Mod T14 On_or_After
+#3	AnnotatorNotes T14	value="P2W"
+T15	ACTOR 311 323	11 atentados
+A55	Lexical_Head T15 Noun
+A56	Individuation T15 Individual
+A57	Actor_Type T15 Sit
+A58	Involvement T15 >1
+T16	ACTOR 340 353	quatro mortos
+A59	Individuation T16 Individual
+A60	Actor_Type T16 Per
+A61	Involvement T16 >1
+T17	ACTOR 356 374	dezenas de feridos
+A62	Lexical_Head T17 Noun
+A63	Individuation T17 Individual
+A64	Actor_Type T17 Per
+A65	Involvement T17 >1
+T18	ACTOR 378 401	várias zonas turísticas
+A66	Lexical_Head T18 Noun
+A67	Individuation T18 Individual
+A68	Actor_Type T18 Loc
+A69	Involvement T18 >1
+T19	ACTOR 405 416	sul do país
+A70	Lexical_Head T19 Noun
+A71	Individuation T19 Individual
+A72	Actor_Type T19 Loc
+A73	Involvement T19 1
+T20	ACTOR 418 433	A vítima mortal
+A74	Lexical_Head T20 Noun
+A75	Individuation T20 Individual
+A76	Actor_Type T20 Per
+A77	Involvement T20 1
+T21	ACTOR 548 567	turistas britânicos
+A78	Lexical_Head T21 Noun
+A79	Individuation T21 Individual
+A80	Actor_Type T21 Per
+A81	Involvement T21 >1
+T22	ACTOR 514 521	feridos
+A82	Lexical_Head T22 Noun
+A83	Individuation T22 Individual
+A84	Actor_Type T22 Per
+A85	Involvement T22 >1
+T23	ACTOR 569 579	Os ataques
+A86	Lexical_Head T23 Noun
+A87	Individuation T23 Individual
+A88	Actor_Type T23 Sit
+A89	Involvement T23 >1
+T24	TIME_X3 583 598	há duas semanas
+A90	Time_Type T24 Date
+A91	FunctionInDocument T24 None
+A92	Value T24 Date
+T25	ACTOR 634 641	Hua Hin
+A93	Lexical_Head T25 Noun
+A94	Individuation T25 Individual
+A95	Actor_Type T25 Loc
+A96	Involvement T25 1
+T26	ACTOR 643 649	Phuket
+A97	Lexical_Head T26 Noun
+A98	Individuation T26 Individual
+A99	Actor_Type T26 Loc
+A100	Involvement T26 1
+T27	ACTOR 652 661	Phang Nga
+A101	Lexical_Head T27 Noun
+A102	Individuation T27 Individual
+A103	Actor_Type T27 Loc
+A104	Involvement T27 1
+T28	ACTOR 676 700	vários turistas europeus
+A105	Individuation T28 Individual
+A106	Actor_Type T28 Per
+A107	Involvement T28 >1
+T29	ACTOR 717 731	três italianos
+A108	Lexical_Head T29 Noun
+A109	Individuation T29 Individual
+A110	Actor_Type T29 Per
+A111	Involvement T29 >1
+T30	ACTOR 733 748	três holandeses
+A112	Lexical_Head T30 Noun
+A113	Individuation T30 Individual
+A114	Actor_Type T30 Per
+A115	Involvement T30 >1
+T31	ACTOR 750 762	três alemães
+A116	Lexical_Head T31 Noun
+A117	Individuation T31 Individual
+A118	Actor_Type T31 Per
+A119	Involvement T31 >1
+T32	ACTOR 765 785	um cidadão austríaco
+A120	Lexical_Head T32 Noun
+A121	Individuation T32 Individual
+A122	Actor_Type T32 Per
+A123	Involvement T32 1
+R1	REF_REL_synonymy Arg1:T9 Arg2:T1	
+R2	OBJ_REL_objIdentity Arg1:T9 Arg2:T1	
+R3	OBJ_REL_objIdentity Arg1:T13 Arg2:T8	
+T33	ACTOR 248 251	que
+A124	Lexical_Head T33 Pronoun
+A125	Individuation T33 Individual
+A126	Actor_Type T33 Per
+A127	Involvement T33 >1
+R4	REF_REL_pronominal Arg1:T33 Arg2:T11	
+R5	OBJ_REL_objIdentity Arg1:T33 Arg2:T11	
+R6	OBJ_REL_partOf Arg1:T18 Arg2:T19	
+R7	OBJ_REL_objIdentity Arg1:T19 Arg2:T8	
+R8	OBJ_REL_objIdentity Arg1:T20 Arg2:T4	
+R9	OBJ_REL_objIdentity Arg1:T22 Arg2:T5	
+T34	ACTOR 527 531	zona
+A128	Lexical_Head T34 Noun
+A129	Individuation T34 Individual
+A130	Actor_Type T34 Loc
+A131	Involvement T34 1
+R10	OBJ_REL_objIdentity Arg1:T34 Arg2:T6	
+R11	OBJ_REL_objIdentity Arg1:T23 Arg2:T15	
+R12	REF_REL_synonymy Arg1:T23 Arg2:T15	
+R13	OBJ_REL_partOf Arg1:T21 Arg2:T28	
+R14	REF_REL_hyponymy Arg1:T21 Arg2:T28	
+R15	OBJ_REL_partOf Arg1:T29 Arg2:T28	
+R16	OBJ_REL_partOf Arg1:T30 Arg2:T28	
+R17	OBJ_REL_partOf Arg1:T31 Arg2:T28	
+R18	OBJ_REL_partOf Arg1:T32 Arg2:T28	
+R19	REF_REL_hyponymy Arg1:T29 Arg2:T28	
+R20	REF_REL_hyponymy Arg1:T30 Arg2:T28	
+R21	REF_REL_hyponymy Arg1:T31 Arg2:T28	
+R22	REF_REL_hyponymy Arg1:T32 Arg2:T28	
+T35	EVENT 41 51	provocaram
+E1	EVENT:T35 
+A132	Class E1 Occurrence
+A133	Tense E1 Past1
+A134	Polarity E1 Pos
+A135	Time E1 Past
+A136	Factuality E1 Factual
+T36	EVENT 86 93	ferindo
+E2	EVENT:T36 
+A137	Class E2 Occurrence
+A138	Tense E2 PresPart
+A139	Polarity E2 Pos
+A140	Time E2 Past
+A141	Factuality E2 Factual
+R23	TLINK_simultaneous Arg1:E2 Arg2:E1	
+R24	OBJ_REL_partOf Arg1:T7 Arg2:T6	
+R25	OBJ_REL_partOf Arg1:T6 Arg2:T8	
+T37	EVENT 210 226	foram atribuídas
+E3	EVENT:T37 
+A142	Class E3 Occurrence
+A143	Tense E3 Past1
+A144	Polarity E3 Pos
+A145	Time E3 Past
+A146	Factuality E3 Factual
+T38	EVENT 252 260	combatem
+E4	EVENT:T38 
+A147	Class E4 Occurrence
+A148	Tense E4 Present
+A149	Polarity E4 Pos
+A150	Time E4 Present
+A151	Factuality E4 Factual
+T39	EVENT 285 292	ocorrem
+E5	EVENT:T39 
+A152	Class E5 Occurrence
+A153	Tense E5 Present
+A154	Polarity E5 Pos
+A155	Time E5 Past
+A156	Factuality E5 Factual
+R27	TLINK_includes Arg1:E4 Arg2:E3	
+T40	EVENT 324 339	terem provocado
+E6	EVENT:T40 
+A157	Class E6 Occurrence
+A158	Tense E6 PastPerfect
+A159	Polarity E6 Pos
+A161	Factuality E6 Factual
+R29	TLINK_before Arg1:E6 Arg2:E5	
+T41	EVENT 434 438	será
+E7	EVENT:T41 
+A160	Class E7 Occurrence
+A162	Tense E7 Future1
+A163	Polarity E7 Pos
+A164	Time E7 Future
+A165	Factuality E7 Non_Factual
+T42	EVENT 475 488	se desconhece
+E8	EVENT:T42 
+A166	Class E8 Occurrence
+A167	Tense E8 Present
+A168	Polarity E8 Pos
+A169	Time E8 Present
+A170	Factuality E8 Factual
+T43	EVENT 532 543	frequentada
+E9	EVENT:T43 
+A171	Class E9 Occurrence
+A172	Tense E9 PastPart
+A173	Polarity E9 Pos
+A174	Time E9 Past
+A175	Factuality E9 Factual
+R31	TLINK_isIncluded Arg1:E9 Arg2:E8	
+T44	ACTOR 600 603	que
+A176	Lexical_Head T44 Noun
+A177	Individuation T44 Individual
+A178	Actor_Type T44 Sit
+A179	Involvement T44 >1
+R32	REF_REL_pronominal Arg1:T44 Arg2:T23	
+R33	OBJ_REL_objIdentity Arg1:T44 Arg2:T23	
+T45	EVENT 604 619	tinham atingido
+E10	EVENT:T45 
+A180	Class E10 Occurrence
+A181	Tense E10 PastPerfect
+A182	Polarity E10 Pos
+A183	Time E10 Past
+A184	Factuality E10 Factual
+T46	EVENT 662 675	tinham ferido
+E11	EVENT:T46 
+A185	Class E11 Occurrence
+A186	Tense E11 PastPerfect
+A187	Polarity E11 Pos
+A188	Time E11 Past
+A189	Factuality E11 Factual
+R36	TLINK_includes Arg1:T2 Arg2:E1	
+R26	TLINK_after Arg1:E3 Arg2:E2	
+R28	TLINK_isIncluded Arg1:E5 Arg2:E4	
+R37	TLINK_includes Arg1:T14 Arg2:E5	
+R30	TLINK_after Arg1:E8 Arg2:E5	
+R38	TLINK_includes Arg1:E9 Arg2:E8	
+R39	TLINK_includes Arg1:T24 Arg2:E10	
+R34	TLINK_before Arg1:E10 Arg2:E8	
+R35	TLINK_after Arg1:E11 Arg2:E10	
+R40	SEMROLE_source Arg1:T1 Arg2:E1	
+R41	SEMROLE_theme Arg1:T3 Arg2:E1	
+R42	SEMROLE_experiencer Arg1:T4 Arg2:T3	
+R43	SEMROLE_source Arg1:T1 Arg2:E2	
+R44	SEMROLE_experiencer Arg1:T5 Arg2:E2	
+R45	SEMROLE_location Arg1:T6 Arg2:E2	
+R46	SEMROLE_theme Arg1:T9 Arg2:E3	
+R47	SEMROLE_goal Arg1:T11 Arg2:E3	
+R48	SEMROLE_agent Arg1:T11 Arg2:E4	
+R49	SEMROLE_theme Arg1:T12 Arg2:E4	
+R50	SEMROLE_location Arg1:T13 Arg2:E4	
+R51	SEMROLE_theme Arg1:T9 Arg2:E5	
+R52	SEMROLE_time Arg1:T14 Arg2:E5	
+R53	SEMROLE_source Arg1:T15 Arg2:E6	
+R54	SEMROLE_experiencer Arg1:T16 Arg2:E6	
+R55	SEMROLE_experiencer Arg1:T17 Arg2:E6	
+R56	SEMROLE_location Arg1:T18 Arg2:E6	
+R57	SEMROLE_experiencer Arg1:T20 Arg2:E7	
+T47	ACTOR 497 509	a identidade
+A190	Lexical_Head T47 Noun
+A191	Individuation T47 Individual
+A192	Actor_Type T47 Other
+A193	Involvement T47 1
+R58	SEMROLE_theme Arg1:T47 Arg2:E8	
+R59	SEMROLE_location Arg1:T34 Arg2:E9	
+R60	SEMROLE_agent Arg1:T21 Arg2:E9	
+R61	SEMROLE_time Arg1:T24 Arg2:E10	
+R62	SEMROLE_source Arg1:T23 Arg2:E10	
+R63	SEMROLE_location Arg1:T25 Arg2:E10	
+R64	SEMROLE_location Arg1:T26 Arg2:E10	
+R65	SEMROLE_location Arg1:T27 Arg2:E10	
+R66	SEMROLE_experiencer Arg1:T28 Arg2:E11	
+R67	SEMROLE_source Arg1:T23 Arg2:E11	
+R68	SEMROLE_instrument Arg1:T10 Arg2:T9	
+R69	SEMROLE_location Arg1:T34 Arg2:T22	
+R70	SEMROLE_time Arg1:T2 Arg2:T1	
+T48	ACTOR 442 466	nacionalidade tailandesa
+A194	Lexical_Head T48 Noun
+A195	Individuation T48 Individual
+A196	Actor_Type T48 Other
+A197	Involvement T48 1
+R71	SEMROLE_theme Arg1:T48 Arg2:E7	
+R72	SEMROLE_theme Arg1:T22 Arg2:T47	
+R73	SEMROLE_time Arg1:T24 Arg2:T23	

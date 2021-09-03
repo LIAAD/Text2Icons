@@ -1,0 +1,72 @@
+» EVENTS
+# E1 (deteve) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(agent,T1) & relationRole(theme,T2) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(agent,T1), relationRole(theme,T2), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E3 (efetuada) -> b
+# FOL:  exists Factual Occurrence Past PastPart Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & relationRole(agent,T13) & relationRole(location,T15) & relationRole(location,T16) & relationRole(location,T17) & relationRole(theme,T12) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), relationRole(agent,T13), relationRole(location,T15), relationRole(location,T16), relationRole(location,T17), relationRole(theme,T12), Factuality(b,Factual)]) 
+
+# E4 (foram realizadas) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(theme,T14) & relationRole(agent,T13) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(theme,T14), relationRole(agent,T13), Factuality(c,Factual)]) 
+
+# E5 (celebravam) -> d
+# FOL:  exists Factual Occurrence Past Past2 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past2) & Polarity(d,Pos) & Time(d,Past) & relationRole(agent,T22) & relationRole(theme,T23) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past2), Polarity(d,Pos), Time(d,Past), relationRole(agent,T22), relationRole(theme,T23), Factuality(d,Factual)]) 
+
+# E6 (relacionados) -> e
+# FOL:  exists Factual Occurrence Past PastPart Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,PastPart) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T23) & relationRole(theme,T24) & relationRole(theme,T25) & relationRole(theme,T26) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,PastPart), Polarity(e,Pos), Time(e,Past), relationRole(theme,T23), relationRole(theme,T24), relationRole(theme,T25), relationRole(theme,T26), Factuality(e,Factual)]) 
+
+» ACTORS
+# T1 -> A Polícia Judiciária
+# T10 -> fraude fiscal
+# T12 -> a operação
+# T13 -> Unidade Nacional de Combate à Corrupção
+# T14 -> 35 buscas
+# T15 -> Lisboa
+# T16 -> Braga
+# T17 -> Fátima
+# T18 -> 120 elementos
+# T19 -> PJ
+# T2 -> dois homens
+# T20 -> 10 magistrados
+# T22 -> Os detidos
+# T23 -> contratos de fornecimento de bens e serviços
+# T24 -> obras públicas
+# T25 -> construção civil
+# T26 -> venda de produtos petrolíferos
+# T3 -> uma mulher
+# T5 -> crimes
+# T6 -> corrupção no comércio internacional
+# T7 -> branqueamento de capitais
+# T8 -> tráfico de influências
+# T9 -> participação económica em negócio
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - theme - E1
+# T3 - theme - E1
+# T13 - agent - E3
+# T15 - location - E3
+# T16 - location - E3
+# T17 - location - E3
+# T14 - theme - E4
+# T22 - agent - E5
+# T23 - theme - E5
+# T12 - theme - E3
+# T13 - agent - E4
+# T23 - theme - E6
+# T24 - theme - E6
+# T25 - theme - E6
+# T26 - theme - E6
+# T6 - memberOf - T5
+# T10 - memberOf - T5
+# T9 - memberOf - T5
+# T8 - memberOf - T5
+# T7 - memberOf - T5
+# T18 - partOf - T19
+# T19 - objIdentity - T1
+# T18 - partOf - T14
+# T20 - partOf - T14

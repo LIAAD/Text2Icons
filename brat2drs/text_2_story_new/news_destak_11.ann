@@ -1,0 +1,187 @@
+T1	ACTOR 0 20	A Polícia Judiciária
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A4	Involvement T1 1
+T2	ACTOR 28 39	dois homens
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 >1
+T3	ACTOR 42 52	uma mulher
+A9	Lexical_Head T3 Noun
+A10	Individuation T3 Individual
+A11	Actor_Type T3 Per
+A12	Involvement T3 1
+T4	ACTOR 57 66	suspeitas
+A13	Lexical_Head T4 Noun
+A14	Individuation T4 Individual
+A15	Actor_Type T4 Sit
+A16	Involvement T4 >1
+T5	ACTOR 71 77	crimes
+A17	Lexical_Head T5 Noun
+A18	Individuation T5 Individual
+A19	Actor_Type T5 Sit
+A20	Involvement T5 >1
+T6	ACTOR 81 116	corrupção no comércio internacional
+A21	Lexical_Head T6 Noun
+A22	Individuation T6 Individual
+A23	Actor_Type T6 Sit
+A24	Involvement T6 1
+T7	ACTOR 118 143	branqueamento de capitais
+A25	Lexical_Head T7 Noun
+A26	Individuation T7 Individual
+A27	Actor_Type T7 Sit
+A28	Involvement T7 1
+T8	ACTOR 145 167	tráfico de influências
+A29	Lexical_Head T8 Noun
+A30	Individuation T8 Individual
+A31	Actor_Type T8 Sit
+A32	Involvement T8 1
+T9	ACTOR 169 202	participação económica em negócio
+A33	Lexical_Head T9 Noun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Sit
+A36	Involvement T9 1
+T10	ACTOR 205 218	fraude fiscal
+A37	Lexical_Head T10 Noun
+A38	Individuation T10 Individual
+A39	Actor_Type T10 Sit
+A40	Involvement T10 1
+R1	OBJ_REL_memberOf Arg1:T6 Arg2:T5	
+R2	OBJ_REL_memberOf Arg1:T10 Arg2:T5	
+R3	OBJ_REL_memberOf Arg1:T9 Arg2:T5	
+R4	OBJ_REL_memberOf Arg1:T8 Arg2:T5	
+R5	OBJ_REL_memberOf Arg1:T7 Arg2:T5	
+T12	ACTOR 243 253	a operação
+A45	Lexical_Head T12 Noun
+A46	Individuation T12 Individual
+A47	Actor_Type T12 Sit
+A48	Involvement T12 1
+T13	ACTOR 269 308	Unidade Nacional de Combate à Corrupção
+A49	Lexical_Head T13 Noun
+A50	Individuation T13 Individual
+A51	Actor_Type T13 Org
+A52	Involvement T13 1
+T15	ACTOR 329 335	Lisboa
+A57	Lexical_Head T15 Noun
+A58	Individuation T15 Individual
+A59	Actor_Type T15 Loc
+A60	Involvement T15 1
+T16	ACTOR 337 342	Braga
+A61	Lexical_Head T16 Noun
+A62	Individuation T16 Individual
+A63	Actor_Type T16 Loc
+A64	Involvement T16 1
+T17	ACTOR 345 351	Fátima
+A65	Lexical_Head T17 Noun
+A66	Individuation T17 Individual
+A67	Actor_Type T17 Loc
+A68	Involvement T17 1
+T14	ACTOR 370 379	35 buscas
+A53	Lexical_Head T14 Noun
+A54	Individuation T14 Individual
+A55	Actor_Type T14 Sit
+A56	Involvement T14 >1
+T18	ACTOR 394 407	120 elementos
+A69	Lexical_Head T18 Noun
+A70	Individuation T18 Individual
+A71	Actor_Type T18 Per
+A72	Involvement T18 >1
+T19	ACTOR 411 413	PJ
+A73	Lexical_Head T19 Noun
+A74	Individuation T19 Individual
+A75	Actor_Type T19 Org
+A76	Involvement T19 1
+R9	OBJ_REL_partOf Arg1:T18 Arg2:T19	
+T20	ACTOR 416 430	10 magistrados
+A77	Lexical_Head T20 Noun
+A78	Individuation T20 Individual
+A79	Actor_Type T20 Per
+A80	Involvement T20 >1
+T22	ACTOR 460 470	Os detidos
+A85	Lexical_Head T22 Noun
+A86	Individuation T22 Individual
+A87	Involvement T22 >1
+T23	ACTOR 545 589	contratos de fornecimento de bens e serviços
+A88	Lexical_Head T23 Noun
+A89	Individuation T23 Individual
+A90	Actor_Type T23 Obj
+A91	Involvement T23 >1
+T24	ACTOR 607 621	obras públicas
+A92	Lexical_Head T24 Noun
+A93	Individuation T24 Individual
+A94	Actor_Type T24 Sit
+A95	Involvement T24 >1
+T25	ACTOR 623 639	construção civil
+A96	Lexical_Head T25 Noun
+A97	Individuation T25 Individual
+A98	Actor_Type T25 Sit
+A99	Involvement T25 1
+T26	ACTOR 642 672	venda de produtos petrolíferos
+A100	Lexical_Head T26 Noun
+A101	Individuation T26 Individual
+A102	Actor_Type T26 Sit
+A103	Involvement T26 1
+T28	EVENT 21 27	deteve
+E1	EVENT:T28 
+A108	Class E1 Occurrence
+A109	Tense E1 Past1
+A110	Polarity E1 Pos
+A111	Time E1 Past
+A112	Factuality E1 Factual
+T30	EVENT 255 263	efetuada
+E3	EVENT:T30 
+A118	Class E3 Occurrence
+A119	Tense E3 PastPart
+A120	Polarity E3 Pos
+A121	Time E3 Past
+A122	Factuality E3 Factual
+T31	EVENT 353 369	foram realizadas
+E4	EVENT:T31 
+A123	Class E4 Occurrence
+A124	Tense E4 Past1
+A125	Polarity E4 Pos
+A126	Time E4 Past
+A127	Factuality E4 Factual
+R13	TLINK_during Arg1:E4 Arg2:E3	
+T32	EVENT 534 544	celebravam
+E5	EVENT:T32 
+A128	Class E5 Occurrence
+A129	Tense E5 Past2
+A130	Polarity E5 Pos
+A131	Time E5 Past
+A132	Factuality E5 Factual
+T33	EVENT 590 602	relacionados
+E6	EVENT:T33 
+A133	Class E6 Occurrence
+A134	Tense E6 PastPart
+A135	Polarity E6 Pos
+A136	Time E6 Past
+A137	Factuality E6 Factual
+R14	TLINK_before Arg1:E5 Arg2:E4	
+R15	TLINK_isIncluded Arg1:E6 Arg2:E5	
+R16	SEMROLE_agent Arg1:T1 Arg2:E1	
+R17	SEMROLE_theme Arg1:T2 Arg2:E1	
+R18	SEMROLE_theme Arg1:T3 Arg2:E1	
+R20	SEMROLE_agent Arg1:T13 Arg2:E3	
+R21	SEMROLE_location Arg1:T15 Arg2:E3	
+R22	SEMROLE_location Arg1:T16 Arg2:E3	
+R23	SEMROLE_location Arg1:T17 Arg2:E3	
+R24	SEMROLE_theme Arg1:T14 Arg2:E4	
+R26	SEMROLE_agent Arg1:T22 Arg2:E5	
+R27	SEMROLE_theme Arg1:T23 Arg2:E5	
+T11	TIME_X3 235 253	Durante a operação
+A41	Time_Type T11 Duration
+A42	FunctionInDocument T11 None
+A43	Value T11 Duration
+R6	TLINK_isIncluded Arg1:E4 Arg2:T11	
+R7	SEMROLE_theme Arg1:T12 Arg2:E3	
+R8	SEMROLE_agent Arg1:T13 Arg2:E4	
+R10	OBJ_REL_objIdentity Arg1:T19 Arg2:T1	
+R11	OBJ_REL_partOf Arg1:T18 Arg2:T14	
+R12	OBJ_REL_partOf Arg1:T20 Arg2:T14	
+R19	SEMROLE_theme Arg1:T23 Arg2:E6	
+R25	SEMROLE_theme Arg1:T24 Arg2:E6	
+R28	SEMROLE_theme Arg1:T25 Arg2:E6	
+R29	SEMROLE_theme Arg1:T26 Arg2:E6	

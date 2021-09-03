@@ -1,0 +1,1 @@
+{'T1': 'An armed man, the clumsy burglar, burglar', 'T2': 'a knife', 'T3': 'a gas station, Coastal Gas Station, local', 'T4': 'state of New Jersey, New Jersey', 'T5': 'employee, employee', 'T6': 'two dollars of gasoline, 1.9 euros', 'T11': 'The attempted assault, the adventure, assault', 'T13': 'Pennsville County', 'T16': 'imprisonment', 'T27': 'insignificant value'}

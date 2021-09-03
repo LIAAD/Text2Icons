@@ -1,0 +1,103 @@
+» EVENTS
+# E1 (Será) -> a
+# FOL:  exists Factual Future Future1 Occurrence Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Future1) & Polarity(a,Pos) & Time(a,Future) & relationRole(theme,T2) & relationRole(goal,T5) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Future1), Polarity(a,Pos), Time(a,Future), relationRole(theme,T2), relationRole(goal,T5), Factuality(a,Factual)]) 
+
+# E3 (acontece) -> b
+# FOL:  exists Factual Occurrence Pos Present b.(event(b) & eventClass(b,Occurrence) & Tense(b,Present) & Polarity(b,Pos) & Time(b,Present) & relationRole(theme,T2) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Present), Polarity(b,Pos), Time(b,Present), relationRole(theme,T2), Factuality(b,Factual)]) 
+
+# E4 (temem) -> c
+# FOL:  exists Factual Pos Present c.(event(c) & Tense(c,Present) & Polarity(c,Pos) & Time(c,Present) & occursBefore(c,d) & relationRole(experiencer,T8) & relationRole(theme,T30) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), Tense(c,Present), Polarity(c,Pos), Time(c,Present), occursBefore(c,d), relationRole(experiencer,T8), relationRole(theme,T30), Factuality(c,Factual)]) 
+
+# E5 (vai viajar) -> d
+# FOL:  exists Factual Future Future2 Occurrence Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Future2) & Polarity(d,Pos) & Time(d,Future) & occursBefore(d,e) & occursAfter(d,c) & relationRole(agent,T12) & relationRole(goal,T14) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Future2), Polarity(d,Pos), Time(d,Future), occursBefore(d,e), occursAfter(d,c), relationRole(agent,T12), relationRole(goal,T14), Factuality(d,Factual)]) 
+
+# E6 (visitar) -> e
+# FOL:  exists Factual Future Infinitive Occurrence Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Infinitive) & Polarity(e,Pos) & Time(e,Future) & occursAfter(e,d) & relationRole(theme,T16) & relationRole(agent,T12) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Infinitive), Polarity(e,Pos), Time(e,Future), occursAfter(e,d), relationRole(theme,T16), relationRole(agent,T12), Factuality(e,Factual)]) 
+
+# E7 (sugeriu) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(agent,T22) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(agent,T22), Factuality(f,Factual)]) 
+
+# E8 (se devia impedir) -> g
+# FOL:  exists Factual Occurrence Past Past2 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past2) & Polarity(g,Pos) & Time(g,Past) & occursAfter(g,f) & relationRole(theme,T25) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past2), Polarity(g,Pos), Time(g,Past), occursAfter(g,f), relationRole(theme,T25), Factuality(g,Factual)]) 
+
+# E10 (se perceber) -> h
+# FOL:  exists Factual Future Infinitive Occurrence Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Infinitive) & Polarity(h,Pos) & Time(h,Future) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Infinitive), Polarity(h,Pos), Time(h,Future), Factuality(h,Factual)]) 
+
+# E11 (se estava a passar) -> i
+# FOL:  exists Factual Past Past2 Pos State i.(event(i) & eventClass(i,State) & Tense(i,Past2) & Polarity(i,Pos) & Time(i,Past) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,State), Tense(i,Past2), Polarity(i,Pos), Time(i,Past), Factuality(i,Factual)]) 
+
+# E12 (reconhecer) -> j
+# FOL:  exists Factual Future Infinitive Occurrence Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Infinitive) & Polarity(j,Pos) & Time(j,Future) & relationRole(agent,T12) & relationRole(theme,T33) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Infinitive), Polarity(j,Pos), Time(j,Future), relationRole(agent,T12), relationRole(theme,T33), Factuality(j,Factual)]) 
+
+# E13 (sublinhar) -> k
+# FOL:  exists Factual Future Infinitive Occurrence Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Infinitive) & Polarity(k,Pos) & Time(k,Future) & occursBefore(k,f) & relationRole(agent,T12) & relationRole(theme,T37) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Infinitive), Polarity(k,Pos), Time(k,Future), occursBefore(k,f), relationRole(agent,T12), relationRole(theme,T37), Factuality(k,Factual)]) 
+
+» ACTORS
+# T10 -> candidato presidencial republicano
+# T11 -> Donald Trump
+# T12 -> O Presidente
+# T14 -> Maryland
+# T16 -> a mesquita
+# T17 -> Associação Islâmica de Baltimore
+# T2 -> enquanto presidente primeira visita
+# T22 -> Donald Trump
+# T25 -> a entrada
+# T26 -> muçulmanos
+# T27 -> Estados Unidos
+# T3 -> Barack Obama
+# T30 -> onda anti-islâmica
+# T33 -> contributo
+# T34 -> americanos muçulmanos
+# T35 -> o país
+# T37 -> a importância da liberdade religiosa
+# T5 -> uma mesquita
+# T6 -> solo americano
+# T8 -> os muçulmanos norte-americanos
+# T31 -> comentários
+
+» RELATIONS
+# T2 - theme - E1
+# T3 - agent - T2
+# T5 - goal - E1
+# T2 - theme - E3
+# T8 - experiencer - E4
+# T30 - theme - E4
+# T12 - agent - E5
+# T14 - goal - E5
+# T16 - theme - E6
+# T12 - agent - E12
+# T33 - theme - E12
+# T34 - agent - T33
+# T12 - agent - E13
+# T37 - theme - E13
+# T22 - agent - E7
+# T25 - theme - E8
+# T26 - theme - T25
+# T27 - location - T25
+# T6 - location - T2
+# T10 - agent - T31
+# T12 - agent - E6
+# T17 - source - T16
+# T35 - goal - T33
+# T10 - objIdentity - T11
+# T16 - sameHead - T5
+# T16 - objIdentity - T5
+# T34 - objIdentity - T8
+# T22 - sameHead - T11
+# T22 - objIdentity - T11
+# T27 - hyponymy - T35
+# T27 - objIdentity - T35
+# T14 - partOf - T6
+# T35 - objIdentity - T6
+# T12 - objIdentity - T3

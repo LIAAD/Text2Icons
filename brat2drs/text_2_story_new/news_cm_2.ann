@@ -1,0 +1,249 @@
+T1	ACTOR 0 22	O presidente de França
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 1
+T2	ACTOR 24 41	François Hollande
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 1
+T3	EVENT 43 53	considerou
+E1	EVENT:T3 
+A9	Class E1 Occurrence
+A11	Tense E1 Past1
+A12	Polarity E1 Pos
+A13	Time E1 Past
+T5	ACTOR 64 77	toda a Europa
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Loc
+T6	EVENT 78 90	foi atingida
+E2	EVENT:T6 
+A19	Class E2 Occurrence
+A21	Tense E2 Past1
+A22	Polarity E2 Pos
+A23	Time E2 Past
+T9	ACTOR 122 130	Bruxelas
+A30	Lexical_Head T9 Noun
+A31	Individuation T9 Individual
+A32	Actor_Type T9 Loc
+A33	Involvement T9 1
+T10	ACTOR 147 155	Hollande
+A34	Individuation T10 Individual
+A35	Actor_Type T10 Per
+A36	Involvement T10 1
+T11	EVENT 156 163	afirmou
+E4	EVENT:T11 
+A37	Class E4 Occurrence
+A39	Tense E4 Past1
+A40	Polarity E4 Pos
+A41	Time E4 Past
+T12	ACTOR 168 176	a Europa
+A42	Lexical_Head T12 Noun
+A43	Individuation T12 Individual
+A44	Actor_Type T12 Loc
+A45	Involvement T12 1
+T13	EVENT 177 187	deve tomar
+E5	EVENT:T13 
+A46	Class E5 Occurrence
+A48	Tense E5 Present
+A49	Polarity E5 Pos
+A50	Time E5 Future
+T17	ACTOR 264 270	França
+A62	Lexical_Head T17 Noun
+A63	Individuation T17 Individual
+A64	Actor_Type T17 Loc
+A65	Involvement T17 1
+T18	ACTOR 273 276	ela
+A66	Lexical_Head T18 Pronoun
+A67	Individuation T18 Individual
+A68	Actor_Type T18 Loc
+A69	Involvement T18 1
+T19	EVENT 285 292	atacada
+E9	EVENT:T19 
+A70	Class E9 Occurrence
+A72	Tense E9 PastPart
+A73	Polarity E9 Pos
+A74	Time E9 Past
+T22	EVENT 325 331	assume
+E10	EVENT:T22 
+A80	Class E10 Occurrence
+A82	Tense E10 Present
+A83	Polarity E10 Pos
+T23	ACTOR 347 350	sua
+A85	Lexical_Head T23 Pronoun
+A86	Individuation T23 Individual
+A87	Actor_Type T23 Loc
+A88	Involvement T23 1
+T24	ACTOR 359 365	França
+A89	Lexical_Head T24 Noun
+A90	Individuation T24 Individual
+A91	Actor_Type T24 Loc
+A92	Involvement T24 1
+T29	EVENT 431 437;445 451	voltou apelar
+E13	EVENT:T29 
+A105	Class E13 Occurrence
+A108	Polarity E13 Pos
+A109	Time E13 Past
+T30	TIME_X3 438 442	hoje
+A110	Time_Type T30 Date
+A111	FunctionInDocument T30 None
+T34	ACTOR 491 497	Europa
+A124	Lexical_Head T34 Noun
+A125	Individuation T34 Individual
+A126	Actor_Type T34 Loc
+A127	Involvement T34 1
+T37	EVENT 558 565	avaliar
+E19	EVENT:T37 
+A136	Class E19 Occurrence
+A138	Tense E19 Infinitive
+A139	Polarity E19 Pos
+A140	Time E19 Past
+T39	ACTOR 580 588	Bruxelas
+A144	Lexical_Head T39 Noun
+A145	Actor_Type T39 Loc
+A146	Involvement T39 1
+R1	REF_REL_sameHead Arg1:T10 Arg2:T2	
+R2	REF_REL_sameHead Arg1:T12 Arg2:T5	
+R3	REF_REL_pronominal Arg1:T18 Arg2:T17	
+R4	REF_REL_pronominal Arg1:T23 Arg2:T17	
+R5	REF_REL_sameHead Arg1:T34 Arg2:T12	
+R6	REF_REL_sameHead Arg1:T39 Arg2:T9	
+R7	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+R8	OBJ_REL_objIdentity Arg1:T10 Arg2:T2	
+R9	OBJ_REL_partOf Arg1:T9 Arg2:T5	
+R10	OBJ_REL_objIdentity Arg1:T12 Arg2:T5	
+R11	OBJ_REL_objIdentity Arg1:T24 Arg2:T12	
+R12	OBJ_REL_objIdentity Arg1:T18 Arg2:T17	
+R13	OBJ_REL_objIdentity Arg1:T23 Arg2:T17	
+R14	REF_REL_sameHead Arg1:T24 Arg2:T17	
+R15	OBJ_REL_objIdentity Arg1:T34 Arg2:T12	
+R16	OBJ_REL_objIdentity Arg1:T39 Arg2:T9	
+R17	TLINK_before Arg1:E2 Arg2:E1	
+R18	TLINK_isIncluded Arg1:E4 Arg2:E1	
+R20	TLINK_after Arg1:E5 Arg2:E4	
+T14	ACTOR 189 245	as disposições indispensáveis face à gravidade da ameaça
+A15	Lexical_Head T14 Noun
+A28	Actor_Type T14 Other
+T15	TIME_X3 296 303	janeiro
+A29	Time_Type T15 Date
+#3	AnnotatorNotes T15	We need to know publication time. Ex. if publication time was 2020-05-14, then value=2019-01-XX
+T20	TIME_X3 306 323	novembro passados
+#4	AnnotatorNotes T20	We need to know publication time. Ex. if publication time was 2020-05-14, then value=2019-11-XX
+T25	TIME_X3 400 407	janeiro
+A54	Time_Type T25 Date
+#5	AnnotatorNotes T25	value=2015-01-XX
+T26	TIME_X3 413 429	novembro de 2015
+A55	Time_Type T26 Date
+#6	AnnotatorNotes T26	value=2015-11-XX
+T16	EVENT 248 259	sublinhando
+E7	EVENT:T16 
+A56	Class E7 Occurrence
+A58	Tense E7 PresPart
+A59	Polarity E7 Pos
+A60	Time E7 Past
+R21	TLINK_after Arg1:E7 Arg2:E4	
+R22	TLINK_before Arg1:E9 Arg2:E7	
+R23	TLINK_includes Arg1:E10 Arg2:E7	
+R25	TLINK_after Arg1:E13 Arg2:E7	
+T27	ACTOR 566 576	os ataques
+A61	Lexical_Head T27 Noun
+A75	Individuation T27 Individual
+A76	Involvement T27 >1
+T28	ACTOR 455 487	reforço do combate ao terrorismo
+A77	Lexical_Head T28 Noun
+A78	Individuation T28 Individual
+A79	Involvement T28 1
+T31	ACTOR 504 528	um Conselho de Ministros
+A84	Lexical_Head T31 Noun
+A93	Individuation T31 Individual
+A94	Involvement T31 1
+T32	EVENT 529 538	convocado
+E8	EVENT:T32 
+A95	Class E8 Occurrence
+A97	Tense E8 PastPart
+A98	Polarity E8 Pos
+A99	Time E8 Past
+#10	AnnotatorNotes T30	value="2016-03-22"
+R19	TLINK_before Arg1:E8 Arg2:E13	
+T7	ACTOR 96 106	os ataques
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Involvement T7 >1
+A100	Actor_Type T28 Sit
+A101	Actor_Type T31 Sit
+A102	Actor_Type T27 Sit
+A103	Actor_Type T7 Sit
+R26	OBJ_REL_objIdentity Arg1:T27 Arg2:T7	
+R27	REF_REL_sameHead Arg1:T27 Arg2:T7	
+T8	TIME_X3 107 118	desta manhã
+#2	AnnotatorNotes T8	value="2016-03-22"
+R29	TLINK_includes Arg1:T8 Arg2:E2	
+A20	Factuality E5 Non_Factual
+R30	TLINK_includes Arg1:T15 Arg2:E9	
+R31	TLINK_includes Arg1:T20 Arg2:E9	
+A27	FunctionInDocument T26 None
+A38	Value T26 Date
+T21	ACTOR 367 396	alvo de atentados terroristas
+A47	Actor_Type T21 Sit
+R24	TLINK_includes Arg1:T25 Arg2:T21	
+R32	TLINK_includes Arg1:T26 Arg2:T21	
+R33	TLINK_includes Arg1:T30 Arg2:E13	
+R34	TLINK_before Arg1:T31 Arg2:E13	
+R35	TLINK_after Arg1:E19 Arg2:E8	
+R36	TLINK_before Arg1:T27 Arg2:E19	
+A51	Factuality E1 Factual
+A52	Factuality E2 Factual
+A53	Factuality E4 Factual
+A57	Factuality E7 Factual
+A71	Factuality E9 Factual
+A81	Factuality E10 Factual
+A96	Factuality E13 Factual
+A104	Factuality E8 Factual
+A106	Factuality E19 Factual
+A10	FunctionInDocument T8 None
+A115	Value T8 Date
+T4	TIME_X3 54 58	hoje
+A14	Time_Type T4 Date
+A107	FunctionInDocument T4 Publication_Time
+A112	Value T4 Date
+#1	AnnotatorNotes T4	value="2016-03-22"
+R28	TLINK_includes Arg1:T4 Arg2:E1	
+R37	TLINK_identity Arg1:T30 Arg2:T4	
+R38	SEMROLE_agent Arg1:T1 Arg2:E1	
+R39	SEMROLE_experiencer Arg1:T5 Arg2:E2	
+R40	SEMROLE_agent Arg1:T10 Arg2:E4	
+R41	SEMROLE_agent Arg1:T12 Arg2:E5	
+R42	SEMROLE_agent Arg1:T10 Arg2:E7	
+R43	SEMROLE_theme Arg1:T17 Arg2:E9	
+R44	SEMROLE_theme Arg1:T17 Arg2:E10	
+R45	SEMROLE_agent Arg1:T24 Arg2:E13	
+R46	SEMROLE_theme Arg1:T28 Arg2:E13	
+R47	SEMROLE_location Arg1:T34 Arg2:E13	
+R48	SEMROLE_theme Arg1:T31 Arg2:E8	
+R49	SEMROLE_theme Arg1:T27 Arg2:E19	
+R50	SEMROLE_time Arg1:T4 Arg2:E1	
+R51	SEMROLE_theme Arg1:T5 Arg2:E1	
+R52	SEMROLE_theme Arg1:T7 Arg2:E2	
+R53	SEMROLE_time Arg1:T8 Arg2:E2	
+R54	SEMROLE_location Arg1:T9 Arg2:E2	
+R55	SEMROLE_theme Arg1:T12 Arg2:E4	
+A113	Individuation T14 Individual
+A114	Involvement T14 >1
+R56	SEMROLE_theme Arg1:T14 Arg2:E5	
+R57	SEMROLE_theme Arg1:T17 Arg2:E7	
+R58	SEMROLE_time Arg1:T15 Arg2:E9	
+R59	SEMROLE_time Arg1:T20 Arg2:E9	
+R60	SEMROLE_theme Arg1:T23 Arg2:E10	
+T33	ACTOR 351 356	parte
+A116	Lexical_Head T33 Noun
+A117	Individuation T33 Individual
+A118	Actor_Type T33 Other
+A119	Involvement T33 1
+A120	Lexical_Head T21 Noun
+A121	Individuation T21 Individual
+A122	Involvement T21 >1
+R61	SEMROLE_time Arg1:T30 Arg2:E13	
+R62	SEMROLE_goal Arg1:T31 Arg2:E19	
+R63	OBJ_REL_partOf Arg1:T17 Arg2:T12	

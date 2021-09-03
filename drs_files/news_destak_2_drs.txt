@@ -1,0 +1,98 @@
+» EVENTS
+# E1 (foi nomeada) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(theme,T1) & relationRole(theme,T4) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(theme,T1), relationRole(theme,T4), Factuality(a,Factual)]) 
+
+# E2 (substituindo) -> b
+# FOL:  exists Factual Occurrence Past Pos PresPart b.(event(b) & eventClass(b,Occurrence) & Tense(b,PresPart) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,c) & relationRole(theme,T6) & relationRole(agent,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PresPart), Polarity(b,Pos), Time(b,Past), occursBefore(b,c), relationRole(theme,T6), relationRole(agent,T1), Factuality(b,Factual)]) 
+
+# E3 (afastado de funções) -> c
+# FOL:  exists Factual Past PastPart Pos c.(event(c) & Tense(c,PastPart) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(experiencer,T6) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), Tense(c,PastPart), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(experiencer,T6), Factuality(c,Factual)]) 
+
+# E4 (foi publicada) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursAfter(d,c) & occursBefore(d,e) & relationRole(theme,T15) & relationRole(location,T29) & relationRole(time,T7) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursAfter(d,c), occursBefore(d,e), relationRole(theme,T15), relationRole(location,T29), relationRole(time,T7), Factuality(d,Factual)]) 
+
+# E5 (a assumir) -> e
+# FOL:  exists Factual Infinitive Occurrence Pos Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Infinitive) & Polarity(e,Pos) & Time(e,Present) & occursAfter(e,d) & occursBefore(e,f) & relationRole(agent,T8) & relationRole(theme,T35) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Infinitive), Polarity(e,Pos), Time(e,Present), occursAfter(e,d), occursBefore(e,f), relationRole(agent,T8), relationRole(theme,T35), Factuality(e,Factual)]) 
+
+# E6 (ocupado) -> f
+# FOL:  exists Factual Occurrence Past PastPart Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,PastPart) & Polarity(f,Pos) & Time(f,Past) & relationRole(agent,T9) & relationRole(theme,T35) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PastPart), Polarity(f,Pos), Time(f,Past), relationRole(agent,T9), relationRole(theme,T35), Factuality(f,Factual)]) 
+
+# E7 (terminava) -> g
+# FOL:  exists Factual Non_Factual Occurrence Past Past2 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past2) & Polarity(g,Pos) & Time(g,Past) & relationRole(theme,T16) & relationRole(time,T10) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past2), Polarity(g,Pos), Time(g,Past), relationRole(theme,T16), relationRole(time,T10), Factuality(g,Non_Factual)]) 
+
+# E8 (foi suspenso de funções) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & relationRole(experiencer,T11) & relationRole(time,T12) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), relationRole(experiencer,T11), relationRole(time,T12), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> Maria Antónia Pinto de Matos
+# T11 -> Diogo Gaspar
+# T13 -> vários crimes
+# T14 -> suspeita
+# T15 -> A nomeação
+# T16 -> comissão de serviço
+# T17 -> suspeita
+# T18 -> crimes
+# T19 -> tráfico de influência
+# T2 -> atual diretora do Museu Nacional do Azulejo
+# T20 -> falsificação de documento
+# T21 -> peculato
+# T22 -> peculato de uso
+# T23 -> participação económica em negócio
+# T24 -> abuso de poder
+# T29 -> Diário da República
+# T32 -> cuja
+# T35 -> um cargo
+# T4 -> diretora do Museu da Presidência da República
+# T6 -> Diogo Gaspar
+# T8 -> Maria Antónia Pinto de Matos
+# T9 -> Diogo Gaspar
+# T12 -> no verão passado
+# T7 -> hoje
+# T10 -> 30 de setembro
+
+» RELATIONS
+# T1 - theme - E1
+# E3 - experiencer - T6
+# T15 - theme - E4
+# T29 - location - E4
+# T8 - agent - E5
+# E5 - theme - T35
+# T9 - agent - E6
+# T16 - theme - E7
+# T11 - experiencer - E8
+# T4 - theme - E1
+# T6 - theme - E2
+# T7 - time - E4
+# T35 - theme - E6
+# T10 - time - E7
+# T12 - time - E8
+# T1 - agent - E2
+# T13 - theme - T14
+# T18 - theme - T17
+# T2 - objIdentity - T1
+# T8 - sameHead - T1
+# T8 - objIdentity - T1
+# T9 - sameHead - T6
+# T9 - objIdentity - T6
+# T11 - sameHead - T9
+# T11 - objIdentity - T9
+# T17 - sameHead - T14
+# T17 - objIdentity - T14
+# T18 - objIdentity - T13
+# T19 - memberOf - T18
+# T20 - memberOf - T18
+# T21 - memberOf - T18
+# T22 - memberOf - T18
+# T23 - memberOf - T18
+# T24 - memberOf - T18
+# T32 - pronominal - T9
+# T32 - objIdentity - T9
+# T15 - objIdentity - E1

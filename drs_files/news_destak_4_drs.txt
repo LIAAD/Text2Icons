@@ -1,0 +1,119 @@
+» EVENTS
+# E1 (a operar) -> a
+# FOL:  exists Factual Infinitive Occurrence Pos Present a.(event(a) & eventClass(a,Occurrence) & Tense(a,Infinitive) & Polarity(a,Pos) & Time(a,Present) & relationRole(location,T2) & relationRole(agent,T1) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Infinitive), Polarity(a,Pos), Time(a,Present), relationRole(location,T2), relationRole(agent,T1), Factuality(a,Factual)]) 
+
+# E2 (é suspeita) -> b
+# FOL:  exists Factual Occurrence Pos Present b.(event(b) & eventClass(b,Occurrence) & Tense(b,Present) & Polarity(b,Pos) & Time(b,Present) & relationRole(theme,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Present), Polarity(b,Pos), Time(b,Present), relationRole(theme,T1), Factuality(b,Factual)]) 
+
+# E3 (criar) -> c
+# FOL:  exists Factual Infinitive Occurrence Pos Present c.(event(c) & eventClass(c,Occurrence) & Tense(c,Infinitive) & Polarity(c,Pos) & Time(c,Present) & relationRole(theme,T4) & relationRole(agent,T1) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Infinitive), Polarity(c,Pos), Time(c,Present), relationRole(theme,T4), relationRole(agent,T1), Factuality(c,Factual)]) 
+
+# E4 (afetando) -> d
+# FOL:  exists Factual Occurrence Pos PresPart Present d.(event(d) & eventClass(d,Occurrence) & Tense(d,PresPart) & Polarity(d,Pos) & Time(d,Present) & relationRole(experiencer,T11) & relationRole(theme,T4) & relationRole(agent,T1) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,PresPart), Polarity(d,Pos), Time(d,Present), relationRole(experiencer,T11), relationRole(theme,T4), relationRole(agent,T1), Factuality(d,Factual)]) 
+
+# E6 (operava) -> e
+# FOL:  exists Factual Occurrence Past Past2 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past2) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T15) & relationRole(location,T18) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past2), Polarity(e,Pos), Time(e,Past), relationRole(theme,T15), relationRole(location,T18), Factuality(e,Factual)]) 
+
+# E7 (afetando) -> f
+# FOL:  exists Factual Occurrence Pos PresPart Present f.(event(f) & eventClass(f,Occurrence) & Tense(f,PresPart) & Polarity(f,Pos) & Time(f,Present) & relationRole(experiencer,T22) & relationRole(theme,T37) & relationRole(theme,T23) & relationRole(theme,T15) & relationRole(agent,T15) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PresPart), Polarity(f,Pos), Time(f,Present), relationRole(experiencer,T22), relationRole(theme,T37), relationRole(theme,T23), relationRole(theme,T15), relationRole(agent,T15), Factuality(f,Factual)]) 
+
+# E10 (foi dada) -> g
+# FOL:  exists Factual Occurrence Past Past1 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past1) & Polarity(g,Pos) & Time(g,Past) & relationRole(theme,T25) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past1), Polarity(g,Pos), Time(g,Past), relationRole(theme,T25), Factuality(g,Factual)]) 
+
+# E11 (concluída) -> h
+# FOL:  exists Factual Occurrence Past PastPart Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,PastPart) & Polarity(h,Pos) & Time(h,Past) & occursBefore(h,i) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,PastPart), Polarity(h,Pos), Time(h,Past), occursBefore(h,i), Factuality(h,Factual)]) 
+
+# E12 (começou) -> i
+# FOL:  exists Factual Occurrence Past Past1 Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Past1) & Polarity(i,Pos) & Time(i,Past) & occursBefore(i,j) & relationRole(theme,T26) & relationRole(time,T9) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Past1), Polarity(i,Pos), Time(i,Past), occursBefore(i,j), relationRole(theme,T26), relationRole(time,T9), Factuality(i,Factual)]) 
+
+# E13 (terminou) -> j
+# FOL:  exists Factual Occurrence Past Past1 j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Time(j,Past) & occursAfter(j,i) & occursBefore(j,k) & relationRole(theme,T26) & relationRole(time,T7) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Time(j,Past), occursAfter(j,i), occursBefore(j,k), relationRole(theme,T26), relationRole(time,T7), Factuality(j,Factual)]) 
+
+# E14 (remeteu) -> k
+# FOL:  exists Factual Occurrence Past Past1 Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Past1) & Polarity(k,Pos) & Time(k,Past) & occursAfter(k,j) & relationRole(agent,T27) & relationRole(theme,T31) & relationRole(goal,T29) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Past1), Polarity(k,Pos), Time(k,Past), occursAfter(k,j), relationRole(agent,T27), relationRole(theme,T31), relationRole(goal,T29), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> Uma empresa
+# T11 -> dezenas de pessoas
+# T15 -> A empresa
+# T16 -> uma 'offshore' com sede no Panamá
+# T18 -> concelho da Marinha Grande
+# T19 -> distrito de Leiria
+# T2 -> Marinha Grande
+# T22 -> dezenas de pessoas singulares
+# T23 -> uma herança
+# T25 -> a investigação
+# T26 -> a investigação
+# T27 -> a PJ
+# T29 -> Departamento de Investigação e Ação Penal
+# T3 -> Leiria
+# T31 -> um "inquérito
+# T33 -> crimes
+# T34 -> burla qualificada
+# T35 -> infidelidade
+# T36 -> abuso de confiança
+# T37 -> empresas
+# T4 -> um prejuízo superior a 5,5 milhões de euros
+# T13 -> Porto
+# T12 -> Lisboa
+# T9 -> 2011
+# T7 -> agora
+# T20 -> Lisboa
+# T21 -> Porto
+# T30 -> Comarca de Leiria
+
+» RELATIONS
+# T2 - location - E1
+# T4 - theme - E3
+# T1 - theme - E2
+# T1 - agent - E1
+# T11 - experiencer - E4
+# T15 - theme - E6
+# T18 - location - E6
+# T22 - experiencer - E7
+# T37 - theme - E7
+# T23 - theme - E7
+# T25 - theme - E10
+# T26 - theme - E12
+# T26 - theme - E13
+# T27 - agent - E14
+# T31 - theme - E14
+# T29 - goal - E14
+# T4 - theme - E4
+# T15 - theme - E7
+# T9 - time - E12
+# T7 - time - E13
+# T1 - agent - E3
+# T1 - agent - E4
+# T15 - agent - E7
+# T2 - partOf - T3
+# T15 - sameHead - T1
+# T15 - objIdentity - T1
+# T18 - partOf - T19
+# T18 - hyponymy - T19
+# T2 - hyponymy - T3
+# T26 - sameHead - T25
+# T26 - objIdentity - T25
+# T29 - partOf - T30
+# T34 - memberOf - T33
+# T35 - memberOf - T33
+# T36 - memberOf - T33
+# T22 - objIdentity - T11
+# T16 - objIdentity - T15
+# T18 - objIdentity - T2
+# T19 - objIdentity - T3
+# T20 - objIdentity - T12
+# T20 - sameHead - T12
+# T21 - sameHead - T13
+# T21 - objIdentity - T13

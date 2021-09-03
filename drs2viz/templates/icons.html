@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        
+        <style>
+
+            /* CSS */
+            * {box-sizing:border-box}
+
+            body {
+            color: rgba(0, 0, 0, 0.6);
+            font-family: "Roboto", sans-serif;
+            font-size: 14px;
+            line-height: 1.6em;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+            }
+
+            .card {
+            background: #FFFFFF;
+            max-width: 550px;
+            margin: 100px auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-sizing: border-box;
+            padding: 48px;
+            text-align: center;
+            }
+
+            .products {
+            position: relative;
+            overflow: hidden;
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+            }
+
+            .product {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            visibility: hidden;
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+            }
+            .product.active {
+            opacity: 1;
+            visibility: visible;
+            }
+
+            .thumbnail {
+            margin: 0 0 48px;
+            }
+
+            .descriptionV {
+            margin: 0 0 48px;
+            text-align: center;
+            }
+
+            .footer {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            margin: 0 -12px -12px;
+            }
+
+            [ripple] {
+                z-index: 1;
+                position: relative;
+                overflow: hidden;
+            }
+            [ripple] .ripple {
+                position: absolute;
+                background: #FFFFFF;
+                width: 60px;
+                height: 60px;
+                border-radius: 100%;
+                -webkit-transform: scale(0);
+                        transform: scale(0);
+                -webkit-animation: ripple 2s;
+                        animation: ripple 2s;
+            }
+
+            @-webkit-keyframes ripple {
+                0% {
+                    -webkit-transform: scale(0);
+                            transform: scale(0);
+                    opacity: 0.2;
+                }
+                100% {
+                    -webkit-transform: scale(20);
+                            transform: scale(20);
+                    opacity: 0;
+                }
+            }
+
+            @keyframes ripple {
+                0% {
+                    -webkit-transform: scale(0);
+                            transform: scale(0);
+                    opacity: 0.2;
+                }
+                100% {
+                    -webkit-transform: scale(20);
+                            transform: scale(20);
+                    opacity: 0;
+                }
+            }
+
+            /* Slideshow container */
+            .slideshow-container {
+            background: #FFFFFF;
+            max-width: 600px;
+            margin: 100px auto;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-sizing: border-box;
+            padding: 48px;
+            text-align: center;
+            }
+
+            /* Hide the images by default */
+            .mySlides {
+            display: none;
+            }
+
+            /* Next & previous buttons */
+            .prev, .next {
+            cursor: pointer;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            color: black;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            border-radius: 2px;
+            padding: 8px 12px;
+            color: #D18B49;
+            -webkit-transition: 0.5s ease;
+            transition: 0.5s ease;
+            }
+           
+            /* On hover, change color to grey */
+            .prev:hover, .next:hover {
+            color: grey;
+            }
+
+            .descriptionS {
+            margin: 48px 0 48px;
+            text-align: center;
+            }
+
+            #slideV{
+            display: none;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <form>
+            <div class="container mt-4">
+
+                <input name="icon" type="radio" value="vertical" checked="checked"/>
+                <label>Vertical Strip</label>
+                <br />
+                <input name="icon" type="radio" value="slide"/>
+                <label>Slideshow</label>
+        
+            </div>
+        </form>
+
+        <!-- SLIDESHOW -->
+        <div id ="slideV">
+            <div class="slideshow-container">
+
+                {% for key, val in actors_in_sentences_img.items() %}
+                    <div class="mySlides">
+        
+                        {% for img in val %}
+                            <img src="{{ url_for('static', filename='icon_images/'+img) }}" width=70px height=70px>
+                            <!-- uncomment the line below to show opposite icons and comment on the previous one -->
+                            <!-- <img src="{{ url_for('static', filename='opposites_images/'+img) }}" width=70px height=70px> -->
+                        {% endfor %}
+                        <p class="descriptionS">{{ key }}</p>
+                    </div>
+                {% endfor %}
+
+                <div class="footer">
+                    <a class="prev" href="#" ripple="" ripple-color="#000000" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" href="#" ripple="" ripple-color="#000000" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- VERTICAL STRIP -->
+        <div id ="verticalV">
+            <div class="card">
+
+                {% for key, val in actors_in_sentences_img.items() %}
+                    <div class="products">
+                        <div class="product active">
+                            <div class="thumbnail">
+                                {% for img in val %}
+                                    <img src="{{ url_for('static', filename='icon_images/'+img) }}" width=70px height=70px>
+                                    <!-- uncomment the line below to show opposite icons and comment on the previous one -->
+                                    <!-- <img src="{{ url_for('static', filename='opposites_images/'+img) }}" width=70px height=70px> -->
+                                {% endfor %}
+                            </div>
+                            <p class="descriptionV">{{ key }}</p>
+                        </div>
+                    </div>    
+                {% endfor %}
+
+            </div>
+        </div>
+    
+        
+        <!-- JavaScript -->
+        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        
+        <script>
+            $(document).ready(function () {
+                $("input[name='icon']").click(function () {
+                    $('#slideV').css('display', ($(this).val() === 'slide') ? 'block':'none');
+                });
+                $("input[name='icon']").click(function () {
+                    $('#verticalV').css('display', ($(this).val() === 'vertical') ? 'block':'none');
+                });
+
+                var getProductHeight = $('.product.active').height();
+
+                $('.products').css({
+                    height: getProductHeight
+                });
+
+                function calcProductHeight() {
+                    getProductHeight = $('.product.active').height();
+                    $('.products').css({
+                        height: getProductHeight
+                    });
+                }
+
+                var productItem = $('.product'),
+                    productCurrentItem = productItem.filter('.active');
+
+                $('#next').on('click', function(e) {
+                    e.preventDefault();
+
+                    var nextItem = productCurrentItem.next();
+                    productCurrentItem.removeClass('active');
+
+                    if (nextItem.length) {
+                        productCurrentItem = nextItem.addClass('active');
+                    } else {
+                        productCurrentItem = productItem.first().addClass('active');
+                    }
+
+                    calcProductHeight();
+                });
+
+                $('#prev').on('click', function(e) {
+                    e.preventDefault();
+
+                    var prevItem = productCurrentItem.prev();
+                    productCurrentItem.removeClass('active');
+
+                    if (prevItem.length) {
+                        productCurrentItem = prevItem.addClass('active');
+                    } else {
+                        productCurrentItem = productItem.last().addClass('active');
+                    }
+
+                    calcProductHeight();
+                });
+
+                // Ripple
+                $('[ripple]').on('click', function(e) {
+                    var rippleDiv = $('<div class="ripple" />'),
+                    rippleSize = 60,
+                    rippleOffset = $(this).offset(),
+                    rippleY = e.pageY - rippleOffset.top,
+                    rippleX = e.pageX - rippleOffset.left,
+                    ripple = $('.ripple');
+
+                    rippleDiv.css({
+                        top: rippleY - (rippleSize / 2),
+                        left: rippleX - (rippleSize / 2),
+                        background: $(this).attr("ripple-color")
+                    }).appendTo($(this));
+
+                    window.setTimeout(function() {
+                        rippleDiv.remove();
+                    }, 1900);
+                });
+            });
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            // Next/previous controls
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            // Thumbnail image controls
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1} 
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none"; 
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block"; 
+                dots[slideIndex-1].className += " active";
+            }
+
+        </script>
+
+    </body>
+
+</html>

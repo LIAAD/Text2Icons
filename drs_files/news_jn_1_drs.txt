@@ -1,0 +1,126 @@
+» EVENTS
+# E1 (matou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(theme,T2) & relationRole(location,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(agent,T1), relationRole(theme,T2), relationRole(location,T3), Factuality(a,Factual)]) 
+
+# E2 (pediu) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursAfter(b,a) & occursBefore(b,c) & relationRole(agent,T1) & relationRole(theme,T10) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursAfter(b,a), occursBefore(b,c), relationRole(agent,T1), relationRole(theme,T10), Factuality(b,Factual)]) 
+
+# E3 (acabou condenado) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursAfter(c,b) & relationRole(theme,T1) & relationRole(theme,T7) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursAfter(c,b), relationRole(theme,T1), relationRole(theme,T7), Factuality(c,Factual)]) 
+
+# E4 (contratado) -> d
+# FOL:  exists Factual Occurrence Past PastPart Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,PastPart) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,e) & relationRole(theme,T4) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,PastPart), Polarity(d,Pos), Time(d,Past), occursBefore(d,e), relationRole(theme,T4), Factuality(d,Factual)]) 
+
+# E5 (prestar) -> e
+# FOL:  exists Factual Infinitive Past Pos e.(event(e) & Tense(e,Infinitive) & Polarity(e,Pos) & Time(e,Past) & occursBefore(e,f) & occursAfter(e,d) & relationRole(location,T14) & relationRole(theme,T29) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), Tense(e,Infinitive), Polarity(e,Pos), Time(e,Past), occursBefore(e,f), occursAfter(e,d), relationRole(location,T14), relationRole(theme,T29), Factuality(e,Factual)]) 
+
+# E6 (cobrou) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursAfter(f,e) & occursBefore(f,i) & relationRole(agent,T4) & relationRole(theme,T6) & relationRole(goal,T8) & relationRole(theme,T18) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursAfter(f,e), occursBefore(f,i), relationRole(agent,T4), relationRole(theme,T6), relationRole(goal,T8), relationRole(theme,T18), Factuality(f,Factual)]) 
+
+# E7 (destinado) -> g
+# FOL:  exists Factual Occurrence Past PastPart Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPart) & Polarity(g,Pos) & Time(g,Past) & relationRole(theme,T18) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPart), Polarity(g,Pos), Time(g,Past), relationRole(theme,T18), Factuality(g,Factual)]) 
+
+# E8 (ser utilizado) -> h
+# FOL:  exists Factual Infinitive Occurrence Past h.(event(h) & eventClass(h,Occurrence) & Tense(h,Infinitive) & Time(h,Past) & relationRole(goal,T21) & relationRole(theme,T18) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Infinitive), Time(h,Past), relationRole(goal,T21), relationRole(theme,T18), Factuality(h,Factual)]) 
+
+# E11 (acabou condenado) -> i
+# FOL:  exists Factual Occurrence Past Past1 Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Past1) & Polarity(i,Pos) & Time(i,Past) & occursBefore(i,j) & occursAfter(i,f) & relationRole(theme,T25) & relationRole(theme,T27) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Past1), Polarity(i,Pos), Time(i,Past), occursBefore(i,j), occursAfter(i,f), relationRole(theme,T25), relationRole(theme,T27), Factuality(i,Factual)]) 
+
+# E12 (resolveu denunciar) -> j
+# FOL:  exists Factual Occurrence Past Past1 Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Polarity(j,Pos) & Time(j,Past) & occursAfter(j,i) & occursBefore(j,k) & relationRole(agent,T25) & relationRole(theme,T30) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Polarity(j,Pos), Time(j,Past), occursAfter(j,i), occursBefore(j,k), relationRole(agent,T25), relationRole(theme,T30), Factuality(j,Factual)]) 
+
+# E14 (violar) -> k
+# FOL:  exists Factual Infinitive Occurrence Past Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Infinitive) & Polarity(k,Pos) & Time(k,Past) & occursBefore(k,l) & relationRole(agent,T30) & relationRole(theme,T32) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Infinitive), Polarity(k,Pos), Time(k,Past), occursBefore(k,l), relationRole(agent,T30), relationRole(theme,T32), Factuality(k,Factual)]) 
+
+# E15 (foi afastado) -> l
+# FOL:  exists Factual Occurrence Pos l.(event(l) & eventClass(l,Occurrence) & Polarity(l,Pos) & occursBefore(l,m) & occursAfter(l,k) & relationRole(theme,T34) & relationRole(source,T15) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Polarity(l,Pos), occursBefore(l,m), occursAfter(l,k), relationRole(theme,T34), relationRole(source,T15), Factuality(l,Factual)]) 
+
+# E16 (foi aberto) -> m
+# FOL:  exists Factual Occurrence Past Past1 Pos m.(event(m) & eventClass(m,Occurrence) & Tense(m,Past1) & Polarity(m,Pos) & Time(m,Past) & occursAfter(m,l) & relationRole(theme,T37) & relationRole(location,T38) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Past1), Polarity(m,Pos), Time(m,Past), occursAfter(m,l), relationRole(theme,T37), relationRole(location,T38), Factuality(m,Factual)]) 
+
+» ACTORS
+# T1 -> Empresário
+# T10 -> parecer psiquiátrico
+# T14 -> estabelecimento prisional de Custóias
+# T15 -> serviço
+# T16 -> Matosinhos
+# T18 -> um parecer "clandestino"
+# T2 -> quatro familiares
+# T21 -> processo
+# T22 -> quádruplo homicídio
+# T24 -> Póvoa de Varzim
+# T25 -> o arguido
+# T29 -> serviços
+# T3 -> Póvoa de Varzim
+# T30 -> o clínico
+# T32 -> as regras
+# T33 -> cadeia
+# T34 -> O visado
+# T37 -> um processo-crime
+# T38 -> Ministério Público
+# T39 -> que
+# T4 -> Um médico psiquiatra
+# T6 -> sete mil euros
+# T8 -> um preso
+# T27 -> 25 anos de prisão
+# T23 -> abril do ano passado
+# T7 -> 25 anos de prisão
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - theme - E1
+# T3 - location - E1
+# T1 - agent - E2
+# T10 - theme - E2
+# T1 - theme - E3
+# T4 - theme - E4
+# T14 - location - E5
+# T4 - agent - E6
+# T6 - theme - E6
+# T8 - goal - E6
+# T18 - theme - E7
+# T25 - theme - E11
+# T25 - agent - E12
+# T30 - theme - E12
+# T30 - agent - E14
+# T32 - theme - E14
+# T34 - theme - E15
+# T37 - theme - E16
+# T38 - location - E16
+# T21 - goal - E8
+# T33 - source - T32
+# T7 - theme - E3
+# T29 - theme - E5
+# T18 - theme - E6
+# T22 - theme - T21
+# T18 - theme - E8
+# T23 - time - T22
+# T24 - location - T22
+# T27 - theme - E11
+# T15 - source - E15
+# T39 - pronominal - T1
+# T39 - objIdentity - T1
+# T8 - objIdentity - T1
+# T25 - objIdentity - T8
+# T30 - synonymy - T4
+# T30 - objIdentity - T4
+# T34 - objIdentity - T30
+# T18 - objIdentity - T10
+# T33 - synonymy - T14
+# T33 - objIdentity - T14
+# T24 - sameHead - T3
+# T24 - objIdentity - T3
+# T14 - partOf - T16

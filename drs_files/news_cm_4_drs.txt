@@ -1,0 +1,132 @@
+» EVENTS
+# E1 (revelou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(agent,T1) & relationRole(time,T30) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(agent,T1), relationRole(time,T30), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (estão a acompanhar) -> b
+# FOL:  exists Factual Pos Present State b.(event(b) & eventClass(b,State) & Tense(b,Present) & Polarity(b,Pos) & Time(b,Present) & relationRole(agent,T3) & relationRole(theme,T5) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,State), Tense(b,Present), Polarity(b,Pos), Time(b,Present), relationRole(agent,T3), relationRole(theme,T5), Factuality(b,Factual)]) 
+
+# E3 (mantendo-se) -> c
+# FOL:  exists Factual Occurrence Pos PresPart Present c.(event(c) & eventClass(c,Occurrence) & Tense(c,PresPart) & Polarity(c,Pos) & Time(c,Present) & relationRole(theme,T7) & relationRole(location,T8) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PresPart), Polarity(c,Pos), Time(c,Present), relationRole(theme,T7), relationRole(location,T8), Factuality(c,Factual)]) 
+
+# E4 (integram) -> d
+# FOL:  exists Factual Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & relationRole(agent,E6) & relationRole(theme,T9) & relationRole(theme,T10) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,Present), relationRole(agent,E6), relationRole(theme,T9), relationRole(theme,T10), Factuality(d,Factual)]) 
+
+# E5 (estão a trabalhar) -> e
+# FOL:  exists Factual Pos Present State e.(event(e) & eventClass(e,State) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & relationRole(agent,T9) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,State), Tense(e,Present), Polarity(e,Pos), Time(e,Present), relationRole(agent,T9), Factuality(e,Factual)]) 
+
+# E6 (a acompanhar) -> f
+# FOL:  exists Factual Pos Present State f.(event(f) & eventClass(f,State) & Tense(f,Present) & Polarity(f,Pos) & Time(f,Present) & relationRole(theme,T11) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,State), Tense(f,Present), Polarity(f,Pos), Time(f,Present), relationRole(theme,T11), Factuality(f,Factual)]) 
+
+# E7 (estão a ocorrer) -> g
+# FOL:  exists Factual Pos Present State g.(event(g) & eventClass(g,State) & Tense(g,Present) & Polarity(g,Pos) & Time(g,Present) & relationRole(theme,T11) & relationRole(location,T12) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,State), Tense(g,Present), Polarity(g,Pos), Time(g,Present), relationRole(theme,T11), relationRole(location,T12), Factuality(g,Factual)]) 
+
+# E8 (mantendo contacto) -> h
+# FOL:  exists Factual Occurrence Pos PresPart Present h.(event(h) & eventClass(h,Occurrence) & Tense(h,PresPart) & Polarity(h,Pos) & Time(h,Present) & relationRole(agent,T9) & relationRole(theme,T43) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,PresPart), Polarity(h,Pos), Time(h,Present), relationRole(agent,T9), relationRole(theme,T43), Factuality(h,Factual)]) 
+
+# E9 (recolhendo) -> i
+# FOL:  exists Factual Occurrence Pos PresPart Present i.(event(i) & eventClass(i,Occurrence) & Tense(i,PresPart) & Polarity(i,Pos) & Time(i,Present) & relationRole(theme,T14) & relationRole(agent,T9) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,PresPart), Polarity(i,Pos), Time(i,Present), relationRole(theme,T14), relationRole(agent,T9), Factuality(i,Factual)]) 
+
+# E10 (informou) -> j
+# FOL:  exists Factual Occurrence Past Past1 Pos j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Polarity(j,Pos) & Time(j,Past) & occursBefore(j,k) & occursBefore(j,l) & occursBefore(j,k) & relationRole(agent,T17) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Polarity(j,Pos), Time(j,Past), occursBefore(j,k), occursBefore(j,l), occursBefore(j,k), relationRole(agent,T17), Factuality(j,Factual)]) 
+
+# E11 (foi abalada) -> k
+# FOL:  exists Factual Occurrence Past Past1 Pos k.(event(k) & eventClass(k,Occurrence) & Tense(k,Past1) & Polarity(k,Pos) & Time(k,Past) & occursBefore(k,l) & relationRole(theme,T20) & relationRole(theme,T22) & relationRole(time,T21) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Past1), Polarity(k,Pos), Time(k,Past), occursBefore(k,l), relationRole(theme,T20), relationRole(theme,T22), relationRole(time,T21), Factuality(k,Factual)]) 
+
+# E12 (fizeram) -> l
+# FOL:  exists Factual Occurrence Past Past1 Pos l.(event(l) & eventClass(l,Occurrence) & Tense(l,Past1) & Polarity(l,Pos) & Time(l,Past) & occursAfter(l,j) & occursAfter(l,k) & relationRole(source,T22) & relationRole(theme,T28) & relationRole(theme,T29) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,Past1), Polarity(l,Pos), Time(l,Past), occursAfter(l,j), occursAfter(l,k), relationRole(source,T22), relationRole(theme,T28), relationRole(theme,T29), Factuality(l,Factual)]) 
+
+» ACTORS
+# T1 -> A secretária-geral
+# T10 -> Unidade de Coordenação Antiterrorismo
+# T11 -> os acontecimentos
+# T12 -> Bruxelas
+# T13 -> suas
+# T14 -> todos os dados necessários
+# T15 -> sua
+# T17 -> o gabinete
+# T18 -> secretária-geral
+# T20 -> A cidade de Bruxelas
+# T22 -> dois atentados
+# T23 -> duas explosões
+# T24 -> mais duas
+# T25 -> aeroporto
+# T26 -> metro
+# T27 -> capital da Bélgica
+# T28 -> pelo menos 21 mortos
+# T29 -> dezenas de feridos
+# T3 -> todas as forças de segurança
+# T4 -> Unidade de Coordenação Antiterrorismo
+# T43 -> congéneres
+# T5 -> os acontecimentos
+# T6 -> Bruxelas
+# T7 -> nível de alerta
+# T8 -> Portugal
+# T9 -> Todas as Forças e Serviços de Segurança
+# T30 -> hoje
+# T19 -> Sistema de Segurança Interna
+# T2 -> Sistema de Segurança Interna
+# T21 -> hoje de manhã
+
+» RELATIONS
+# T1 - agent - E1
+# T3 - agent - E2
+# T5 - theme - E2
+# T9 - agent - E5
+# E4 - agent - E6
+# T11 - theme - E6
+# T11 - theme - E7
+# T9 - agent - E8
+# T14 - theme - E9
+# T17 - agent - E10
+# T20 - theme - E11
+# T22 - theme - E11
+# T22 - source - E12
+# T30 - time - E1
+# T3 - theme - E1
+# T7 - theme - E3
+# T8 - location - E3
+# T12 - location - E7
+# T43 - theme - E8
+# T9 - agent - E9
+# T21 - time - E11
+# T25 - location - T23
+# T26 - location - T24
+# T28 - theme - E12
+# T29 - theme - E12
+# T9 - theme - E4
+# T10 - theme - E4
+# T11 - sameHead - T5
+# T11 - objIdentity - T5
+# T10 - sameHead - T4
+# T10 - objIdentity - T4
+# T9 - objIdentity - T3
+# T12 - sameHead - T6
+# T12 - objIdentity - T6
+# T13 - pronominal - T9
+# T13 - objIdentity - T9
+# T15 - pronominal - T9
+# T15 - objIdentity - T9
+# T18 - sameHead - T1
+# T18 - objIdentity - T1
+# T19 - sameHead - T2
+# T19 - objIdentity - T2
+# T20 - objIdentity - T6
+# T27 - synonymy - T20
+# T27 - objIdentity - T20
+# T23 - partOf - T22
+# T24 - partOf - T22
+# T25 - partOf - T20
+# T26 - partOf - T20
+# T3 - partOf - T4

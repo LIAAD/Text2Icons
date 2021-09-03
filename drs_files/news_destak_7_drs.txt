@@ -1,0 +1,107 @@
+» EVENTS
+# E1 (garantiu) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & occursBefore(a,c) & relationRole(agent,T1) & relationRole(time,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), occursBefore(a,c), relationRole(agent,T1), relationRole(time,T3), Factuality(a,Factual)]) 
+
+# E2 (não há) -> b
+# FOL:  exists Factual Neg Occurrence Present b.(event(b) & eventClass(b,Occurrence) & Tense(b,Present) & Polarity(b,Neg) & Time(b,Present) & relationRole(location,T6) & relationRole(theme,T4) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Present), Polarity(b,Neg), Time(b,Present), relationRole(location,T6), relationRole(theme,T4), Factuality(b,Factual)]) 
+
+# E3 (foi expulso) -> c
+# FOL:  exists Factual Non_Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(theme,T7) & Factuality(c,Non_Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(theme,T7), Factuality(c,Non_Factual)]) 
+
+# E4 (garantiu) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursBefore(d,e) & occursBefore(d,f) & occursAfter(d,c) & relationRole(agent,T11) & relationRole(theme,T15) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursBefore(d,e), occursBefore(d,f), occursAfter(d,c), relationRole(agent,T11), relationRole(theme,T15), Factuality(d,Factual)]) 
+
+# E5 (foi) -> e
+# FOL:  exists Factual Past Past1 Pos State e.(event(e) & eventClass(e,State) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(experiencer,T11) & relationRole(theme,T13) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,State), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(experiencer,T11), relationRole(theme,T13), Factuality(e,Factual)]) 
+
+# E6 (nunca promoveu ou compactuou) -> f
+# FOL:  exists Factual Neg Occurrence Past Past1 f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Neg) & Time(f,Past) & relationRole(theme,T15) & relationRole(theme,T16) & relationRole(time,T27) & relationRole(time,T29) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Neg), Time(f,Past), relationRole(theme,T15), relationRole(theme,T16), relationRole(time,T27), relationRole(time,T29), Factuality(f,Factual)]) 
+
+# E8 (foi transferido) -> g
+# FOL:  exists Factual Neg Non_Factual Past Past1 State g.(event(g) & eventClass(g,State) & Tense(g,Past1) & Polarity(g,Neg) & Time(g,Past) & relationRole(theme,T17) & relationRole(source,T18) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,State), Tense(g,Past1), Polarity(g,Neg), Time(g,Past), relationRole(theme,T17), relationRole(source,T18), Factuality(g,Non_Factual)]) 
+
+# E9 (aconselhado) -> h
+# FOL:  exists Factual Neg Non_Factual Occurrence Past Past1 h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Neg) & Time(h,Past) & relationRole(theme,T19) & Factuality(h,Non_Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Neg), Time(h,Past), relationRole(theme,T19), Factuality(h,Non_Factual)]) 
+
+# E10 (assumir) -> i
+# FOL:  exists Factual Infinitive Occurrence Past Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Infinitive) & Polarity(i,Pos) & Time(i,Past) & relationRole(theme,T39) & relationRole(agent,T21) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Infinitive), Polarity(i,Pos), Time(i,Past), relationRole(theme,T39), relationRole(agent,T21), Factuality(i,Factual)]) 
+
+# E12 (transferir) -> j
+# FOL:  exists Factual Infinitive Non_Factual Occurrence Pos Present j.(event(j) & eventClass(j,Occurrence) & Tense(j,Infinitive) & Polarity(j,Pos) & Time(j,Present) & relationRole(theme,T21) & relationRole(agent,T19) & Factuality(j,Non_Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Infinitive), Polarity(j,Pos), Time(j,Present), relationRole(theme,T21), relationRole(agent,T19), Factuality(j,Non_Factual)]) 
+
+» ACTORS
+# T1 -> O diretor de Educação e Doutrina
+# T11 -> o major-general
+# T12 -> Fernando Coias Ferreira
+# T13 -> diretor
+# T14 -> Colégio Militar
+# T15 -> aquele estabelecimento de ensino
+# T16 -> qualquer atitude discriminatória
+# T17 -> nenhum aluno
+# T18 -> escola
+# T19 -> qualquer encarregado de educação
+# T2 -> Exército
+# T20 -> seu
+# T21 -> educando
+# T35 -> sua
+# T39 -> orientação sexual
+# T4 -> discriminação
+# T5 -> alunos homossexuais
+# T6 -> Colégio Militar
+# T7 -> nenhum estudante
+# T8 -> sua
+# T27 -> desde 2010
+# T29 -> até hoje
+# T3 -> hoje
+
+» RELATIONS
+# T1 - agent - E1
+# T6 - location - E2
+# T7 - theme - E3
+# T11 - agent - E4
+# T15 - theme - E6
+# T16 - theme - E6
+# T17 - theme - E8
+# T18 - source - E8
+# T19 - theme - E9
+# T21 - theme - E12
+# T3 - time - E1
+# T4 - theme - E2
+# T27 - time - E6
+# T29 - time - E6
+# T11 - experiencer - E5
+# T13 - theme - E5
+# T15 - theme - E4
+# T39 - theme - E10
+# T14 - source - T13
+# T5 - goal - T4
+# T19 - agent - E12
+# T21 - agent - E10
+# T1 - partOf - T2
+# T5 - partOf - T7
+# T8 - pronominal - T7
+# T8 - objIdentity - T7
+# T12 - objIdentity - T11
+# T15 - objIdentity - T14
+# T14 - sameHead - T6
+# T14 - objIdentity - T6
+# T11 - objIdentity - T1
+# T13 - objIdentity - T12
+# T15 - synonymy - T14
+# T20 - pronominal - T19
+# T20 - objIdentity - T19
+# T21 - objIdentity - T17
+# T17 - synonymy - T7
+# T17 - objIdentity - T7
+# T35 - pronominal - T21
+# T35 - objIdentity - T21

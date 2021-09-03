@@ -1,0 +1,111 @@
+» EVENTS
+# E1 (foi detida) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,c) & relationRole(theme,T1) & relationRole(time,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,c), relationRole(theme,T1), relationRole(time,T3), Factuality(a,Factual)]) 
+
+# E2 (indiciada) -> b
+# FOL:  exists Factual Occurrence Past PastPart Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & relationRole(theme,T34) & relationRole(theme,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), relationRole(theme,T34), relationRole(theme,T1), Factuality(b,Factual)]) 
+
+# E4 (aconteceu) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(theme,T8) & relationRole(location,T11) & relationRole(time,T10) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(theme,T8), relationRole(location,T11), relationRole(time,T10), Factuality(c,Factual)]) 
+
+# E6 (foram cometidos) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & relationRole(theme,T26) & relationRole(agent,T16) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), relationRole(theme,T26), relationRole(agent,T16), Factuality(d,Factual)]) 
+
+# E8 (mantida) -> e
+# FOL:  exists Factual Occurrence Past PastPart Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,PastPart) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T17) & relationRole(theme,T19) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,PastPart), Polarity(e,Pos), Time(e,Past), relationRole(theme,T17), relationRole(theme,T19), Factuality(e,Factual)]) 
+
+# E9 (veio a golpeá) -> f
+# FOL:  exists Factual Occurrence Past Past1 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past1) & Polarity(f,Pos) & Time(f,Past) & occursBefore(f,g) & relationRole(agent,T16) & relationRole(location,T35) & relationRole(instrument,T23) & relationRole(theme,T12) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past1), Polarity(f,Pos), Time(f,Past), occursBefore(f,g), relationRole(agent,T16), relationRole(location,T35), relationRole(instrument,T23), relationRole(theme,T12), Factuality(f,Factual)]) 
+
+# E10 (acabando por causar) -> g
+# FOL:  exists Factual Occurrence Past Pos PresPart g.(event(g) & eventClass(g,Occurrence) & Tense(g,PresPart) & Polarity(g,Pos) & Time(g,Past) & occursAfter(g,f) & occursBefore(g,h) & relationRole(experiencer,T25) & relationRole(theme,T27) & relationRole(agent,T16) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PresPart), Polarity(g,Pos), Time(g,Past), occursAfter(g,f), occursBefore(g,h), relationRole(experiencer,T25), relationRole(theme,T27), relationRole(agent,T16), Factuality(g,Factual)]) 
+
+# E13 (será presente) -> h
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Future1) & Polarity(h,Pos) & Time(h,Future) & occursBefore(h,i) & occursAfter(h,g) & relationRole(theme,T28) & relationRole(theme,T33) & relationRole(time,T30) & Factuality(h,Non_Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Future1), Polarity(h,Pos), Time(h,Future), occursBefore(h,i), occursAfter(h,g), relationRole(theme,T28), relationRole(theme,T33), relationRole(time,T30), Factuality(h,Non_Factual)]) 
+
+# E14 (sejam conhecidas) -> i
+# FOL:  exists Factual Future Non_Factual Pos Present State i.(event(i) & eventClass(i,State) & Tense(i,Present) & Polarity(i,Pos) & Time(i,Future) & occursAfter(i,h) & relationRole(theme,T32) & Factuality(i,Non_Factual))
+# DRS:  ([i],[event(i), eventClass(i,State), Tense(i,Present), Polarity(i,Pos), Time(i,Future), occursAfter(i,h), relationRole(theme,T32), Factuality(i,Non_Factual)]) 
+
+» ACTORS
+# T1 -> Uma mulher de 42 anos
+# T11 -> Lisboa
+# T12 -> la
+# T16 -> a presumível autora
+# T17 -> uma violenta discussão
+# T19 -> a vítima
+# T20 -> seu
+# T21 -> marido
+# T23 -> uma arma branca
+# T25 -> lhe
+# T26 -> os factos
+# T27 -> a morte
+# T28 -> A mulher
+# T32 -> as medidas de coação
+# T33 -> primeiro interrogatório judicial
+# T34 -> homicídio
+# T35 -> pescoço
+# T5 -> se
+# T6 -> marido
+# T7 -> uma arma branca
+# T8 -> O crime
+# T3 -> esta manhã
+# T10 -> ontem de manhã
+# T30 -> nas próximas horas
+
+» RELATIONS
+# T1 - theme - E1
+# T34 - theme - E2
+# T8 - theme - E4
+# T11 - location - E4
+# T26 - theme - E6
+# T16 - agent - E9
+# T35 - location - E9
+# T23 - instrument - E9
+# T17 - theme - E8
+# T25 - experiencer - E10
+# T27 - theme - E10
+# T28 - theme - E13
+# T32 - theme - E14
+# T3 - time - E1
+# T1 - theme - E2
+# T6 - theme - T34
+# T7 - instrument - T34
+# T10 - time - E4
+# T16 - agent - E6
+# T19 - theme - E8
+# T16 - agent - E10
+# T33 - theme - E13
+# T30 - time - E13
+# T16 - agent - T17
+# T12 - theme - E9
+# T23 - sameHead - T7
+# T23 - objIdentity - T7
+# T5 - pronominal - T1
+# T5 - partOf - T1
+# T28 - sameHead - T1
+# T28 - objIdentity - T1
+# T25 - pronominal - T21
+# T25 - objIdentity - T21
+# T20 - pronominal - T1
+# T21 - sameHead - T6
+# T21 - objIdentity - T6
+# T19 - objIdentity - T6
+# T21 - objIdentity - T19
+# T16 - objIdentity - T1
+# T8 - objIdentity - T34
+# T35 - partOf - T21
+# T35 - meronymy - T21
+# T27 - synonymy - T34
+# T27 - objIdentity - T34
+# T26 - objIdentity - T8
+# T12 - pronominal - T19
+# T12 - objIdentity - T19

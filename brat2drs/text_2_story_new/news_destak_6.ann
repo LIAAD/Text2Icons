@@ -1,0 +1,234 @@
+T2	ACTOR 0 20	Quatro farmacêuticos
+A4	Lexical_Head T2 Noun
+A5	Individuation T2 Individual
+A6	Actor_Type T2 Per
+A7	Involvement T2 >1
+T3	ACTOR 24 38	três farmácias
+A8	Lexical_Head T3 Noun
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Loc
+A11	Involvement T3 >1
+T4	ACTOR 42 54	Grande Porto
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Loc
+A15	Involvement T4 1
+R1	OBJ_REL_partOf Arg1:T3 Arg2:T4	
+T5	ACTOR 73 87	alegada fraude
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 1
+T6	ACTOR 91 116	Serviço Nacional de Saúde
+A20	Lexical_Head T6 Noun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Org
+A23	Involvement T6 1
+T7	ACTOR 118 121	SNS
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Org
+A27	Involvement T7 1
+R2	OBJ_REL_objIdentity Arg1:T7 Arg2:T6	
+T8	ACTOR 145 163	um milhão de euros
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Obj
+A31	Involvement T8 >1
+T12	ACTOR 238 261	os quatro farmacêuticos
+A44	Lexical_Head T12 Noun
+A45	Individuation T12 Individual
+A46	Actor_Type T12 Per
+A47	Involvement T12 >1
+R6	OBJ_REL_objIdentity Arg1:T12 Arg2:T2	
+T13	ACTOR 307 324	burla qualificada
+A48	Lexical_Head T13 Noun
+A49	Individuation T13 Individual
+A50	Actor_Type T13 Sit
+A51	Involvement T13 1
+T14	ACTOR 326 335	corrupção
+A52	Lexical_Head T14 Noun
+A53	Individuation T14 Individual
+A54	Actor_Type T14 Sit
+A55	Involvement T14 1
+T15	ACTOR 337 371	falsificação de documento agravado
+A56	Lexical_Head T15 Noun
+A57	Individuation T15 Individual
+A58	Actor_Type T15 Sit
+A59	Involvement T15 1
+T17	ACTOR 374 395	falsidade informática
+A64	Lexical_Head T17 Noun
+A65	Individuation T17 Individual
+A66	Actor_Type T17 Sit
+A67	Involvement T17 1
+T18	ACTOR 421 426	valor
+A68	Lexical_Head T18 Noun
+A69	Individuation T18 Individual
+A71	Involvement T18 1
+T19	ACTOR 440 443	SNS
+A72	Lexical_Head T19 Noun
+A73	Individuation T19 Individual
+A74	Actor_Type T19 Org
+A75	Involvement T19 1
+R7	REF_REL_sameHead Arg1:T19 Arg2:T7	
+R8	OBJ_REL_objIdentity Arg1:T19 Arg2:T7	
+T20	ACTOR 458 476	um milhão de euros
+A76	Lexical_Head T20 Noun
+A77	Individuation T20 Individual
+A78	Actor_Type T20 Obj
+A79	Involvement T20 >1
+T21	ACTOR 481 495	três farmácias
+A80	Lexical_Head T21 Noun
+A81	Individuation T21 Individual
+A82	Actor_Type T21 Loc
+A83	Involvement T21 >1
+T23	ACTOR 544 565	a atividade criminosa
+A88	Lexical_Head T23 Noun
+A89	Individuation T23 Individual
+A90	Actor_Type T23 Sit
+A91	Involvement T23 1
+T24	ACTOR 580 599	esquema fraudulento
+A92	Lexical_Head T24 Noun
+A93	Individuation T24 Individual
+A94	Actor_Type T24 Sit
+A95	Involvement T24 1
+T25	ACTOR 603 633	venda fictícia de medicamentos
+A96	Lexical_Head T25 Noun
+A97	Individuation T25 Individual
+A98	Actor_Type T25 Sit
+A99	Involvement T25 1
+T27	ACTOR 645 682	emissão de receitas médicas fictícias
+A104	Lexical_Head T27 Noun
+A105	Individuation T27 Individual
+A106	Actor_Type T27 Sit
+A107	Involvement T27 1
+T29	ACTOR 697 722	a taxa de comparticipação
+A112	Lexical_Head T29 Noun
+A113	Individuation T29 Individual
+A114	Actor_Type T29 Obj
+A115	Involvement T29 1
+T30	ACTOR 733 739	Estado
+A116	Lexical_Head T30 Noun
+A117	Individuation T30 Individual
+A118	Actor_Type T30 Org
+A119	Involvement T30 1
+T31	ACTOR 756 768	os suspeitos
+A120	Lexical_Head T31 Noun
+A121	Individuation T31 Individual
+A122	Actor_Type T31 Per
+A123	Involvement T31 >1
+R9	REF_REL_sameHead Arg1:T20 Arg2:T8	
+R10	OBJ_REL_objIdentity Arg1:T20 Arg2:T8	
+R11	REF_REL_sameHead Arg1:T21 Arg2:T3	
+R12	OBJ_REL_objIdentity Arg1:T21 Arg2:T3	
+R13	REF_REL_synonymy Arg1:T23 Arg2:T16	
+R14	OBJ_REL_objIdentity Arg1:T23 Arg2:T16	
+R16	OBJ_REL_objIdentity Arg1:T31 Arg2:T12	
+R17	REF_REL_sameHead Arg1:T12 Arg2:T2	
+T32	EVENT 55 68	foram detidos
+E1	EVENT:T32 
+A124	Class E1 Occurrence
+A125	Tense E1 Past1
+A126	Polarity E1 Pos
+A127	Time E1 Past
+A128	Factuality E1 Factual
+T33	EVENT 137 144	rondará
+E2	EVENT:T33 
+A129	Class E2 Occurrence
+A130	Tense E2 Future1
+A131	Polarity E2 Pos
+A132	Factuality E2 Non_Factual
+T36	EVENT 262 290	estão "fortemente indiciados
+E5	EVENT:T36 
+A143	Class E5 State
+A144	Tense E5 Present
+A145	Polarity E5 Pos
+A146	Time E5 Present
+A147	Factuality E5 Factual
+T37	ACTOR 297 303	crimes
+A148	Lexical_Head T37 Noun
+A149	Individuation T37 Individual
+A150	Actor_Type T37 Sit
+A151	Involvement T37 >1
+R21	OBJ_REL_memberOf Arg1:T13 Arg2:T37	
+R22	OBJ_REL_memberOf Arg1:T14 Arg2:T37	
+R23	OBJ_REL_memberOf Arg1:T15 Arg2:T37	
+R24	OBJ_REL_memberOf Arg1:T17 Arg2:T37	
+T38	EVENT 398 417	tendo sido "apurado
+E6	EVENT:T38 
+A152	Class E6 Occurrence
+A153	Tense E6 PastPerfect
+A154	Polarity E6 Pos
+A155	Time E6 Past
+A156	Factuality E6 Factual
+R25	TLINK_before Arg1:E6 Arg2:E5	
+T39	EVENT 496 504	buscadas
+E7	EVENT:T39 
+A157	Class E7 Occurrence
+A158	Tense E7 PastPart
+A159	Polarity E7 Pos
+A160	Time E7 Past
+A161	Factuality E7 Factual
+R26	TLINK_before Arg1:E7 Arg2:E6	
+T41	EVENT 566 575	consistia
+E9	EVENT:T41 
+A167	Class E9 Occurrence
+A168	Tense E9 Past2
+A169	Polarity E9 Pos
+A170	Time E9 Past
+A171	Factuality E9 Factual
+T42	EVENT 723 727	paga
+E10	EVENT:T42 
+A172	Class E10 Occurrence
+A173	Tense E10 PastPart
+A174	Polarity E10 Pos
+A175	Time E10 Past
+A176	Factuality E10 Factual
+T43	EVENT 740 750	revertesse
+E11	EVENT:T43 
+A177	Class E11 Occurrence
+A178	Tense E11 Past1
+A179	Polarity E11 Pos
+A180	Time E11 Past
+A181	Factuality E11 Factual
+R29	TLINK_after Arg1:E11 Arg2:E10	
+R30	TLINK_isIncluded Arg1:E2 Arg2:E1	
+R31	TLINK_isIncluded Arg1:E10 Arg2:E9	
+A60	Actor_Type T18 Other
+T16	ACTOR 430 436	fraude
+A61	Individuation T16 Individual
+A62	Actor_Type T16 Sit
+A63	Involvement T16 1
+R33	OBJ_REL_objIdentity Arg1:T16 Arg2:T5	
+R34	SEMROLE_theme Arg1:T2 Arg2:E1	
+R36	SEMROLE_theme Arg1:T8 Arg2:E2	
+R38	SEMROLE_experiencer Arg1:T12 Arg2:E5	
+R39	SEMROLE_theme Arg1:T18 Arg2:E6	
+R40	SEMROLE_theme Arg1:T21 Arg2:E7	
+R43	SEMROLE_theme Arg1:T23 Arg2:E9	
+R44	SEMROLE_agent Arg1:T30 Arg2:E10	
+R45	SEMROLE_theme Arg1:T29 Arg2:E10	
+R46	SEMROLE_theme Arg1:T29 Arg2:E11	
+R47	SEMROLE_goal Arg1:T31 Arg2:E11	
+R49	SEMROLE_theme Arg1:T5 Arg2:E2	
+R41	SEMROLE_location Arg1:E6 Arg2:T21	
+R52	SEMROLE_theme Arg1:T24 Arg2:E9	
+T1	ACTOR 221 225	a PJ
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Org
+A32	Involvement T1 1
+R3	SEMROLE_agent Arg1:T1 Arg2:E6	
+R4	SEMROLE_agent Arg1:T1 Arg2:E7	
+R5	OBJ_REL_partOf Arg1:T2 Arg2:T3	
+R18	SEMROLE_goal Arg1:T6 Arg2:T5	
+T9	ACTOR 124 132	um valor
+A33	Lexical_Head T9 Noun
+A34	Individuation T9 Individual
+A35	Actor_Type T9 Other
+A36	Involvement T9 1
+R19	SEMROLE_theme Arg1:T9 Arg2:E2	
+R20	SEMROLE_agent Arg1:T2 Arg2:T5	
+R27	OBJ_REL_objIdentity Arg1:T18 Arg2:T9	
+R28	SEMROLE_agent Arg1:T1 Arg2:E1	
+R15	SEMROLE_theme Arg1:T18 Arg2:T16	

@@ -1,0 +1,82 @@
+» EVENTS
+# E1 (atacou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(agent,T1) & relationRole(instrument,T2) & relationRole(theme,T3) & relationRole(location,T4) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(agent,T1), relationRole(instrument,T2), relationRole(theme,T3), relationRole(location,T4), Factuality(a,Factual)]) 
+
+# E2 (pediu) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,d) & relationRole(agent,T1) & relationRole(theme,T5) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursBefore(b,d), relationRole(agent,T1), relationRole(theme,T5), Factuality(b,Factual)]) 
+
+# E3 (pôr) -> c
+# FOL:  exists Factual Infinitive Non_Factual Occurrence Past Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Infinitive) & Polarity(c,Pos) & Time(c,Past) & relationRole(theme,T6) & relationRole(agent,T5) & Factuality(c,Non_Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Infinitive), Polarity(c,Pos), Time(c,Past), relationRole(theme,T6), relationRole(agent,T5), Factuality(c,Non_Factual)]) 
+
+# E4 (fugiu) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursAfter(d,b) & relationRole(agent,T10) & relationRole(source,T22) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursAfter(d,b), relationRole(agent,T10), relationRole(source,T22), Factuality(d,Factual)]) 
+
+# E5 (aconteceu) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T11) & relationRole(location,T12) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(theme,T11), relationRole(location,T12), Factuality(e,Factual)]) 
+
+# E6 (pode valer) -> f
+# FOL:  exists Factual Future Non_Factual Occurrence Pos Present f.(event(f) & eventClass(f,Occurrence) & Tense(f,Present) & Polarity(f,Pos) & Time(f,Future) & occursAfter(f,g) & relationRole(goal,T17) & relationRole(theme,T15) & relationRole(theme,T16) & Factuality(f,Non_Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Present), Polarity(f,Pos), Time(f,Future), occursAfter(f,g), relationRole(goal,T17), relationRole(theme,T15), relationRole(theme,T16), Factuality(f,Non_Factual)]) 
+
+# E7 (reclamado) -> g
+# FOL:  exists Factual Non_Factual Occurrence Past PastPart Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPart) & Polarity(g,Pos) & Time(g,Past) & occursBefore(g,f) & relationRole(theme,T27) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPart), Polarity(g,Pos), Time(g,Past), occursBefore(g,f), relationRole(theme,T27), Factuality(g,Non_Factual)]) 
+
+» ACTORS
+# T1 -> Um homem armado
+# T10 -> o desastrado assaltante
+# T11 -> A tentativa de assalto
+# T12 -> Coastal Gas Station
+# T13 -> município de Pennsville
+# T14 -> Nova Jérsia
+# T15 -> a aventura
+# T16 -> pena de prisão
+# T17 -> assaltante
+# T2 -> uma faca
+# T22 -> local
+# T26 -> assalto
+# T27 -> valor insignificante
+# T3 -> uma bomba de gasolina
+# T4 -> estado de Nova Jérsia
+# T5 -> empregado
+# T6 -> dois dólares de gasolina
+# T7 -> 1,9 euros
+# T9 -> empregado
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - instrument - E1
+# T3 - theme - E1
+# T4 - location - E1
+# T1 - agent - E2
+# T5 - theme - E2
+# T6 - theme - E3
+# T10 - agent - E4
+# T11 - theme - E5
+# T12 - location - E5
+# T17 - goal - E6
+# T5 - agent - E3
+# T22 - source - E4
+# T27 - theme - E7
+# T15 - theme - E6
+# T16 - theme - E6
+# T7 - objIdentity - T6
+# T9 - sameHead - T5
+# T9 - objIdentity - T5
+# T10 - objIdentity - T1
+# T12 - objIdentity - T3
+# T14 - sameHead - T4
+# T14 - objIdentity - T4
+# T13 - partOf - T14
+# T15 - objIdentity - T11
+# T17 - sameHead - T10
+# T17 - objIdentity - T10
+# T22 - objIdentity - T3
+# T26 - sameHead - T11
+# T26 - objIdentity - T11
+# T3 - partOf - T4

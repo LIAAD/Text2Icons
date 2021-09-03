@@ -1,0 +1,451 @@
+T1	ACTOR 0 24	Um grupo de cinco alunos
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 >1
+T2	ACTOR 28 49	uma escola secundária
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Loc
+A8	Involvement T2 1
+T3	ACTOR 53 60	Burundi
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Loc
+A11	Involvement T3 1
+T4	EVENT 61 73	foram presos
+E1	EVENT:T4 
+A12	Class E1 Occurrence
+A13	Tense E1 Past1
+A14	Polarity E1 Pos
+A15	Time E1 Past
+A16	Factuality E1 Factual
+T5	EVENT 78 93	terem rabiscado
+E2	EVENT:T5 
+A17	Class E2 Occurrence
+A18	Tense E2 PastPerfect
+A19	Polarity E2 Pos
+A20	Time E2 Past
+A21	Factuality E2 Factual
+T6	ACTOR 94 102	uma foto
+A22	Lexical_Head T6 Noun
+A23	Individuation T6 Individual
+A24	Actor_Type T6 Obj
+A25	Involvement T6 1
+T7	ACTOR 106 116	presidente
+A26	Lexical_Head T7 Noun
+A27	Individuation T7 Individual
+A28	Actor_Type T7 Per
+A29	Involvement T7 1
+T8	ACTOR 118 135	Pierre Nkurunziza
+A30	Lexical_Head T8 Noun
+A31	Individuation T8 Individual
+A32	Actor_Type T8 Per
+A33	Involvement T8 1
+T10	EVENT 141 149	constava
+E3	EVENT:T10 
+A38	Class E3 Occurrence
+A39	Tense E3 Past2
+A40	Polarity E3 Pos
+A41	Time E3 Past
+A42	Factuality E3 Factual
+T11	ACTOR 154 168	manual escolar
+A43	Lexical_Head T11 Noun
+A44	Individuation T11 Individual
+A45	Actor_Type T11 Obj
+A46	Involvement T11 1
+T12	ACTOR 178 196	o Procurador-Geral
+A47	Lexical_Head T12 Noun
+A48	Individuation T12 Individual
+A49	Actor_Type T12 Per
+A50	Involvement T12 1
+T13	ACTOR 200 207	Burundi
+A51	Lexical_Head T13 Noun
+A52	Individuation T13 Individual
+A53	Actor_Type T13 Loc
+A54	Involvement T13 1
+T14	ACTOR 209 229	Valentin Bagorikunda
+A55	Lexical_Head T14 Noun
+A56	Individuation T14 Individual
+A57	Actor_Type T14 Per
+A58	Involvement T14 1
+T15	ACTOR 243 256	11 estudantes
+A59	Lexical_Head T15 Noun
+A60	Individuation T15 Individual
+A61	Actor_Type T15 Per
+A62	Involvement T15 >1
+T16	EVENT 299 312	foram detidos
+E4	EVENT:T16 
+A63	Class E4 Occurrence
+A64	Tense E4 Past1
+A65	Polarity E4 Pos
+A66	Time E4 Past
+A67	Factuality E4 Factual
+T17	TIME_X3 313 335	na passada sexta-feira
+A68	Time_Type T17 Date
+A69	FunctionInDocument T17 None
+A70	Value T17 Date
+#1	AnnotatorNotes T17	value=""
+T18	ACTOR 260 278	escola de Muramvya
+A71	Lexical_Head T18 Noun
+A72	Individuation T18 Individual
+A73	Actor_Type T18 Loc
+A74	Involvement T18 1
+T20	ACTOR 283 297	centro do país
+A79	Lexical_Head T20 Noun
+A80	Individuation T20 Individual
+A81	Actor_Type T20 Loc
+A82	Involvement T20 1
+T21	ACTOR 338 349	cinco deles
+A83	Lexical_Head T21 Noun
+A84	Individuation T21 Individual
+A85	Actor_Type T21 Per
+A86	Involvement T21 >1
+T22	EVENT 375 389	ficaram presos
+E5	EVENT:T22 
+A87	Class E5 Occurrence
+A88	Tense E5 Past1
+A89	Polarity E5 Pos
+A90	Time E5 Past
+A91	Factuality E5 Factual
+T23	EVENT 392 400	aguardar
+E6	EVENT:T23 
+A92	Class E6 Occurrence
+A93	Tense E6 Infinitive
+A94	Polarity E6 Pos
+A95	Time E6 Past
+A96	Factuality E6 Factual
+T27	EVENT 439 445	oscila
+E10	EVENT:T27 
+A108	Class E10 Occurrence
+A109	Polarity E10 Pos
+A110	Time E10 Present
+A111	Factuality E10 Factual
+T28	ACTOR 486 495	Os alunos
+A112	Lexical_Head T28 Noun
+A113	Individuation T28 Individual
+A114	Actor_Type T28 Per
+A115	Involvement T28 >1
+T29	EVENT 496 510	estão acusados
+E11	EVENT:T29 
+A116	Class E11 State
+A117	Tense E11 Present
+A118	Polarity E11 Pos
+A119	Time E11 Present
+A120	Factuality E11 Factual
+T30	EVENT 514 524	insultarem
+E12	EVENT:T30 
+A121	Class E12 Occurrence
+A122	Tense E12 Present
+A123	Polarity E12 Pos
+A124	Time E12 Present
+A125	Factuality E12 Factual
+T31	ACTOR 525 542	o chefe de Estado
+A126	Lexical_Head T31 Noun
+A127	Individuation T31 Individual
+A128	Actor_Type T31 Per
+A129	Involvement T31 1
+T32	ACTOR 546 553	Burundi
+A130	Lexical_Head T32 Noun
+A131	Individuation T32 Individual
+A132	Actor_Type T32 Loc
+A133	Involvement T32 1
+T33	ACTOR 555 559	país
+A134	Lexical_Head T33 Noun
+A135	Individuation T33 Individual
+A136	Actor_Type T33 Loc
+A137	Involvement T33 1
+T34	ACTOR 560 563	que
+A138	Lexical_Head T34 Pronoun
+A139	Individuation T34 Individual
+A140	Actor_Type T34 Loc
+A141	Involvement T34 1
+T35	EVENT 564 573	atravessa
+E13	EVENT:T35 
+A142	Class E13 Occurrence
+A143	Tense E13 Present
+A144	Polarity E13 Pos
+A145	Time E13 Present
+A146	Factuality E13 Factual
+T37	TIME_X3 613 632	desde o ano passado
+A150	Time_Type T37 Duration
+A151	FunctionInDocument T37 None
+A152	Value T37 Duration
+A153	Mod T37 Start
+T40	ACTOR 645 652	Burundi
+A157	Lexical_Head T40 Noun
+A158	Actor_Type T40 Loc
+A159	Involvement T40 1
+T41	EVENT 653 663	iniciou-se
+E16	EVENT:T41 
+A160	Class E16 Occurrence
+A161	Tense E16 Past1
+A162	Polarity E16 Pos
+A163	Time E16 Past
+A164	Factuality E16 Factual
+T42	TIME_X3 667 680	abril de 2015
+A165	Time_Type T42 Date
+A166	FunctionInDocument T42 None
+A167	Value T42 Date
+A168	Mod T42 Start
+#2	AnnotatorNotes T42	value="2015-04-XX"
+T43	ACTOR 689 699	Nkurunziza
+A169	Lexical_Head T43 Noun
+A170	Individuation T43 Individual
+A171	Actor_Type T43 Per
+A172	Involvement T43 1
+T44	EVENT 700 708	anunciou
+E17	EVENT:T44 
+A173	Class E17 Occurrence
+A174	Tense E17 Past1
+A175	Polarity E17 Pos
+A176	Time E17 Past
+A177	Factuality E17 Factual
+T45	EVENT 713 725	ia concorrer
+E18	EVENT:T45 
+A178	Class E18 Occurrence
+A179	Tense E18 Past2
+A180	Polarity E18 Pos
+A181	Time E18 Past
+A182	Factuality E18 Factual
+T47	EVENT 762 770	proibido
+E20	EVENT:T47 
+A186	Class E20 Occurrence
+A187	Tense E20 PastPart
+A188	Polarity E20 Pos
+A189	Time E20 Past
+A190	Factuality E20 Factual
+T48	ACTOR 776 788	Constituição
+A191	Lexical_Head T48 Noun
+A192	Individuation T48 Individual
+A193	Actor_Type T48 Obj
+A194	Involvement T48 1
+T49	EVENT 795 800	viola
+E21	EVENT:T49 
+A195	Class E21 Occurrence
+A196	Tense E21 Present
+A197	Polarity E21 Pos
+A198	Time E21 Present
+A199	Factuality E21 Factual
+T50	ACTOR 801 811	os acordos
+A200	Lexical_Head T50 Noun
+A201	Individuation T50 Individual
+A202	Actor_Type T50 Obj
+A203	Involvement T50 >1
+T51	TIME_X3 815 819	2005
+A204	Time_Type T51 Date
+A205	FunctionInDocument T51 None
+A206	Value T51 Date
+#3	AnnotatorNotes T51	value="2005-XX-XX"
+T52	TIME_X3 821 832	Desde então
+T53	ACTOR 834 853	centenas de pessoas
+A207	Lexical_Head T53 Noun
+A208	Individuation T53 Individual
+A209	Actor_Type T53 Per
+A210	Involvement T53 >1
+T54	EVENT 854 862	morreram
+E22	EVENT:T54 
+A211	Class E22 Occurrence
+A212	Tense E22 Past1
+A213	Polarity E22 Pos
+A214	Time E22 Past
+A215	Factuality E22 Factual
+T55	ACTOR 865 881	cerca de 250 mil
+A216	Lexical_Head T55 Noun
+A217	Individuation T55 Individual
+A218	Actor_Type T55 Per
+A219	Involvement T55 >1
+T56	EVENT 882 900	viram-se obrigadas
+E23	EVENT:T56 
+A220	Class E23 Occurrence
+A221	Tense E23 Past1
+A222	Polarity E23 Pos
+A223	Time E23 Past
+A224	Factuality E23 Factual
+T57	EVENT 903 912	abandonar
+E24	EVENT:T57 
+A225	Class E24 Occurrence
+A226	Tense E24 Infinitive
+A227	Polarity E24 Pos
+A228	Time E24 Past
+A229	Factuality E24 Factual
+T58	ACTOR 916 920	suas
+A230	Lexical_Head T58 Pronoun
+A231	Individuation T58 Individual
+A232	Actor_Type T58 Per
+A233	Involvement T58 >1
+T59	ACTOR 921 931	habitações
+A234	Lexical_Head T59 Noun
+A235	Individuation T59 Individual
+A236	Actor_Type T59 Loc
+A237	Involvement T59 >1
+T60	EVENT 942 947	fugir
+E25	EVENT:T60 
+A238	Class E25 Occurrence
+A239	Tense E25 Infinitive
+A240	Polarity E25 Pos
+A241	Time E25 Present
+A242	Factuality E25 Factual
+R1	OBJ_REL_objIdentity Arg1:T8 Arg2:T7	
+R4	REF_REL_sameHead Arg1:T13 Arg2:T3	
+R5	OBJ_REL_objIdentity Arg1:T13 Arg2:T3	
+R6	OBJ_REL_objIdentity Arg1:T14 Arg2:T12	
+R7	OBJ_REL_partOf Arg1:T1 Arg2:T15	
+R8	OBJ_REL_objIdentity Arg1:T18 Arg2:T2	
+R9	OBJ_REL_partOf Arg1:T20 Arg2:T13	
+R11	OBJ_REL_partOf Arg1:T21 Arg2:T15	
+R12	OBJ_REL_objIdentity Arg1:T21 Arg2:T1	
+T62	EVENT 351 356	sendo
+E27	EVENT:T62 
+A246	Class E27 State
+A247	Tense E27 PresPart
+A248	Time E27 Present
+A249	Factuality E27 Factual
+T24	ACTOR 401 411	julgamento
+A97	Lexical_Head T24 Noun
+A98	Individuation T24 Individual
+A99	Actor_Type T24 Sit
+A250	Involvement T24 1
+T25	ACTOR 426 434	um crime
+A100	Lexical_Head T25 Noun
+A101	Individuation T25 Individual
+A102	Actor_Type T25 Sit
+A103	Involvement T25 1
+T26	TIME_X3 446 484	entre os cinco e os dez anos de prisão
+A104	Time_Type T26 Duration
+A105	FunctionInDocument T26 None
+A106	Value T26 Duration
+R14	REF_REL_synonymy Arg1:T31 Arg2:T7	
+R15	OBJ_REL_objIdentity Arg1:T31 Arg2:T7	
+R16	REF_REL_sameHead Arg1:T32 Arg2:T13	
+R17	OBJ_REL_objIdentity Arg1:T32 Arg2:T13	
+R18	OBJ_REL_objIdentity Arg1:T33 Arg2:T32	
+R19	OBJ_REL_objIdentity Arg1:T34 Arg2:T33	
+R20	REF_REL_pronominal Arg1:T34 Arg2:T33	
+T36	ACTOR 574 612	uma grave crise política e humanitária
+A107	Lexical_Head T36 Noun
+A147	Individuation T36 Individual
+A148	Actor_Type T36 Sit
+A149	Involvement T36 1
+T39	ACTOR 634 641	A crise
+A154	Lexical_Head T39 Noun
+A155	Individuation T39 Individual
+A156	Actor_Type T39 Sit
+A251	Involvement T39 1
+R21	OBJ_REL_objIdentity Arg1:T39 Arg2:T36	
+R22	REF_REL_sameHead Arg1:T40 Arg2:T32	
+R23	OBJ_REL_objIdentity Arg1:T40 Arg2:T32	
+R24	REF_REL_sameHead Arg1:T43 Arg2:T8	
+R25	OBJ_REL_objIdentity Arg1:T43 Arg2:T8	
+T46	ACTOR 744 755	às eleições
+A183	Lexical_Head T46 Noun
+A184	Individuation T46 Individual
+A185	Actor_Type T46 Sit
+A252	Involvement T46 >1
+T63	ACTOR 757 761	algo
+A253	Lexical_Head T63 Pronoun
+A254	Individuation T63 Individual
+A255	Actor_Type T63 Sit
+A256	Involvement T63 1
+T64	ACTOR 791 794	que
+A257	Lexical_Head T64 Pronoun
+A258	Individuation T64 Individual
+A259	Actor_Type T64 Sit
+A260	Involvement T64 1
+R26	REF_REL_pronominal Arg1:T64 Arg2:T63	
+R27	OBJ_REL_objIdentity Arg1:T64 Arg2:T63	
+R28	REF_REL_pronominal Arg1:T58 Arg2:T55	
+R29	OBJ_REL_objIdentity Arg1:T58 Arg2:T55	
+T61	ACTOR 950 959	violência
+A243	Lexical_Head T61 Noun
+A244	Individuation T61 Individual
+A245	Actor_Type T61 Sit
+A261	Involvement T61 1
+R30	TLINK_before Arg1:E2 Arg2:E1	
+R32	TLINK_identity Arg1:E4 Arg2:E1	
+R34	TLINK_after Arg1:E5 Arg2:E4	
+R35	TLINK_isIncluded Arg1:E6 Arg2:E5	
+R38	TLINK_includes Arg1:E13 Arg2:E11	
+R41	TLINK_after Arg1:E18 Arg2:E17	
+R42	TLINK_after Arg1:E22 Arg2:E16	
+R45	TLINK_isIncluded Arg1:E24 Arg2:E23	
+R31	TLINK_includes Arg1:E3 Arg2:E2	
+R46	TLINK_includes Arg1:T17 Arg2:E4	
+R13	TLINK_includes Arg1:E27 Arg2:E4	
+R33	TLINK_after Arg1:E10 Arg2:E6	
+R36	TLINK_includes Arg1:E11 Arg2:E5	
+R37	TLINK_before Arg1:E12 Arg2:E11	
+R47	TLINK_includes Arg1:T37 Arg2:E13	
+R48	TLINK_includes Arg1:T42 Arg2:E16	
+R39	TLINK_begins Arg1:E16 Arg2:E13	
+R40	TLINK_before Arg1:E17 Arg2:E16	
+R43	TLINK_includes Arg1:E20 Arg2:E18	
+R49	TLINK_isIncluded Arg1:E21 Arg2:E20	
+R50	TLINK_begins Arg1:T51 Arg2:E21	
+A262	Time_Type T52 Duration
+A263	FunctionInDocument T52 None
+A264	Value T52 Duration
+#4	AnnotatorNotes T52	value="P11Y"
+R51	TLINK_includes Arg1:T52 Arg2:E22	
+R52	TLINK_simultaneous Arg1:E23 Arg2:E22	
+R44	TLINK_isIncluded Arg1:E25 Arg2:E24	
+R53	SEMROLE_theme Arg1:T1 Arg2:E1	
+R54	SEMROLE_agent Arg1:T1 Arg2:E2	
+R55	SEMROLE_theme Arg1:T6 Arg2:E2	
+R56	SEMROLE_theme Arg1:T6 Arg2:E3	
+R57	SEMROLE_location Arg1:T11 Arg2:E3	
+R58	SEMROLE_theme Arg1:T15 Arg2:E4	
+R59	SEMROLE_time Arg1:T17 Arg2:E4	
+R60	SEMROLE_theme Arg1:T15 Arg2:E5	
+R61	SEMROLE_theme Arg1:T24 Arg2:E6	
+R62	SEMROLE_theme Arg1:T25 Arg2:E10	
+R63	SEMROLE_time Arg1:T26 Arg2:E10	
+R64	SEMROLE_theme Arg1:T28 Arg2:E11	
+R65	SEMROLE_agent Arg1:T28 Arg2:E12	
+R66	SEMROLE_theme Arg1:T31 Arg2:E12	
+R67	SEMROLE_theme Arg1:T32 Arg2:E13	
+R68	SEMROLE_theme Arg1:T36 Arg2:E13	
+R69	SEMROLE_time Arg1:T37 Arg2:E13	
+R70	SEMROLE_theme Arg1:T39 Arg2:E16	
+R71	SEMROLE_time Arg1:T42 Arg2:E16	
+R72	SEMROLE_agent Arg1:T43 Arg2:E17	
+R73	SEMROLE_agent Arg1:T43 Arg2:E18	
+R74	SEMROLE_theme Arg1:T46 Arg2:E18	
+R75	SEMROLE_theme Arg1:T63 Arg2:E20	
+R76	SEMROLE_theme Arg1:T63 Arg2:E21	
+R77	SEMROLE_theme Arg1:T50 Arg2:E21	
+R78	SEMROLE_time Arg1:T52 Arg2:E22	
+R79	SEMROLE_theme Arg1:T53 Arg2:E22	
+R80	SEMROLE_theme Arg1:T55 Arg2:E23	
+R81	SEMROLE_theme Arg1:T59 Arg2:E24	
+R82	SEMROLE_agent Arg1:T55 Arg2:E25	
+R83	SEMROLE_source Arg1:T61 Arg2:E25	
+R85	SEMROLE_experiencer Arg1:T21 Arg2:E27	
+R87	SEMROLE_source Arg1:T48 Arg2:E20	
+R88	SEMROLE_source Arg1:T2 Arg2:T1	
+R89	SEMROLE_location Arg1:T3 Arg2:T2	
+R90	SEMROLE_theme Arg1:T7 Arg2:T6	
+T9	ACTOR 137 140	que
+A34	Lexical_Head T9 Pronoun
+A35	Individuation T9 Individual
+A36	Actor_Type T9 Obj
+A37	Involvement T9 1
+R2	REF_REL_pronominal Arg1:T9 Arg2:T6	
+R3	OBJ_REL_objIdentity Arg1:T9 Arg2:T6	
+R91	SEMROLE_theme Arg1:T13 Arg2:T12	
+R92	SEMROLE_source Arg1:T18 Arg2:T15	
+R10	SEMROLE_location Arg1:T20 Arg2:T18	
+T19	ACTOR 357 373	maiores de idade
+A75	Lexical_Head T19 Noun
+A76	Individuation T19 Individual
+A77	Actor_Type T19 Other
+A78	Involvement T19 >1
+R84	SEMROLE_theme Arg1:T19 Arg2:E27	
+R93	SEMROLE_agent Arg1:T15 Arg2:E6	
+R94	OBJ_REL_objIdentity Arg1:T28 Arg2:T15	
+R95	SEMROLE_theme Arg1:T32 Arg2:T31	
+R96	SEMROLE_location Arg1:T40 Arg2:T39	
+R86	REF_REL_pronominal Arg1:T63 Arg2:E18	
+R97	OBJ_REL_objIdentity Arg1:T63 Arg2:E18	
+R98	SEMROLE_time Arg1:T51 Arg2:T50	
+A265	Mod T52 On_or_After
+R99	SEMROLE_agent Arg1:T55 Arg2:E24	

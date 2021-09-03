@@ -1,0 +1,84 @@
+» EVENTS
+# E1 (prometeu) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(time,T21) & relationRole(theme,T31) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(agent,T1), relationRole(time,T21), relationRole(theme,T31), Factuality(a,Factual)]) 
+
+# E2 (envidarão) -> b
+# FOL:  exists Factual Future Future1 Occurrence Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Future1) & Polarity(b,Pos) & occursAfter(b,a) & relationRole(agent,T9) & relationRole(theme,T10) & relationRole(agent,T8) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Future1), Polarity(b,Pos), occursAfter(b,a), relationRole(agent,T9), relationRole(theme,T10), relationRole(agent,T8), Factuality(b,Factual)]) 
+
+# E3 (assegurou) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,e) & occursBefore(c,f) & relationRole(agent,T2) & relationRole(theme,T32) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,e), occursBefore(c,f), relationRole(agent,T2), relationRole(theme,T32), Factuality(c,Factual)]) 
+
+# E4 (fazer luz) -> d
+# FOL:  exists Factual Future Infinitive Occurrence Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Infinitive) & Polarity(d,Pos) & Time(d,Future) & relationRole(goal,T10) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Infinitive), Polarity(d,Pos), Time(d,Future), relationRole(goal,T10), Factuality(d,Factual)]) 
+
+# E5 (Não ficará impune) -> e
+# FOL:  exists Factual Future Future1 Neg Occurrence e.(event(e) & eventClass(e,Occurrence) & Tense(e,Future1) & Polarity(e,Neg) & Time(e,Future) & occursAfter(e,c) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Future1), Polarity(e,Neg), Time(e,Future), occursAfter(e,c), Factuality(e,Factual)]) 
+
+# E6 (Não haverá) -> f
+# FOL:  exists Factual Future Future1 Neg Occurrence f.(event(f) & eventClass(f,Occurrence) & Tense(f,Future1) & Polarity(f,Neg) & Time(f,Future) & occursAfter(f,c) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Future1), Polarity(f,Neg), Time(f,Future), occursAfter(f,c), Factuality(f,Factual)]) 
+
+# E7 (declarou) -> g
+# FOL:  exists Factual Occurrence Past Past1 Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past1) & Polarity(g,Pos) & Time(g,Past) & relationRole(agent,T12) & relationRole(location,T13) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past1), Polarity(g,Pos), Time(g,Past), relationRole(agent,T12), relationRole(location,T13), Factuality(g,Factual)]) 
+
+# E8 (estava presente) -> h
+# FOL:  exists Factual Past Past2 Pos State h.(event(h) & eventClass(h,State) & Tense(h,Past2) & Polarity(h,Pos) & Time(h,Past) & relationRole(location,T13) & relationRole(theme,T14) & relationRole(theme,T15) & relationRole(theme,T16) & relationRole(theme,T19) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,State), Tense(h,Past2), Polarity(h,Pos), Time(h,Past), relationRole(location,T13), relationRole(theme,T14), relationRole(theme,T15), relationRole(theme,T16), relationRole(theme,T19), Factuality(h,Factual)]) 
+
+» ACTORS
+# T1 -> Charles Michel
+# T10 -> todos os esforços
+# T12 -> o primeiro-ministro
+# T13 -> cerimónia solene
+# T14 -> o rei Filipe
+# T15 -> a rainha Matilde
+# T16 -> membros do Governo
+# T19 -> Jean-Claude Juncker
+# T2 -> Charles Michel
+# T31 -> plena luz
+# T32 -> O governo e as autoridades competentes envidarão todos os esforços para fazer luz sobre os atentados
+# T4 -> O primeiro-ministro
+# T8 -> O governo
+# T9 -> as autoridades competentes
+# T17 -> o presidente
+# T20 -> os atentados
+# T5 -> Bélgica
+# T7 -> os serviços de segurança belgas
+# T11 -> os atentados
+# T3 -> Bruxelas
+# T21 -> hoje
+
+» RELATIONS
+# T1 - agent - E1
+# T9 - agent - E2
+# T10 - theme - E2
+# T2 - agent - E3
+# T12 - agent - E7
+# T21 - time - E1
+# T31 - theme - E1
+# T8 - agent - E2
+# T10 - goal - E4
+# T13 - location - E7
+# T13 - location - E8
+# T14 - theme - E8
+# T15 - theme - E8
+# T16 - theme - E8
+# T19 - theme - E8
+# T32 - theme - E3
+# T2 - sameHead - T1
+# T2 - objIdentity - T1
+# T3 - partOf - T5
+# T1 - objIdentity - T4
+# T12 - sameHead - T4
+# T12 - objIdentity - T4
+# T19 - objIdentity - T17
+# T16 - partOf - T8
+# T9 - objIdentity - T7
+# T11 - sameHead - T20
+# T11 - objIdentity - T20

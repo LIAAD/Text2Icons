@@ -1,0 +1,145 @@
+» EVENTS
+# E1 (está a ser julgada) -> a
+# FOL:  exists Factual Occurrence Pos Present a.(event(a) & eventClass(a,Occurrence) & Tense(a,Present) & Polarity(a,Pos) & Time(a,Present) & relationRole(experiencer,T2) & relationRole(location,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Present), Polarity(a,Pos), Time(a,Present), relationRole(experiencer,T2), relationRole(location,T3), Factuality(a,Factual)]) 
+
+# E2 (solicitou) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & occursBefore(b,g) & relationRole(agent,T2) & relationRole(theme,T5) & relationRole(goal,T4) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), occursBefore(b,g), relationRole(agent,T2), relationRole(theme,T5), relationRole(goal,T4), Factuality(b,Factual)]) 
+
+# E3 (alegando) -> c
+# FOL:  exists Factual Non_Factual Occurrence Past Pos PresPart c.(event(c) & eventClass(c,Occurrence) & Tense(c,PresPart) & Polarity(c,Pos) & Time(c,Past) & relationRole(agent,T2) & relationRole(theme,T9) & Factuality(c,Non_Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,PresPart), Polarity(c,Pos), Time(c,Past), relationRole(agent,T2), relationRole(theme,T9), Factuality(c,Non_Factual)]) 
+
+# E4 (assegurar) -> d
+# FOL:  exists Factual Infinitive Occurrence Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Infinitive) & Polarity(d,Pos) & relationRole(theme,T11) & relationRole(agent,T12) & relationRole(theme,T9) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Infinitive), Polarity(d,Pos), relationRole(theme,T11), relationRole(agent,T12), relationRole(theme,T9), Factuality(d,Factual)]) 
+
+# E6 (não quer impedir) -> e
+# FOL:  exists Factual Neg Occurrence Present e.(event(e) & eventClass(e,Occurrence) & Tense(e,Present) & Polarity(e,Neg) & Time(e,Present) & relationRole(theme,T13) & relationRole(goal,T16) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Present), Polarity(e,Neg), Time(e,Present), relationRole(theme,T13), relationRole(goal,T16), Factuality(e,Factual)]) 
+
+# E7 (proferir) -> f
+# FOL:  exists Factual Infinitive Occurrence Pos Present f.(event(f) & eventClass(f,Occurrence) & Tense(f,Infinitive) & Polarity(f,Pos) & Time(f,Present) & relationRole(theme,T17) & relationRole(agent,T16) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Infinitive), Polarity(f,Pos), Time(f,Present), relationRole(theme,T17), relationRole(agent,T16), Factuality(f,Factual)]) 
+
+# E8 (poderá ser conhecida) -> g
+# FOL:  exists Factual Future Future1 Non_Factual Occurrence Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,Future1) & Polarity(g,Pos) & Time(g,Future) & occursAfter(g,b) & relationRole(time,T19) & relationRole(theme,T18) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Future1), Polarity(g,Pos), Time(g,Future), occursAfter(g,b), relationRole(time,T19), relationRole(theme,T18), Factuality(g,Non_Factual)]) 
+
+# E9 (sejam julgados) -> h
+# FOL:  exists Factual Future Non_Factual Occurrence Pos Present h.(event(h) & eventClass(h,Occurrence) & Tense(h,Present) & Polarity(h,Pos) & Time(h,Future) & relationRole(location,T21) & relationRole(theme,T20) & Factuality(h,Non_Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Present), Polarity(h,Pos), Time(h,Future), relationRole(location,T21), relationRole(theme,T20), Factuality(h,Non_Factual)]) 
+
+# E10 (considerar) -> i
+# FOL:  exists Factual Infinitive Occurrence Pos Present i.(event(i) & eventClass(i,Occurrence) & Tense(i,Infinitive) & Polarity(i,Pos) & Time(i,Present) & relationRole(theme,T26) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Infinitive), Polarity(i,Pos), Time(i,Present), relationRole(theme,T26), Factuality(i,Factual)]) 
+
+# E11 (se cumprem) -> j
+# FOL:  exists Factual Occurrence Pos Present j.(event(j) & eventClass(j,Occurrence) & Tense(j,Present) & Polarity(j,Pos) & Time(j,Present) & relationRole(theme,T22) & relationRole(theme,E10) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Present), Polarity(j,Pos), Time(j,Present), relationRole(theme,T22), relationRole(theme,E10), Factuality(j,Factual)]) 
+
+# E12 (reitera) -> k
+# FOL:  exists Factual Occurrence Pos Present k.(event(k) & eventClass(k,Occurrence) & Tense(k,Present) & Polarity(k,Pos) & Time(k,Present) & occursBefore(k,l) & relationRole(theme,T27) & relationRole(theme,T26) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,Occurrence), Tense(k,Present), Polarity(k,Pos), Time(k,Present), occursBefore(k,l), relationRole(theme,T27), relationRole(theme,T26), Factuality(k,Factual)]) 
+
+# E13 (repetidas) -> l
+# FOL:  exists Factual Occurrence Past PastPart Pos l.(event(l) & eventClass(l,Occurrence) & Tense(l,PastPart) & Polarity(l,Pos) & Time(l,Past) & relationRole(location,T30) & relationRole(location,T29) & relationRole(theme,T27) & Factuality(l,Factual))
+# DRS:  ([l],[event(l), eventClass(l,Occurrence), Tense(l,PastPart), Polarity(l,Pos), Time(l,Past), relationRole(location,T30), relationRole(location,T29), relationRole(theme,T27), Factuality(l,Factual)]) 
+
+# E14 (tem sido marcado) -> m
+# FOL:  exists Factual In_or_After_Past Occurrence Past Pos Present m.(event(m) & eventClass(m,Occurrence) & Tense(m,Present) & Polarity(m,Pos) & Time(m,In_or_After_Past) & relationRole(theme,T32) & relationRole(theme,T33) & Factuality(m,Factual))
+# DRS:  ([m],[event(m), eventClass(m,Occurrence), Tense(m,Present), Polarity(m,Pos), Time(m,In_or_After_Past), relationRole(theme,T32), relationRole(theme,T33), Factuality(m,Factual)]) 
+
+» ACTORS
+# T1 -> A ex-ministra timorense
+# T11 -> justiça
+# T12 -> sistema judicial timorense
+# T13 -> O requerimento
+# T14 -> ex-ministra das Finanças
+# T16 -> o Tribunal de Díli
+# T17 -> o acórdão
+# T18 -> a sentença
+# T2 -> Emília Pires
+# T20 -> eventuais recursos
+# T21 -> tribunais portugueses
+# T22 -> as condições previstas
+# T23 -> lei
+# T24 -> essa transmissão
+# T25 -> processo penal
+# T26 -> o requerimento
+# T27 -> declarações
+# T28 -> Emília Pires
+# T29 -> dentro do tribunal
+# T3 -> Timor-Leste
+# T30 -> fora
+# T31 -> seu
+# T32 -> processo-crime
+# T33 -> violações sistemáticas
+# T34 -> seus
+# T35 -> direitos fundamentais
+# T4 -> tribunal
+# T5 -> delegação
+# T6 -> seu
+# T7 -> processo
+# T8 -> Portugal
+# T9 -> falta de capacidade ou vontade
+# T19 -> até final do ano
+
+» RELATIONS
+# T2 - experiencer - E1
+# T3 - location - E1
+# T2 - agent - E2
+# T5 - theme - E2
+# T8 - goal - T5
+# T2 - agent - E3
+# T9 - theme - E3
+# T11 - theme - E4
+# T13 - theme - E6
+# T16 - goal - E6
+# T17 - theme - E7
+# T16 - agent - E7
+# T21 - location - E9
+# T20 - theme - E9
+# T22 - theme - E11
+# T27 - theme - E12
+# T30 - location - E13
+# T29 - location - E13
+# T32 - theme - E14
+# T4 - goal - E2
+# T12 - agent - E4
+# T19 - time - E8
+# T18 - theme - E8
+# T26 - theme - E12
+# T27 - theme - E13
+# T33 - theme - E14
+# T7 - theme - T5
+# T12 - source - T9
+# E4 - theme - T9
+# T14 - source - T13
+# T26 - theme - E10
+# E11 - theme - E10
+# T23 - source - T22
+# T24 - goal - T22
+# T25 - theme - T24
+# T28 - source - T27
+# T35 - theme - T33
+# T6 - pronominal - T2
+# T6 - objIdentity - T2
+# T31 - pronominal - T28
+# T31 - objIdentity - T28
+# T34 - pronominal - T28
+# T34 - objIdentity - T28
+# T2 - objIdentity - T1
+# T14 - objIdentity - T1
+# T16 - partOf - T3
+# T21 - partOf - T8
+# T24 - objIdentity - T5
+# T25 - objIdentity - T7
+# T26 - sameHead - T13
+# T26 - objIdentity - T13
+# T28 - objIdentity - T14
+# T28 - sameHead - T2
+# T28 - objIdentity - T2
+# T4 - partOf - T12
+# T32 - objIdentity - T7

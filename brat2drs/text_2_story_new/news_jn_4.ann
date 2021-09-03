@@ -1,0 +1,337 @@
+T1	ACTOR 0 20	Dois polícias turcos
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Actor_Type T1 Per
+A4	Involvement T1 >1
+T2	ACTOR 23 34	uma criança
+A5	Lexical_Head T2 Noun
+A6	Individuation T2 Individual
+A7	Actor_Type T2 Per
+A8	Involvement T2 1
+T3	EVENT 35 43	morreram
+E1	EVENT:T3 
+A9	Class E1 Occurrence
+A10	Tense E1 Past1
+A11	Polarity E1 Pos
+A12	Time E1 Past
+A13	Factuality E1 Factual
+T4	TIME_X3 44 62	esta segunda-feira
+T6	ACTOR 80 103	uma viatura armadilhada
+A17	Lexical_Head T6 Noun
+A18	Individuation T6 Individual
+A19	Actor_Type T6 Obj
+A20	Involvement T6 1
+T7	ACTOR 104 123	perto de Diyarbakir
+A21	Lexical_Head T7 Noun
+A22	Individuation T7 Individual
+A23	Actor_Type T7 Loc
+A24	Involvement T7 1
+T8	EVENT 125 134	atribuído
+E3	EVENT:T8 
+A25	Class E3 Occurrence
+A26	Tense E3 PastPart
+A27	Polarity E3 Pos
+A28	Time E3 Past
+A29	Factuality E3 Factual
+T9	ACTOR 139 147	rebeldes
+A30	Lexical_Head T9 Noun
+A31	Individuation T9 Individual
+A32	Actor_Type T9 Per
+A33	Involvement T9 >1
+T10	ACTOR 151 189	Partido dos Trabalhadores do Curdistão
+A34	Lexical_Head T10 Noun
+A35	Individuation T10 Individual
+A36	Actor_Type T10 Org
+A37	Involvement T10 1
+T12	EVENT 218 224	causou
+E5	EVENT:T12 
+A41	Tense E5 Past1
+A42	Polarity E5 Pos
+A43	Time E5 Past
+A44	Factuality E5 Factual
+T13	ACTOR 225 235	25 feridos
+A45	Lexical_Head T13 Noun
+A46	Individuation T13 Individual
+A47	Actor_Type T13 Per
+A48	Involvement T13 >1
+T14	ACTOR 237 252	cinco dos quais
+A49	Lexical_Head T14 Pronoun
+A50	Individuation T14 Individual
+A51	Actor_Type T14 Per
+A52	Involvement T14 >1
+T15	ACTOR 253 270	agentes policiais
+A53	Lexical_Head T15 Noun
+A54	Individuation T15 Individual
+A55	Actor_Type T15 Per
+A56	Involvement T15 >1
+T16	EVENT 272 276	teve
+E6	EVENT:T16 
+A57	Class E6 Occurrence
+A58	Tense E6 Past1
+A59	Polarity E6 Pos
+A60	Time E6 Past
+A61	Factuality E6 Factual
+T17	ACTOR 287 318	um posto de controlo da polícia
+A62	Lexical_Head T17 Noun
+A63	Individuation T17 Individual
+A64	Actor_Type T17 Loc
+A65	Involvement T17 1
+T19	ACTOR 322 333	autoestrada
+A70	Lexical_Head T19 Noun
+A71	Individuation T19 Individual
+A72	Actor_Type T19 Loc
+A73	Involvement T19 1
+T20	ACTOR 334 337	que
+A74	Lexical_Head T20 Pronoun
+A75	Individuation T20 Individual
+A76	Actor_Type T20 Loc
+A77	Involvement T20 1
+T21	EVENT 338 342	liga
+E7	EVENT:T21 
+A78	Class E7 Occurrence
+A79	Tense E7 Present
+A80	Polarity E7 Pos
+A81	Time E7 Present
+A82	Factuality E7 Factual
+T22	ACTOR 343 353	Diyarbakir
+A83	Lexical_Head T22 Noun
+A84	Individuation T22 Individual
+A85	Actor_Type T22 Loc
+A86	Involvement T22 1
+T23	ACTOR 356 362	Batman
+A87	Lexical_Head T23 Noun
+A88	Individuation T23 Individual
+A89	Actor_Type T23 Loc
+A90	Involvement T23 1
+T28	EVENT 431 438	ocorreu
+E10	EVENT:T28 
+A107	Class E10 Occurrence
+A108	Tense E10 Past1
+A109	Polarity E10 Pos
+A110	Time E10 Past
+A111	Factuality E10 Factual
+T29	TIME_X3 439 456	cinco dias depois
+T31	ACTOR 475 480	bomba
+A115	Lexical_Head T31 Noun
+A116	Individuation T31 Individual
+A117	Actor_Type T31 Obj
+A118	Involvement T31 1
+T32	ACTOR 496 514	sudeste da Turquia
+A119	Lexical_Head T32 Noun
+A120	Individuation T32 Individual
+A121	Actor_Type T32 Loc
+A122	Involvement T32 1
+T33	EVENT 516 526	atribuídos
+E12	EVENT:T33 
+A123	Class E12 Occurrence
+A124	Tense E12 PastPart
+A125	Polarity E12 Pos
+A126	Time E12 Past
+A127	Factuality E12 Factual
+T34	ACTOR 530 533	PKK
+A128	Lexical_Head T34 Noun
+A129	Individuation T34 Individual
+A130	Actor_Type T34 Org
+A131	Involvement T34 1
+T35	ACTOR 191 194	PKK
+A132	Lexical_Head T35 Noun
+A133	Individuation T35 Individual
+A134	Actor_Type T35 Loc
+A135	Involvement T35 1
+T36	EVENT 539 547	causaram
+E13	EVENT:T36 
+A136	Class E13 Occurrence
+A137	Tense E13 Past1
+A138	Polarity E13 Pos
+A139	Time E13 Past
+A140	Factuality E13 Factual
+T37	ACTOR 548 570	pelo menos oito mortos
+A141	Lexical_Head T37 Noun
+A142	Individuation T37 Individual
+A143	Actor_Type T37 Per
+A144	Involvement T37 >1
+T38	TIME_X3 590 607	Nos últimos meses
+T39	ACTOR 609 618	o Governo
+A145	Lexical_Head T39 Noun
+A146	Individuation T39 Individual
+A147	Actor_Type T39 Org
+A148	Involvement T39 1
+T40	EVENT 619 627	realizou
+E14	EVENT:T40 
+A149	Class E14 Occurrence
+A150	Tense E14 Past1
+A151	Polarity E14 Pos
+A152	Factuality E14 Factual
+T42	ACTOR 655 660	o PKK
+A156	Lexical_Head T42 Noun
+A157	Individuation T42 Individual
+A158	Actor_Type T42 Org
+A159	Involvement T42 1
+T43	EVENT 666 673	afastar
+E16	EVENT:T43 
+A160	Class E16 Occurrence
+A161	Tense E16 Infinitive
+A162	Polarity E16 Pos
+A163	Time E16 Past
+A164	Factuality E16 Factual
+T44	ACTOR 674 695	os combatentes curdos
+A165	Lexical_Head T44 Noun
+A166	Individuation T44 Individual
+A167	Actor_Type T44 Per
+A168	Involvement T44 >1
+T45	ACTOR 699 712	zonas urbanas
+A169	Lexical_Head T45 Noun
+A170	Individuation T45 Individual
+A171	Actor_Type T45 Loc
+A172	Involvement T45 >1
+T47	EVENT 728 731	fez
+E18	EVENT:T47 
+A176	Class E18 Occurrence
+A177	Tense E18 Past1
+A178	Polarity E18 Pos
+A179	Time E18 Past
+A180	Factuality E18 Factual
+T48	ACTOR 732 753	mais de 40.000 mortos
+A181	Lexical_Head T48 Noun
+A182	Individuation T48 Individual
+A183	Actor_Type T48 Per
+A184	Involvement T48 >1
+T5	ACTOR 64 75	um atentado
+A14	Lexical_Head T5 Noun
+A15	Individuation T5 Individual
+A16	Actor_Type T5 Sit
+A189	Involvement T5 1
+R1	OBJ_REL_objIdentity Arg1:T35 Arg2:T10	
+T11	ACTOR 197 205	O ataque
+A38	Lexical_Head T11 Noun
+A39	Individuation T11 Individual
+A40	Actor_Type T11 Sit
+A190	Involvement T11 1
+R2	REF_REL_synonymy Arg1:T11 Arg2:T5	
+R3	OBJ_REL_objIdentity Arg1:T11 Arg2:T5	
+R4	OBJ_REL_partOf Arg1:T14 Arg2:T13	
+T51	ACTOR 282 286	alvo
+A191	Lexical_Head T51 Noun
+A192	Individuation T51 Individual
+A193	Actor_Type T51 Sit
+A194	Involvement T51 1
+R5	REF_REL_pronominal Arg1:T20 Arg2:T19	
+R6	OBJ_REL_objIdentity Arg1:T20 Arg2:T19	
+T52	ACTOR 583 588	civis
+A195	Lexical_Head T52 Noun
+A196	Individuation T52 Individual
+A197	Actor_Type T52 Per
+A198	Involvement T52 >1
+R8	REF_REL_sameHead Arg1:T22 Arg2:T7	
+R9	OBJ_REL_objIdentity Arg1:T22 Arg2:T7	
+T27	ACTOR 420 430	O atentado
+A104	Lexical_Head T27 Noun
+A105	Actor_Type T27 Sit
+A106	Involvement T27 1
+R10	REF_REL_sameHead Arg1:T27 Arg2:T5	
+R11	OBJ_REL_objIdentity Arg1:T27 Arg2:T5	
+T30	ACTOR 460 472	dois ataques
+A112	Lexical_Head T30 Noun
+A113	Individuation T30 Individual
+A114	Actor_Type T30 Sit
+A199	Involvement T30 >1
+R12	REF_REL_sameHead Arg1:T34 Arg2:T35	
+R13	OBJ_REL_objIdentity Arg1:T34 Arg2:T35	
+R14	OBJ_REL_partOf Arg1:T52 Arg2:T37	
+T41	ACTOR 628 647	operações militares
+A153	Lexical_Head T41 Noun
+A154	Individuation T41 Individual
+A155	Actor_Type T41 Sit
+A200	Involvement T41 >1
+R15	REF_REL_sameHead Arg1:T42 Arg2:T34	
+R16	OBJ_REL_objIdentity Arg1:T42 Arg2:T34	
+T46	ACTOR 714 724	O conflito
+A173	Lexical_Head T46 Noun
+A174	Individuation T46 Individual
+A175	Actor_Type T46 Sit
+A201	Involvement T46 1
+T50	ACTOR 762 786	início da rebelião curda
+A185	Individuation T50 Individual
+A186	Actor_Type T50 Sit
+A187	Involvement T50 1
+R17	OBJ_REL_partOf Arg1:T9 Arg2:T10	
+R18	OBJ_REL_objIdentity Arg1:T15 Arg2:T14	
+R19	OBJ_REL_objIdentity Arg1:T51 Arg2:T17	
+R20	OBJ_REL_objIdentity Arg1:T44 Arg2:T9	
+R21	TLINK_simultaneous Arg1:E5 Arg2:E1	
+R22	TLINK_includes Arg1:E6 Arg2:E5	
+R23	TLINK_after Arg1:E3 Arg2:E1	
+R24	TLINK_includes Arg1:E7 Arg2:E6	
+T53	ACTOR 535 538	que
+A188	Lexical_Head T53 Pronoun
+A202	Individuation T53 Individual
+A203	Actor_Type T53 Sit
+A204	Involvement T53 >1
+R28	REF_REL_pronominal Arg1:T53 Arg2:T30	
+R29	OBJ_REL_objIdentity Arg1:T53 Arg2:T30	
+R31	TLINK_includes Arg1:E14 Arg2:E10	
+A205	Time_Type T4 Date
+A206	FunctionInDocument T4 Publication_Time
+A207	Value T4 Date
+#1	AnnotatorNotes T4	value="2016-08-15"
+A208	Time_Type T29 Date
+A209	FunctionInDocument T29 None
+A210	Value T29 Date
+#2	AnnotatorNotes T29	value="5D"
+T49	TIME_X3 754 759;790 794	desde 1984
+A211	Time_Type T49 Duration
+A212	FunctionInDocument T49 None
+A213	Value T49 Duration
+A214	Mod T49 On_or_After
+A215	Time_Type T38 Duration
+A216	FunctionInDocument T38 None
+A217	Value T38 Duration
+A218	Mod T38 On_or_After
+#3	AnnotatorNotes T38	value="PXM"
+R34	TLINK_includes Arg1:T4 Arg2:E1	
+R27	TLINK_before Arg1:E12 Arg2:E10	
+R30	TLINK_before Arg1:E13 Arg2:E12	
+R35	TLINK_includes Arg1:T38 Arg2:E14	
+R32	TLINK_isIncluded Arg1:E16 Arg2:E14	
+R33	TLINK_includes Arg1:E18 Arg2:E14	
+R36	SEMROLE_theme Arg1:T1 Arg2:E1	
+R37	SEMROLE_theme Arg1:T2 Arg2:E1	
+R38	SEMROLE_time Arg1:T4 Arg2:E1	
+R39	SEMROLE_source Arg1:T5 Arg2:E1	
+R40	SEMROLE_instrument Arg1:T6 Arg2:T5	
+R41	SEMROLE_theme Arg1:T5 Arg2:E3	
+R42	SEMROLE_goal Arg1:T9 Arg2:E3	
+R43	SEMROLE_source Arg1:T11 Arg2:E5	
+R44	SEMROLE_experiencer Arg1:T13 Arg2:E5	
+R45	SEMROLE_theme Arg1:T11 Arg2:E6	
+R46	SEMROLE_location Arg1:T17 Arg2:E6	
+R47	SEMROLE_theme Arg1:T51 Arg2:E6	
+R49	SEMROLE_source Arg1:T22 Arg2:E7	
+R50	SEMROLE_goal Arg1:T23 Arg2:E7	
+R52	SEMROLE_theme Arg1:T27 Arg2:E10	
+R53	SEMROLE_theme Arg1:T30 Arg2:E12	
+R54	SEMROLE_time Arg1:T29 Arg2:E10	
+R55	SEMROLE_goal Arg1:T34 Arg2:E12	
+R56	SEMROLE_source Arg1:T30 Arg2:E13	
+R57	SEMROLE_instrument Arg1:T31 Arg2:E13	
+R58	SEMROLE_experiencer Arg1:T37 Arg2:E13	
+R59	SEMROLE_time Arg1:T38 Arg2:E14	
+R60	SEMROLE_agent Arg1:T39 Arg2:E14	
+R61	SEMROLE_theme Arg1:T41 Arg2:E14	
+R62	SEMROLE_theme Arg1:T44 Arg2:E16	
+R63	SEMROLE_source Arg1:T45 Arg2:E16	
+R64	SEMROLE_source Arg1:T46 Arg2:E18	
+R65	SEMROLE_theme Arg1:T48 Arg2:E18	
+R66	SEMROLE_location Arg1:T7 Arg2:T5	
+R67	SEMROLE_goal Arg1:T17 Arg2:E6	
+R68	SEMROLE_location Arg1:T19 Arg2:T17	
+R48	SEMROLE_theme Arg1:T19 Arg2:E7	
+R69	SEMROLE_location Arg1:T32 Arg2:T30	
+R70	SEMROLE_source Arg1:T10 Arg2:T9	
+R7	TLINK_isIncluded Arg1:E10 Arg2:E7	
+R25	SEMROLE_time Arg1:T29 Arg2:T30	
+R26	SEMROLE_instrument Arg1:T31 Arg2:T30	
+R51	SEMROLE_goal Arg1:T42 Arg2:T41	
+R71	SEMROLE_agent Arg1:T39 Arg2:E16	
+R72	SEMROLE_time Arg1:T49 Arg2:E18	
+R73	SEMROLE_time Arg1:T49 Arg2:T50	

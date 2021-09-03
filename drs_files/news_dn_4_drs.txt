@@ -1,0 +1,113 @@
+» EVENTS
+# E1 (anunciou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(agent,T1) & relationRole(time,T2) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(agent,T1), relationRole(time,T2), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E3 (realizadas) -> b
+# FOL:  exists Factual Occurrence Past PastPart Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & relationRole(theme,T11) & relationRole(agent,T1) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), relationRole(theme,T11), relationRole(agent,T1), Factuality(b,Factual)]) 
+
+# E4 (decorreram) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(theme,T11) & relationRole(time,T14) & relationRole(time,T15) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(theme,T11), relationRole(time,T14), relationRole(time,T15), Factuality(c,Factual)]) 
+
+# E5 (ascendeu) -> d
+# FOL:  exists Factual Occurrence Past Past1 Pos d.(event(d) & eventClass(d,Occurrence) & Tense(d,Past1) & Polarity(d,Pos) & Time(d,Past) & occursAfter(d,c) & relationRole(theme,T29) & relationRole(theme,T16) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Past1), Polarity(d,Pos), Time(d,Past), occursAfter(d,c), relationRole(theme,T29), relationRole(theme,T16), Factuality(d,Factual)]) 
+
+# E6 (foi detido) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(theme,T18) & relationRole(agent,T1) & relationRole(location,T17) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(theme,T18), relationRole(agent,T1), relationRole(location,T17), Factuality(e,Factual)]) 
+
+# E7 (apreendido) -> f
+# FOL:  exists Factual Occurrence Past PastPart f.(event(f) & eventClass(f,Occurrence) & Tense(f,PastPart) & Time(f,Past) & relationRole(theme,T19) & relationRole(agent,T1) & relationRole(location,T17) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,PastPart), Time(f,Past), relationRole(theme,T19), relationRole(agent,T1), relationRole(location,T17), Factuality(f,Factual)]) 
+
+# E8 (tendo sido apreendidas) -> g
+# FOL:  exists Factual Occurrence Past PastPerfect Pos g.(event(g) & eventClass(g,Occurrence) & Tense(g,PastPerfect) & Polarity(g,Pos) & Time(g,Past) & occursBefore(g,h) & relationRole(theme,T20) & relationRole(agent,T1) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PastPerfect), Polarity(g,Pos), Time(g,Past), occursBefore(g,h), relationRole(theme,T20), relationRole(agent,T1), Factuality(g,Factual)]) 
+
+# E9 (Foi instaurado) -> h
+# FOL:  exists Factual Occurrence Past Past1 Pos h.(event(h) & eventClass(h,Occurrence) & Tense(h,Past1) & Polarity(h,Pos) & Time(h,Past) & occursAfter(h,g) & occursBefore(h,i) & relationRole(theme,T30) & relationRole(agent,T1) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Past1), Polarity(h,Pos), Time(h,Past), occursAfter(h,g), occursBefore(h,i), relationRole(theme,T30), relationRole(agent,T1), Factuality(h,Factual)]) 
+
+# E10 (foram "apreendidos) -> i
+# FOL:  exists Factual Occurrence Past Past1 Pos i.(event(i) & eventClass(i,Occurrence) & Tense(i,Past1) & Polarity(i,Pos) & Time(i,Past) & relationRole(location,T32) & relationRole(theme,T34) & relationRole(agent,T1) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,Occurrence), Tense(i,Past1), Polarity(i,Pos), Time(i,Past), relationRole(location,T32), relationRole(theme,T34), relationRole(agent,T1), Factuality(i,Factual)]) 
+
+» ACTORS
+# T1 -> A ASAE
+# T11 -> estas ações
+# T12 -> ações de controlo de trânsito agrícola
+# T16 -> mais de 12 mil euros
+# T17 -> Nestas ações
+# T18 -> um indivíduo
+# T19 -> um veículo de mercadorias
+# T20 -> as cerca de sete toneladas de uvas
+# T21 -> tentativa de introdução
+# T22 -> uvas
+# T23 -> zona demarcada
+# T26 -> alvará de específico
+# T27 -> aquele transporte
+# T29 -> o valor total das apreensões
+# T3 -> a apreensão
+# T30 -> um processo-crime
+# T31 -> falsificação de documentos
+# T32 -> industria de vinhos
+# T33 -> onde
+# T34 -> 5.000 litros de mosto de uvas
+# T4 -> cerca de sete toneladas de uvas
+# T5 -> 5.000 litros de mosto
+# T6 -> Amarante
+# T7 -> Melgaço
+# T8 -> Norte do país
+# T15 -> dia 25 de setembro
+# T14 -> dia 23
+# T2 -> hoje
+
+» RELATIONS
+# T1 - agent - E1
+# T2 - time - E1
+# T3 - theme - E1
+# T6 - location - T3
+# T7 - location - T3
+# T11 - theme - E4
+# T14 - time - E4
+# T15 - time - E4
+# T29 - theme - E5
+# T18 - theme - E6
+# T19 - theme - E7
+# T20 - theme - E8
+# T30 - theme - E9
+# T32 - location - E10
+# T34 - theme - E10
+# T4 - theme - T3
+# T5 - theme - T3
+# T11 - theme - E3
+# T16 - theme - E5
+# T1 - agent - E3
+# T1 - agent - E6
+# T17 - location - E6
+# T1 - agent - E7
+# T17 - location - E7
+# T22 - instrument - T21
+# T23 - goal - T21
+# T26 - goal - T27
+# T1 - agent - E8
+# T1 - agent - E9
+# T32 - location - T31
+# T1 - agent - E10
+# T11 - objIdentity - T12
+# T20 - sameHead - T4
+# T20 - objIdentity - T4
+# T33 - pronominal - T32
+# T33 - objIdentity - T32
+# T34 - sameHead - T5
+# T34 - objIdentity - T5
+# T7 - partOf - T8
+# T6 - partOf - T8
+# T17 - objIdentity - T11
+# T17 - sameHead - T11
+# T22 - objIdentity - T4
+# T27 - objIdentity - T19
+# T20 - objIdentity - T22

@@ -1,0 +1,5017 @@
+{
+    "icons": [
+        {
+            "keyTerm": "man",
+            "variants": [
+                "man",
+                "adult_male"
+            ],
+            "img": "man.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "man_police",
+            "variants": [
+                "police",
+                "police_force",
+                "constabulary",
+                "law"
+            ],
+            "img": "man_police.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "police_officer",
+            "variants": [
+                "police",
+                "police_force",
+                "constabulary",
+                "law"
+            ],
+            "img": "police_officer.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "police_car",
+            "variants": [
+                "police",
+                "police_force",
+                "constabulary",
+                "law"
+            ],
+            "img": "police_car.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "car_police",
+            "variants": [
+                "police",
+                "police_force",
+                "constabulary",
+                "law"
+            ],
+            "img": "car_police.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bandit_crime",
+            "variants": [
+                "bandit",
+                "brigand"
+            ],
+            "img": "bandit_crime.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bank_crime",
+            "variants": [
+                "crime",
+                "offense",
+                "criminal_offense",
+                "criminal_offence",
+                "offence",
+                "law-breaking"
+            ],
+            "img": "bank_crime.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "break in_burglar",
+            "variants": [
+                "burglary"
+            ],
+            "img": "break in_burglar.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "break in_burglary",
+            "variants": [
+                "burglary"
+            ],
+            "img": "break in_burglary.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "burglary_criminal",
+            "variants": [
+                "burglary",
+                "assailant"
+            ],
+            "img": "burglary_criminal.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "car_theft",
+            "variants": [
+                "larceny",
+                "theft",
+                "thievery",
+                "thieving",
+                "stealing"
+            ],
+            "img": "car_theft.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "car_criminal",
+            "variants": [
+                "larceny",
+                "theft",
+                "thievery",
+                "thieving",
+                "stealing"
+            ],
+            "img": "car_criminal.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "criminal_robber",
+            "variants": [
+                "larceny",
+                "theft",
+                "thievery",
+                "thieving",
+                "stealing"
+            ],
+            "img": "criminal_robber.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "criminal_guns",
+            "variants": [
+                "gun"
+            ],
+            "img": "criminal_guns.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "weapon_guns",
+            "variants": [
+                "gun"
+            ],
+            "img": "weapon_guns.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "arrest_capture",
+            "variants": [],
+            "img": "arrest_capture.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "arrest_crime",
+            "variants": [
+                "apprehension",
+                "arrest",
+                "catch",
+                "collar",
+                "pinch",
+                "taking_into_custody"
+            ],
+            "img": "arrest_crime.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "small_airplane",
+            "variants": [
+                "airplane",
+                "aeroplane",
+                "plane"
+            ],
+            "img": "small_airplane.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "airplane_arriving",
+            "variants": [
+                "airplane",
+                "aeroplane",
+                "plane"
+            ],
+            "img": "airplane_arriving.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "airplane",
+            "variants": [
+                "airplane",
+                "aeroplane",
+                "plane"
+            ],
+            "img": "airplane.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "man_playing_water_polo",
+            "variants": [
+                "man",
+                "adult_male"
+            ],
+            "img": "man_playing_water_polo.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clock1",
+            "variants": [
+                "clock"
+            ],
+            "img": "clock1.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "stopwatch_clock",
+            "variants": [
+                "clock"
+            ],
+            "img": "stopwatch_clock.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "alarm_clock",
+            "variants": [
+                "clock"
+            ],
+            "img": "alarm_clock.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dog_pet",
+            "variants": [
+                "dog",
+                "domestic_dog",
+                "Canis_familiaris"
+            ],
+            "img": "dog_pet.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dog",
+            "variants": [
+                "dog",
+                "domestic_dog",
+                "Canis_familiaris"
+            ],
+            "img": "dog.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dog_labrador",
+            "variants": [
+                "dog",
+                "domestic_dog",
+                "Canis_familiaris"
+            ],
+            "img": "dog_labrador.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "couple",
+            "variants": [
+                "couple",
+                "twosome",
+                "duo",
+                "duet"
+            ],
+            "img": "couple.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "couple_happy",
+            "variants": [
+                "couple",
+                "twosome",
+                "duo",
+                "duet"
+            ],
+            "img": "couple_happy.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tent",
+            "variants": [
+                "tent",
+                "collapsible_shelter"
+            ],
+            "img": "tent.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "camping_tent",
+            "variants": [
+                "tent",
+                "collapsible_shelter"
+            ],
+            "img": "camping_tent.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "camera",
+            "variants": [
+                "camera",
+                "photographic_camera"
+            ],
+            "img": "camera.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "camera_display",
+            "variants": [
+                "camera",
+                "photographic_camera"
+            ],
+            "img": "camera_display.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "woman",
+            "variants": [
+                "woman",
+                "adult_female"
+            ],
+            "img": "woman.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "girl_woman",
+            "variants": [
+                "woman",
+                "adult_female"
+            ],
+            "img": "girl_woman.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "woman_biking_type_6",
+            "variants": [
+                "woman",
+                "adult_female"
+            ],
+            "img": "woman_biking_type_6.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "atack_cloud",
+            "variants": [],
+            "img": "atack_cloud.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fight_aggression",
+            "variants": [
+                "battle",
+                "conflict",
+                "fight",
+                "engagement"
+            ],
+            "img": "fight_aggression.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "firefighter",
+            "variants": [
+                "battle",
+                "conflict",
+                "fight",
+                "engagement"
+            ],
+            "img": "firefighter.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "punch",
+            "variants": [
+                "punch",
+                "clout",
+                "poke",
+                "lick",
+                "biff",
+                "slug"
+            ],
+            "img": "punch.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "boxer_boxing",
+            "variants": [
+                "punch",
+                "clout",
+                "poke",
+                "lick",
+                "biff",
+                "slug"
+            ],
+            "img": "boxer_boxing.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "risk_danger",
+            "variants": [
+                "menace",
+                "threat"
+            ],
+            "img": "risk_danger.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "alert_danger",
+            "variants": [
+                "danger"
+            ],
+            "img": "alert_danger.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "danger_disaster",
+            "variants": [
+                "catastrophe",
+                "disaster"
+            ],
+            "img": "danger_disaster.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fire",
+            "variants": [
+                "fire"
+            ],
+            "img": "fire.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "building_danger",
+            "variants": [
+                "fire"
+            ],
+            "img": "building_danger.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fire_engine",
+            "variants": [
+                "fire"
+            ],
+            "img": "fire_engine.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "animal_nature",
+            "variants": [
+                "animal",
+                "animate_being",
+                "beast",
+                "brute",
+                "creature",
+                "fauna"
+            ],
+            "img": "animal_nature.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "potable_water",
+            "variants": [
+                "water",
+                "H2O"
+            ],
+            "img": "potable_water.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "drops_water",
+            "variants": [
+                "water",
+                "H2O"
+            ],
+            "img": "drops_water.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cloud_with_rain",
+            "variants": [
+                "rain",
+                "rainfall"
+            ],
+            "img": "cloud_with_rain.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "drop_rain",
+            "variants": [
+                "rain",
+                "rainfall"
+            ],
+            "img": "drop_rain.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "umbrella_with_rain_drops",
+            "variants": [
+                "rain",
+                "rainfall"
+            ],
+            "img": "umbrella_with_rain_drops.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "euro",
+            "variants": [
+                "euro"
+            ],
+            "img": "euro.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cash_euro",
+            "variants": [
+                "euro"
+            ],
+            "img": "cash_euro.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "banknote_with_euro_sign",
+            "variants": [
+                "euro"
+            ],
+            "img": "banknote_with_euro_sign.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "car",
+            "variants": [
+                "car",
+                "auto",
+                "automobile",
+                "machine",
+                "motorcar"
+            ],
+            "img": "car.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "accident_car",
+            "variants": [
+                "car",
+                "auto",
+                "automobile",
+                "machine",
+                "motorcar"
+            ],
+            "img": "accident_car.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "racing_car",
+            "variants": [
+                "car",
+                "auto",
+                "automobile",
+                "machine",
+                "motorcar"
+            ],
+            "img": "racing_car.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "belem tower_lisbon",
+            "variants": [
+                "lisbon",
+                "lisboa",
+                "capital_of_portugal"
+            ],
+            "img": "belem tower_lisbon.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "gun_pistol",
+            "variants": [
+                "pistol",
+                "handgun",
+                "side_arm",
+                "shooting_iron"
+            ],
+            "img": "gun_pistol.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "afternoon_evening",
+            "variants": [
+                "afternoon"
+            ],
+            "img": "afternoon_evening.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "watch",
+            "variants": [
+                "watch",
+                "ticker"
+            ],
+            "img": "watch.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clock_time",
+            "variants": [
+                "watch",
+                "ticker"
+            ],
+            "img": "clock_time.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "watch",
+            "variants": [
+                "watch",
+                "ticker"
+            ],
+            "img": "watch.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "eiffel_france",
+            "variants": [
+                "france",
+                "french_republic"
+            ],
+            "img": "eiffel_france.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "earth_europe",
+            "variants": [
+                "europe"
+            ],
+            "img": "earth_europe.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "attacker_gun",
+            "variants": [
+                "attack",
+                "attacker",
+                "aggressor",
+                "assailant",
+                "assaulter"
+            ],
+            "img": "attacker_gun.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "daylight_morning",
+            "variants": [
+                "morning",
+                "morn",
+                "morning_time",
+                "forenoon"
+            ],
+            "img": "daylight_morning.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "calendar_january",
+            "variants": [
+                "january",
+                "jan"
+            ],
+            "img": "calendar_january.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "committee_council",
+            "variants": [
+                "council"
+            ],
+            "img": "committee_council.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cow",
+            "variants": [
+                "cow",
+                "moo-cow"
+            ],
+            "img": "cow.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "animal_cow",
+            "variants": [
+                "cow",
+                "moo-cow"
+            ],
+            "img": "animal_cow.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "farmer",
+            "variants": [
+                "farm"
+            ],
+            "img": "farmer.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "farm_farming",
+            "variants": [
+                "farm"
+            ],
+            "img": "farm_farming.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "nz_flag",
+            "variants": [
+                "New Zealand",
+                "zealand"
+            ],
+            "img": "nz_flag.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "nz",
+            "variants": [],
+            "img": "nz.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "farm_herd",
+            "variants": [
+                "herd"
+            ],
+            "img": "farm_herd.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "agent_detective",
+            "variants": [
+                "agent"
+            ],
+            "img": "agent_detective.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clue_evidence",
+            "variants": [
+                "hint",
+                "clue"
+            ],
+            "img": "clue_evidence.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "desktop_man",
+            "variants": [
+                "office",
+                "business_office"
+            ],
+            "img": "desktop_man.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "office",
+            "variants": [
+                "office",
+                "business_office"
+            ],
+            "img": "office.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "office_building",
+            "variants": [
+                "office",
+                "business_office"
+            ],
+            "img": "office_building.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "explode_explosion",
+            "variants": [
+                "explosion",
+                "detonation",
+                "blowup"
+            ],
+            "img": "explode_explosion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "airport",
+            "variants": [
+                "airport",
+                "airdrome",
+                "aerodrome",
+                "drome"
+            ],
+            "img": "airport.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "metro_subway",
+            "variants": [
+                "metro",
+                "tube",
+                "underground",
+                "subway_system",
+                "subway"
+            ],
+            "img": "metro_subway.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "metro",
+            "variants": [
+                "metro",
+                "tube",
+                "underground",
+                "subway_system",
+                "subway"
+            ],
+            "img": "metro.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "metro",
+            "variants": [
+                "metro",
+                "tube",
+                "underground",
+                "subway_system",
+                "subway"
+            ],
+            "img": "metro.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dead_died",
+            "variants": [
+                "dead"
+            ],
+            "img": "dead_died.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "butcher_knife",
+            "variants": [
+                "knife"
+            ],
+            "img": "butcher_knife.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "knife",
+            "variants": [
+                "knife"
+            ],
+            "img": "knife.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dagger_knife",
+            "variants": [
+                "knife"
+            ],
+            "img": "dagger_knife.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fuel_gas",
+            "variants": [
+                "station"
+            ],
+            "img": "fuel_gas.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "employee_man",
+            "variants": [
+                "employee"
+            ],
+            "img": "employee_man.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dollar_money",
+            "variants": [
+                "dollar"
+            ],
+            "img": "dollar_money.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dollar",
+            "variants": [
+                "dollar"
+            ],
+            "img": "dollar.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "banknote_with_dollar_sign",
+            "variants": [
+                "dollar"
+            ],
+            "img": "banknote_with_dollar_sign.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "imprisoned_imprisonment",
+            "variants": [
+                "imprisonment"
+            ],
+            "img": "imprisoned_imprisonment.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "book_library",
+            "variants": [
+                "book"
+            ],
+            "img": "book_library.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "book",
+            "variants": [
+                "book"
+            ],
+            "img": "book.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "open_book",
+            "variants": [
+                "book"
+            ],
+            "img": "open_book.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "aggressive_assault",
+            "variants": [
+                "victim"
+            ],
+            "img": "aggressive_assault.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bloody_crime",
+            "variants": [
+                "crime",
+                "offense",
+                "criminal_offense",
+                "criminal_offence",
+                "offence",
+                "law-breaking"
+            ],
+            "img": "bloody_crime.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "thief",
+            "variants": [
+                "thief",
+                "stealer"
+            ],
+            "img": "thief.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flag_portugal",
+            "variants": [
+                "portugal",
+                "portuguese_republic"
+            ],
+            "img": "flag_portugal.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "museum_art",
+            "variants": [
+                "museum"
+            ],
+            "img": "museum_art.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "person_security",
+            "variants": [
+                "security"
+            ],
+            "img": "person_security.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "crown_king",
+            "variants": [
+                "king",
+                "male_monarch",
+                "rex"
+            ],
+            "img": "crown_king.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "girl_woman",
+            "variants": [
+                "girl",
+                "miss",
+                "missy",
+                "young_lady",
+                "young_woman",
+                "fille"
+            ],
+            "img": "girl_woman.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "girl",
+            "variants": [
+                "girl",
+                "miss",
+                "missy",
+                "young_lady",
+                "young_woman",
+                "fille"
+            ],
+            "img": "girl.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "lower_left_ballpoint_pen",
+            "variants": [
+                "pen"
+            ],
+            "img": "lower_left_ballpoint_pen.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "pencil",
+            "variants": [
+                "pencil"
+            ],
+            "img": "pencil.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "holidays_summer",
+            "variants": [
+                "summer",
+                "summertime"
+            ],
+            "img": "holidays_summer.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "business_leader",
+            "variants": [
+                "leader"
+            ],
+            "img": "business_leader.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "jail_prison",
+            "variants": [
+                "prison",
+                "prison_house"
+            ],
+            "img": "jail_prison.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "man_person",
+            "variants": [
+                "person",
+                "individual",
+                "someone",
+                "somebody",
+                "mortal",
+                "soul"
+            ],
+            "img": "man_person.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "black_person",
+            "variants": [
+                "person",
+                "individual",
+                "someone",
+                "somebody",
+                "mortal",
+                "soul"
+            ],
+            "img": "black_person.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "person_with_folded_hands",
+            "variants": [
+                "person",
+                "individual",
+                "someone",
+                "somebody",
+                "mortal",
+                "soul"
+            ],
+            "img": "person_with_folded_hands.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "liberty_new",
+            "variants": [
+                "autonomy",
+                "liberty"
+            ],
+            "img": "liberty_new.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "statue_of_liberty",
+            "variants": [
+                "autonomy",
+                "liberty"
+            ],
+            "img": "statue_of_liberty.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "camcorder",
+            "variants": [
+                "camcorder"
+            ],
+            "img": "camcorder.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "eye_view",
+            "variants": [
+                "position",
+                "view",
+                "perspective"
+            ],
+            "img": "eye_view.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "calendar_month",
+            "variants": [
+                "november",
+                "nov"
+            ],
+            "img": "calendar_month.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "secretary_assistant",
+            "variants": [
+                "secretary"
+            ],
+            "img": "secretary_assistant.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "calendar_event",
+            "variants": [
+                "event"
+            ],
+            "img": "calendar_event.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "city_gps",
+            "variants": [
+                "city",
+                "metropolis",
+                "urban_center"
+            ],
+            "img": "city_gps.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cityscape",
+            "variants": [
+                "city",
+                "metropolis",
+                "urban_center"
+            ],
+            "img": "cityscape.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "report_all",
+            "variants": [
+                "counterpart",
+                "opposite_number",
+                "vis-a-vis"
+            ],
+            "img": "report_all.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "necessary_target",
+            "variants": [
+                "necessity",
+                "essential",
+                "requirement",
+                "requisite",
+                "necessary"
+            ],
+            "img": "necessary_target.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "appointment_calendar",
+            "variants": [
+                "week",
+                "hebdomad"
+            ],
+            "img": "appointment_calendar.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "calendar_jul",
+            "variants": [
+                "july"
+            ],
+            "img": "calendar_jul.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "mathematical_twelve",
+            "variants": [
+                "twelve",
+                "12",
+                "xii",
+                "dozen"
+            ],
+            "img": "mathematical_twelve.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "analytics_business",
+            "variants": [
+                "system"
+            ],
+            "img": "analytics_business.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "completed_unit",
+            "variants": [
+                "unit_of_measurement",
+                "unit"
+            ],
+            "img": "completed_unit.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "help_service",
+            "variants": [
+                "service"
+            ],
+            "img": "help_service.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "alert_warning",
+            "variants": [
+                "alert",
+                "level",
+                "qui_vive"
+            ],
+            "img": "alert_warning.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "today_calendar",
+            "variants": [
+                "today"
+            ],
+            "img": "today_calendar.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "atomium_belgium",
+            "variants": [
+                "bruxelles",
+                "brussels",
+                "belgian_capital",
+                "capital_of_belgium"
+            ],
+            "img": "atomium_belgium.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cabinet_drawer",
+            "variants": [
+                "cabinet"
+            ],
+            "img": "cabinet_drawer.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "file_cabinet",
+            "variants": [
+                "cabinet"
+            ],
+            "img": "file_cabinet.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "attempt_effort",
+            "variants": [
+                "attempt",
+                "effort",
+                "endeavor",
+                "endeavour",
+                "try"
+            ],
+            "img": "attempt_effort.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "add_added value",
+            "variants": [
+                "value"
+            ],
+            "img": "add_added value.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "lightbulb_shine",
+            "variants": [
+                "light",
+                "visible_light",
+                "visible_radiation"
+            ],
+            "img": "lightbulb_shine.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "light_rail",
+            "variants": [
+                "light",
+                "visible_light",
+                "visible_radiation"
+            ],
+            "img": "light_rail.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "light_rail",
+            "variants": [
+                "light",
+                "visible_light",
+                "visible_radiation"
+            ],
+            "img": "light_rail.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "government_ministry",
+            "variants": [
+                "government",
+                "authorities",
+                "regime"
+            ],
+            "img": "government_ministry.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "empress_queen",
+            "variants": [
+                "queen"
+            ],
+            "img": "empress_queen.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "black_chess_queen",
+            "variants": [
+                "queen"
+            ],
+            "img": "black_chess_queen.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "president_prime minister",
+            "variants": [
+                "president"
+            ],
+            "img": "president_prime minister.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "belgium",
+            "variants": [
+                "belgium",
+                "kingdom_of_belgium",
+                "belgique"
+            ],
+            "img": "belgium.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flag_for_belgium",
+            "variants": [
+                "belgium",
+                "kingdom_of_belgium",
+                "belgique"
+            ],
+            "img": "flag_for_belgium.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "country_county",
+            "variants": [
+                "county"
+            ],
+            "img": "country_county.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "business_ceremony",
+            "variants": [
+                "ceremony",
+                "ceremonial",
+                "ceremonial_occasion",
+                "observance"
+            ],
+            "img": "business_ceremony.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "america_borders",
+            "variants": [
+                "state",
+                "province"
+            ],
+            "img": "america_borders.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "assemblyman_diplomat",
+            "variants": [
+                "curate",
+                "minister_of_religion",
+                "minister",
+                "parson",
+                "pastor",
+                "rector"
+            ],
+            "img": "assemblyman_diplomat.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "circle_russian",
+            "variants": [
+                "russian"
+            ],
+            "img": "circle_russian.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "info_information",
+            "variants": [
+                "information",
+                "info"
+            ],
+            "img": "info_information.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "guess_suspect",
+            "variants": [
+                "suspect"
+            ],
+            "img": "guess_suspect.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "death_execution",
+            "variants": [
+                "death",
+                "decease",
+                "expiry"
+            ],
+            "img": "death_execution.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "employees_staff",
+            "variants": [
+                "staff"
+            ],
+            "img": "employees_staff.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "brasil_brazil",
+            "variants": [
+                "brazil",
+                "federative_republic_of_brazil",
+                "brasil"
+            ],
+            "img": "brasil_brazil.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flag_for_russia",
+            "variants": [
+                "soviet_union",
+                "russia",
+                "union_of_soviet_socialist_republics",
+                "ussr"
+            ],
+            "img": "flag_for_russia.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "house_property",
+            "variants": [
+                "property",
+                "belongings",
+                "holding"
+            ],
+            "img": "house_property.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "manipulate_business",
+            "variants": [
+                "use",
+                "usage",
+                "utilization",
+                "utilisation",
+                "employment",
+                "exercise"
+            ],
+            "img": "manipulate_business.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "shooting",
+            "variants": [
+                "shooting",
+                "shot"
+            ],
+            "img": "shooting.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "policeman",
+            "variants": [
+                "policeman",
+                "police_officer",
+                "officer"
+            ],
+            "img": "policeman.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "prosecutor_lawyer",
+            "variants": [
+                "prosecutor",
+                "public_prosecutor",
+                "prosecuting_officer",
+                "prosecuting_attorney"
+            ],
+            "img": "prosecutor_lawyer.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "accusation_allegation",
+            "variants": [
+                "accusation",
+                "accusal"
+            ],
+            "img": "accusation_allegation.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "jersey",
+            "variants": [
+                "new_jersey",
+                "jersey",
+                "garden_state",
+                "nj"
+            ],
+            "img": "jersey.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tuesday",
+            "variants": [
+                "tuesday",
+                "tues"
+            ],
+            "img": "tuesday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "crowd_mass",
+            "variants": [
+                "mass"
+            ],
+            "img": "crowd_mass.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "city_district",
+            "variants": [
+                "district",
+                "territory",
+                "territorial_dominion",
+                "dominion"
+            ],
+            "img": "city_district.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "herb_linden",
+            "variants": [
+                "basswood",
+                "linden"
+            ],
+            "img": "herb_linden.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "pay_union",
+            "variants": [
+                "union",
+                "labor_union",
+                "trade_union",
+                "trades_union",
+                "brotherhood"
+            ],
+            "img": "pay_union.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "country_representative",
+            "variants": [
+                "representative"
+            ],
+            "img": "country_representative.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "community_crowd",
+            "variants": [
+                "populace",
+                "public",
+                "world"
+            ],
+            "img": "community_crowd.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bridge_brooklyn",
+            "variants": [
+                "york",
+                "house_of_york"
+            ],
+            "img": "bridge_brooklyn.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "court_justice",
+            "variants": [
+                "lawyer",
+                "attorney"
+            ],
+            "img": "court_justice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "national_park",
+            "variants": [
+                "national",
+                "subject"
+            ],
+            "img": "national_park.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "national_park",
+            "variants": [
+                "national",
+                "subject"
+            ],
+            "img": "national_park.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "group_people",
+            "variants": [
+                "people"
+            ],
+            "img": "group_people.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bad_peoples",
+            "variants": [
+                "people"
+            ],
+            "img": "bad_peoples.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "ic_weekend",
+            "variants": [
+                "weekend"
+            ],
+            "img": "ic_weekend.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dose_injection",
+            "variants": [
+                "dose",
+                "dosage"
+            ],
+            "img": "dose_injection.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "gram_kilogram",
+            "variants": [
+                "gram",
+                "gramme",
+                "gm",
+                "g"
+            ],
+            "img": "gram_kilogram.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "monogram_for_yin",
+            "variants": [
+                "gram",
+                "gramme",
+                "gm",
+                "g"
+            ],
+            "img": "monogram_for_yin.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "firearm_gun",
+            "variants": [
+                "firearm",
+                "piece",
+                "small-arm"
+            ],
+            "img": "firearm_gun.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "weapon_fantasy",
+            "variants": [
+                "weapon",
+                "arm",
+                "weapon_system"
+            ],
+            "img": "weapon_fantasy.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cake_party",
+            "variants": [
+                "party",
+                "political_party"
+            ],
+            "img": "cake_party.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "solving_problem",
+            "variants": [
+                "problem",
+                "job"
+            ],
+            "img": "solving_problem.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "commit_commitment",
+            "variants": [
+                "committedness",
+                "commitment"
+            ],
+            "img": "commit_commitment.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "czech_republic",
+            "variants": [
+                "democracy",
+                "republic",
+                "commonwealth"
+            ],
+            "img": "czech_republic.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "appointment_date",
+            "variants": [
+                "appointment",
+                "assignment",
+                "designation",
+                "naming"
+            ],
+            "img": "appointment_date.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "autumn_fall",
+            "variants": [
+                "september",
+                "sep",
+                "sept"
+            ],
+            "img": "autumn_fall.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "car_traffic",
+            "variants": [
+                "traffic"
+            ],
+            "img": "car_traffic.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "document_paper",
+            "variants": [
+                "document",
+                "written_document",
+                "papers"
+            ],
+            "img": "document_paper.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "embezzlement_money",
+            "variants": [
+                "embezzlement",
+                "peculation",
+                "defalcation",
+                "misapplication",
+                "misappropriation"
+            ],
+            "img": "embezzlement_money.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "media_participation",
+            "variants": [
+                "engagement",
+                "participation",
+                "involvement",
+                "involution"
+            ],
+            "img": "media_participation.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "on_power",
+            "variants": [
+                "power",
+                "powerfulness"
+            ],
+            "img": "on_power.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "asia_australia",
+            "variants": [
+                "australia",
+                "commonwealth_of_australia"
+            ],
+            "img": "asia_australia.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "add_request",
+            "variants": [
+                "request",
+                "petition",
+                "postulation"
+            ],
+            "img": "add_request.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flag_usa",
+            "variants": [
+                "united_states",
+                "united_states_of_america",
+                "america",
+                "the_states",
+                "us",
+                "u.s.",
+                "usa",
+                "u.s.a."
+            ],
+            "img": "flag_usa.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "usa_gov",
+            "variants": [
+                "united_states",
+                "united_states_of_america",
+                "america",
+                "the_states",
+                "us",
+                "u.s.",
+                "usa",
+                "u.s.a."
+            ],
+            "img": "usa_gov.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "charity_contribution",
+            "variants": [
+                "contribution",
+                "part",
+                "share"
+            ],
+            "img": "charity_contribution.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "awesome_good",
+            "variants": [
+                "great"
+            ],
+            "img": "awesome_good.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "omikuji_great_blessing",
+            "variants": [
+                "great"
+            ],
+            "img": "omikuji_great_blessing.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "december_february",
+            "variants": [
+                "december",
+                "dec"
+            ],
+            "img": "december_february.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "alliance_coalition",
+            "variants": [
+                "alliance",
+                "coalition",
+                "alignment",
+                "alinement"
+            ],
+            "img": "alliance_coalition.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "ultra_extremist",
+            "variants": [
+                "extremist"
+            ],
+            "img": "ultra_extremist.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "iraq",
+            "variants": [
+                "iraq",
+                "republic_of_iraq",
+                "al-iraq",
+                "irak"
+            ],
+            "img": "iraq.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "syria",
+            "variants": [
+                "syria",
+                "syrian_arab_republic"
+            ],
+            "img": "syria.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "west_syriac_cross",
+            "variants": [
+                "syria",
+                "syrian_arab_republic"
+            ],
+            "img": "west_syriac_cross.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "australia_australian",
+            "variants": [
+                "australian",
+                "aussie"
+            ],
+            "img": "australia_australian.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "high_hot",
+            "variants": [
+                "high"
+            ],
+            "img": "high_hot.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "high_heel",
+            "variants": [
+                "high"
+            ],
+            "img": "high_heel.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "high_speed_train",
+            "variants": [
+                "high"
+            ],
+            "img": "high_speed_train.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "desire_king",
+            "variants": [
+                "desire"
+            ],
+            "img": "desire_king.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "defence_defense",
+            "variants": [
+                "defense",
+                "defence",
+                "defensive_measure"
+            ],
+            "img": "defence_defense.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "current_ic",
+            "variants": [
+                "current",
+                "electric_current"
+            ],
+            "img": "current_ic.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "man_military",
+            "variants": [
+                "military",
+                "armed_forces",
+                "armed_services",
+                "military_machine",
+                "war_machine"
+            ],
+            "img": "man_military.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "military_medal",
+            "variants": [
+                "military",
+                "armed_forces",
+                "armed_services",
+                "military_machine",
+                "war_machine"
+            ],
+            "img": "military_medal.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "military_medal",
+            "variants": [
+                "military",
+                "armed_forces",
+                "armed_services",
+                "military_machine",
+                "war_machine"
+            ],
+            "img": "military_medal.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "battle_combat",
+            "variants": [
+                "combat",
+                "armed_combat"
+            ],
+            "img": "battle_combat.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "combat_knife",
+            "variants": [
+                "combat",
+                "armed_combat"
+            ],
+            "img": "combat_knife.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "circle_group",
+            "variants": [
+                "group",
+                "grouping"
+            ],
+            "img": "circle_group.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "eiffel_paris",
+            "variants": [
+                "paris",
+                "city_of_light",
+                "french_capital",
+                "capital_of_france"
+            ],
+            "img": "eiffel_paris.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "taxation_tax",
+            "variants": [
+                "tax",
+                "taxation",
+                "revenue_enhancement"
+            ],
+            "img": "taxation_tax.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "taxi",
+            "variants": [
+                "tax",
+                "taxation",
+                "revenue_enhancement"
+            ],
+            "img": "taxi.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "behavior_behaviour",
+            "variants": [
+                "behavior",
+                "behaviour",
+                "conduct",
+                "doings"
+            ],
+            "img": "behavior_behaviour.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "judiciary_justice",
+            "variants": [
+                "judiciary",
+                "bench"
+            ],
+            "img": "judiciary_justice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "suspicion_suspicions",
+            "variants": [
+                "intuition",
+                "hunch",
+                "suspicion"
+            ],
+            "img": "suspicion_suspicions.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "invoice_receipt",
+            "variants": [
+                "reception",
+                "receipt"
+            ],
+            "img": "invoice_receipt.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "chance_falsehood",
+            "variants": [
+                "falsehood",
+                "falsity",
+                "untruth"
+            ],
+            "img": "chance_falsehood.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "mission_ship",
+            "variants": [
+                "mission",
+                "missionary_post",
+                "missionary_station",
+                "foreign_mission"
+            ],
+            "img": "mission_ship.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "admission_tickets",
+            "variants": [
+                "mission",
+                "missionary_post",
+                "missionary_station",
+                "foreign_mission"
+            ],
+            "img": "admission_tickets.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "expert_technical",
+            "variants": [
+                "professional",
+                "professional_person"
+            ],
+            "img": "expert_technical.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "hair_situation",
+            "variants": [
+                "situation",
+                "state_of_affairs"
+            ],
+            "img": "hair_situation.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "abnormality_contrast",
+            "variants": [
+                "abnormality",
+                "irregularity"
+            ],
+            "img": "abnormality_contrast.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "code_custom",
+            "variants": [
+                "custom",
+                "usage",
+                "usance"
+            ],
+            "img": "code_custom.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "customs",
+            "variants": [
+                "custom",
+                "usage",
+                "usance"
+            ],
+            "img": "customs.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "night_sleep",
+            "variants": [
+                "night",
+                "nighttime",
+                "dark"
+            ],
+            "img": "night_sleep.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "night_club",
+            "variants": [
+                "night",
+                "nighttime",
+                "dark"
+            ],
+            "img": "night_club.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "box truck_lorry",
+            "variants": [
+                "lorry"
+            ],
+            "img": "box truck_lorry.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "articulated_lorry",
+            "variants": [
+                "lorry"
+            ],
+            "img": "articulated_lorry.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "community_crowd",
+            "variants": [
+                "crowd"
+            ],
+            "img": "community_crowd.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "britain_british",
+            "variants": [
+                "british",
+                "british_people",
+                "brits"
+            ],
+            "img": "britain_british.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "ex_boyfriend",
+            "variants": [
+                "ex-husband",
+                "ex"
+            ],
+            "img": "ex_boyfriend.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dex",
+            "variants": [
+                "ex-husband",
+                "ex"
+            ],
+            "img": "dex.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tunisian_tunisia",
+            "variants": [
+                "tunisian"
+            ],
+            "img": "tunisian_tunisia.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "connection_internet",
+            "variants": [
+                "connection",
+                "connexion",
+                "connectedness"
+            ],
+            "img": "connection_internet.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "terrorism_terrorist",
+            "variants": [
+                "terrorism",
+                "act_of_terrorism",
+                "terrorist_act"
+            ],
+            "img": "terrorism_terrorist.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "author_authorship",
+            "variants": [
+                "writing",
+                "authorship",
+                "composition",
+                "penning"
+            ],
+            "img": "author_authorship.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "firework_fireworks",
+            "variants": [
+                "firework",
+                "pyrotechnic"
+            ],
+            "img": "firework_fireworks.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fireworks",
+            "variants": [
+                "firework",
+                "pyrotechnic"
+            ],
+            "img": "fireworks.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "date_day",
+            "variants": [
+                "day",
+                "twenty-four_hours",
+                "twenty-four_hour_period",
+                "24-hour_interval",
+                "solar_day",
+                "mean_solar_day"
+            ],
+            "img": "date_day.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "frolic_friday",
+            "variants": [
+                "day",
+                "twenty-four_hours",
+                "twenty-four_hour_period",
+                "24-hour_interval",
+                "solar_day",
+                "mean_solar_day"
+            ],
+            "img": "frolic_friday.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "ai_conductor",
+            "variants": [
+                "conductor",
+                "music_director",
+                "director"
+            ],
+            "img": "ai_conductor.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "terrorism_terrorist",
+            "variants": [
+                "terrorist"
+            ],
+            "img": "terrorism_terrorist.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "extension",
+            "variants": [
+                "extension"
+            ],
+            "img": "extension.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "emergency_fire",
+            "variants": [
+                "emergency",
+                "exigency",
+                "pinch"
+            ],
+            "img": "emergency_fire.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "parent_mother",
+            "variants": [
+                "parent"
+            ],
+            "img": "parent_mother.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "calendar_new",
+            "variants": [
+                "year",
+                "twelvemonth",
+                "yr"
+            ],
+            "img": "calendar_new.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "new_year_dishes",
+            "variants": [
+                "year",
+                "twelvemonth",
+                "yr"
+            ],
+            "img": "new_year_dishes.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "link",
+            "variants": [
+                "link",
+                "nexus"
+            ],
+            "img": "link.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "link",
+            "variants": [
+                "link",
+                "nexus"
+            ],
+            "img": "link.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "nice_rainbow",
+            "variants": [
+                "nice"
+            ],
+            "img": "nice_rainbow.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "Nice",
+            "variants": [
+                "nice"
+            ],
+            "img": "Nice.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "date_day",
+            "variants": [
+                "calendar_month",
+                "month"
+            ],
+            "img": "date_day.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "month_mark",
+            "variants": [
+                "calendar_month",
+                "month"
+            ],
+            "img": "month_mark.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "operation_configuration",
+            "variants": [
+                "operation"
+            ],
+            "img": "operation_configuration.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "border_cell",
+            "variants": [
+                "boundary_line",
+                "border",
+                "borderline",
+                "delimitation",
+                "mete"
+            ],
+            "img": "border_cell.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "no_cross",
+            "variants": [
+                "cross"
+            ],
+            "img": "no_cross.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "red_cross",
+            "variants": [
+                "cross"
+            ],
+            "img": "red_cross.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "helmet_with_white_cross",
+            "variants": [
+                "cross"
+            ],
+            "img": "helmet_with_white_cross.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "blackboard_teacher",
+            "variants": [
+                "teacher",
+                "instructor"
+            ],
+            "img": "blackboard_teacher.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "teacher",
+            "variants": [
+                "teacher",
+                "instructor"
+            ],
+            "img": "teacher.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "student_education",
+            "variants": [
+                "student",
+                "pupil",
+                "educatee"
+            ],
+            "img": "student_education.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "student",
+            "variants": [
+                "student",
+                "pupil",
+                "educatee"
+            ],
+            "img": "student.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "south_sudan",
+            "variants": [
+                "south"
+            ],
+            "img": "south_sudan.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "south_east_pointing_bud",
+            "variants": [
+                "south"
+            ],
+            "img": "south_east_pointing_bud.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "south_west_arrow",
+            "variants": [
+                "south"
+            ],
+            "img": "south_west_arrow.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "visit_website",
+            "variants": [
+                "visit"
+            ],
+            "img": "visit_website.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "thursday",
+            "variants": [
+                "thursday",
+                "th"
+            ],
+            "img": "thursday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "municipality_borough",
+            "variants": [
+                "municipality"
+            ],
+            "img": "municipality_borough.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "base_cogwheel",
+            "variants": [
+                "base",
+                "base_of_operations"
+            ],
+            "img": "base_cogwheel.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "wave_face_base",
+            "variants": [
+                "base",
+                "base_of_operations"
+            ],
+            "img": "wave_face_base.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "decrease_down",
+            "variants": [
+                "loss"
+            ],
+            "img": "decrease_down.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cherry_blossom",
+            "variants": [
+                "loss"
+            ],
+            "img": "cherry_blossom.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "business_company",
+            "variants": [
+                "company"
+            ],
+            "img": "business_company.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "Company_Logo",
+            "variants": [
+                "company"
+            ],
+            "img": "Company_Logo.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "inheritance_legacy",
+            "variants": [
+                "inheritance",
+                "heritage"
+            ],
+            "img": "inheritance_legacy.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "analytics_research",
+            "variants": [
+                "research"
+            ],
+            "img": "analytics_research.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "faq_inquiry",
+            "variants": [
+                "inquiry",
+                "enquiry",
+                "research"
+            ],
+            "img": "faq_inquiry.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "action_board",
+            "variants": [
+                "action"
+            ],
+            "img": "action_board.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cathedral_porto",
+            "variants": [
+                "porto",
+                "oporto"
+            ],
+            "img": "cathedral_porto.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "scam",
+            "variants": [
+                "scam",
+                "cozenage"
+            ],
+            "img": "scam.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cheating_infidelity",
+            "variants": [
+                "infidelity",
+                "unfaithfulness"
+            ],
+            "img": "cheating_infidelity.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "trust_verify",
+            "variants": [
+                "trust"
+            ],
+            "img": "trust_verify.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "activity",
+            "variants": [
+                "activity"
+            ],
+            "img": "activity.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "drugs_pharmacy",
+            "variants": [
+                "pharmacy",
+                "pharmaceutics"
+            ],
+            "img": "drugs_pharmacy.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rate_full",
+            "variants": [
+                "rate"
+            ],
+            "img": "rate_full.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bribery_corruption",
+            "variants": [
+                "corruptness",
+                "corruption"
+            ],
+            "img": "bribery_corruption.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "table",
+            "variants": [
+                "table",
+                "tabular_array"
+            ],
+            "img": "table.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "table",
+            "variants": [
+                "table",
+                "tabular_array"
+            ],
+            "img": "table.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clear_fact",
+            "variants": [
+                "fact"
+            ],
+            "img": "clear_fact.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "time_yesterday",
+            "variants": [
+                "yesterday"
+            ],
+            "img": "time_yesterday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "discussion",
+            "variants": [
+                "discussion",
+                "treatment",
+                "discourse"
+            ],
+            "img": "discussion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "body_neck",
+            "variants": [
+                "neck",
+                "cervix"
+            ],
+            "img": "body_neck.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "neckbeard",
+            "variants": [
+                "neck",
+                "cervix"
+            ],
+            "img": "neckbeard.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "interrogation",
+            "variants": [
+                "question",
+                "interrogation",
+                "interrogative",
+                "interrogative_sentence"
+            ],
+            "img": "interrogation.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clock_hour",
+            "variants": [
+                "hour",
+                "hr",
+                "60_minutes"
+            ],
+            "img": "clock_hour.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "hourglass_flowing_sand",
+            "variants": [
+                "hour",
+                "hr",
+                "60_minutes"
+            ],
+            "img": "hourglass_flowing_sand.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "coercion_hand",
+            "variants": [
+                "coercion"
+            ],
+            "img": "coercion_hand.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "thanks_thank you",
+            "variants": [
+                "thanks"
+            ],
+            "img": "thanks_thank you.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "thanksdoc",
+            "variants": [
+                "thanks"
+            ],
+            "img": "thanksdoc.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "timor",
+            "variants": [
+                "timor"
+            ],
+            "img": "timor.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "delegation",
+            "variants": [
+                "deputation",
+                "commission",
+                "delegation",
+                "delegacy",
+                "mission"
+            ],
+            "img": "delegation.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "court_justice",
+            "variants": [
+                "court",
+                "tribunal",
+                "judicature"
+            ],
+            "img": "court_justice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "ability_brain",
+            "variants": [
+                "ability"
+            ],
+            "img": "ability_brain.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "justice_law",
+            "variants": [
+                "justice",
+                "justness"
+            ],
+            "img": "justice_law.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "app_application",
+            "variants": [
+                "application",
+                "practical_application"
+            ],
+            "img": "app_application.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "application_mark",
+            "variants": [
+                "application",
+                "practical_application"
+            ],
+            "img": "application_mark.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "guilt_judgment",
+            "variants": [
+                "judgment",
+                "judgement",
+                "mind"
+            ],
+            "img": "guilt_judgment.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sentence_text",
+            "variants": [
+                "sentence"
+            ],
+            "img": "sentence_text.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "management_resource",
+            "variants": [
+                "resource"
+            ],
+            "img": "management_resource.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "condition_storage",
+            "variants": [
+                "condition",
+                "status"
+            ],
+            "img": "condition_storage.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "answer_question",
+            "variants": [
+                "statement"
+            ],
+            "img": "answer_question.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "box_outside",
+            "variants": [
+                "outside",
+                "exterior"
+            ],
+            "img": "box_outside.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fun_inside",
+            "variants": [
+                "inside",
+                "interior"
+            ],
+            "img": "fun_inside.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "process_time",
+            "variants": [
+                "procedure",
+                "process"
+            ],
+            "img": "process_time.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "processing",
+            "variants": [
+                "procedure",
+                "process"
+            ],
+            "img": "processing.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "violation_glass",
+            "variants": [
+                "misdemeanor",
+                "misdemeanour",
+                "infraction",
+                "violation",
+                "infringement"
+            ],
+            "img": "violation_glass.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "right_arrow",
+            "variants": [
+                "right"
+            ],
+            "img": "right_arrow.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "right_wing",
+            "variants": [
+                "right"
+            ],
+            "img": "right_wing.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "right_facing_fist",
+            "variants": [
+                "right"
+            ],
+            "img": "right_facing_fist.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "military_major",
+            "variants": [
+                "major"
+            ],
+            "img": "military_major.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "school_college",
+            "variants": [
+                "college"
+            ],
+            "img": "school_college.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "discriminate_discrimination",
+            "variants": [
+                "discrimination",
+                "favoritism",
+                "favouritism"
+            ],
+            "img": "discriminate_discrimination.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "attitude_nature",
+            "variants": [
+                "attitude",
+                "mental_attitude"
+            ],
+            "img": "attitude_nature.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bus_school",
+            "variants": [
+                "school"
+            ],
+            "img": "bus_school.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "school",
+            "variants": [
+                "school"
+            ],
+            "img": "school.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "school",
+            "variants": [
+                "school"
+            ],
+            "img": "school.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "guardian",
+            "variants": [
+                "defender",
+                "guardian",
+                "protector",
+                "shielder"
+            ],
+            "img": "guardian.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "orientation_adaptive",
+            "variants": [
+                "orientation"
+            ],
+            "img": "orientation_adaptive.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "army_roman",
+            "variants": [
+                "army",
+                "regular_army",
+                "ground_forces"
+            ],
+            "img": "army_roman.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "gay_homosexual",
+            "variants": [
+                "homosexual",
+                "homophile",
+                "homo",
+                "gay"
+            ],
+            "img": "gay_homosexual.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "arabia_fatima",
+            "variants": [
+                "fatima",
+                "fatimah"
+            ],
+            "img": "arabia_fatima.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "web_search",
+            "variants": [
+                "search",
+                "hunt",
+                "hunting"
+            ],
+            "img": "web_search.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "convict_detainee",
+            "variants": [
+                "detainee",
+                "political_detainee"
+            ],
+            "img": "convict_detainee.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "plumbing_supply",
+            "variants": [
+                "supply"
+            ],
+            "img": "plumbing_supply.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "construction_repair",
+            "variants": [
+                "construction",
+                "building"
+            ],
+            "img": "construction_repair.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "construction",
+            "variants": [
+                "construction",
+                "building"
+            ],
+            "img": "construction.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sale",
+            "variants": [
+                "sale"
+            ],
+            "img": "sale.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cross_of_jerusalem",
+            "variants": [
+                "sale"
+            ],
+            "img": "cross_of_jerusalem.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sports_trade",
+            "variants": [
+                "trade"
+            ],
+            "img": "sports_trade.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cash_money",
+            "variants": [
+                "money"
+            ],
+            "img": "cash_money.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "money",
+            "variants": [
+                "money"
+            ],
+            "img": "money.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "influence_power",
+            "variants": [
+                "influence"
+            ],
+            "img": "influence_power.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "element_garden",
+            "variants": [
+                "component",
+                "constituent",
+                "element",
+                "factor",
+                "ingredient"
+            ],
+            "img": "element_garden.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "metal_element",
+            "variants": [
+                "component",
+                "constituent",
+                "element",
+                "factor",
+                "ingredient"
+            ],
+            "img": "metal_element.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "legal_magistrate",
+            "variants": [
+                "magistrate"
+            ],
+            "img": "legal_magistrate.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "lira_turkish",
+            "variants": [
+                "turkish"
+            ],
+            "img": "lira_turkish.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "baby_child",
+            "variants": [
+                "child",
+                "kid",
+                "youngster",
+                "minor",
+                "shaver",
+                "nipper",
+                "small_fry",
+                "tiddler",
+                "tike",
+                "tyke",
+                "fry",
+                "nestling"
+            ],
+            "img": "baby_child.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "child",
+            "variants": [
+                "child",
+                "kid",
+                "youngster",
+                "minor",
+                "shaver",
+                "nipper",
+                "small_fry",
+                "tiddler",
+                "tike",
+                "tyke",
+                "fry",
+                "nestling"
+            ],
+            "img": "child.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "time_monday",
+            "variants": [
+                "monday",
+                "mon"
+            ],
+            "img": "time_monday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fighter_boxer",
+            "variants": [
+                "combatant",
+                "battler",
+                "belligerent",
+                "fighter",
+                "scrapper"
+            ],
+            "img": "fighter_boxer.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "firefighter",
+            "variants": [
+                "combatant",
+                "battler",
+                "belligerent",
+                "fighter",
+                "scrapper"
+            ],
+            "img": "firefighter.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "batman",
+            "variants": [
+                "batman"
+            ],
+            "img": "batman.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "road_highway",
+            "variants": [
+                "highway",
+                "main_road"
+            ],
+            "img": "road_highway.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bomb_explosive",
+            "variants": [
+                "bomb"
+            ],
+            "img": "bomb_explosive.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bomb",
+            "variants": [
+                "bomb"
+            ],
+            "img": "bomb.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "area_ice",
+            "variants": [
+                "area",
+                "country"
+            ],
+            "img": "area_ice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bird_booby",
+            "variants": [
+                "dumbbell",
+                "dummy",
+                "dope",
+                "boob",
+                "booby",
+                "pinhead"
+            ],
+            "img": "bird_booby.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "southeast_wind",
+            "variants": [
+                "southeast",
+                "sou'-east",
+                "southeastward",
+                "se"
+            ],
+            "img": "southeast_wind.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "civil gun_civilian",
+            "variants": [
+                "civilian"
+            ],
+            "img": "civil gun_civilian.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "early_start",
+            "variants": [
+                "start"
+            ],
+            "img": "early_start.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "business_finance",
+            "variants": [
+                "business",
+                "concern",
+                "business_concern",
+                "business_organization",
+                "business_organisation"
+            ],
+            "img": "business_finance.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "man_in_business_suit_levitating",
+            "variants": [
+                "business",
+                "concern",
+                "business_concern",
+                "business_organization",
+                "business_organisation"
+            ],
+            "img": "man_in_business_suit_levitating.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bonsai_plant",
+            "variants": [
+                "plant",
+                "works",
+                "industrial_plant"
+            ],
+            "img": "bonsai_plant.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "eggplant",
+            "variants": [
+                "plant",
+                "works",
+                "industrial_plant"
+            ],
+            "img": "eggplant.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tree_xmas",
+            "variants": [
+                "tree"
+            ],
+            "img": "tree_xmas.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "evergreen_tree",
+            "variants": [
+                "tree"
+            ],
+            "img": "evergreen_tree.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flower",
+            "variants": [
+                "flower"
+            ],
+            "img": "flower.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "flower",
+            "variants": [
+                "flower"
+            ],
+            "img": "flower.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rise_skeleton",
+            "variants": [
+                "rise"
+            ],
+            "img": "rise_skeleton.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sunrise",
+            "variants": [
+                "rise"
+            ],
+            "img": "sunrise.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sunflower",
+            "variants": [
+                "sunflower",
+                "helianthus"
+            ],
+            "img": "sunflower.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sunflower",
+            "variants": [
+                "sunflower",
+                "helianthus"
+            ],
+            "img": "sunflower.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sunflower",
+            "variants": [
+                "sunflower",
+                "helianthus"
+            ],
+            "img": "sunflower.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fruit_juice",
+            "variants": [
+                "fruit"
+            ],
+            "img": "fruit_juice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "kiwifruit",
+            "variants": [
+                "fruit"
+            ],
+            "img": "kiwifruit.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "lemon_fruit",
+            "variants": [
+                "lemon"
+            ],
+            "img": "lemon_fruit.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "lemon",
+            "variants": [
+                "lemon"
+            ],
+            "img": "lemon.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tomato",
+            "variants": [
+                "tomato"
+            ],
+            "img": "tomato.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tomato",
+            "variants": [
+                "tomato"
+            ],
+            "img": "tomato.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "mind_think",
+            "variants": [
+                "think"
+            ],
+            "img": "mind_think.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "imagination_imaginative",
+            "variants": [
+                "imagination",
+                "imaginativeness",
+                "vision"
+            ],
+            "img": "imagination_imaginative.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "juice_juicer",
+            "variants": [
+                "juice"
+            ],
+            "img": "juice_juicer.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dream_rest",
+            "variants": [
+                "dream",
+                "dreaming"
+            ],
+            "img": "dream_rest.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fantasy_game",
+            "variants": [
+                "fantasy",
+                "phantasy"
+            ],
+            "img": "fantasy_game.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "creative_idea",
+            "variants": [
+                "idea",
+                "thought"
+            ],
+            "img": "creative_idea.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "creative_creativity",
+            "variants": [
+                "creativity",
+                "creativeness",
+                "creative_thinking"
+            ],
+            "img": "creative_creativity.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rest_sleep",
+            "variants": [
+                "remainder",
+                "balance",
+                "residual",
+                "residue",
+                "residuum",
+                "rest"
+            ],
+            "img": "rest_sleep.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "restricted_left_entry_1",
+            "variants": [
+                "remainder",
+                "balance",
+                "residual",
+                "residue",
+                "residuum",
+                "rest"
+            ],
+            "img": "restricted_left_entry_1.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "breath_breathing",
+            "variants": [
+                "breath"
+            ],
+            "img": "breath_breathing.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "beach_holiday",
+            "variants": [
+                "vacation",
+                "holiday"
+            ],
+            "img": "beach_holiday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "chill_cold",
+            "variants": [
+                "chill",
+                "iciness",
+                "gelidity"
+            ],
+            "img": "chill_cold.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "chillwdog",
+            "variants": [
+                "chill",
+                "iciness",
+                "gelidity"
+            ],
+            "img": "chillwdog.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "beach_bikini",
+            "variants": [
+                "beach"
+            ],
+            "img": "beach_bikini.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "beach_with_umbrella",
+            "variants": [
+                "beach"
+            ],
+            "img": "beach_with_umbrella.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "beach_with_umbrella",
+            "variants": [
+                "beach"
+            ],
+            "img": "beach_with_umbrella.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fatigue_tired",
+            "variants": [
+                "fatigue",
+                "weariness",
+                "tiredness"
+            ],
+            "img": "fatigue_tired.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "exhausted_exhaustion",
+            "variants": [
+                "exhaustion"
+            ],
+            "img": "exhausted_exhaustion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "battle_fantasy",
+            "variants": [
+                "war",
+                "warfare"
+            ],
+            "img": "battle_fantasy.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "downwards_rocket",
+            "variants": [
+                "war",
+                "warfare"
+            ],
+            "img": "downwards_rocket.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cultivator_farm",
+            "variants": [
+                "plantation"
+            ],
+            "img": "cultivator_farm.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "garden_gardening",
+            "variants": [
+                "gardening",
+                "horticulture"
+            ],
+            "img": "garden_gardening.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "european_flag",
+            "variants": [
+                "european"
+            ],
+            "img": "european_flag.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "european_castle",
+            "variants": [
+                "european"
+            ],
+            "img": "european_castle.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "european_castle",
+            "variants": [
+                "european"
+            ],
+            "img": "european_castle.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "brexit_eu",
+            "variants": [
+                "europium",
+                "eu",
+                "atomic_number_63"
+            ],
+            "img": "brexit_eu.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "euro",
+            "variants": [
+                "europium",
+                "eu",
+                "atomic_number_63"
+            ],
+            "img": "euro.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "difference_distinction",
+            "variants": [
+                "differentiation",
+                "distinction"
+            ],
+            "img": "difference_distinction.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "burn_fire",
+            "variants": [
+                "burn",
+                "burning"
+            ],
+            "img": "burn_fire.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "kitchen_oven",
+            "variants": [
+                "stove",
+                "kitchen_stove",
+                "range",
+                "kitchen_range",
+                "cooking_stove"
+            ],
+            "img": "kitchen_oven.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "conference_meeting",
+            "variants": [
+                "conference"
+            ],
+            "img": "conference_meeting.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "conference_meeting",
+            "variants": [
+                "meeting",
+                "group_meeting"
+            ],
+            "img": "conference_meeting.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "reunion",
+            "variants": [
+                "reunion"
+            ],
+            "img": "reunion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "production_assembly",
+            "variants": [
+                "assembly"
+            ],
+            "img": "production_assembly.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rally_car",
+            "variants": [
+                "rally",
+                "mass_meeting"
+            ],
+            "img": "rally_car.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rally",
+            "variants": [
+                "rally",
+                "mass_meeting"
+            ],
+            "img": "rally.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "chat_discussion",
+            "variants": [
+                "talk",
+                "talking"
+            ],
+            "img": "chat_discussion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "talker",
+            "variants": [
+                "talk",
+                "talking"
+            ],
+            "img": "talker.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "speaker_speech",
+            "variants": [
+                "address",
+                "speech"
+            ],
+            "img": "speaker_speech.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "speech_balloon",
+            "variants": [
+                "address",
+                "speech"
+            ],
+            "img": "speech_balloon.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "computer_laptop",
+            "variants": [
+                "computer",
+                "computing_machine",
+                "computing_device",
+                "data_processor",
+                "electronic_computer",
+                "information_processing_system"
+            ],
+            "img": "computer_laptop.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "prisoner",
+            "variants": [
+                "prisoner",
+                "captive"
+            ],
+            "img": "prisoner.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "family",
+            "variants": [
+                "family",
+                "household",
+                "house",
+                "home",
+                "menage"
+            ],
+            "img": "family.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "family",
+            "variants": [
+                "family",
+                "household",
+                "house",
+                "home",
+                "menage"
+            ],
+            "img": "family.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "family",
+            "variants": [
+                "family",
+                "household",
+                "house",
+                "home",
+                "menage"
+            ],
+            "img": "family.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "family",
+            "variants": [
+                "family",
+                "household",
+                "house",
+                "home",
+                "menage"
+            ],
+            "img": "family.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "deutschland_germany",
+            "variants": [
+                "delaware",
+                "diamond_state",
+                "first_state",
+                "de"
+            ],
+            "img": "deutschland_germany.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "Thunder_Armor_Swellow",
+            "variants": [
+                "delaware",
+                "diamond_state",
+                "first_state",
+                "de"
+            ],
+            "img": "Thunder_Armor_Swellow.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dell",
+            "variants": [
+                "delaware",
+                "diamond_state",
+                "first_state",
+                "de"
+            ],
+            "img": "dell.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "thinking_opinion",
+            "variants": [
+                "opinion",
+                "sentiment",
+                "persuasion",
+                "view",
+                "thought"
+            ],
+            "img": "thinking_opinion.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "same-opinion",
+            "variants": [
+                "opinion",
+                "sentiment",
+                "persuasion",
+                "view",
+                "thought"
+            ],
+            "img": "same-opinion.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "clinician_doctor",
+            "variants": [
+                "clinician"
+            ],
+            "img": "clinician_doctor.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "medical-doctor",
+            "variants": [
+                "clinician"
+            ],
+            "img": "medical-doctor.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "measure_rule",
+            "variants": [
+                "rule",
+                "regulation"
+            ],
+            "img": "measure_rule.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "triangular_ruler",
+            "variants": [
+                "rule",
+                "regulation"
+            ],
+            "img": "triangular_ruler.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rules",
+            "variants": [
+                "rule",
+                "regulation"
+            ],
+            "img": "rules.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "four_fourth",
+            "variants": [
+                "quartet",
+                "quartette",
+                "quadruplet",
+                "quadruple"
+            ],
+            "img": "four_fourth.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rainbow",
+            "variants": [
+                "quartet",
+                "quartette",
+                "quadruplet",
+                "quadruple"
+            ],
+            "img": "rainbow.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "camera_photo",
+            "variants": [
+                "photograph",
+                "photo",
+                "exposure",
+                "picture",
+                "pic"
+            ],
+            "img": "camera_photo.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "hdr-photo",
+            "variants": [
+                "photograph",
+                "photo",
+                "exposure",
+                "picture",
+                "pic"
+            ],
+            "img": "hdr-photo.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "black friday_friday",
+            "variants": [
+                "friday",
+                "fri"
+            ],
+            "img": "black friday_friday.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "frolic_friday",
+            "variants": [
+                "friday",
+                "fri"
+            ],
+            "img": "frolic_friday.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "friday",
+            "variants": [
+                "friday",
+                "fri"
+            ],
+            "img": "friday.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sharing_humanitarian",
+            "variants": [
+                "humanitarian",
+                "do-gooder",
+                "improver"
+            ],
+            "img": "sharing_humanitarian.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "volunteering",
+            "variants": [
+                "humanitarian",
+                "do-gooder",
+                "improver"
+            ],
+            "img": "volunteering.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "apr_april",
+            "variants": [
+                "april",
+                "apr"
+            ],
+            "img": "apr_april.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "april",
+            "variants": [
+                "april",
+                "apr"
+            ],
+            "img": "april.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "elect_election",
+            "variants": [
+                "election"
+            ],
+            "img": "elect_election.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "elections",
+            "variants": [
+                "election"
+            ],
+            "img": "elections.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "constitution_constitutional law",
+            "variants": [
+                "fundamental_law",
+                "organic_law",
+                "constitution"
+            ],
+            "img": "constitution_constitutional law.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "liberia",
+            "variants": [
+                "fundamental_law",
+                "organic_law",
+                "constitution"
+            ],
+            "img": "liberia.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "agreement_contract",
+            "variants": [
+                "agreement",
+                "understanding"
+            ],
+            "img": "agreement_contract.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "agreement",
+            "variants": [
+                "agreement",
+                "understanding"
+            ],
+            "img": "agreement.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "dwelling_home",
+            "variants": [
+                "dwelling",
+                "home",
+                "domicile",
+                "abode",
+                "habitation",
+                "dwelling_house"
+            ],
+            "img": "dwelling_home.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "residence",
+            "variants": [
+                "dwelling",
+                "home",
+                "domicile",
+                "abode",
+                "habitation",
+                "dwelling_house"
+            ],
+            "img": "residence.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "bloody_crime",
+            "variants": [
+                "violence",
+                "force"
+            ],
+            "img": "bloody_crime.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "age_aging",
+            "variants": [
+                "age"
+            ],
+            "img": "age_aging.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "agender",
+            "variants": [
+                "age"
+            ],
+            "img": "agender.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "age",
+            "variants": [
+                "age"
+            ],
+            "img": "age.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "circuit_secondary",
+            "variants": [
+                "secondary"
+            ],
+            "img": "circuit_secondary.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "medium-priority",
+            "variants": [
+                "secondary"
+            ],
+            "img": "medium-priority.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "center_cg",
+            "variants": [
+                "center",
+                "centre",
+                "middle",
+                "heart",
+                "eye"
+            ],
+            "img": "center_cg.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "Sad_Face_Cracked_Down_the_Center",
+            "variants": [
+                "center",
+                "centre",
+                "middle",
+                "heart",
+                "eye"
+            ],
+            "img": "Sad_Face_Cracked_Down_the_Center.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "direction-center",
+            "variants": [
+                "center",
+                "centre",
+                "middle",
+                "heart",
+                "eye"
+            ],
+            "img": "direction-center.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "caspar-king-magician",
+            "variants": [
+                "caspar",
+                "gaspar"
+            ],
+            "img": "caspar-king-magician.png",
+            "source": "Icons8",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "city_indonesia",
+            "variants": [
+                "braga"
+            ],
+            "img": "city_indonesia.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        }
+    ]
+}

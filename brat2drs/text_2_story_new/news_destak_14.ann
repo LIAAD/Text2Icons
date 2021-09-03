@@ -1,0 +1,315 @@
+T1	ACTOR 0 23	A ex-ministra timorense
+A1	Lexical_Head T1 Noun
+A2	Individuation T1 Individual
+A3	Involvement T1 1
+T2	ACTOR 24 36	Emília Pires
+A4	Lexical_Head T2 Noun
+A5	Individuation T2 Individual
+A6	Actor_Type T2 Per
+A7	Involvement T2 1
+T3	ACTOR 64 75	Timor-Leste
+A8	Lexical_Head T3 Noun
+A9	Individuation T3 Individual
+A10	Actor_Type T3 Loc
+A11	Involvement T3 1
+T4	ACTOR 90 98	tribunal
+A12	Lexical_Head T4 Noun
+A13	Individuation T4 Individual
+A14	Actor_Type T4 Org
+A15	Involvement T4 1
+T5	ACTOR 101 110	delegação
+A16	Lexical_Head T5 Noun
+A17	Individuation T5 Individual
+A18	Actor_Type T5 Sit
+A19	Involvement T5 1
+T6	ACTOR 114 117	seu
+A20	Lexical_Head T6 Pronoun
+A21	Individuation T6 Individual
+A22	Actor_Type T6 Per
+A23	Involvement T6 1
+R1	REF_REL_pronominal Arg1:T6 Arg2:T2	
+R2	OBJ_REL_objIdentity Arg1:T6 Arg2:T2	
+T7	ACTOR 118 126	processo
+A24	Lexical_Head T7 Noun
+A25	Individuation T7 Individual
+A26	Actor_Type T7 Obj
+A27	Involvement T7 1
+T8	ACTOR 132 140	Portugal
+A28	Lexical_Head T8 Noun
+A29	Individuation T8 Individual
+A30	Actor_Type T8 Loc
+A31	Involvement T8 1
+T9	ACTOR 151 181	falta de capacidade ou vontade
+A32	Lexical_Head T9 Noun
+A33	Individuation T9 Individual
+A34	Actor_Type T9 Sit
+A35	Involvement T9 1
+T11	ACTOR 195 202	justiça
+A40	Lexical_Head T11 Noun
+A41	Individuation T11 Individual
+A42	Actor_Type T11 Sit
+A43	Involvement T11 1
+T12	ACTOR 216 242	sistema judicial timorense
+A44	Individuation T12 Individual
+A45	Actor_Type T12 Org
+A46	Involvement T12 1
+T13	ACTOR 244 258	O requerimento
+A47	Lexical_Head T13 Noun
+A48	Individuation T13 Individual
+A49	Actor_Type T13 Obj
+A50	Involvement T13 1
+T14	ACTOR 262 286	ex-ministra das Finanças
+A51	Lexical_Head T14 Noun
+A52	Individuation T14 Individual
+A53	Actor_Type T14 Per
+A54	Involvement T14 1
+T16	ACTOR 333 351	o Tribunal de Díli
+A59	Lexical_Head T16 Noun
+A60	Individuation T16 Individual
+A61	Actor_Type T16 Org
+A62	Involvement T16 1
+T17	ACTOR 364 373	o acórdão
+A63	Lexical_Head T17 Noun
+A64	Individuation T17 Individual
+A65	Actor_Type T17 Obj
+A66	Involvement T17 1
+T18	ACTOR 376 386	a sentença
+A67	Lexical_Head T18 Noun
+A68	Individuation T18 Individual
+A69	Actor_Type T18 Sit
+A70	Involvement T18 1
+T19	TIME_X3 408 424	até final do ano
+T20	ACTOR 435 453	eventuais recursos
+A71	Lexical_Head T20 Noun
+A72	Individuation T20 Individual
+A73	Actor_Type T20 Sit
+A74	Involvement T20 >1
+T21	ACTOR 472 493	tribunais portugueses
+A75	Lexical_Head T21 Noun
+A76	Individuation T21 Individual
+A77	Involvement T21 >1
+T22	ACTOR 529 551	as condições previstas
+A78	Lexical_Head T22 Noun
+A79	Individuation T22 Individual
+A80	Actor_Type T22 Sit
+A81	Involvement T22 >1
+T23	ACTOR 555 558	lei
+A82	Lexical_Head T23 Noun
+A83	Individuation T23 Individual
+A84	Actor_Type T23 Obj
+A85	Involvement T23 1
+T24	ACTOR 564 580	essa transmissão
+A86	Lexical_Head T24 Noun
+A87	Individuation T24 Individual
+A88	Actor_Type T24 Sit
+A89	Involvement T24 1
+T25	ACTOR 584 598	processo penal
+A90	Lexical_Head T25 Noun
+A91	Individuation T25 Individual
+A92	Actor_Type T25 Obj
+A93	Involvement T25 1
+T26	ACTOR 600 614	o requerimento
+A94	Lexical_Head T26 Noun
+A95	Individuation T26 Individual
+A96	Actor_Type T26 Obj
+A97	Involvement T26 1
+T27	ACTOR 623 634	declarações
+A98	Lexical_Head T27 Noun
+A99	Individuation T27 Individual
+A100	Actor_Type T27 Sit
+A101	Involvement T27 >1
+T28	ACTOR 638 650	Emília Pires
+A102	Lexical_Head T28 Noun
+A103	Individuation T28 Individual
+A104	Actor_Type T28 Per
+A105	Involvement T28 1
+T29	ACTOR 669 687	dentro do tribunal
+A106	Lexical_Head T29 Noun
+A107	Individuation T29 Individual
+A108	Actor_Type T29 Loc
+A109	Involvement T29 1
+T30	ACTOR 662 666	fora
+A110	Lexical_Head T30 Noun
+A111	Individuation T30 Individual
+A112	Actor_Type T30 Loc
+A113	Involvement T30 1
+T31	ACTOR 698 701	seu
+A114	Lexical_Head T31 Pronoun
+A115	Individuation T31 Individual
+A116	Actor_Type T31 Per
+A117	Involvement T31 1
+R3	REF_REL_pronominal Arg1:T31 Arg2:T28	
+R4	OBJ_REL_objIdentity Arg1:T31 Arg2:T28	
+T32	ACTOR 702 716	processo-crime
+A118	Lexical_Head T32 Noun
+A119	Individuation T32 Individual
+A120	Actor_Type T32 Obj
+A121	Involvement T32 1
+T33	ACTOR 738 760	violações sistemáticas
+A122	Lexical_Head T33 Noun
+A123	Individuation T33 Individual
+A124	Actor_Type T33 Sit
+A125	Involvement T33 >1
+T34	ACTOR 765 769	seus
+A126	Lexical_Head T34 Pronoun
+A127	Individuation T34 Individual
+A128	Actor_Type T34 Per
+A129	Involvement T34 1
+R5	REF_REL_pronominal Arg1:T34 Arg2:T28	
+R6	OBJ_REL_objIdentity Arg1:T34 Arg2:T28	
+T35	ACTOR 770 791	direitos fundamentais
+A130	Lexical_Head T35 Noun
+A131	Individuation T35 Individual
+A132	Actor_Type T35 Sit
+A133	Involvement T35 >1
+R7	OBJ_REL_objIdentity Arg1:T2 Arg2:T1	
+T36	EVENT 42 60	está a ser julgada
+E1	EVENT:T36 
+A134	Class E1 Occurrence
+A135	Tense E1 Present
+A136	Polarity E1 Pos
+A137	Time E1 Present
+A138	Factuality E1 Factual
+T37	EVENT 77 86	solicitou
+E2	EVENT:T37 
+A139	Class E2 Occurrence
+A140	Tense E2 Past1
+A141	Polarity E2 Pos
+A142	Time E2 Past
+A143	Factuality E2 Factual
+R8	TLINK_isIncluded Arg1:E2 Arg2:E1	
+R9	OBJ_REL_objIdentity Arg1:T14 Arg2:T1	
+R10	OBJ_REL_partOf Arg1:T16 Arg2:T3	
+R11	OBJ_REL_partOf Arg1:T21 Arg2:T8	
+R12	OBJ_REL_objIdentity Arg1:T24 Arg2:T5	
+R13	OBJ_REL_objIdentity Arg1:T25 Arg2:T7	
+R14	REF_REL_sameHead Arg1:T26 Arg2:T13	
+R15	OBJ_REL_objIdentity Arg1:T26 Arg2:T13	
+R16	OBJ_REL_objIdentity Arg1:T28 Arg2:T14	
+R17	REF_REL_sameHead Arg1:T28 Arg2:T2	
+R18	OBJ_REL_objIdentity Arg1:T28 Arg2:T2	
+T38	EVENT 142 150	alegando
+E3	EVENT:T38 
+A144	Class E3 Occurrence
+A145	Tense E3 PresPart
+A146	Polarity E3 Pos
+A147	Time E3 Past
+A148	Factuality E3 Non_Factual
+R19	TLINK_isIncluded Arg1:E3 Arg2:E2	
+T39	EVENT 185 194	assegurar
+E4	EVENT:T39 
+A149	Class E4 Occurrence
+A150	Tense E4 Infinitive
+A151	Polarity E4 Pos
+A152	Factuality E4 Factual
+R20	OBJ_REL_partOf Arg1:T4 Arg2:T12	
+T42	EVENT 316 332	não quer impedir
+E6	EVENT:T42 
+A162	Class E6 Occurrence
+A163	Tense E6 Present
+A164	Polarity E6 Neg
+A165	Time E6 Present
+A166	Factuality E6 Factual
+T43	EVENT 355 363	proferir
+E7	EVENT:T43 
+A167	Class E7 Occurrence
+A168	Tense E7 Infinitive
+A169	Polarity E7 Pos
+A170	Time E7 Present
+A171	Factuality E7 Factual
+R24	TLINK_isIncluded Arg1:E7 Arg2:E6	
+T44	EVENT 387 407	poderá ser conhecida
+E8	EVENT:T44 
+A172	Class E8 Occurrence
+A173	Tense E8 Future1
+A174	Polarity E8 Pos
+A175	Time E8 Future
+A176	Factuality E8 Non_Factual
+T45	EVENT 454 468	sejam julgados
+E9	EVENT:T45 
+A177	Class E9 Occurrence
+A178	Tense E9 Present
+A179	Polarity E9 Pos
+A180	Time E9 Future
+A181	Factuality E9 Non_Factual
+R25	TLINK_after Arg1:E8 Arg2:E2	
+T46	EVENT 503 513	considerar
+E10	EVENT:T46 
+A182	Class E10 Occurrence
+A183	Tense E10 Infinitive
+A184	Polarity E10 Pos
+A185	Time E10 Present
+A186	Factuality E10 Factual
+T47	EVENT 518 528	se cumprem
+E11	EVENT:T47 
+A187	Class E11 Occurrence
+A188	Tense E11 Present
+A189	Polarity E11 Pos
+A190	Time E11 Present
+A191	Factuality E11 Factual
+R26	TLINK_isIncluded Arg1:E11 Arg2:E10	
+T48	EVENT 615 622	reitera
+E12	EVENT:T48 
+A192	Class E12 Occurrence
+A193	Tense E12 Present
+A194	Polarity E12 Pos
+A195	Time E12 Present
+A196	Factuality E12 Factual
+T49	EVENT 652 661	repetidas
+E13	EVENT:T49 
+A197	Class E13 Occurrence
+A198	Tense E13 PastPart
+A199	Polarity E13 Pos
+A200	Time E13 Past
+A201	Factuality E13 Factual
+T50	EVENT 717 733	tem sido marcado
+E14	EVENT:T50 
+A202	Class E14 Occurrence
+A203	Tense E14 Present
+A204	Polarity E14 Pos
+A205	Time E14 In_or_After_Past
+A206	Factuality E14 Factual
+R27	TLINK_before Arg1:E13 Arg2:E12	
+R28	TLINK_isIncluded Arg1:E14 Arg2:E1	
+A207	Time_Type T19 Duration
+A208	FunctionInDocument T19 None
+A209	Value T19 Duration
+A210	Mod T19 End
+R29	SEMROLE_experiencer Arg1:T2 Arg2:E1	
+R30	SEMROLE_location Arg1:T3 Arg2:E1	
+R31	SEMROLE_agent Arg1:T2 Arg2:E2	
+R32	SEMROLE_theme Arg1:T5 Arg2:E2	
+R33	SEMROLE_goal Arg1:T8 Arg2:T5	
+R34	SEMROLE_agent Arg1:T2 Arg2:E3	
+R35	SEMROLE_theme Arg1:T9 Arg2:E3	
+R36	SEMROLE_theme Arg1:T11 Arg2:E4	
+R40	SEMROLE_theme Arg1:T13 Arg2:E6	
+R41	SEMROLE_goal Arg1:T16 Arg2:E6	
+R42	SEMROLE_theme Arg1:T17 Arg2:E7	
+R43	SEMROLE_agent Arg1:T16 Arg2:E7	
+R44	SEMROLE_location Arg1:T21 Arg2:E9	
+R45	SEMROLE_theme Arg1:T20 Arg2:E9	
+R46	SEMROLE_theme Arg1:T22 Arg2:E11	
+R47	SEMROLE_theme Arg1:T27 Arg2:E12	
+R48	SEMROLE_location Arg1:T30 Arg2:E13	
+R49	SEMROLE_location Arg1:T29 Arg2:E13	
+R50	SEMROLE_theme Arg1:T32 Arg2:E14	
+R51	SEMROLE_goal Arg1:T4 Arg2:E2	
+R37	SEMROLE_agent Arg1:T12 Arg2:E4	
+R38	SEMROLE_time Arg1:T19 Arg2:E8	
+R52	SEMROLE_theme Arg1:T18 Arg2:E8	
+R54	SEMROLE_theme Arg1:T26 Arg2:E12	
+R55	SEMROLE_theme Arg1:T27 Arg2:E13	
+R56	SEMROLE_theme Arg1:T33 Arg2:E14	
+R57	SEMROLE_theme Arg1:T7 Arg2:T5	
+R58	SEMROLE_source Arg1:T12 Arg2:T9	
+R59	SEMROLE_theme Arg1:E4 Arg2:T9	
+R60	SEMROLE_source Arg1:T14 Arg2:T13	
+R21	SEMROLE_theme Arg1:T26 Arg2:E10	
+R22	SEMROLE_theme Arg1:E11 Arg2:E10	
+R23	SEMROLE_source Arg1:T23 Arg2:T22	
+R39	SEMROLE_goal Arg1:T24 Arg2:T22	
+R53	SEMROLE_theme Arg1:T25 Arg2:T24	
+R61	SEMROLE_source Arg1:T28 Arg2:T27	
+R62	OBJ_REL_objIdentity Arg1:T32 Arg2:T7	
+R63	SEMROLE_theme Arg1:T35 Arg2:T33	

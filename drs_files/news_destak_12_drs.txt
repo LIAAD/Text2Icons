@@ -1,0 +1,73 @@
+» EVENTS
+# E1 (manifestou) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(theme,T3) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,b), relationRole(agent,T1), relationRole(theme,T3), Factuality(a,Factual)]) 
+
+# E2 (implementadas) -> b
+# FOL:  exists Factual Past PastPart Pos b.(event(b) & Tense(b,PastPart) & Polarity(b,Pos) & Time(b,Past) & relationRole(theme,T7) & relationRole(agent,T10) & relationRole(time,T9) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), Tense(b,PastPart), Polarity(b,Pos), Time(b,Past), relationRole(theme,T7), relationRole(agent,T10), relationRole(time,T9), Factuality(b,Factual)]) 
+
+# E8 (explicou) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(agent,T15) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(agent,T15), Factuality(c,Factual)]) 
+
+# E9 (há) -> d
+# FOL:  exists Factual Occurrence Present d.(event(d) & eventClass(d,Occurrence) & Tense(d,Present) & Time(d,Present) & occursBefore(d,e) & relationRole(theme,T16) & relationRole(theme,E8) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,Occurrence), Tense(d,Present), Time(d,Present), occursBefore(d,e), relationRole(theme,T16), relationRole(theme,E8), Factuality(d,Factual)]) 
+
+# E10 (destruíram) -> e
+# FOL:  exists Factual Occurrence Past Past1 Pos e.(event(e) & eventClass(e,Occurrence) & Tense(e,Past1) & Polarity(e,Pos) & Time(e,Past) & relationRole(agent,T17) & relationRole(theme,T18) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,Occurrence), Tense(e,Past1), Polarity(e,Pos), Time(e,Past), relationRole(agent,T17), relationRole(theme,T18), Factuality(e,Factual)]) 
+
+# E11 (deveriam "atuar) -> f
+# FOL:  exists Factual Non_Factual Occurrence Past Past2 Pos f.(event(f) & eventClass(f,Occurrence) & Tense(f,Past2) & Polarity(f,Pos) & Time(f,Past) & relationRole(agent,T17) & Factuality(f,Non_Factual))
+# DRS:  ([f],[event(f), eventClass(f,Occurrence), Tense(f,Past2), Polarity(f,Pos), Time(f,Past), relationRole(agent,T17), Factuality(f,Non_Factual)]) 
+
+# E12 (prevenindo) -> g
+# FOL:  exists Factual Occurrence Pos PresPart Present g.(event(g) & eventClass(g,Occurrence) & Tense(g,PresPart) & Polarity(g,Pos) & Time(g,Present) & relationRole(theme,T19) & Factuality(g,Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,PresPart), Polarity(g,Pos), Time(g,Present), relationRole(theme,T19), Factuality(g,Factual)]) 
+
+» ACTORS
+# T1 -> A procuradora-geral
+# T10 -> Presidente Nicolás Maduro
+# T11 -> aumento de denúncias
+# T13 -> violações dos direitos humanos
+# T15 -> Luísa Ortega Díaz
+# T16 -> casos
+# T17 -> polícias
+# T18 -> habitações
+# T19 -> o delito
+# T2 -> Venezuela
+# T3 -> preocupação
+# T4 -> crescente insegurança
+# T5 -> país
+# T6 -> que
+# T7 -> operações especiais
+# T8 -> forças de segurança
+# T9 -> ano passado
+
+» RELATIONS
+# T1 - agent - E1
+# T3 - theme - E1
+# T7 - theme - E2
+# T10 - agent - E2
+# T15 - agent - E8
+# T16 - theme - E9
+# T17 - agent - E10
+# T18 - theme - E10
+# T9 - time - E2
+# T17 - agent - E11
+# T19 - theme - E12
+# T4 - theme - T3
+# T5 - location - T4
+# T11 - theme - T3
+# T13 - theme - T11
+# T7 - location - T13
+# T8 - agent - T7
+# T17 - agent - T16
+# E9 - theme - E8
+# T5 - objIdentity - T2
+# T15 - objIdentity - T1
+# T1 - partOf - T2
+# T6 - pronominal - T17
+# T6 - objIdentity - T17

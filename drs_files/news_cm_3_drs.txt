@@ -1,0 +1,100 @@
+» EVENTS
+# E1 (roubaram) -> a
+# FOL:  exists Factual Occurrence Past Past1 Pos a.(event(a) & eventClass(a,Occurrence) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & occursBefore(a,c) & occursBefore(a,d) & occursBefore(a,e) & occursBefore(a,b) & relationRole(agent,T1) & relationRole(theme,T3) & relationRole(source,T4) & relationRole(location,T5) & Factuality(a,Factual))
+# DRS:  ([a],[event(a), eventClass(a,Occurrence), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), occursBefore(a,c), occursBefore(a,d), occursBefore(a,e), occursBefore(a,b), relationRole(agent,T1), relationRole(theme,T3), relationRole(source,T4), relationRole(location,T5), Factuality(a,Factual)]) 
+
+# E2 (se apercebesse) -> b
+# FOL:  exists Neg Occurrence Past b.(event(b) & eventClass(b,Occurrence) & Polarity(b,Neg) & occursAfter(b,a) & relationRole(experiencer,T6) & relationRole(time,T8) & Time(b,Past))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Polarity(b,Neg), occursAfter(b,a), relationRole(experiencer,T6), relationRole(time,T8), Time(b,Past)]) 
+
+# E3 (contou) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & occursBefore(c,d) & relationRole(agent,T12) & relationRole(theme,T10) & relationRole(time,T11) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), occursBefore(c,d), relationRole(agent,T12), relationRole(theme,T10), relationRole(time,T11), Factuality(c,Factual)]) 
+
+# E4 (restam) -> d
+# FOL:  exists Factual Pos Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Pos) & Time(d,Present) & occursAfter(d,c) & occursAfter(d,a) & relationRole(time,T30) & relationRole(theme,T14) & Factuality(d,Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Pos), Time(d,Present), occursAfter(d,c), occursAfter(d,a), relationRole(time,T30), relationRole(theme,T14), Factuality(d,Factual)]) 
+
+# E5 (está a investigar) -> e
+# FOL:  exists Factual Pos Present State e.(event(e) & eventClass(e,State) & Tense(e,Present) & Polarity(e,Pos) & Time(e,Present) & occursAfter(e,a) & relationRole(agent,T16) & relationRole(theme,T18) & Factuality(e,Factual))
+# DRS:  ([e],[event(e), eventClass(e,State), Tense(e,Present), Polarity(e,Pos), Time(e,Present), occursAfter(e,a), relationRole(agent,T16), relationRole(theme,T18), Factuality(e,Factual)]) 
+
+# E7 (tem) -> f
+# FOL:  exists Factual Pos Present State f.(event(f) & eventClass(f,State) & Tense(f,Present) & Polarity(f,Pos) & Time(f,Present) & relationRole(theme,T20) & relationRole(experiencer,T16) & Factuality(f,Factual))
+# DRS:  ([f],[event(f), eventClass(f,State), Tense(f,Present), Polarity(f,Pos), Time(f,Present), relationRole(theme,T20), relationRole(experiencer,T16), Factuality(f,Factual)]) 
+
+# E8 (não foram levadas) -> g
+# FOL:  exists Factual Neg Non_Factual Occurrence Past Past1 g.(event(g) & eventClass(g,Occurrence) & Tense(g,Past1) & Polarity(g,Neg) & Time(g,Past) & relationRole(experiencer,T3) & Factuality(g,Non_Factual))
+# DRS:  ([g],[event(g), eventClass(g,Occurrence), Tense(g,Past1), Polarity(g,Neg), Time(g,Past), relationRole(experiencer,T3), Factuality(g,Non_Factual)]) 
+
+# E9 (admitem) -> h
+# FOL:  exists Factual Occurrence Pos Present h.(event(h) & eventClass(h,Occurrence) & Tense(h,Present) & Polarity(h,Pos) & Time(h,Present) & relationRole(agent,T24) & Factuality(h,Factual))
+# DRS:  ([h],[event(h), eventClass(h,Occurrence), Tense(h,Present), Polarity(h,Pos), Time(h,Present), relationRole(agent,T24), Factuality(h,Factual)]) 
+
+# E10 (não percebem) -> i
+# FOL:  exists Factual Neg Present State i.(event(i) & eventClass(i,State) & Tense(i,Present) & Polarity(i,Neg) & Time(i,Present) & occursBefore(i,j) & relationRole(experiencer,T24) & Factuality(i,Factual))
+# DRS:  ([i],[event(i), eventClass(i,State), Tense(i,Present), Polarity(i,Neg), Time(i,Present), occursBefore(i,j), relationRole(experiencer,T24), Factuality(i,Factual)]) 
+
+# E11 (não deu) -> j
+# FOL:  exists Factual Neg Occurrence Past Past1 j.(event(j) & eventClass(j,Occurrence) & Tense(j,Past1) & Polarity(j,Neg) & Time(j,Past) & relationRole(experiencer,T26) & relationRole(theme,T28) & Factuality(j,Factual))
+# DRS:  ([j],[event(j), eventClass(j,Occurrence), Tense(j,Past1), Polarity(j,Neg), Time(j,Past), relationRole(experiencer,T26), relationRole(theme,T28), Factuality(j,Factual)]) 
+
+# E13 (tinha) -> k
+# FOL:  exists Factual Past Past2 Pos State k.(event(k) & eventClass(k,State) & Tense(k,Past2) & Polarity(k,Pos) & Time(k,Past) & relationRole(experiencer,T12) & relationRole(theme,T13) & Factuality(k,Factual))
+# DRS:  ([k],[event(k), eventClass(k,State), Tense(k,Past2), Polarity(k,Pos), Time(k,Past), relationRole(experiencer,T12), relationRole(theme,T13), Factuality(k,Factual)]) 
+
+» ACTORS
+# T1 -> Ladrões
+# T10 -> a manada
+# T12 -> o homem
+# T13 -> 1300 cabeças
+# T14 -> pouco mais de 800
+# T16 -> A polícia
+# T18 -> o roubo
+# T20 -> poucas pistas
+# T22 -> todas
+# T24 -> os agentes
+# T26 -> o agricultor
+# T28 -> roubo
+# T3 -> 500 vacas
+# T4 -> uma exploração pecuária
+# T5 -> Nova Zelândia
+# T6 -> o dono
+# T8 -> durante semanas
+# T11 -> início de julho
+# T30 -> agora
+
+» RELATIONS
+# T1 - agent - E1
+# T3 - theme - E1
+# T4 - source - E1
+# T5 - location - E1
+# T6 - experiencer - E2
+# T12 - agent - E3
+# T10 - theme - E3
+# T12 - experiencer - E13
+# T13 - theme - E13
+# T16 - agent - E5
+# T18 - theme - E5
+# T20 - theme - E7
+# T3 - experiencer - E8
+# T24 - agent - E9
+# T24 - experiencer - E10
+# T26 - experiencer - E11
+# T28 - theme - E11
+# T8 - time - E2
+# T11 - time - E3
+# T30 - time - E4
+# T14 - theme - E4
+# T16 - experiencer - E7
+# T3 - partOf - T10
+# T12 - objIdentity - T6
+# T26 - objIdentity - T12
+# T13 - objIdentity - T10
+# T14 - partOf - T13
+# T24 - objIdentity - T16
+# T22 - objIdentity - T3
+# T26 - objIdentity - T6
+# T28 - sameHead - T18
+# T28 - objIdentity - T18
+# T4 - partOf - T5

@@ -1,0 +1,19 @@
+{
+  "name": "brat2viz_mc",
+  "version": "1.0.0",
+  "description": "It is recommended to run the project on a python virtual environment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vis-network": "^9.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.inesctec.pt:LIAAD/icon2text.git"
+  }
+}

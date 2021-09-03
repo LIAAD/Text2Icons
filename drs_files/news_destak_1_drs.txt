@@ -1,0 +1,46 @@
+» EVENTS
+# E1 (esteja "domesticado") -> a
+# FOL:  exists Factual Non_Factual Past Past1 Pos State a.(event(a) & eventClass(a,State) & Tense(a,Past1) & Polarity(a,Pos) & Time(a,Past) & relationRole(experiencer,T3) & Factuality(a,Non_Factual))
+# DRS:  ([a],[event(a), eventClass(a,State), Tense(a,Past1), Polarity(a,Pos), Time(a,Past), relationRole(experiencer,T3), Factuality(a,Non_Factual)]) 
+
+# E2 (rejeitou) -> b
+# FOL:  exists Factual Occurrence Past Past1 Pos b.(event(b) & eventClass(b,Occurrence) & Tense(b,Past1) & Polarity(b,Pos) & Time(b,Past) & relationRole(agent,T1) & relationRole(time,T5) & relationRole(theme,T3) & Factuality(b,Factual))
+# DRS:  ([b],[event(b), eventClass(b,Occurrence), Tense(b,Past1), Polarity(b,Pos), Time(b,Past), relationRole(agent,T1), relationRole(time,T5), relationRole(theme,T3), Factuality(b,Factual)]) 
+
+# E3 (declarou) -> c
+# FOL:  exists Factual Occurrence Past Past1 Pos c.(event(c) & eventClass(c,Occurrence) & Tense(c,Past1) & Polarity(c,Pos) & Time(c,Past) & relationRole(agent,T24) & relationRole(theme,T25) & Factuality(c,Factual))
+# DRS:  ([c],[event(c), eventClass(c,Occurrence), Tense(c,Past1), Polarity(c,Pos), Time(c,Past), relationRole(agent,T24), relationRole(theme,T25), Factuality(c,Factual)]) 
+
+# E4 (não está) -> d
+# FOL:  exists Factual Neg Non_Factual Present State d.(event(d) & eventClass(d,State) & Tense(d,Present) & Polarity(d,Neg) & Time(d,Present) & Factuality(d,Non_Factual))
+# DRS:  ([d],[event(d), eventClass(d,State), Tense(d,Present), Polarity(d,Neg), Time(d,Present), Factuality(d,Non_Factual)]) 
+
+» ACTORS
+# T1 -> O secretário-geral
+# T20 -> Jerónimo de Sousa
+# T24 -> O líder comunista
+# T25 -> o problema
+# T26 -> seu
+# T3 -> o partido
+# T5 -> hoje
+# T28 -> PCP
+# T29 -> compromissos
+# T27 -> partido
+# T6 -> compromissos
+# T2 -> PCP
+
+» RELATIONS
+# T1 - agent - E2
+# T5 - time - E2
+# T3 - experiencer - E1
+# T3 - theme - E2
+# T24 - agent - E3
+# T25 - theme - E3
+# T3 - objIdentity - T2
+# T20 - objIdentity - T1
+# T24 - objIdentity - T20
+# T26 - pronominal - T24
+# T26 - objIdentity - T24
+# T27 - objIdentity - T28
+# T29 - objIdentity - T6
+# T29 - sameHead - T6
