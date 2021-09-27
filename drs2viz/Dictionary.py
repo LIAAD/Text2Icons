@@ -56,7 +56,7 @@ class Dictionary(object):
 
     # list all icons in dictionary
     def getDictionary(self):
-        return self.icons
+        return print(self.icons.keys())
 
     # show icons info in JSON file 
     def showJson(self):
