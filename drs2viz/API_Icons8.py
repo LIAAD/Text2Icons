@@ -9,7 +9,7 @@ import json
 
 # semi-automatic search - user choice
 def semi(term,icon_type):
-    API_KEY = 'gx1445anfXfUmsvGr09dRur0BOd6e8jEdZlftr6v'
+    API_KEY = 'boEYa5VlJbfomUpIv1HXnjlg7LNRzhVhBGvSjLOW'
     param = {'term': term, 'token':API_KEY}
 
     # search for icons that match the term
@@ -45,7 +45,7 @@ def semi(term,icon_type):
 
 # automatic search using fastText
 def auto(term,type,icon_type):
-    API_KEY = 'gx1445anfXfUmsvGr09dRur0BOd6e8jEdZlftr6v'
+    API_KEY = 'boEYa5VlJbfomUpIv1HXnjlg7LNRzhVhBGvSjLOW'
     param = {'term': term, 'token':API_KEY}
 
     # search for icons that match the term
