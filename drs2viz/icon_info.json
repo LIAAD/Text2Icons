@@ -5012,6 +5012,263 @@
             "img": "city_indonesia.png",
             "source": "IconFinder",
             "icon_type": "most"
+        },
+        {
+            "keyTerm": "heart_love",
+            "variants": [
+                "love"
+            ],
+            "img": "heart_love.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "love_letter",
+            "variants": [
+                "love"
+            ],
+            "img": "love_letter.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "love_letter",
+            "variants": [
+                "love"
+            ],
+            "img": "love_letter.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cocktail_icon",
+            "variants": [
+                "icon"
+            ],
+            "img": "cocktail_icon.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fax_icon",
+            "variants": [
+                "icon"
+            ],
+            "img": "fax_icon.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cable_tv",
+            "variants": [
+                "cable",
+                "cablegram",
+                "overseas_telegram"
+            ],
+            "img": "cable_tv.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "mountain_cableway",
+            "variants": [
+                "cable",
+                "cablegram",
+                "overseas_telegram"
+            ],
+            "img": "mountain_cableway.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cup_tea",
+            "variants": [
+                "tea"
+            ],
+            "img": "cup_tea.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "tea",
+            "variants": [
+                "tea"
+            ],
+            "img": "tea.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cake_cupcake",
+            "variants": [
+                "cake",
+                "bar"
+            ],
+            "img": "cake_cupcake.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "cake",
+            "variants": [
+                "cake",
+                "bar"
+            ],
+            "img": "cake.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sun_warm",
+            "variants": [
+                "sun",
+                "sun"
+            ],
+            "img": "sun_warm.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sun",
+            "variants": [
+                "sun",
+                "sun"
+            ],
+            "img": "sun.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "sun_behind_cloud",
+            "variants": [
+                "sun",
+                "sun"
+            ],
+            "img": "sun_behind_cloud.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "moon_night",
+            "variants": [
+                "moon",
+                "moon"
+            ],
+            "img": "moon_night.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "new_moon",
+            "variants": [
+                "moon",
+                "moon"
+            ],
+            "img": "new_moon.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "grain_rice",
+            "variants": [
+                "rice"
+            ],
+            "img": "grain_rice.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "rice",
+            "variants": [
+                "rice"
+            ],
+            "img": "rice.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fish_fishing",
+            "variants": [
+                "fish"
+            ],
+            "img": "fish_fishing.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fish",
+            "variants": [
+                "fish"
+            ],
+            "img": "fish.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "fish",
+            "variants": [
+                "fish"
+            ],
+            "img": "fish.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "b_blue",
+            "variants": [
+                "blue",
+                "blueness"
+            ],
+            "img": "b_blue.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "blue_car",
+            "variants": [
+                "blue",
+                "blueness"
+            ],
+            "img": "blue_car.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "blue_heart",
+            "variants": [
+                "blue",
+                "blueness"
+            ],
+            "img": "blue_heart.jpg",
+            "source": "Icons-50",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "unicorn_\ud83e\udd84",
+            "variants": [
+                "unicorn"
+            ],
+            "img": "unicorn_\ud83e\udd84.png",
+            "source": "IconFinder",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "unicorn",
+            "variants": [
+                "unicorn"
+            ],
+            "img": "unicorn.png",
+            "source": "Emojidex",
+            "icon_type": "most"
+        },
+        {
+            "keyTerm": "unicorn",
+            "variants": [
+                "unicorn"
+            ],
+            "img": "unicorn.png",
+            "source": "Icons8",
+            "icon_type": "most"
         }
     ]
 }

@@ -8,7 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vis-network": "^9.0.5"
+    "vis-network": "^9.1.0"
   },
   "devDependencies": {},
   "description": "The Icon Dictionary contains the classes and methods to search for icons to use in the visualization of the Text2Story pipeline."
